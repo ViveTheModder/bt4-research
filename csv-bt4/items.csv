@@ -1,0 +1,350 @@
+0,Attack Up 1
+1,Attack Up 2
+2,Attack Up 3
+3,Defense Up 1
+4,Defense Up 2
+5,Defense Up 3
+6,Ki Power Up 1
+7,Ki Power Up 2
+8,Ki Power Up 3
+9,Super Up 1
+10,Super Up 2
+11,Super Up 3
+12,Attack Up 2 & Defense Down 1
+13,Defense Up 2 & Attack Down 1
+14,Ki Power Up 2 & Super Down 1
+15,Super Up 2 & Power Down 1
+16,Attack Up 3 & Super Down 1
+17,Defense Up 3 & Attack Down 2
+18,Ki Power Up 3 & Defense Down 1
+19,Super Up 3 & Power Down 2
+20,Attack Up 3 & Defense Down 2
+21,Defense Up 3 & Power Down 1
+22,Power Up 3 & Super Down 2
+23,Super Up 3 & Attack Down 1
+24,Blank
+25,Blank
+26,Blank
+27,Blank
+28,Blank
+29,Blank
+30,Blank
+31,Blank
+32,Blank
+33,Blank
+34,Flight
+35,Unleash Latent Power 1
+36,Unleash Latent Power 2
+37,Unleash Latent Power 3
+38,Ki Control
+39,Dragon Dash Mastery
+40,High Spot
+41,Essence of Sight
+42,Warrior Lineage
+43,Halo
+44,Demon Seal
+45,Satisfying Blow
+46,Active Heart
+47,Indomitable Fighting Spirit
+48,Mind Breaker
+49,Gigantic Power
+50,Rising Fighting Spirit
+51,Secret Measures
+52,Proof of Friendship
+53,Dende's Healing Ability
+54,Eternal Life
+55,Tension Up
+56,High Tension
+57,Water Blessing
+58,Spiritual Control
+59,Lover Of Justice
+60,Evil Ambitions
+61,Dragon Heart
+62,Dragon Beat
+63,Dragon Spirit
+64,Confidence
+65,Battle Control
+66,Kibito's Secret Art
+67,Persistent Threat
+68,Miracle Master
+69,Exquisite Skill
+70,Quick Return
+71,Heavy Pressure
+72,Unleash Ki
+73,Power of Rage
+74,Dragon Power
+75,Latent Energy!
+76,Fighting Spirit!
+77,Indignation!
+78,Serious!
+79,Hatred Of Saiyans
+80,Rush Blast 1
+81,Rush Blast 2
+82,Rush Blast 3
+83,Guard Master
+84,Mirage
+85,Warrior's Will
+86,Evil Pride
+87,Perfect Guard
+88,Sparking Plus
+89,Style of the Strong
+90,Emperor's Aura
+91,Miracle Sparking
+92,Savior
+93,Light Body
+94,Power Body
+95,Ultimate Body
+96,Draconic Aura
+97,Master Strike
+98,Master Blast
+99,Master Throw
+100,Charged Attack
+101,Quick Fast Attack
+102,Dragon Break
+103,Dragon Crush
+104,Vanishing Break
+105,Vanishing Rush
+106,Combo Master
+107,Quick Charge
+108,Super Senses
+109,Broly's Ring
+110,Namek Power
+111,Earth Power
+112,Universal Power
+113,Aura Charge Blue
+114,Aura Charge Purple
+115,Aura Charge Yellow
+116,Aura Charge Red
+117,Aura Charge Green
+118,Aura Charge White
+119,Aura Charge Pink
+120,Aura Charge Violet
+121,Aura Charge Ultimate
+122,Aura Charge Ultimate 3
+123,Aura Charge Ultimate 4
+124,Master Roshi's Training
+125,King Kai's Training
+126,Chronoa's Time Scroll
+127,Tapion's Sword
+128,Tokitoki's Egg
+129,God of Destruction's Apprentice
+130,God of Destruction
+131,Special Cosmetic
+132,Sturdy Clothes
+133,Ragged Clothes
+134,Blank
+135,Blank
+136,Launch's Support
+137,Goku Type
+138,Vegeta Type
+139,Gohan Type
+140,Trunks Type
+141,Piccolo Type
+142,Krillin Type
+143,Tien Type
+144,Chiaotzu Type
+145,Yajirobe Type
+146,Frieza Type
+147,Cell Type
+148,Majin Buu Type
+149,Broly Type
+150,Ginyu Type
+151,Recoome Type
+152,Blank
+153,Blank
+154,Blank
+155,Blank
+156,Blank
+157,Blank
+158,Blank
+159,Blank
+160,Blank
+161,Blank
+162,Ultimate Warrior 1
+163,Ultimate Warrior 2
+164,Ultimate Warrior 3
+165,Ultimate Warrior 4
+166,Ultimate Warrior 5
+167,Ultimate Warrior 6
+168,Ultimate Warrior 7
+169,Ultimate Warrior 8
+170,Attack -25
+171,Attack -24
+172,Attack -23
+173,Attack -22
+174,Attack -21
+175,Attack -20
+176,Attack -19
+177,Attack -18
+178,Attack -17
+179,Attack -16
+180,Attack -15
+181,Attack -14
+182,Attack -13
+183,Attack -12
+184,Attack -11
+185,Attack -10
+186,Attack -9
+187,Attack -8
+188,Attack -7
+189,Attack -6
+190,Attack -5
+191,Attack -4
+192,Attack -3
+193,Attack -2
+194,Attack -1
+195,Attack +0
+196,Attack +1
+197,Attack +2
+198,Attack +3
+199,Attack +4
+200,Attack +5
+201,Attack +6
+202,Attack +7
+203,Attack +8
+204,Attack +9
+205,Attack +10
+206,Attack +11
+207,Attack +12
+208,Attack +13
+209,Attack +14
+210,Attack +15
+211,Attack +16
+212,Attack +17
+213,Attack +18
+214,Attack +19
+215,Attack +20
+216,Attack +21
+217,Attack +22
+218,Attack +23
+219,Attack +24
+220,Attack +25
+221,Attack +26
+222,Attack +27
+223,Attack +28
+224,Attack +29
+225,Attack +30
+226,Attack +31
+227,Attack +32
+228,Attack +33
+229,Attack +34
+230,Attack +35
+231,Attack +36
+232,Attack +37
+233,Attack +38
+234,Attack +39
+235,Attack +40
+236,Attack +41
+237,Attack +42
+238,Attack +43
+239,Attack +44
+240,Attack +45
+241,Attack +46
+242,Attack +47
+243,Attack +48
+244,Attack +49
+245,Attack +50
+246,Defense -25
+247,Defense -24
+248,Defense -23
+249,Defense -22
+250,Defense -21
+251,Defense -20
+252,Defense -19
+253,Defense -18
+254,Defense -17
+255,Defense -16
+256,Defense -15
+257,Defense -14
+258,Defense -13
+259,Defense -12
+260,Defense -11
+261,Defense -10
+262,Defense -9
+263,Defense -8
+264,Defense -7
+265,Defense -6
+266,Defense -5
+267,Defense -4
+268,Defense -3
+269,Defense -2
+270,Defense -1
+271,Defense +0
+272,Defense +1
+273,Defense +2
+274,Defense +3
+275,Defense +4
+276,Defense +5
+277,Defense +6
+278,Defense +7
+279,Defense +8
+280,Defense +9
+281,Defense +10
+282,Defense +11
+283,Defense +12
+284,Defense +13
+285,Defense +14
+286,Defense +15
+287,Defense +16
+288,Defense +17
+289,Defense +18
+290,Defense +19
+291,Defense +20
+292,Defense +21
+293,Defense +22
+294,Defense +23
+295,Defense +24
+296,Defense +25
+297,Defense +26
+298,Defense +27
+299,Defense +28
+300,Defense +29
+301,Defense +30
+302,Defense +31
+303,Defense +32
+304,Defense +33
+305,Defense +34
+306,Defense +35
+307,Defense +36
+308,Defense +37
+309,Defense +38
+310,Defense +39
+311,Defense +40
+312,Defense +41
+313,Defense +42
+314,Defense +43
+315,Defense +44
+316,Defense +45
+317,Defense +46
+318,Defense +47
+319,Defense +48
+320,Defense +49
+321,Defense +50
+322,Whis Training
+323,Strength Reduction
+324,Blast Clash Weakened (Small)
+325,Blast Clash Weakened (Medium)
+326,Blast Clash Weakened (Large)
+327,Absolutely Invincible Body
+328,Go To Hell
+329,Super Mode
+330,Extreme Hand-to-Hand
+331,Extreme Energy Blast
+332,Extreme Blast
+333,Extreme Defense
+334,Resistor
+335,Super Regeneration Cells
+336,Complete Ki Control
+337,God of Battle
+338,Fierce God
+339,Strength Reduction -10K
+340,Strength Reduction -20K
+341,Limitbreaker
+342,Inherited Power
+343,Blank 28
+344,Blank 29
+345,Blank 30
+346,Blank 31
+347,Blank 32
+348,Blank 33
+349,Blank 34
