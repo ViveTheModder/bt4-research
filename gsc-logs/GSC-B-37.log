@@ -1,0 +1,399 @@
+[General Information]
+Name: Solar Warrior: 6000 Degrees of Power!
+Saga: Dragon Ball GT Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+1000
+1500
+2000
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+SS1 Goten (GT)
+Majuub
+Nuova Shenron
+> Acquired Scenarios
+Ultimate Super Gogeta
+null
+null
+
+[Battle Settings]
+Map: City Ruins - Evening
+BGM: Belief Of Steel
+
+[Player 1 Team]
+> Teammate 1
+Character: Goku (GT)
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: Master Roshi's Training
+Z-Item #3: Serious!
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+> Teammate 2
+Character: Syn Shenron
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: Master Roshi's Training
+Z-Item #3: Serious!
+Z-Item #4: Go To Hell
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+[Opponent Team]
+> Teammate 1
+Character: Nuova Shenron
+Costume: 1
+Damaged: false
+COM Difficulty Level: 9
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Ultimate Body
+Z-Item #2: King Kai's Training
+Z-Item #3: Defense +10
+Z-Item #4: Attack +10
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+> Teammate 2
+Character: Eis Shenron
+Costume: 1
+Damaged: false
+COM Difficulty Level: 9
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Ultimate Body
+Z-Item #2: King Kai's Training
+Z-Item #3: Defense +10
+Z-Item #4: Attack +10
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+> Teammate 3
+Character: Pan
+Costume: 1
+Damaged: true
+COM Difficulty Level: 9
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Ultimate Body
+Z-Item #2: King Kai's Training
+Z-Item #3: Defense +10
+Z-Item #4: Attack +10
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+> Results
+Teammate Count (Player 1): 2
+Teammate Count (Opponent): 3
+
+[Scene 0]
+
+===Battle Info===
+Condition: Wait 10 seconds
+> GSAC ID: 1
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Battle Finish
+
+[Scene 1]
+Lower Current BG Music
+BG Music:  Fire Nation
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 2
+Event:     Assign Transformation
+Character: SS4 Goku (GT)
+
+[Scene 2]
+
+===Battle Info===
+Condition: Wait 20 seconds
+> GSAC ID: 3
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Add 50% more Health
+[Changes to Opponent detected.]
+> Set COM Difficulty Level to 8
+> Z-Item #1: King Kai's Training
+> Z-Item #2: null
+> Z-Item #3: null
+> Z-Item #4: null
+> Z-Item #5: null
+Event:     Battle Finish
+
+[Scene 3]
+
+===Battle Info===
+Condition: Lose 5 Health Bars (Opponent) [AUTO]
+> GSAC ID: 4
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Add 50% more Health
+Event:     Normal Clash
+
+[Scene 4]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Wait 10 seconds
+> GSAC ID: 5
+[Changes to Player 1 detected.]
+> Add 50% more Health
+[Changes to Opponent detected.]
+> Add 50% more Health
+Event:     Battle Finish
+
+[Scene 5]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 6
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: Eis Shenron
+
+[Scene 6]
+Lower Current BG Music
+BG Music:  Super Strength
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Wait 100 seconds
+> GSAC ID: 7
+[Changes to Player 1 detected.]
+> Add 50% more Health
+[Changes to Opponent detected.]
+> Z-Item #7: Absolutely Invincible Body
+Event:     Battle Finish
+
+[Scene 7]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 8
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Z-Item #7: null
+Event:     Switch with Teammate #1 (Opponent) [AUTO]
+Character: Nuova Shenron
+
+[Scene 8]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Hit with 1st Blast 2 (Opponent)
+> GSAC ID: 9
+[Changes to Player 1 detected.]
+> Z-Item #7: Absolutely Invincible Body
+Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
+
+[Scene 9]
+Lower Current BG Music
+BG Music:  Deep Wild
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> GSAC ID: 10
+[Changes to Player 1 detected.]
+> Z-Item #7: null
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: Eis Shenron
+
+[Scene 10]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Wait 10 seconds
+> GSAC ID: 11
+Event:     Trigger 2nd Blast 1
+
+[Scene 11]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Immediate
+> GSAC ID: 12
+[Changes to Opponent detected.]
+> Add 50% more Health
+Event:     Switch with Teammate #3 (Opponent) [AUTO]
+Character: Pan
+
+[Scene 12]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> GSAC ID: 13
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: Eis Shenron
+
+[Scene 13]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 14
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Switch with Teammate #1 (Opponent) [AUTO]
+Character: Nuova Shenron
+
+[Scene 14]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Lose 6 Health Bars (Opponent) [AUTO]
+> GSAC ID: 15
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: Eis Shenron
+
+[Scene 15]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Wait 30 seconds
+> GSAC ID: 16
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Trigger 2nd Blast 1 (Opponent) [AUTO]
+
+[Scene 16]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 17
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger Ultimate Blast
+
+[Scene 17]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 18
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Switch with Teammate #1 (Opponent) [AUTO]
+Character: Nuova Shenron
+
+[Scene 18]
+Lower Current BG Music
+BG Music:  Dark Half
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 19
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Switch with Teammate #2
+Character: Syn Shenron
+
+[Scene 19]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 32
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Trigger 2nd Blast 2
+
+[Scene 30 (Victory) - UNUSED]
+
+===No Battle Info===
+
+[Scene 31 (Victory) - UNUSED]
+
+===No Battle Info===
+
+[Scene 32 (Victory)]
+
+===No Battle Info===
+
+[Scene 39 (Placeholder Victory)]
+
+===No Battle Info===
+
+[Scene 40 (Defeat) - UNUSED]
+
+===No Battle Info===
+
+[Scene 49 (Placeholder Defeat)]
+
+===No Battle Info===

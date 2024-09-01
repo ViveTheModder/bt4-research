@@ -1,0 +1,408 @@
+[General Information]
+Name: The Ultimate Survival Battle
+Saga: Dragon Ball Super Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+1500
+2000
+2500
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+MUI Goku
+Jiren
+null
+> Acquired Scenarios
+null
+null
+null
+
+[Battle Settings]
+Map: Tournament of Power - Final
+BGM: Dangerous Mind
+
+[Player 1 Team]
+> Teammate 1
+Character: MUI Goku
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Attack -15
+Z-Item #2: Defense +15
+Z-Item #3: King Kai's Training
+Z-Item #4: Dragon Break
+Z-Item #5: Vanishing Break
+Z-Item #6: Ultimate Body
+Z-Item #7: null
+
+> Teammate 2
+Character: Golden Frieza
+Costume: 1
+Damaged: true
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Attack -15
+Z-Item #2: Defense +15
+Z-Item #3: King Kai's Training
+Z-Item #4: Dragon Break
+Z-Item #5: Vanishing Break
+Z-Item #6: Ultimate Body
+Z-Item #7: Halo
+
+> Teammate 3
+Character: Android #17
+Costume: 4
+Damaged: true
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Attack -15
+Z-Item #2: Defense +15
+Z-Item #3: King Kai's Training
+Z-Item #4: Dragon Break
+Z-Item #5: Vanishing Break
+Z-Item #6: Ultimate Body
+Z-Item #7: null
+
+> Teammate 4
+Character: Goku (End)
+Costume: 4
+Damaged: true
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Ultimate Body
+Z-Item #2: Defense +15
+Z-Item #3: King Kai's Training
+Z-Item #4: Dragon Break
+Z-Item #5: Vanishing Break
+Z-Item #6: Ultimate Body
+Z-Item #7: null
+
+> Teammate 5
+Character: Frieza (Super)
+Costume: 1
+Damaged: true
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Attack -15
+Z-Item #2: Defense +15
+Z-Item #3: King Kai's Training
+Z-Item #4: Dragon Break
+Z-Item #5: Vanishing Break
+Z-Item #6: Ultimate Body
+Z-Item #7: Halo
+
+[Opponent Team]
+> Teammate 1
+Character: Jiren
+Costume: 2
+Damaged: false
+COM Difficulty Level: 6
+Strategy Z-Item: Cell Type
+Initial Health: 100%
+Z-Item #1: Attack +5
+Z-Item #2: Defense +40
+Z-Item #3: Whis Training
+Z-Item #4: Dragon Break
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Results
+Teammate Count (Player 1): 5
+Teammate Count (Opponent): 1
+
+[Scene 0]
+Lower Current BG Music
+BG Music:  Super Survivor
+
+===Battle Info===
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> GSAC ID: 1
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Battle Finish
+
+[Scene 1]
+Lower Current BG Music
+BG Music:  Katharsis
+
+===Battle Info===
+Condition: Wait 40 seconds
+> GSAC ID: 2
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Battle Finish
+
+[Scene 2]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 3
+[Changes to Opponent detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger 2nd Blast 2 (Opponent) [AUTO]
+
+[Scene 3]
+Lower Current BG Music
+BG Music:  The Athem of Lives
+
+===Battle Info===
+Condition: Wait 100 seconds
+> GSAC ID: 4
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Add 100% more Health
+[Changes to Opponent detected.]
+> Z-Item #7: null
+Event:     Normal Clash
+
+[Scene 4]
+Lower Current BG Music
+BG Music:  Dangerous Mind
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 5
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Add 100% more Ki
+> Add 1% more Ki
+> Z-Item #1: null
+[Changes to Opponent detected.]
+> Z-Item #2: Defense +5
+Event:     Normal Clash
+
+[Scene 5]
+Lower Current BG Music
+BG Music:  Crisis
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 6
+[Changes to Opponent detected.]
+> Z-Item #7: Go To Hell
+> Add 100% more Health
+Event:     Trigger Ultimate Blast (Opponent) [AUTO]
+
+[Scene 6]
+Lower Current BG Music
+BG Music:  Battalion Unchained
+
+===Battle Info===
+Condition: Wait 10 seconds
+> GSAC ID: 7
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Z-Item #7: null
+Event:     Switch with Teammate #2
+Character: Golden Frieza
+
+[Scene 7]
+
+===Battle Info===
+Condition: Wait 35 seconds
+> GSAC ID: 8
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Switch with Teammate #3
+Character: Android #17
+
+[Scene 8]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 9
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Z-Item #7: null
+Event:     Switch with Teammate #2
+Character: Golden Frieza
+
+[Scene 9]
+Lower Current BG Music
+BG Music:  Move Foward Fearlessly
+
+===Battle Info===
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> GSAC ID: 10
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Z-Item #1: null
+Event:     Battle Finish
+
+[Scene 10]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 11
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Switch with Teammate #3
+Character: Android #17
+
+[Scene 11]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 12
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger 2nd Blast 2
+
+[Scene 12]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 13
+Condition: Win via K.O.
+> GSAC ID: 13
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Switch with Teammate #2
+Character: Golden Frieza
+
+[Scene 13]
+Lower Current BG Music
+BG Music:  Survive
+Lower Current BG Music
+BG Music:  Fate Scrapes
+
+===Battle Info===
+Condition: Wait 10 seconds
+> GSAC ID: 14
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Z-Item #7: Absolutely Invincible Body
+> Add 100% more Health
+Event:     Battle Finish
+
+[Scene 14]
+
+===Battle Info===
+Condition: Wait 10 seconds
+> GSAC ID: 15
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Assign Transformation
+Character: Frieza - Final Form
+
+[Scene 15]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 16
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Switch with Teammate #4
+Character: Goku (Mid)
+
+[Scene 16]
+Lower Current BG Music
+BG Music:  Just a Hero
+
+===Battle Info===
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> GSAC ID: 17
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Z-Item #7: null
+Event:     Battle Finish
+
+[Scene 17]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 18
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Switch with Teammate #5
+Character: Frieza (Super)
+
+[Scene 18]
+Lower Current BG Music
+BG Music:  Super Survivor
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 19
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger Ultimate Blast
+
+[Scene 19]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 30
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Switch with Teammate #3
+Character: Android #17
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 39 (Placeholder Victory)]
+
+===No Battle Info===
+
+[Scene 49 (Placeholder Defeat)]
+
+===No Battle Info===

@@ -1,0 +1,322 @@
+[General Information]
+Name: Battle for the Universe
+Saga: Majin Buu Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+2000
+2500
+3000
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+SS1 Gotenks
+SS3 Gotenks
+null
+> Acquired Scenarios
+Conclusion
+Fusion Reborn! Goku and Vegeta
+null
+
+[Battle Settings]
+Map: Supreme Kai's World
+BGM: I'm Gonna Get Over
+
+[Player 1 Team]
+> Teammate 1
+Character: SS3 Goku (End)
+Costume: 1
+Damaged: true
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Attack -18
+Z-Item #2: Defense -5
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 2
+Character: Majin Buu
+Costume: 1
+Damaged: true
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Attack -15
+Z-Item #2: Defense -10
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+> Teammate 3
+Character: Mr. Satan
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Attack -8
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 4
+Character: Vegeta
+Costume: 2
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Attack -18
+Z-Item #2: Defense -10
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+[Opponent Team]
+> Teammate 1
+Character: Kid Buu
+Costume: 1
+Damaged: false
+COM Difficulty Level: 11
+Strategy Z-Item: Broly Type
+Initial Health: 100%
+Z-Item #1: Ultimate Warrior 1
+Z-Item #2: Defense +50
+Z-Item #3: Whis Training
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+> Results
+Teammate Count (Player 1): 4
+Teammate Count (Opponent): 1
+
+[Scene 0]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 12
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 45
+Condition: Wait 120 seconds
+> GSAC ID: 11
+[Changes to Player 1 detected.]
+> Z-Item #7: Attack +20
+Event:     Battle Finish
+
+[Scene 11]
+
+===Battle Info===
+Condition: Wait 10 seconds
+> GSAC ID: 12
+Condition: Win via K.O.
+> GSAC ID: 12
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 45
+Event:     Beam Struggle between Player 1's 1st Blast 2 and COM's 1st Blast 2
+
+[Scene 12]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 10
+Condition: Win via K.O.
+> GSAC ID: 35
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 44
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Assign Transformation
+Character: Goku (End)
+
+[Scene 10]
+Lower Current BG Music
+BG Music:  Run Run Run!
+
+===Battle Info===
+Condition: Wait 50 seconds
+> GSAC ID: 1
+Condition: Win via K.O.
+> GSAC ID: 35
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 44
+[Changes to Player 1 detected.]
+> Z-Item #7: null
+> Add 100% more Health
+> Add -90% more Ki
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Wait 40 seconds
+> GSAC ID: 2
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Win via K.O.
+> GSAC ID: 30
+[Changes to Player 1 detected.]
+> Apply changes to Teammate 2
+Event:     Switch with Teammate #2
+Character: Majin Buu
+
+[Scene 2]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 3
+[Changes to Player 1 detected.]
+> Apply changes to Teammate 3
+Event:     Switch with Teammate #3
+Character: Mr. Satan
+
+[Scene 3]
+
+===Battle Info===
+Condition: Wait 40 seconds
+> GSAC ID: 4
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+Condition: Win via K.O.
+> GSAC ID: 31
+Event:     Battle Finish
+
+[Scene 4]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 5
+[Changes to Player 1 detected.]
+> Apply changes to Teammate 4
+[Changes to Opponent detected.]
+> Add 20% more Health
+Event:     Switch with Teammate #4
+Character: SSR Goku Black
+
+[Scene 5]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 32
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 42
+Condition: Wait 80 seconds
+> GSAC ID: 6
+Event:     Battle Finish
+
+[Scene 6]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 7
+[Changes to Player 1 detected.]
+> Apply changes to Teammate 1
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Switch with Teammate #1
+Character: Goku (End)
+
+[Scene 7]
+Lower Current BG Music
+BG Music:  Light a Fire in your Heart!! 
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 34
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 43
+Condition: Wait 20 seconds
+> GSAC ID: 9
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Battle Finish
+
+[Scene 8 - UNUSED]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 34
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 43
+Event:     Battle Finish
+
+[Scene 9]
+
+===Battle Info===
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 43
+Condition: Win via K.O.
+> GSAC ID: 33
+[Changes to Player 1 detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger Ultimate Blast
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 31 (Victory)]
+
+===No Battle Info===
+
+[Scene 32 (Victory)]
+
+===No Battle Info===
+
+[Scene 33 (Victory)]
+
+===No Battle Info===
+
+[Scene 34 (Victory)]
+
+===No Battle Info===
+
+[Scene 35 (Victory)]
+
+===No Battle Info===
+
+[Scene 36 (Victory)]
+
+===No Battle Info===
+
+[Scene 40 (Defeat)]
+
+===No Battle Info===
+
+[Scene 41 (Defeat)]
+
+===No Battle Info===
+
+[Scene 42 (Defeat)]
+
+===No Battle Info===
+
+[Scene 43 (Defeat)]
+
+===No Battle Info===
+
+[Scene 44 (Defeat)]
+
+===No Battle Info===
+
+[Scene 45 (Defeat)]
+
+===No Battle Info===

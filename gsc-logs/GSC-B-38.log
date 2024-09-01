@@ -1,0 +1,163 @@
+[General Information]
+Name: Ultimate Super Gogeta
+Saga: Dragon Ball GT Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+2000
+2500
+3000
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+SS4 Vegeta
+Eis Shenron
+null
+> Acquired Scenarios
+A Miracle Saves The Day!
+null
+null
+
+[Battle Settings]
+Map: City Ruins - Evening
+BGM: Dark Half
+
+[Player 1 Team]
+> Teammate 1
+Character: SS4 Vegeta
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: Master Roshi's Training
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+> Teammate 2
+Character: SS4 Goku (GT)
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: Master Roshi's Training
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+[Opponent Team]
+> Teammate 1
+Character: Omega Shenron
+Costume: 1
+Damaged: false
+COM Difficulty Level: 10
+Strategy Z-Item: Broly Type
+Initial Health: 100%
+Z-Item #1: Ultimate Body
+Z-Item #2: Whis Training
+Z-Item #3: Defense +30
+Z-Item #4: Attack +20
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+> Results
+Teammate Count (Player 1): 2
+Teammate Count (Opponent): 1
+
+[Scene 0]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Wait 60 seconds
+> GSAC ID: 1
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 31
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+Condition: Wait 60 seconds
+> GSAC ID: 2
+[Changes to Player 1 detected.]
+> Add 100% more Health
+> Apply changes to Teammate 2
+Event:     Switch with Teammate #2
+Character: SS4 Goku (GT)
+
+[Scene 2]
+Lower Current BG Music
+BG Music:  The Fight That Can't be Won
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 3
+[Changes to Player 1 detected.]
+> Add 100% more Health
+> Add 100% more Ki
+Event:     Assign Fusion
+Character: SS4 Gogeta
+
+[Scene 3]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 32
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 42
+[Changes to Player 1 detected.]
+> Add 100% more Health
+> Add 100% more Ki
+> Z-Item #3: Fighting Spirit!
+[Changes to Opponent detected.]
+> Set COM Difficulty Level to 9
+> Z-Item #1: Whis Training
+> Z-Item #2: null
+> Z-Item #3: null
+> Z-Item #4: null
+> Z-Item #5: null
+Event:     Battle Finish
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 31 (Victory)]
+
+===No Battle Info===
+
+[Scene 32 (Victory)]
+
+===No Battle Info===
+
+[Scene 40 (Defeat)]
+
+===No Battle Info===
+
+[Scene 41 (Defeat)]
+
+===No Battle Info===
+
+[Scene 42 (Defeat)]
+
+===No Battle Info===

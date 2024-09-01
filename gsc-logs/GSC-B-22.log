@@ -1,0 +1,414 @@
+[General Information]
+Name: Resurrection F
+Saga: Dragon Ball Super Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+1000
+1500
+2000
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+Golden Frieza
+SSB Goku
+SSB Vegeta
+> Acquired Scenarios
+Universe 6's Strongest Warrior
+null
+null
+
+[Battle Settings]
+Map: Archipelago - Evening
+BGM: Battalion Unchained
+
+[Player 1 Team]
+> Teammate 1
+Character: Goku (End)
+Costume: 3
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +4
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 2
+Character: Vegeta
+Costume: 4
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +4
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 3
+Character: SSB Goku
+Costume: 3
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +4
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+[Opponent Team]
+> Teammate 1
+Character: Frieza - Final Form
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +4
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 2
+Character: Vegeta
+Costume: 4
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +4
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 3
+Character: Sorbet
+Costume: 1
+Damaged: false
+COM Difficulty Level: 6
+Strategy Z-Item: Trunks Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Master Roshi's Training
+Z-Item #3: Fierce God
+Z-Item #4: Go To Hell
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Results
+Teammate Count (Player 1): 3
+Teammate Count (Opponent): 3
+
+[Scene 0]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> GSAC ID: 2
+[Changes to Player 1 detected.]
+> Z-Item #7: Absolutely Invincible Body
+[Changes to Opponent detected.]
+> Z-Item #7: Defense +30
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 2
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Wait 10 seconds
+> GSAC ID: 2
+[Changes to Player 1 detected.]
+> Z-Item #7: Absolutely Invincible Body
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Trigger Ultimate Blast (Opponent) [AUTO]
+
+[Scene 2]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 3
+[Changes to Player 1 detected.]
+> Z-Item #7: null
+[Changes to Opponent detected.]
+> Z-Item #7: null
+> Add 100% more Health
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: SSR Goku Black
+
+[Scene 3]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Wait 10 seconds
+> GSAC ID: 4
+[Changes to Player 1 detected.]
+> Z-Item #7: null
+Event:     Aerial Clash
+
+[Scene 4]
+Lower Current BG Music
+BG Music:  Out of Control
+
+===Battle Info===
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> GSAC ID: 5
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Switch with Teammate #1 (Opponent) [AUTO]
+Character: Frieza - Final Form
+
+[Scene 5]
+Lower Current BG Music
+BG Music:  Soldier's Sorrow
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 6
+Event:     Assign Transformation
+Character: SSB Goku
+
+[Scene 6]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 7
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Assign Transformation (Opponent) [AUTO]
+Character: Golden Frieza
+
+[Scene 7]
+Lower Current BG Music
+BG Music:  Flight in The Dark Side
+
+===Battle Info===
+Condition: Wait 30 seconds
+> GSAC ID: 8
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Z-Item #7: Defense +50
+> Add 100% more Health
+Event:     Normal Clash
+
+[Scene 8]
+Lower Current BG Music
+BG Music:  Dynamite Battle
+
+===Battle Info===
+Condition: Lose 5 Health Bars (Opponent) [AUTO]
+> GSAC ID: 9
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Z-Item #7: null
+> Add 100% more Health
+Event:     Normal Clash
+
+[Scene 9]
+Lower Current BG Music
+BG Music:  Tensa Atmosphere
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 10
+[Changes to Player 1 detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger Ultimate Blast
+
+[Scene 10]
+Lower Current BG Music
+BG Music:  Evil Desires
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 11
+[Changes to Opponent detected.]
+> Add 1% more Health
+Event:     Switch with Teammate #3 (Opponent) [AUTO]
+Character: Sorbet
+
+[Scene 11]
+
+===Battle Info===
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 12
+Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
+
+[Scene 12]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 13
+Event:     Switch with Teammate #1 (Opponent) [AUTO]
+Character: Golden Frieza
+
+[Scene 13]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 14
+Event:     Assign Transformation
+Character: Goku (End)
+
+[Scene 14]
+
+===Battle Info===
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 15
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Trigger 2nd Blast 2 (Opponent) [AUTO]
+
+[Scene 15]
+Lower Current BG Music
+BG Music:  Like a Burning Wild
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 16
+Event:     Switch with Teammate #2
+Character: SSR Goku Black
+
+[Scene 16]
+
+===Battle Info===
+Condition: Wait 30 seconds
+> GSAC ID: 17
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Z-Item #7: Defense +50
+Event:     Battle Finish
+
+[Scene 17]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 18
+Event:     Assign Transformation
+Character: SSB Vegeta
+
+[Scene 18]
+
+===Battle Info===
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> GSAC ID: 19
+Condition: Win via K.O.
+> GSAC ID: 19
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Add 100% more Health
+[Changes to Opponent detected.]
+> Z-Item #7: null
+Event:     Battle Finish
+
+[Scene 19]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 20
+Event:     Assign Transformation (Opponent) [AUTO]
+Character: Frieza - Final Form
+
+[Scene 20]
+Lower Current BG Music
+BG Music:  High And Scream
+Lower Current BG Music
+
+===Battle Info===
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 21
+[Changes to Opponent detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger Ultimate Blast (Opponent) [AUTO]
+
+[Scene 21]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 22
+Condition: Win via K.O.
+> GSAC ID: 4
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Battle Finish
+
+[Scene 22]
+Lower Current BG Music
+BG Music:  Awake
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 23
+Event:     Switch with Teammate #3
+Character: SSB Goku
+
+[Scene 23]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+[Changes to Player 1 detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger Ultimate Blast
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 39 (Placeholder Victory)]
+
+===No Battle Info===
+
+[Scene 49 (Placeholder Defeat)]
+
+===No Battle Info===

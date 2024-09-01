@@ -1,0 +1,137 @@
+[General Information]
+Name: Conclusion
+Saga: Majin Buu Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+2500
+3000
+3500
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+SS3 Goku (End)
+SS2 Vegeta
+Kid Uub
+> Acquired Scenarios
+The Super Saiyan God
+Immortal Monster
+null
+
+[Battle Settings]
+Map: World Tournament - Noon
+BGM: Rainbow in the Universe
+
+[Player 1 Team]
+> Teammate 1
+Character: Goku (End)
+Costume: 2
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: King Kai's Training
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+[Opponent Team]
+> Teammate 1
+Character: Kid Uub
+Costume: 1
+Damaged: false
+COM Difficulty Level: 9
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Defense +5
+Z-Item #2: King Kai's Training
+Z-Item #3: Attack +15
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+> Results
+Teammate Count (Player 1): 1
+Teammate Count (Opponent): 1
+
+[Scene 0]
+
+[Scene 10 - UNUSED]
+
+===Battle Info===
+Condition: Wait 25 seconds
+> GSAC ID: 1
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Win via Ringout
+> GSAC ID: 51
+Condition: Win via Ringout (Opponent)
+> GSAC ID: 50
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> GSAC ID: 2
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Win via Ringout
+> GSAC ID: 51
+Condition: Win via Ringout (Opponent)
+> GSAC ID: 50
+Event:     Normal Clash
+
+[Scene 2]
+
+===Battle Info===
+Condition: Hit with Ultimate Blast (Opponent)
+> GSAC ID: 3
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Win via Ringout
+> GSAC ID: 51
+Condition: Win via Ringout (Opponent)
+> GSAC ID: 50
+Event:     Trigger Ultimate Blast (Opponent) [AUTO]
+
+[Scene 3]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Win via Ringout
+> GSAC ID: 51
+Condition: Win via Ringout (Opponent)
+> GSAC ID: 50
+Event:     Assign Transformation (Opponent) [AUTO]
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 49 (Placeholder Defeat)]
+
+===No Battle Info===
+
+===No Battle Info===
+
+===No Battle Info===

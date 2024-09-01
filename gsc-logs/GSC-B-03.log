@@ -1,0 +1,233 @@
+[General Information]
+Name: Super Saiyan?!
+Saga: Frieza Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+500
+1000
+1500
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+Nail
+null
+null
+> Acquired Scenarios
+Frieza's Ultimate Transformation!
+null
+null
+
+[Battle Settings]
+Map: Planet Namek
+BGM: Move Foward Fearlessly
+
+[Player 1 Team]
+> Teammate 1
+Character: Goku (Mid)
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: King Kai's Training
+Z-Item #2: Attack +20
+Z-Item #3: Defense +15
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+> Teammate 2
+Character: Nail
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Master Roshi's Training
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+> Teammate 3
+Character: Jeice
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+[Opponent Team]
+> Teammate 1
+Character: Recoome
+Costume: 1
+Damaged: true
+COM Difficulty Level: 5
+Strategy Z-Item: Recoome Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: Master Roshi's Training
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+> Teammate 2
+Character: Jeice
+Costume: 1
+Damaged: false
+COM Difficulty Level: 3
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Master Roshi's Training
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 3
+Character: Burter
+Costume: 1
+Damaged: false
+COM Difficulty Level: 3
+Strategy Z-Item: Trunks Type
+Initial Health: 100%
+Z-Item #1: Master Roshi's Training
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Results
+Teammate Count (Player 1): 3
+Teammate Count (Opponent): 3
+
+[Scene 0]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 1
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Wait 140 seconds
+> GSAC ID: 3
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 2
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+[Changes to Player 1 detected.]
+> Add 20% more Health
+[Changes to Opponent detected.]
+> Apply changes to Teammate 2
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: Jeice
+
+[Scene 2]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 42
+[Changes to Player 1 detected.]
+> Add 20% more Health
+[Changes to Opponent detected.]
+> Apply changes to Teammate 3
+Event:     Switch with Teammate #3 (Opponent) [AUTO]
+Character: Burter
+
+[Scene 3]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 4
+[Changes to Player 1 detected.]
+> Apply changes to Teammate 2
+Event:     Switch with Teammate #2
+Character: Nail
+
+[Scene 4]
+Lower Current BG Music
+BG Music:  Aftermath (UT)
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 5
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 43
+Event:     Battle Finish
+
+[Scene 5]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 31
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 44
+[Changes to Opponent detected.]
+> Apply changes to Teammate 2
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: Jeice
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 31 (Victory)]
+
+===No Battle Info===
+
+[Scene 40 (Defeat)]
+
+===No Battle Info===
+
+[Scene 41 (Defeat)]
+
+===No Battle Info===
+
+[Scene 42 (Defeat)]
+
+===No Battle Info===
+
+[Scene 43 (Defeat)]
+
+===No Battle Info===
+
+[Scene 44 (Defeat)]
+
+===No Battle Info===
+
+[Scene 49 (Placeholder Defeat) - UNUSED]
+
+===No Battle Info===
+
+[Scene 39 (Placeholder Victory) - UNUSED]
+
+===No Battle Info===

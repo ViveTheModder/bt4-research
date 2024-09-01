@@ -1,0 +1,303 @@
+[General Information]
+Name: Goku Awakens
+Saga: Dragon Ball Super Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+1500
+2000
+2500
+> Acquired Z-Items
+Style of the Strong
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+Dr. Wheelo
+null
+null
+> Acquired Scenarios
+The Sign of a Comeback
+null
+null
+
+[Battle Settings]
+Map: Tournament of Power
+BGM: Awake
+
+[Player 1 Team]
+> Teammate 1
+Character: MUI Goku
+Costume: 2
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +8
+Z-Item #3: Sturdy Clothes
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 2
+Character: Hit
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +8
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+[Opponent Team]
+> Teammate 1
+Character: Jiren
+Costume: 1
+Damaged: false
+COM Difficulty Level: 10
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +8
+Z-Item #3: Attack +15
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 2
+Character: Top
+Costume: 1
+Damaged: false
+COM Difficulty Level: 10
+Strategy Z-Item: Goku Type
+Initial Health: 50%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +8
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Results
+Teammate Count (Player 1): 2
+Teammate Count (Opponent): 2
+
+[Scene 0]
+Lower Current BG Music
+BG Music:  Super Survivor
+
+===Battle Info===
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> GSAC ID: 1
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Z-Item #7: Absolutely Invincible Body
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 2
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: Top
+
+[Scene 2]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 3
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Z-Item #5: Attack +40
+Event:     Battle Finish
+
+[Scene 3]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 4
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Switch with Teammate #1 (Opponent) [AUTO]
+Character: Jiren
+
+[Scene 4]
+
+===Battle Info===
+Condition: Lose 6 Health Bars (Opponent) [AUTO]
+> GSAC ID: 5
+Condition: Win via K.O.
+> GSAC ID: 5
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Z-Item #7: null
+> Z-Item #5: Attack +10
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Aerial Clash
+
+[Scene 5]
+Lower Current BG Music
+BG Music:  Soldier's Sorrow
+
+===Battle Info===
+Condition: Lose 6 Health Bars (Opponent) [AUTO]
+> GSAC ID: 6
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Add 100% more Health
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Battle Finish
+
+[Scene 6]
+Lower Current BG Music
+BG Music:  Dangerous Mind
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 7
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Z-Item #5: Attack +50
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Normal Clash (Opponent)
+
+[Scene 7]
+Lower Current BG Music
+BG Music:  Katharsis
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 8
+[Changes to Opponent detected.]
+> Z-Item #7: Go To Hell
+> Add 100% more Health
+Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
+
+[Scene 8]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 9
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Z-Item #7: null
+Event:     Switch with Teammate #2
+Character: Hit
+
+[Scene 9]
+Lower Current BG Music
+BG Music:  Impulse to Victory
+
+===Battle Info===
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> GSAC ID: 10
+Condition: Win via K.O.
+> GSAC ID: 10
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Battle Finish
+
+[Scene 10]
+Lower Current BG Music
+BG Music:  The Battle with All My Force
+
+===Battle Info===
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> GSAC ID: 11
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Assign Transformation (Opponent) [AUTO]
+
+[Scene 11]
+
+===Battle Info===
+Condition: Lose 5 Health Bars (Opponent) [AUTO]
+> GSAC ID: 12
+Condition: Win via K.O.
+> GSAC ID: 12
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Assign Transformation (Opponent) [AUTO]
+
+[Scene 12]
+Lower Current BG Music
+BG Music:  The Heat
+
+===Battle Info===
+Condition: Hit with 1st Blast 2
+> GSAC ID: 13
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Z-Item #7: Absolutely Invincible Body
+> Add 100% more Health
+Event:     Trigger 1st Blast 2
+
+[Scene 13]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 30
+[Changes to Opponent detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 39 (Placeholder Victory)]
+
+===No Battle Info===
+
+[Scene 49 (Placeholder Defeat)]
+
+===No Battle Info===

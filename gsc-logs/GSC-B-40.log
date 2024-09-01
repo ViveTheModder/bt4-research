@@ -1,0 +1,130 @@
+[General Information]
+Name: Goku Strikes Back
+Saga: Dragon Ball Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+500
+1000
+1500
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+null
+null
+null
+> Acquired Scenarios
+Dream Match: Goku Vs. Arale
+null
+null
+
+[Battle Settings]
+Map: Desert - Noon
+BGM: Evolution
+
+[Player 1 Team]
+> Teammate 1
+Character: Kid Goku
+Costume: 2
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Master Roshi's Training
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+[Opponent Team]
+> Teammate 1
+Character: Yamcha
+Costume: 3
+Damaged: false
+COM Difficulty Level: 8
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: King Kai's Training
+Z-Item #2: Attack +5
+Z-Item #3: Defense +5
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+> Results
+Teammate Count (Player 1): 1
+Teammate Count (Opponent): 1
+
+[Scene 0]
+
+===Battle Info===
+Condition: Wait 30 seconds
+> GSAC ID: 1
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 39
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Wait 35 seconds
+> GSAC ID: 2
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Z-Item #8: Attack +25
+Event:     Battle Finish
+
+[Scene 2]
+
+===Battle Info===
+Condition: Perform Rush Attack
+> GSAC ID: 10
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 39
+Event:     Trigger 2nd Blast 2 (Opponent) [AUTO]
+
+[Scene 10]
+
+===Battle Info===
+Condition: Lose 5 Health Bars (Opponent) [AUTO]
+> GSAC ID: 3
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 39
+Event:     Battle Finish
+
+[Scene 3]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 39
+[Changes to Player 1 detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger 2nd Blast 2
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 39 (Placeholder Victory)]
+
+===No Battle Info===

@@ -1,0 +1,437 @@
+[General Information]
+Name: The Supreme Power of the Absolute God
+Saga: Dragon Ball Super Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+1500
+2000
+2500
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+SSRage Trunks (Sword)
+Zamasu
+null
+> Acquired Scenarios
+The Miraculous Power of Unyielding Warriors
+null
+null
+
+[Battle Settings]
+Map: City Ruins - Future
+BGM: Yin-Yang
+
+[Player 1 Team]
+> Teammate 1
+Character: SSRage Trunks (Sword)
+Costume: 3
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 2
+Character: SSB Vegeta
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Defense +15
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 3
+Character: SSB Goku
+Costume: 4
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 4
+Character: Baby Vegeta
+Costume: 4
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 5
+Character: Super Baby 1
+Costume: 4
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+[Opponent Team]
+> Teammate 1
+Character: Zamasu
+Costume: 1
+Damaged: false
+COM Difficulty Level: 6
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +50
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 2
+Character: SSR Goku Black
+Costume: 1
+Damaged: false
+COM Difficulty Level: 6
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Attack Up 1
+Z-Item #2: Attack +50
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Results
+Teammate Count (Player 1): 5
+Teammate Count (Opponent): 2
+
+[Scene 0]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Wait 10 seconds
+> GSAC ID: 1
+[Changes to Opponent detected.]
+> Z-Item #7: Absolutely Invincible Body
+Event:     Battle Finish
+
+[Scene 1]
+Lower Current BG Music
+BG Music:  Little Light
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 2
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Z-Item #7: Go To Hell
+[Changes to Opponent detected.]
+> Z-Item #7: null
+Event:     Trigger 1st Blast 2
+
+[Scene 2]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Immediate
+> GSAC ID: 12
+[Changes to Player 1 detected.]
+> Z-Item #7: null
+Event:     Assign Transformation
+Character: Trunks (Sword)
+
+[Scene 12]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Immediate
+> GSAC ID: 3
+[Changes to Opponent detected.]
+> Add 1% more Health
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: SSR Goku Black
+
+[Scene 3]
+Lower Current BG Music
+BG Music:  Warrior From An Unknown Land 
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Immediate
+> GSAC ID: 4
+Event:     Assign Fusion (Opponent) [AUTO]
+Character: Zamasu (Fused)
+
+[Scene 4]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Immediate
+> GSAC ID: 5
+[Changes to Opponent detected.]
+> Z-Item #6: Sturdy Clothes
+Event:     Battle Finish
+
+[Scene 5]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Lose 6 Health Bars (Opponent) [AUTO]
+> GSAC ID: 6
+Event:     Switch with Teammate #2
+Character: SSB Vegeta
+
+[Scene 6]
+Lower Current BG Music
+BG Music:  Flight in The Dark Side
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Wait 15 seconds
+> GSAC ID: 7
+Event:     Assign Transformation (Opponent) [AUTO]
+
+[Scene 7]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 8
+[Changes to Opponent detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
+
+[Scene 8]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Immediate
+> GSAC ID: 9
+[Changes to Player 1 detected.]
+> Add 1% more Health
+[Changes to Opponent detected.]
+> Z-Item #7: null
+Event:     Switch with Teammate #3
+Character: SSB Goku
+
+[Scene 9]
+Lower Current BG Music
+BG Music:  Challenger
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Wait 35 seconds
+> GSAC ID: 10
+Event:     Battle Finish
+
+[Scene 10]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 11
+[Changes to Opponent detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger 2nd Blast 2 (Opponent) [AUTO]
+
+[Scene 11]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Immediate
+> GSAC ID: 13
+[Changes to Player 1 detected.]
+> Add 1% more Health
+[Changes to Opponent detected.]
+> Z-Item #7: null
+Event:     Switch with Teammate #1
+Character: Trunks (Sword)
+
+[Scene 13]
+Lower Current BG Music
+BG Music:  Burning Soul
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Immediate
+> GSAC ID: 14
+Event:     Assign Transformation
+Character: SSRage Trunks (Sword)
+
+[Scene 14]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Wait 35 seconds
+> GSAC ID: 15
+Event:     Battle Finish
+
+[Scene 15]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 16
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Hit with Ultimate Blast
+> GSAC ID: 16
+[Changes to Opponent detected.]
+> Z-Item #7: Go To Hell
+Event:     Beam Struggle between Player 1 and the COM's Ultimate Blasts
+
+[Scene 16]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 17
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Immediate
+> GSAC ID: 17
+Event:     Switch with Teammate #2
+Character: SSB Vegeta
+
+[Scene 17]
+Lower Current BG Music
+BG Music:  Warrior From An Unknown Land 
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 18
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Trigger 2nd Blast 2 (Opponent) [AUTO]
+
+[Scene 18]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 19
+Event:     Assign Transformation
+Character: Vegeta
+
+[Scene 19]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Immediate
+> GSAC ID: 20
+[Changes to Player 1 detected.]
+> Add 100% more Health
+[Changes to Opponent detected.]
+> Z-Item #6: null
+Event:     Switch with Teammate #3
+Character: SSB Goku
+
+[Scene 20]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 21
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Z-Item #6: null
+Event:     Beam Struggle between Player 1 and the COM's Ultimate Blasts
+
+[Scene 21]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Assign Transformation
+Character: Goku (End)
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+[Changes to Player 1 detected.]
+> Add 50% more Health
+
+[Scene 39 (Placeholder Victory)]
+
+===No Battle Info===
+
+[Scene 49 (Placeholder Defeat)]
+
+===No Battle Info===

@@ -1,0 +1,168 @@
+[General Information]
+Name: Destined Battle: 
+Saga: Majin Buu Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+1000
+1500
+2000
+> Acquired Z-Items
+Demon Seal
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+SS1 Gohan
+SS2 Gohan
+SS2 Goku (End)
+> Acquired Scenarios
+Goku Vs. Vegeta: Farewell to the Proud Warrior
+null
+null
+
+[Battle Settings]
+Map: Rocky Area - Noon
+BGM: Pathos
+
+[Player 1 Team]
+> Teammate 1
+Character: SS2 Goku (End)
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Master Roshi's Training
+Z-Item #2: Halo
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+> Teammate 3
+Character: Bojack
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+[Opponent Team]
+> Teammate 1
+Character: Majin Vegeta
+Costume: 1
+Damaged: false
+COM Difficulty Level: 9
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: King Kai's Training
+Z-Item #2: Defense +8
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+> Teammate 2
+Character: Demon King Dabura
+Costume: 1
+Damaged: false
+COM Difficulty Level: 9
+Strategy Z-Item: Tien Type
+Initial Health: 100%
+Z-Item #1: King Kai's Training
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+> Results
+Teammate Count (Player 1): 2
+Teammate Count (Opponent): 2
+
+[Scene 0]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 2
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Wait 70 seconds
+> GSAC ID: 1
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+[Changes to Player 1 detected.]
+> Add 20% more Health
+[Changes to Opponent detected.]
+> Add 20% more Health
+Event:     Battle Finish
+
+[Scene 2]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 3
+[Changes to Opponent detected.]
+> Apply changes to Teammate 2
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: Demon King Dabura
+
+[Scene 3]
+
+===Battle Info===
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 42
+Condition: Win via K.O.
+> GSAC ID: 31
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Battle Finish
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 31 (Victory)]
+
+===No Battle Info===
+
+[Scene 40 (Defeat)]
+
+===No Battle Info===
+
+[Scene 41 (Defeat)]
+
+===No Battle Info===
+
+[Scene 42 (Defeat)]
+
+===No Battle Info===
+
+[Scene 49 (Placeholder Defeat) - UNUSED]
+
+===No Battle Info===
+
+[Scene 39 (Placeholder Victory) - UNUSED]
+
+===No Battle Info===

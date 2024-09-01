@@ -1,0 +1,204 @@
+[General Information]
+Name: Enraged Android
+Saga: Android Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+500
+1000
+1500
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+SS1 Vegeta
+null
+null
+> Acquired Scenarios
+Vegeta's Curiosity
+null
+null
+
+[Battle Settings]
+Map: Rocky Area - Noon
+BGM: Hot Feeling
+
+[Player 1 Team]
+> Teammate 1
+Character: SS1 Goku (Mid)
+Costume: 5
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 60%
+Z-Item #1: Attack -20
+Z-Item #2: Defense +10
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 2
+Character: Vegeta
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Attack +5
+Z-Item #2: Defense +15
+Z-Item #3: King Kai's Training
+Z-Item #4: Ultimate Body
+Z-Item #5: Draconic Aura
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+[Opponent Team]
+> Teammate 1
+Character: Android #19
+Costume: 1
+Damaged: false
+COM Difficulty Level: 6
+Strategy Z-Item: Yajirobe Type
+Initial Health: 100%
+Z-Item #1: Attack +5
+Z-Item #2: Defense +15
+Z-Item #3: Whis Training
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Dragon Crush
+
+> Results
+Teammate Count (Player 1): 2
+Teammate Count (Opponent): 1
+
+[Scene 0]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 3
+Condition: Fall into ground/water [AUTO]
+> GSAC ID: 1
+Condition: Wait 20 seconds
+> GSAC ID: 1
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 3
+Condition: Fall into ground/water [AUTO]
+> GSAC ID: 2
+Condition: Wait 20 seconds
+> GSAC ID: 2
+[Changes to Opponent detected.]
+> Add 10% more Health
+> Add 10% more Ki
+Event:     Battle Finish
+
+[Scene 2]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 3
+[Changes to Opponent detected.]
+> Add 10% more Health
+> Add 10% more Ki
+Event:     Battle Finish
+
+[Scene 3]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 31
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+Condition: Fall into ground/water (Opponent) [AUTO]
+> GSAC ID: 4
+Condition: Wait 25 seconds
+> GSAC ID: 4
+[Changes to Player 1 detected.]
+> Apply changes to Teammate 2
+Event:     Switch with Teammate #2
+Character: Vegeta
+
+[Scene 4]
+Lower Current BG Music
+BG Music:  Random
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 32
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 42
+Condition: Fall into ground/water [AUTO]
+> GSAC ID: 5
+Condition: Wait 35 seconds
+> GSAC ID: 5
+[Changes to Player 1 detected.]
+> Z-Item #1: Attack +15
+[Changes to Opponent detected.]
+Event:     Assign Transformation
+Character: SS1 Vegeta
+
+[Scene 5]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 32
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 42
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> GSAC ID: 6
+Condition: Wait 60 seconds
+> GSAC ID: 6
+Event:     Battle Finish
+
+[Scene 6]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 32
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 42
+[Changes to Player 1 detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger Ultimate Blast
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 31 (Victory)]
+
+===No Battle Info===
+
+[Scene 32 (Victory)]
+
+===No Battle Info===
+
+[Scene 40 (Defeat) - UNUSED]
+
+===No Battle Info===
+
+[Scene 41 (Defeat)]
+
+===No Battle Info===
+
+[Scene 42 (Defeat)]
+
+===No Battle Info===

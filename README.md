@@ -25,3 +25,8 @@ On top of that, the game only loads 100 LPS files at a time, rather than 200, ba
 * ``maps.csv`` -> Maps (all maps are accessible besides Dying Namek, which is used for Dragon History)
 * ``names.csv`` -> Dragon History Scenarios
 * ``sagas.csv`` -> Dragon History Sagas
+
+These CSV files can then be used for [Swag Studio](https://github.com/ViveTheModder/swag-studio) to get plenty of information out of BT4's Dragon History.
+I have not provided the GSC files they use, though. That is not the point of this repository. Otherwise, I would have called it ``bt4-filedump`` or something.
+
+However, I did include a ``gsc-logs`` folder in the repo, for those who want to know what happens during each scenario before they get to play them.

@@ -1,0 +1,229 @@
+[General Information]
+Name: Legendary Super Saiyan
+Saga: Frieza Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+2000
+2500
+3000
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+SS1 Goku (Mid)
+Frieza - Full Power
+null
+> Acquired Scenarios
+Enraged Android
+Strongest Vs. Strongest
+null
+
+[Battle Settings]
+Map: Agonizing Planet Namek
+BGM: A Hero's Desperation
+
+[Player 1 Team]
+> Teammate 1
+Character: Goku (Mid)
+Costume: 7
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Master Roshi's Training
+Z-Item #2: Attack -20
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+> Teammate 2
+Character: SS1 Goku (Mid)
+Costume: 1
+Damaged: true
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+[Opponent Team]
+> Teammate 1
+Character: Frieza - Final Form
+Costume: 1
+Damaged: true
+COM Difficulty Level: 9
+Strategy Z-Item: Majin Buu Type
+Initial Health: 100%
+Z-Item #1: Attack +10
+Z-Item #2: Defense +20
+Z-Item #3: King Kai's Training
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Results
+Teammate Count (Player 1): 2
+Teammate Count (Opponent): 1
+
+[Scene 0]
+
+===Battle Info===
+Condition: Wait 30 seconds
+> GSAC ID: 1
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Win via K.O.
+> GSAC ID: 31
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> GSAC ID: 6
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Win via K.O.
+> GSAC ID: 39
+[Changes to Player 1 detected.]
+> Add 100% more Health
+> Z-Item #1: King Kai's Training
+> Z-Item #2: null
+> Z-Item #3: null
+> Z-Item #4: null
+> Z-Item #5: null
+[Changes to Opponent detected.]
+> Set COM Difficulty Level to 3
+> Z-Item #1: King Kai's Training
+> Z-Item #2: Attack -20
+> Z-Item #3: Defense -5
+> Z-Item #4: null
+> Z-Item #5: null
+> Z-Item #6: null
+> Z-Item #7: null
+Event:     Assign Transformation
+Character: SS1 Goku (Mid)
+
+[Scene 6]
+
+===Battle Info===
+Condition: Hit with Ultimate Blast (Opponent)
+> GSAC ID: 7
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Win via K.O.
+> GSAC ID: 39
+Event:     Trigger Ultimate Blast (Opponent) [AUTO]
+
+[Scene 7]
+
+===Battle Info===
+Condition: Wait 15 seconds
+> GSAC ID: 2
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Win via K.O.
+> GSAC ID: 39
+Event:     Map Destruction
+
+[Scene 2]
+Lower Current BG Music
+BG Music:  Flash Battle
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 3
+[Changes to Opponent detected.]
+> Set COM Difficulty Level to 8
+> Add 100% more Health
+> Z-Item #2: Defense +5
+> Z-Item #3: Whis Training
+> Z-Item #4: null
+> Z-Item #5: null
+> Z-Item #6: null
+> Z-Item #7: null
+Event:     Assign Transformation (Opponent) [AUTO]
+Character: Frieza - Full Power
+
+[Scene 3]
+
+===Battle Info===
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> GSAC ID: 4
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+Condition: Win via K.O.
+> GSAC ID: 39
+[Changes to Opponent detected.]
+> Set COM Difficulty Level to 8
+Event:     Normal Clash
+
+[Scene 4]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 42
+Condition: Lose 5 Health Bars (Opponent) [AUTO]
+> GSAC ID: 5
+Event:     Battle Finish
+
+[Scene 5]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 42
+[Changes to Player 1 detected.]
+> Z-Item #7: Go To Hell
+[Changes to Opponent detected.]
+> Z-Item #3: King Kai's Training
+> Z-Item #4: null
+> Z-Item #5: null
+> Z-Item #6: null
+> Z-Item #7: Go To Hell
+Event:     Beam Struggle between Player 1 and the COM's Ultimate Blasts
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 31 (Victory)]
+
+===No Battle Info===
+
+[Scene 40 (Defeat)]
+
+===No Battle Info===
+
+[Scene 41 (Defeat)]
+
+===No Battle Info===
+
+[Scene 42 (Defeat)]
+
+===No Battle Info===
+
+[Scene 49 (Placeholder Defeat) - UNUSED]
+
+===No Battle Info===
+
+[Scene 39 (Placeholder Victory)]
+
+===No Battle Info===

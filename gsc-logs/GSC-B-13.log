@@ -1,0 +1,129 @@
+[General Information]
+Name: Future Peace
+Saga: Android Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+500
+1000
+1500
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+null
+null
+null
+> Acquired Scenarios
+Destined Battle: 
+null
+null
+
+[Battle Settings]
+Map: Wasteland - Evening
+BGM: Evil Desires
+
+[Player 1 Team]
+> Teammate 1
+Character: Trunks
+Costume: 2
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Attack -15
+Z-Item #2: Defense +15
+Z-Item #3: King Kai's Training
+Z-Item #4: Dragon Break
+Z-Item #5: Vanishing Break
+Z-Item #6: Ultimate Body
+Z-Item #7: null
+
+[Opponent Team]
+> Teammate 1
+Character: Cell - Imperfect
+Costume: 1
+Damaged: false
+COM Difficulty Level: 6
+Strategy Z-Item: Cell Type
+Initial Health: 100%
+Z-Item #1: Attack +5
+Z-Item #2: Defense +40
+Z-Item #3: Whis Training
+Z-Item #4: Dragon Break
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Results
+Teammate Count (Player 1): 1
+Teammate Count (Opponent): 1
+
+[Scene 0]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> GSAC ID: 1
+Condition: Wait 60 seconds
+> GSAC ID: 1
+Event:     Battle Finish
+
+[Scene 1]
+Lower Current BG Music
+BG Music:  Gallant
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 31
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+Condition: Lose 5 Health Bars (Opponent) [AUTO]
+> GSAC ID: 2
+Condition: Wait 60 seconds
+> GSAC ID: 2
+[Changes to Player 1 detected.]
+> Add 100% more Ki
+> Add 1% more Ki
+> Z-Item #1: null
+[Changes to Opponent detected.]
+> Z-Item #2: Defense +5
+Event:     Assign Transformation
+Character: SS1 Trunks
+
+[Scene 2]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 31
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+[Changes to Player 1 detected.]
+> Add 100% more Ki
+> Add 1% more Ki
+> Z-Item #7: Go To Hell
+Event:     Trigger Ultimate Blast
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 31 (Victory)]
+
+===No Battle Info===
+
+[Scene 40 (Defeat)]
+
+===No Battle Info===
+
+[Scene 41 (Defeat)]
+
+===No Battle Info===

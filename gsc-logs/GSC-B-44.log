@@ -1,0 +1,190 @@
+[General Information]
+Name: Strongest Vs. Strongest
+Saga: Special Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+1000
+1500
+2000
+> Acquired Z-Items
+Miracle Master
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+Cooler - Final Form
+null
+null
+> Acquired Scenarios
+null
+The History of Trunks
+null
+
+[Battle Settings]
+Map: Wasteland - Evening
+BGM: Accelerator
+
+[Player 1 Team]
+> Teammate 1
+Character: Goku (Mid)
+Costume: 5
+Damaged: true
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Master Roshi's Training
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+[Opponent Team]
+> Teammate 1
+Character: Cooler
+Costume: 1
+Damaged: false
+COM Difficulty Level: 8
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: King Kai's Training
+Z-Item #2: Attack +5
+Z-Item #3: Defense +5
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+> Results
+Teammate Count (Player 1): 1
+Teammate Count (Opponent): 1
+
+[Scene 0]
+
+===Battle Info===
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> GSAC ID: 1
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 2
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Assign Transformation (Opponent) [AUTO]
+Character: Cooler - Final Form
+
+[Scene 2]
+
+===Battle Info===
+Condition: Wait 30 seconds
+> GSAC ID: 3
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> GSAC ID: 5
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+[Changes to Opponent detected.]
+> Set COM Difficulty Level to 9
+> Add 100% more Health
+> Z-Item #1: King Kai's Training
+> Z-Item #2: Defense +10
+> Z-Item #3: Attack +10
+> Z-Item #4: Ultimate Body
+> Z-Item #5: null
+Event:     Normal Clash
+
+[Scene 3]
+
+===Battle Info===
+Condition: Wait 20 seconds
+> GSAC ID: 4
+Condition: Win via K.O.
+> GSAC ID: 31
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+Event:     Battle Finish
+
+[Scene 4]
+Lower Current BG Music
+BG Music:  Evil Desires
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+[Changes to Player 1 detected.]
+> Add 100% more Health
+> Z-Item #1: King Kai's Training
+> Z-Item #2: Ultimate Warrior 1
+> Z-Item #3: null
+> Z-Item #4: null
+> Z-Item #5: null
+[Changes to Opponent detected.]
+> Set COM Difficulty Level to 7
+> Z-Item #1: King Kai's Training
+> Z-Item #2: null
+> Z-Item #3: null
+> Z-Item #4: null
+> Z-Item #5: null
+Event:     Assign Transformation
+Character: SS1 Goku (Mid)
+
+[Scene 5]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 31
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 42
+[Changes to Opponent detected.]
+> Z-Item #2: Attack +10
+> Z-Item #3: Defense +10
+> Z-Item #4: null
+> Z-Item #5: null
+> Z-Item #6: null
+> Z-Item #7: null
+Event:     Battle Finish
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 31 (Victory)]
+
+===No Battle Info===
+
+[Scene 39 (Placeholder Victory)]
+
+===No Battle Info===
+
+[Scene 40 (Defeat)]
+
+===No Battle Info===
+
+[Scene 41 (Defeat)]
+
+===No Battle Info===
+
+[Scene 42 (Defeat)]
+
+===No Battle Info===
+
+[Scene 49 (Placeholder Defeat)]
+
+===No Battle Info===

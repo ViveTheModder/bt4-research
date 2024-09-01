@@ -1,0 +1,170 @@
+[General Information]
+Name: A Miracle Saves The Day!
+Saga: Dragon Ball GT Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+2500
+3000
+3500
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+SS4 Gogeta
+Omega Shenron
+null
+> Acquired Scenarios
+The Desert Bandit
+null
+null
+
+[Battle Settings]
+Map: City Ruins - Evening
+BGM: The Athem of Lives
+
+[Player 1 Team]
+> Teammate 1
+Character: Goku (GT)
+Costume: 1
+Damaged: true
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: Master Roshi's Training
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+[Opponent Team]
+> Teammate 1
+Character: Omega Shenron
+Costume: 1
+Damaged: false
+COM Difficulty Level: 10
+Strategy Z-Item: Majin Buu Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: Whis Training
+Z-Item #3: Attack +20
+Z-Item #4: Defense +30
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+> Results
+Teammate Count (Player 1): 1
+Teammate Count (Opponent): 1
+
+[Scene 0]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Wait 30 seconds
+> GSAC ID: 1
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 31
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+Condition: Wait 60 seconds
+> GSAC ID: 2
+Event:     Battle Finish
+
+[Scene 2]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 32
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 42
+Condition: Wait 15 seconds
+> GSAC ID: 4
+[Changes to Player 1 detected.]
+> Add 20% more Health
+[Changes to Opponent detected.]
+> Set COM Difficulty Level to 9
+Event:     Battle Finish
+
+[Scene 3 - UNUSED]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 33
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 43
+[Changes to Player 1 detected.]
+> Add 20% more Health
+Event:     Battle Finish
+
+[Scene 4]
+Lower Current BG Music
+BG Music:  Light Points to the Future
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 34
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 43
+[Changes to Player 1 detected.]
+> Z-Item #7: Go To Hell
+[Changes to Opponent detected.]
+> Z-Item #1: null
+> Z-Item #2: null
+> Z-Item #3: null
+> Z-Item #4: null
+> Z-Item #5: null
+> Z-Item #6: null
+> Z-Item #7: null
+Event:     Trigger Ultimate Blast
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 31 (Victory)]
+
+===No Battle Info===
+
+[Scene 32 (Victory)]
+
+===No Battle Info===
+
+[Scene 33 (Victory)]
+
+===No Battle Info===
+
+[Scene 34 (Victory)]
+
+===No Battle Info===
+
+[Scene 40 (Defeat)]
+
+===No Battle Info===
+
+[Scene 41 (Defeat)]
+
+===No Battle Info===
+
+[Scene 42 (Defeat)]
+
+===No Battle Info===
+
+[Scene 43 (Defeat)]
+
+===No Battle Info===

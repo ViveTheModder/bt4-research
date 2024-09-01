@@ -1,0 +1,242 @@
+[General Information]
+Name: Gohan Explodes!
+Saga: Android Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+2000
+2500
+3000
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+SS2 Teen Gohan
+null
+null
+> Acquired Scenarios
+Final Battle
+null
+null
+
+[Battle Settings]
+Map: Cell Game Arena - Ruins
+BGM: Critical Power 
+
+[Player 1 Team]
+> Teammate 1
+Character: SS2 Teen Gohan
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Attack +50
+Z-Item #2: Defense +25
+Z-Item #3: King Kai's Training
+Z-Item #4: Ultimate Body
+Z-Item #5: Dragon Break
+Z-Item #6: Vanishing Break
+Z-Item #7: null
+
+[Opponent Team]
+> Teammate 1
+Character: Cell Jr.
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 70%
+Z-Item #1: null
+Z-Item #2: Defense -25
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 2
+Character: Cell Jr.
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 70%
+Z-Item #1: null
+Z-Item #2: Defense -25
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 3
+Character: Cell Jr.
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 70%
+Z-Item #1: null
+Z-Item #2: Defense -25
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 4
+Character: Cell Jr.
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 70%
+Z-Item #1: null
+Z-Item #2: Defense -25
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 5
+Character: Cell - Perfect
+Costume: 2
+Damaged: false
+COM Difficulty Level: 8
+Strategy Z-Item: Cell Type
+Initial Health: 100%
+Z-Item #1: Attack +10
+Z-Item #2: Defense +30
+Z-Item #3: Whis Training
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+> Results
+Teammate Count (Player 1): 1
+Teammate Count (Opponent): 5
+
+[Scene 0]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 1
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 2
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+[Changes to Opponent detected.]
+> Apply changes to Teammate 2
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: Cell Jr.
+
+[Scene 2]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 3
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+[Changes to Opponent detected.]
+> Apply changes to Teammate 3
+Event:     Switch with Teammate #3 (Opponent) [AUTO]
+Character: Cell Jr.
+
+[Scene 3]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 4
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+[Changes to Opponent detected.]
+> Apply changes to Teammate 4
+Event:     Switch with Teammate #4 (Opponent) [AUTO]
+Character: Cell Jr.
+
+[Scene 4]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+Condition: Immediate
+> GSAC ID: 5
+[Changes to Opponent detected.]
+> Apply changes to Teammate 5
+Event:     Switch with Teammate #5 (Opponent) [AUTO]
+Character: Cell - Perfect
+
+[Scene 5]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> GSAC ID: 6
+Event:     Go to MAX POWER Mode (Opponent) [AUTO]
+
+[Scene 6]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> GSAC ID: 7
+Event:     Battle Finish
+
+[Scene 7]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+Condition: Win Beam Struggle
+> GSAC ID: 8
+[Changes to Player 1 detected.]
+> Add 100% more Ki
+[Changes to Opponent detected.]
+> Add 100% more Ki
+Event:     Unknown (ID: 30)
+
+[Scene 8]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+Event:     Battle Finish
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 40 (Defeat)]
+
+===No Battle Info===
+
+[Scene 41 (Defeat)]
+
+===No Battle Info===

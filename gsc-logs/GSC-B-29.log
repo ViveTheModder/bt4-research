@@ -1,0 +1,299 @@
+[General Information]
+Name: The Awakening of a Crazy Warrior
+Saga: Dragon Ball Super Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+1500
+2000
+2500
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+Tournament of Power
+null
+null
+> Acquired Characters
+SS1 Caulifla
+SS2 Caulifla
+Top
+> Acquired Scenarios
+The Strongest Warrior Approaches
+null
+null
+
+[Battle Settings]
+Map: Tournament of Power
+BGM: Nose To Tail
+
+[Player 1 Team]
+> Teammate 1
+Character: SS2 Goku (End)
+Costume: 4
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +8
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 2
+Character: Jiren
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +8
+Z-Item #3: Go To Hell
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+[Opponent Team]
+> Teammate 1
+Character: SS1 Caulifla
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +8
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 2
+Character: Kale
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +8
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Results
+Teammate Count (Player 1): 2
+Teammate Count (Opponent): 2
+
+[Scene 0]
+
+===Battle Info===
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> GSAC ID: 1
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 2
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Assign Transformation (Opponent) [AUTO]
+Character: SS2 Caulifla
+
+[Scene 2]
+
+===Battle Info===
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> GSAC ID: 3
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Normal Clash (Opponent)
+
+[Scene 3]
+
+===Battle Info===
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> GSAC ID: 4
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Normal Clash (Opponent)
+
+[Scene 4]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 5
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: Kale
+
+[Scene 5]
+
+===Battle Info===
+Condition: Hit with 1st Blast 2 (Opponent)
+> GSAC ID: 6
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
+
+[Scene 6]
+Lower Current BG Music
+BG Music:  Crisis
+
+===Battle Info===
+Condition: Lose 5 Health Bars (Opponent) [AUTO]
+> GSAC ID: 7
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Switch with Teammate #1 (Opponent) [AUTO]
+Character: SS1 Caulifla
+
+[Scene 7]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 8
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: Kale
+
+[Scene 8]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 9
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Assign Transformation (Opponent) [AUTO]
+Character: LSS Kale
+
+[Scene 9]
+
+===Battle Info===
+Condition: Wait 15 seconds
+> GSAC ID: 10
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Battle Finish
+
+[Scene 10]
+Lower Current BG Music
+BG Music:  Wild Soul
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 11
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Assign Transformation
+Character: SSB Goku
+
+[Scene 11]
+
+===Battle Info===
+Condition: Hit with Ultimate Blast
+> GSAC ID: 12
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Add 100% more Health
+[Changes to Opponent detected.]
+> Add 100% more Health
+> Z-Item #7: Absolutely Invincible Body
+Event:     Trigger Ultimate Blast
+Character: Goku (Mid)
+
+[Scene 12]
+Lower Current BG Music
+BG Music:  Caution!
+
+===Battle Info===
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> GSAC ID: 13
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Z-Item #7: null
+Event:     Assign Transformation (Opponent) [AUTO]
+Character: Goku (Mid)
+
+[Scene 13]
+Lower Current BG Music
+BG Music:  Tensa Atmosphere
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 14
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Switch with Teammate #2
+Character: Jiren
+
+[Scene 14]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Trigger 1st Blast 2
+Character: Goku (Mid)
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 39 (Placeholder Victory)]
+
+===No Battle Info===
+
+[Scene 49 (Placeholder Defeat)]
+
+===No Battle Info===

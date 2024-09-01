@@ -1,0 +1,182 @@
+[General Information]
+Name: Goku vs Black
+Saga: Dragon Ball Super Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+1000
+1500
+2000
+> Acquired Z-Items
+Miracle Master
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+null
+null
+null
+> Acquired Scenarios
+The Zero Mortal Plan
+null
+null
+
+[Battle Settings]
+Map: Rocky Area - Noon
+BGM: Yin-Yang
+
+[Player 1 Team]
+> Teammate 1
+Character: Goku (End)
+Costume: 4
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +4
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+[Opponent Team]
+> Teammate 1
+Character: Goku Black
+Costume: 1
+Damaged: false
+COM Difficulty Level: 8
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +4
+Z-Item #3: Attack +8
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Results
+Teammate Count (Player 1): 1
+Teammate Count (Opponent): 1
+
+[Scene 0]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Immediate
+> GSAC ID: 1
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Hit with 1st Blast 2 (Opponent)
+> GSAC ID: 15
+Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
+
+[Scene 15]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> GSAC ID: 2
+Event:     Assign Transformation (Opponent) [AUTO]
+
+[Scene 2]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Immediate
+> GSAC ID: 3
+Event:     Assign Transformation
+Character: SS2 Goku (End)
+
+[Scene 3]
+Lower Current BG Music
+BG Music:  The Warrior
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> GSAC ID: 4
+[Changes to Player 1 detected.]
+> Add 100% more Health
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Normal Clash
+
+[Scene 4]
+Lower Current BG Music
+BG Music:  Fate Scrapes
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Wait 20 seconds
+> GSAC ID: 5
+Event:     Normal Clash (Opponent)
+
+[Scene 5]
+Lower Current BG Music
+BG Music:  Greatest Tactics in the Universe
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Condition: Lose 5 Health Bars (Opponent) [AUTO]
+> GSAC ID: 6
+Event:     Battle Finish
+
+[Scene 6]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 7
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Trigger 2nd Blast 2 (Opponent) [AUTO]
+
+[Scene 7]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 30
+Event:     Assign Transformation
+Character: Goku (End)
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 39 (Placeholder Victory)]
+
+===No Battle Info===
+
+[Scene 49 (Placeholder Defeat)]
+
+===No Battle Info===

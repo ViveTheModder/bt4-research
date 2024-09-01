@@ -1,0 +1,231 @@
+[General Information]
+Name: The History of Trunks
+Saga: Special Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+2000
+2500
+3000
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+Future Gohan
+SS1 Future Gohan
+SS1 Trunks (Sword)
+> Acquired Scenarios
+null
+null
+null
+
+[Battle Settings]
+Map: City Ruins - Noon
+BGM: Soldier's Sorrow
+
+[Player 1 Team]
+> Teammate 1
+Character: SS1 Future Gohan
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Super Up 3
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 2
+Character: Trunks (Sword)
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Super Up 2
+Z-Item #2: Attack Up 1
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+[Opponent Team]
+> Teammate 1
+Character: Android #17
+Costume: 1
+Damaged: false
+COM Difficulty Level: 10
+Strategy Z-Item: Majin Buu Type
+Initial Health: 100%
+Z-Item #1: Extreme Hand-to-Hand
+Z-Item #2: Master Roshi's Training
+Z-Item #3: Whis Training
+Z-Item #4: Attack +8
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 2
+Character: Android #18
+Costume: 1
+Damaged: false
+COM Difficulty Level: 10
+Strategy Z-Item: Majin Buu Type
+Initial Health: 100%
+Z-Item #1: Ultimate Body
+Z-Item #2: Master Roshi's Training
+Z-Item #3: Whis Training
+Z-Item #4: Attack +8
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Results
+Teammate Count (Player 1): 2
+Teammate Count (Opponent): 2
+
+[Scene 0]
+
+===Battle Info===
+Condition: Wait 30 seconds
+> GSAC ID: 1
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Z-Item #3: Ultimate Body
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Wait 10 seconds
+> GSAC ID: 2
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Beam Struggle between Player 1's 1st Blast 2 and COM's 2nd Blast 2
+
+[Scene 2]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 3
+[Changes to Opponent detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger Ultimate Blast (Opponent) [AUTO]
+
+[Scene 3]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 4
+Event:     Switch with Teammate #2
+Character: Trunks (Sword)
+
+[Scene 4]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 5
+[Changes to Opponent detected.]
+> Z-Item #7: null
+Event:     Assign Transformation
+Character: SS1 Trunks (Sword)
+
+[Scene 5]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 6
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: Android #18
+
+[Scene 6]
+
+===Battle Info===
+Condition: Wait 30 seconds
+> GSAC ID: 7
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Trigger 1st Blast 2
+
+[Scene 7]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 10
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Switch with Teammate #1 (Opponent) [AUTO]
+Character: Android #17
+
+[Scene 10]
+
+===Battle Info===
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> GSAC ID: 8
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Add 100% more Health
+> Z-Item #3: null
+Event:     Assign Transformation (Opponent) [AUTO]
+Character: Goku (Mid)
+
+[Scene 8]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 9
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: Android #18
+
+[Scene 9]
+
+===Battle Info===
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 31
+[Changes to Opponent detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 31 (Victory)]
+
+===No Battle Info===
+
+[Scene 39 (Placeholder Victory)]
+
+===No Battle Info===
+
+[Scene 40 (Defeat)]
+
+===No Battle Info===
+
+[Scene 49 (Placeholder Defeat)]
+
+===No Battle Info===

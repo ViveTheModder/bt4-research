@@ -1,0 +1,420 @@
+[General Information]
+Name: Frieza's Ultimate Transformation!
+Saga: Frieza Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+1000
+1500
+2000
+> Acquired Z-Items
+Power Body
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+null
+null
+null
+> Acquired Scenarios
+Defeat Frieza!
+null
+null
+
+[Battle Settings]
+Map: Planet Namek
+BGM: The Warrior
+
+[Player 1 Team]
+> Teammate 1
+Character: Frieza - 1st Form
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+> Teammate 3
+Character: Frieza - 3rd Form
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+[Opponent Team]
+> Teammate 1
+Character: Vegeta (Scouter)
+Costume: 3
+Damaged: false
+COM Difficulty Level: 9
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Defense +25
+Z-Item #3: Attack +20
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 2
+Character: Krillin
+Costume: 3
+Damaged: false
+COM Difficulty Level: 3
+Strategy Z-Item: Krillin Type
+Initial Health: 100%
+Z-Item #1: Defense -20
+Z-Item #2: Attack -15
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 3
+Character: Kid Gohan
+Costume: 3
+Damaged: false
+COM Difficulty Level: 5
+Strategy Z-Item: Gohan Type
+Initial Health: 100%
+Z-Item #1: Master Roshi's Training
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 4
+Character: Piccolo (Early)
+Costume: 1
+Damaged: false
+COM Difficulty Level: 9
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Defense +30
+Z-Item #2: Whis Training
+Z-Item #3: Attack -8
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Results
+Teammate Count (Player 1): 2
+Teammate Count (Opponent): 4
+
+[Scene 0]
+
+===Battle Info===
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> GSAC ID: 1
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Win via K.O.
+> GSAC ID: 39
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 2
+[Changes to Player 1 detected.]
+> Add 100% more Health
+> Z-Item #1: King Kai's Training
+Event:     Assign Transformation
+Character: Frieza - 2nd Form
+
+[Scene 2]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 12
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+Condition: Wait 30 seconds
+> GSAC ID: 17
+[Changes to Player 1 detected.]
+> Add 100% more Health
+[Changes to Opponent detected.]
+> Apply changes to Teammate 2
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: Krillin
+
+[Scene 17]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 3
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+Event:     Battle Finish
+
+[Scene 3]
+
+===Battle Info===
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> GSAC ID: 4
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 42
+Condition: Win via K.O.
+> GSAC ID: 39
+[Changes to Opponent detected.]
+> Apply changes to Teammate 3
+Event:     Switch with Teammate #3 (Opponent) [AUTO]
+Character: Kid Gohan
+
+[Scene 4]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 5
+[Changes to Player 1 detected.]
+> Add 100% more Health
+[Changes to Opponent detected.]
+> Apply changes to Teammate 4
+Event:     Switch with Teammate #4 (Opponent) [AUTO]
+Character: Piccolo (Early)
+
+[Scene 5]
+
+===Battle Info===
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> GSAC ID: 6
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 43
+Condition: Win via K.O.
+> GSAC ID: 39
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Battle Finish
+
+[Scene 6]
+
+===Battle Info===
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 44
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> GSAC ID: 7
+Condition: Win via K.O.
+> GSAC ID: 39
+Event:     Normal Clash
+
+[Scene 7]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 8
+Event:     Assign Transformation
+Character: Frieza - 3rd Form
+
+[Scene 8]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 9
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 45
+[Changes to Player 1 detected.]
+> Add 100% more Health
+> Z-Item #2: Ultimate Body
+[Changes to Opponent detected.]
+> Set COM Difficulty Level to 4
+> Add 30% more Health
+> Z-Item #1: Defense -12
+> Z-Item #2: null
+> Z-Item #3: null
+> Z-Item #4: null
+> Z-Item #5: null
+> Z-Item #6: null
+> Z-Item #7: null
+Event:     Battle Finish
+
+[Scene 9]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 16
+[Changes to Opponent detected.]
+> Add 100% more Health
+> Z-Item #1: null
+> Z-Item #2: null
+> Z-Item #3: null
+> Z-Item #4: null
+> Z-Item #5: null
+> Z-Item #6: null
+> Z-Item #7: null
+> Apply changes to Teammate 3
+Event:     Switch with Teammate #3 (Opponent) [AUTO]
+Character: Kid Gohan
+
+[Scene 16]
+
+===Battle Info===
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 46
+Condition: Wait 40 seconds
+> GSAC ID: 10
+Condition: Win via K.O.
+> GSAC ID: 14
+[Changes to Opponent detected.]
+> Z-Item #1: null
+> Z-Item #2: null
+> Z-Item #3: null
+> Z-Item #4: null
+> Z-Item #5: null
+> Z-Item #6: null
+> Z-Item #7: null
+Event:     Trigger Ultimate Blast (Opponent) [AUTO]
+
+[Scene 10]
+Lower Current BG Music
+BG Music:  Tensa Atmosphere
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 11
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Assign Transformation
+Character: Frieza - Final Form
+
+[Scene 11]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 47
+[Changes to Player 1 detected.]
+> Add 100% more Health
+[Changes to Opponent detected.]
+> Set COM Difficulty Level to 5
+> Z-Item #2: null
+> Z-Item #3: null
+> Z-Item #4: null
+> Z-Item #5: null
+> Z-Item #6: null
+> Z-Item #7: null
+> Apply changes to Teammate 1
+Event:     Switch with Teammate #1 (Opponent) [AUTO]
+Character: Vegeta (Scouter)
+
+[Scene 12]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 13
+[Changes to Opponent detected.]
+> Apply changes to Teammate 1
+Event:     Switch with Teammate #1 (Opponent) [AUTO]
+Character: Vegeta (Scouter)
+
+[Scene 13]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 31
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 48
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Battle Finish
+
+[Scene 14]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 15
+[Changes to Opponent detected.]
+> Apply changes to Teammate 1
+Event:     Switch with Teammate #1 (Opponent) [AUTO]
+Character: Vegeta (Scouter)
+
+[Scene 15]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 32
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Battle Finish
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 31 (Victory)]
+
+===No Battle Info===
+
+[Scene 32 (Victory)]
+
+===No Battle Info===
+
+[Scene 40 (Defeat)]
+
+===No Battle Info===
+
+[Scene 41 (Defeat)]
+
+===No Battle Info===
+
+[Scene 42 (Defeat)]
+
+===No Battle Info===
+
+[Scene 43 (Defeat)]
+
+===No Battle Info===
+
+[Scene 44 (Defeat)]
+
+===No Battle Info===
+
+[Scene 45 (Defeat)]
+
+===No Battle Info===
+
+[Scene 46 (Defeat)]
+
+===No Battle Info===
+
+[Scene 47 (Defeat)]
+
+===No Battle Info===
+
+[Scene 48 (Defeat)]
+
+===No Battle Info===
+
+[Scene 49 (Placeholder Defeat)]
+
+===No Battle Info===
+
+[Scene 39 (Placeholder Victory)]
+
+===No Battle Info===

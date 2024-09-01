@@ -1,0 +1,314 @@
+[General Information]
+Name: The Battle of Gods
+Saga: Dragon Ball Super Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+1000
+1500
+2000
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+Beerus
+null
+null
+> Acquired Scenarios
+Resurrection F
+null
+null
+
+[Battle Settings]
+Map: Outer Space - Earth
+BGM: The Battle with All My Force
+
+[Player 1 Team]
+> Teammate 1
+Character: SSG Goku
+Costume: 4
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +4
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+[Opponent Team]
+> Teammate 1
+Character: Beerus
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +4
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Results
+Teammate Count (Player 1): 1
+Teammate Count (Opponent): 1
+
+[Scene 0]
+
+===Battle Info===
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> GSAC ID: 1
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Aerial Clash
+
+[Scene 1]
+Lower Current BG Music
+BG Music:  Rivals
+
+===Battle Info===
+Condition: Win Normal Clash
+> GSAC ID: 2
+Condition: Win Normal Clash (Opponent)
+> GSAC ID: 2
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Normal Clash (Opponent)
+
+[Scene 2]
+Lower Current BG Music
+BG Music:  Strive to Revive
+
+===Battle Info===
+Condition: Win Normal Clash
+> GSAC ID: 3
+Condition: Win Normal Clash (Opponent)
+> GSAC ID: 49
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Normal Clash (Opponent)
+
+[Scene 3]
+
+===Battle Info===
+Condition: Lose 5 Health Bars (Opponent) [AUTO]
+> GSAC ID: 4
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Event:     Assign Transformation (Opponent) [AUTO]
+
+[Scene 4]
+Lower Current BG Music
+BG Music:  The Athem of Lives
+
+===Battle Info===
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> GSAC ID: 5
+Condition: Lose 1 Health Bar
+> GSAC ID: 5
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Beam Struggle between Player 1's 1st Blast 2 and COM's 1st Blast 2 (Opponent)
+
+[Scene 5]
+
+===Battle Info===
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> GSAC ID: 6
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Assign Transformation (Opponent) [AUTO]
+
+[Scene 6]
+Lower Current BG Music
+BG Music:  Greatest Tactics in the Universe
+
+===Battle Info===
+Condition: Wait 20 seconds
+> GSAC ID: 7
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Add 100% more Health
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Assign Transformation (Opponent) [AUTO]
+
+[Scene 7]
+Lower Current BG Music
+BG Music:  Stand After Confusion
+
+===Battle Info===
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> GSAC ID: 8
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Assign Transformation
+Character: SS1 Goku (End)
+
+[Scene 8]
+Lower Current BG Music
+BG Music:  Perseverance
+
+===Battle Info===
+Condition: Wait 10 seconds
+> GSAC ID: 9
+Condition: Win via K.O.
+> GSAC ID: 11
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Aerial Clash (Opponent)
+
+[Scene 9]
+Lower Current BG Music
+BG Music:  Rampaging Metalhead
+
+===Battle Info===
+Condition: Hit with 1st Blast 2
+> GSAC ID: 10
+Condition: Win via K.O.
+> GSAC ID: 11
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Z-Item #7: Absolutely Invincible Body
+Event:     Trigger 1st Blast 2
+
+[Scene 10]
+Lower Current BG Music
+BG Music:  Fly High
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 11
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Opponent detected.]
+> Z-Item #7: null
+Event:     Normal Clash (Opponent)
+
+[Scene 11]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 12
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Assign Transformation
+Character: Goku (End)
+
+[Scene 12]
+
+===Battle Info===
+Condition: Wait 10 seconds
+> GSAC ID: 16
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 13
+[Changes to Opponent detected.]
+> Z-Item #6: Absolutely Invincible Body
+> Z-Item #7: Go To Hell
+> Z-Item #5: Attack +50
+> Add 100% more Health
+Event:     Aerial Clash
+
+[Scene 16]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 13
+Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
+
+[Scene 13]
+Lower Current BG Music
+Lower Current BG Music
+BG Music:  Gatebreaker
+
+===Battle Info===
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> GSAC ID: 14
+Condition: Win via K.O.
+> GSAC ID: 39
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Add 100% more Health
+[Changes to Opponent detected.]
+> Z-Item #6: null
+> Z-Item #7: null
+> Z-Item #5: null
+Event:     Assign Transformation
+Character: SS1 Goku (End)
+
+[Scene 14]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 15
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+[Changes to Player 1 detected.]
+> Z-Item #7: Go To Hell
+[Changes to Opponent detected.]
+> Z-Item #7: Go To Hell
+Event:     Unknown (ID: 30)
+
+[Scene 15]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 30
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 49
+Event:     Assign Transformation
+Character: Goku (End)
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 39 (Placeholder Victory)]
+
+===No Battle Info===
+
+[Scene 49 (Placeholder Defeat)]
+
+===No Battle Info===

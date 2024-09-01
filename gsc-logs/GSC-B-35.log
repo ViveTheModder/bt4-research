@@ -1,0 +1,338 @@
+[General Information]
+Name: Immortal Monster
+Saga: Dragon Ball GT Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+1000
+1500
+2000
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+Goku (GT)
+SS1 Goku (GT)
+Great Ape Baby
+> Acquired Scenarios
+Ultimate Android
+null
+null
+
+[Battle Settings]
+Map: Planet Tuffle
+BGM: Dark Half
+
+[Player 1 Team]
+> Teammate 1
+Character: Goku (GT)
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: Master Roshi's Training
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+> Teammate 2
+Character: Majuub
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: Master Roshi's Training
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+> Teammate 3
+Character: Pan
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: Master Roshi's Training
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+[Opponent Team]
+> Teammate 1
+Character: Baby Vegeta
+Costume: 1
+Damaged: false
+COM Difficulty Level: 9
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: Whis Training
+Z-Item #3: Defense +50
+Z-Item #4: Attack +15
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+> Results
+Teammate Count (Player 1): 3
+Teammate Count (Opponent): 1
+
+[Scene 0]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Wait 60 seconds
+> GSAC ID: 1
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 31
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+Condition: Wait 30 seconds
+> GSAC ID: 11
+[Changes to Player 1 detected.]
+> Add 50% more Health
+> Add 50% more Ki
+Event:     Assign Transformation
+Character: SS3 Goku (GT)
+
+[Scene 11]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 12
+Event:     Assign Transformation
+Character: Goku (GT)
+
+[Scene 12]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 34
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 44
+Condition: Wait 20 seconds
+> GSAC ID: 7
+[Changes to Opponent detected.]
+> Set COM Difficulty Level to 8
+> Add 50% more Health
+> Z-Item #1: Power Body
+> Z-Item #4: Attack +10
+Event:     Assign Transformation (Opponent) [AUTO]
+Character: Super Baby 1
+
+[Scene 7]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 31
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 47
+Condition: Wait 10 seconds
+> GSAC ID: 2
+[Changes to Opponent detected.]
+> Add 50% more Health
+> Z-Item #1: Ultimate Body
+Event:     Assign Transformation (Opponent) [AUTO]
+Character: Super Baby 2
+
+[Scene 2]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 3
+[Changes to Player 1 detected.]
+> Apply changes to Teammate 2
+Event:     Switch with Teammate #2
+Character: Majuub
+
+[Scene 3]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 32
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 42
+Condition: Wait 45 seconds
+> GSAC ID: 4
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Battle Finish
+
+[Scene 4]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 5
+[Changes to Player 1 detected.]
+> Apply changes to Teammate 1
+Event:     Switch with Teammate #1
+Character: Goku (GT)
+
+[Scene 5]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 33
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 43
+Condition: Wait 20 seconds
+> GSAC ID: 6
+[Changes to Player 1 detected.]
+> Add 50% more Health
+Event:     Battle Finish
+
+[Scene 6]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 8
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 44
+Condition: Wait 120 seconds
+> GSAC ID: 9
+[Changes to Player 1 detected.]
+> Add 70% more Health
+> Z-Item #1: King Kai's Training
+> Z-Item #2: Ultimate Warrior 1
+> Z-Item #3: Defense +20
+> Z-Item #4: Attack +30
+[Changes to Opponent detected.]
+> Set COM Difficulty Level to 7
+> Z-Item #1: null
+> Z-Item #2: Whis Training
+> Z-Item #3: null
+> Z-Item #4: null
+> Z-Item #5: null
+> Z-Item #6: Dragon Crush
+> Z-Item #7: Vanishing Rush
+Event:     Assign Transformation
+Character: SS4 Goku (GT)
+
+[Scene 8]
+Lower Current BG Music
+BG Music:  Final Disturbance
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 35
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 45
+[Changes to Player 1 detected.]
+> Add 50% more Health
+[Changes to Opponent detected.]
+> Set COM Difficulty Level to 6
+> Add 100% more Health
+> Z-Item #1: null
+> Z-Item #3: Defense -10
+> Z-Item #4: null
+> Z-Item #5: null
+> Z-Item #6: null
+> Z-Item #7: null
+Event:     Assign Transformation (Opponent) [AUTO]
+Character: Great Ape Baby
+
+[Scene 9]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 10
+[Changes to Player 1 detected.]
+> Apply changes to Teammate 3
+Event:     Switch with Teammate #3
+Character: Pan
+
+[Scene 10]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 36
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 46
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Battle Finish
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 31 (Victory)]
+
+===No Battle Info===
+
+[Scene 32 (Victory)]
+
+===No Battle Info===
+
+[Scene 33 (Victory)]
+
+===No Battle Info===
+
+[Scene 34 (Victory)]
+
+===No Battle Info===
+
+[Scene 35 (Victory)]
+
+===No Battle Info===
+
+[Scene 36 (Victory)]
+
+===No Battle Info===
+
+[Scene 40 (Defeat)]
+
+===No Battle Info===
+
+[Scene 41 (Defeat)]
+
+===No Battle Info===
+
+[Scene 42 (Defeat)]
+
+===No Battle Info===
+
+[Scene 43 (Defeat)]
+
+===No Battle Info===
+
+[Scene 44 (Defeat)]
+
+===No Battle Info===
+
+[Scene 45 (Defeat)]
+
+===No Battle Info===
+
+[Scene 46 (Defeat)]
+
+===No Battle Info===
+
+[Scene 47 (Defeat)]
+
+===No Battle Info===

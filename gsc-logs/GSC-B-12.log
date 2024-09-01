@@ -1,0 +1,151 @@
+[General Information]
+Name: Final Battle
+Saga: Android Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+2500
+3000
+3500
+> Acquired Z-Items
+Halo
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+null
+null
+null
+> Acquired Scenarios
+Future Peace
+null
+null
+
+[Battle Settings]
+Map: Cell Game Arena - Ruins
+BGM: The Man Called 'C'
+
+[Player 1 Team]
+> Teammate 1
+Character: SS2 Teen Gohan
+Costume: 1
+Damaged: true
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Attack -25
+Z-Item #2: null
+Z-Item #3: King Kai's Training
+Z-Item #4: Dragon Break
+Z-Item #5: Vanishing Break
+Z-Item #6: null
+Z-Item #7: null
+
+[Opponent Team]
+> Teammate 1
+Character: Cell - Perfect
+Costume: 1
+Damaged: false
+COM Difficulty Level: 9
+Strategy Z-Item: Cell Type
+Initial Health: 100%
+Z-Item #1: Attack +10
+Z-Item #2: Defense +40
+Z-Item #3: Whis Training
+Z-Item #4: Dragon Crush
+Z-Item #5: Vanishing Rush
+Z-Item #6: Ultimate Body
+Z-Item #7: null
+
+> Results
+Teammate Count (Player 1): 1
+Teammate Count (Opponent): 1
+
+[Scene 0]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Wait 25 seconds
+> GSAC ID: 1
+Condition: Lose 2 Health Bars
+> GSAC ID: 1
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Wait 20 seconds
+> GSAC ID: 2
+Event:     Battle Finish
+
+[Scene 2]
+Lower Current BG Music
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 31
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Wait 25 seconds
+> GSAC ID: 3
+Event:     Battle Finish
+
+[Scene 3]
+BG Music:  Lost Courage
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 31
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Lose 5 Health Bars (Opponent) [AUTO]
+> GSAC ID: 4
+[Changes to Player 1 detected.]
+> Add 20% more Health
+> Z-Item #1: null
+> Z-Item #2: null
+[Changes to Opponent detected.]
+> Set COM Difficulty Level to 7
+> Z-Item #1: null
+> Z-Item #2: null
+> Z-Item #6: null
+Event:     Battle Finish
+
+[Scene 4]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 31
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+[Changes to Player 1 detected.]
+> Add 100% more Ki
+> Add 1% more Ki
+> Z-Item #7: Go To Hell
+[Changes to Opponent detected.]
+> Add 100% more Ki
+> Add 1% more Ki
+> Z-Item #7: Go To Hell
+Event:     Beam Struggle between Player 1 and the COM's Ultimate Blasts
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 31 (Victory)]
+
+===No Battle Info===
+
+[Scene 40 (Defeat)]
+
+===No Battle Info===

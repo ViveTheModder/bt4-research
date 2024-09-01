@@ -1,0 +1,211 @@
+[General Information]
+Name: Goku Vs. Vegeta: Farewell to the Proud Warrior
+Saga: Majin Buu Saga
+
+[Rewards]
+> Acquired Z-Points (from Easy to Hard)
+1000
+1500
+2000
+> Acquired Z-Items
+null
+null
+null
+> Acquired Maps
+null
+null
+null
+> Acquired Characters
+Majin Vegeta
+SS1 Kid Trunks
+SS1 Kid Goten
+> Acquired Scenarios
+Final Fusion
+null
+null
+
+[Battle Settings]
+Map: Rocky Area - Noon
+BGM: Battalion Unchained
+
+[Player 1 Team]
+> Teammate 1
+Character: Majin Vegeta
+Costume: 1
+Damaged: true
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Master Roshi's Training
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Crush
+Z-Item #7: Vanishing Rush
+
+> Teammate 3
+Character: SS1 Goten (GT)
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+[Opponent Team]
+> Teammate 1
+Character: Majin Buu
+Costume: 1
+Damaged: false
+COM Difficulty Level: 7
+Strategy Z-Item: Tien Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: Ultimate Warrior 1
+Z-Item #3: Whis Training
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+> Teammate 2
+Character: Babidi
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Chiaotzu Type
+Initial Health: 100%
+Z-Item #1: King Kai's Training
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Results
+Teammate Count (Player 1): 2
+Teammate Count (Opponent): 2
+
+[Scene 0]
+
+===Battle Info===
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> GSAC ID: 1
+Condition: Wait 60 seconds
+> GSAC ID: 1
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 40
+Condition: Win via K.O.
+> GSAC ID: 39
+Event:     Battle Finish
+
+[Scene 1]
+
+===Battle Info===
+Condition: Wait 80 seconds
+> GSAC ID: 2
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 41
+Condition: Win via K.O.
+> GSAC ID: 3
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Aerial Clash
+
+[Scene 2]
+Lower Current BG Music
+BG Music:  Lost Courage
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 42
+Condition: Wait 20 seconds
+> GSAC ID: 5
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Battle Finish
+
+[Scene 5]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 42
+[Changes to Player 1 detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger Ultimate Blast
+
+[Scene 6 - UNUSED]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 30
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 42
+Event:     Battle Finish
+
+[Scene 3]
+
+===Battle Info===
+Condition: Immediate
+> GSAC ID: 4
+[Changes to Player 1 detected.]
+> Add 100% more Health
+[Changes to Opponent detected.]
+> Apply changes to Teammate 2
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: SS1 Goten (GT)
+
+[Scene 4]
+
+===Battle Info===
+Condition: Win via K.O.
+> GSAC ID: 31
+Condition: Win via K.O. (Opponent)
+> GSAC ID: 43
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Battle Finish
+
+[Scene 30 (Victory)]
+
+===No Battle Info===
+
+[Scene 31 (Victory)]
+
+===No Battle Info===
+
+[Scene 40 (Defeat)]
+
+===No Battle Info===
+
+[Scene 41 (Defeat)]
+
+===No Battle Info===
+
+[Scene 42 (Defeat)]
+
+===No Battle Info===
+
+[Scene 43 (Defeat)]
+
+===No Battle Info===
+
+[Scene 49 (Placeholder Defeat) - UNUSED]
+
+===No Battle Info===
+
+[Scene 39 (Placeholder Victory)]
+
+===No Battle Info===
