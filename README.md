@@ -4,6 +4,11 @@ What I have gathered from analyzing Budokai Tenkaichi 4, the fanmade BT3 mod.
 * [Inaccessible Songs](https://www.reddit.com/r/BudokaiTenkaichi4/comments/1f3kkdv/dbzbt4_songs_outside_of_bgm_select/)
 * [Unlockable Characters](https://www.reddit.com/r/BudokaiTenkaichi4/comments/1f0iafg/dbzbt4_unlockable_characters/)
 
+# Recent Discoveries
+With the 4th (technically the 3rd, since BETA 13.3 wasn't actually released, but 13.4 was) revision of BETA 13, Ultra Instinct -Sign- Goku has been added.
+
+His character slot is right next to Super Saiyan 2 Vegeta (GT)'s. How convenient.
+
 # Character Costume PAK Breakdown
 To optimize the game (and also make it harder to datamine), the team decided to split the PAK components in several sections.
 
