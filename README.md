@@ -9,6 +9,21 @@ With the 4th (technically the 3rd, since BETA 13.3 wasn't actually released, but
 
 His character slot is right next to Super Saiyan 2 Vegeta (GT)'s. How convenient.
 
+# AFS Information
+As explained in the [repo about The Legacy of Tenkaichi](https://github.com/ViveTheModder/dbz-tlot-research), TioMedusin implemented an older means of obfuscation/inaccessibility.
+
+Around BETA 12, the team has removed the header information from each AFS file, reminiscent of the VOL files used in Budokai Tenkaichi 1.
+
+Before, no source code changes were required, but safe to assume, they made use of the ``dbz4.bin`` file to calculate the file addresses and file sizes.
+
+Its contents are currently unknown, but here is some basic background about each AFS:
+
+* ``pzs4us0.afs`` -> 1113313280 bytes (~1.04 GB), 50503 files, 101256 bytes of raw data from ``dbz4.bin``
+* ``pzs4us1.afs`` -> 2028277760 bytes (~1.89 GB), 03400 files, 007050 bytes of raw data from ``dbz4.bin``
+* ``pzs4us2.afs`` -> 2097973248 bytes (~1.95 GB), 36191 files, 072632 bytes of raw data from ``dbz4.bin``
+
+Based on initial observation, the number of raw data bytes is over double the number of files. Wonder where that will get us...
+
 # Character Costume PAK Breakdown
 To optimize the game (and also make it harder to datamine), the team decided to split the PAK components in several sections.
 
