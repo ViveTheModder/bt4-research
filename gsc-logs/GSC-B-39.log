@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: City Ruins - Evening
-BGM: The Athem of Lives
+BGM: UNKNOWN (ID: 211)
 
 [Player 1 Team]
 > Teammate 1
@@ -66,35 +66,285 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -58.473 -20.281 -21.243 
+> Rotation (XYZ): -10.191 -51.45 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -73.091 -20.114 -2.989 
+> Rotation (XYZ): -0.913 -79.47 0.0 
+Play Animation 1_GROUND_TIRED.canm for Omega Shenron
+> Loop property detected
+Play Voice Line 0 for Omega Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 56.962 -13.946 -6.367 
+> Rotation (XYZ): -22.237 80.902 0.0 
+[Additional Camera Point]
+> Transition Time: 8.5 
+> Position (XYZ): 78.272 -7.374 -3.931 
+> Rotation (XYZ): -14.331 64.102 0.0 
+Play Animation 384_INTRO_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 1 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Wait 30 seconds
-> GSAC ID: 1
+> Scene ID: 1
+Condition: Immediate
+> Voice Line ID: 2
+Condition: Immediate
+> Voice Line ID: 3
+Condition: Immediate
+> Voice Line ID: 4
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 5
+Condition: Hit with Charged Ki Blast
+> Voice Line ID: 6
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 7
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 9
+Condition: Lose 1 Health Bar
+> Voice Line ID: 10
+Condition: Lose 2 Health Bars
+> Voice Line ID: 11
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 13
+Condition: Win Beam Struggle (Opponent)
+> Voice Line ID: 14
+Condition: Hit with Charged Ki Blast (Opponent)
+> Voice Line ID: 17
+Condition: Perform Vanishing Attack
+> Voice Line ID: 18
+Condition: Perform 1st Blast 1 (Opponent)
+> Voice Line ID: 19
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 20
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 21
+Condition: UNKNOWN(ID: 35)
+> Voice Line ID: 22
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 7
+Condition: Perform Z-Counter (Opponent)
+> Voice Line ID: 7
+Condition: Block 2nd Blast 2 (Opponent)
+> Voice Line ID: 7
+Condition: Win Normal Clash
+> Voice Line ID: 8
+Condition: Perform Rush Attack
+> Voice Line ID: 12
+Condition: Win Normal Clash (Opponent)
+> Voice Line ID: 14
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -20.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): 53.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -9.299 -9.833 -6.307 
+> Rotation (XYZ): -16.265 -54.097 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 2.837 -14.204 -15.093 
+> Rotation (XYZ): -16.265 -54.097 0.0 
+Play Animation 0_GROUND.canm for Goku (GT)
+> Loop property detected
+Play Animation 385_INTRO_LOOP.canm for Omega Shenron
+> Loop property detected
+Play Voice Line 25 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -75.866 -41.007 -14.869 
+> Rotation (XYZ): -25.456 75.539 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): -37.889 -11.295 -2.609 
+> Rotation (XYZ): -15.106 85.63 0.0 
+Play Voice Line 26 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -5.324 -6.694 -5.869 
+> Rotation (XYZ): -1.059 -61.01 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -11.711 -7.437 -4.552 
+> Rotation (XYZ): -1.059 -61.01 0.0 
+Play Voice Line 27 for Goku (GT)
+> Wait property detected
+Play Voice Line 28 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -37.487 -19.678 -15.297 
+> Rotation (XYZ): -20.947 54.116 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): -39.501 -19.678 12.596 
+> Rotation (XYZ): -20.947 117.622 0.0 
+Play Voice Line 29 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 6.195 -0.557 -2.689 
+> Rotation (XYZ): 10.868 -84.556 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -10.977 -5.137 -1.052 
+> Rotation (XYZ): 10.868 -84.556 0.0 
+Play Voice Line 30 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Wait 60 seconds
-> GSAC ID: 2
+> Scene ID: 2
+Condition: Immediate
+> Voice Line ID: 31
+Condition: Immediate
+> Voice Line ID: 32
+Condition: Immediate
+> Voice Line ID: 33
+Condition: Immediate
+> Voice Line ID: 34
+Condition: Immediate
+> Voice Line ID: 35
+Condition: Immediate
+> Voice Line ID: 36
+Condition: Immediate
+> Voice Line ID: 37
+Condition: Perform Sonic Sway
+> Voice Line ID: 15
+Condition: Perform Guard Crush
+> Voice Line ID: 16
+Condition: Perform First Attack! (Opponent)
+> Voice Line ID: 17
+Condition: Perform Vanishing Attack
+> Voice Line ID: 18
+Condition: Perform 1st Blast 1 (Opponent)
+> Voice Line ID: 19
+Condition: Perform 1st Blast 1
+> Voice Line ID: 20
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 21
+Condition: UNKNOWN(ID: 35)
+> Voice Line ID: 22
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 7
+Condition: Perform Z-Counter (Opponent)
+> Voice Line ID: 7
+Condition: Block 2nd Blast 2 (Opponent)
+> Voice Line ID: 7
+Condition: Perform Rush Attack
+> Voice Line ID: 12
+Condition: Win Normal Clash (Opponent)
+> Voice Line ID: 14
 Event:     Battle Finish
 
 [Scene 2]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -20.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): 53.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -8.476 -0.735 -2.103 
+> Rotation (XYZ): 28.87 -79.64 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -11.975 -3.394 -2.334 
+> Rotation (XYZ): 27.646 -73.665 0.0 
+Enable Aura Charge for Goku (GT)
+Play Animation 0_GROUND.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 38 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 23.019 -17.008 2.798 
+> Rotation (XYZ): 1.179 94.524 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): 42.471 -20.296 1.847 
+> Rotation (XYZ): 7.056 94.524 0.0 
+Play Animation 1_GROUND_TIRED.canm for Omega Shenron
+> Loop property detected
+Play Voice Line 41 for Omega Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -3.54 -6.568 -14.873 
+> Rotation (XYZ): 0.961 -46.261 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -7.499 -6.707 5.664 
+> Rotation (XYZ): 0.961 -118.231 0.0 
+Play Voice Line 42 for Background Character
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 32
+> Scene ID: 32
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
 Condition: Wait 15 seconds
-> GSAC ID: 4
+> Scene ID: 4
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 45
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 46
+Condition: Hit with Charged Ki Blast
+> Voice Line ID: 47
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 49
+Condition: Perform Dragon Homing
+> Voice Line ID: 50
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 51
+Condition: Perform 2nd Blast 1
+> Voice Line ID: 52
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 53
+Condition: Perform Z-Counter (Opponent)
+> Voice Line ID: 54
+Condition: Perform 1st Blast 2
+> Voice Line ID: 56
+Condition: UNKNOWN(ID: 35) (Opponent)
+> Voice Line ID: 57
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 46
+Condition: Perform Teleport
+> Voice Line ID: 54
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 56
 [Changes to Player 1 detected.]
 > Add 20% more Health
 [Changes to Opponent detected.]
@@ -103,24 +353,100 @@ Event:     Battle Finish
 
 [Scene 3 - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 33
+> Scene ID: 33
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 43
+> Scene ID: 43
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 5
+Condition: Hit with Charged Ki Blast
+> Voice Line ID: 6
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 7
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 9
+Condition: Hit with Charged Ki Blast (Opponent)
+> Voice Line ID: 10
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 13
+Condition: Win Beam Struggle (Opponent)
+> Voice Line ID: 14
+Condition: Block 1st Blast 2
+> Voice Line ID: 17
+Condition: Perform Vanishing Attack
+> Voice Line ID: 18
+Condition: Reach Max Amount of Blast Stocks (Opponent)
+> Voice Line ID: 19
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 20
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 21
+Condition: UNKNOWN(ID: 35)
+> Voice Line ID: 22
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 7
+Condition: Perform Z-Counter (Opponent)
+> Voice Line ID: 7
+Condition: Block 2nd Blast 2 (Opponent)
+> Voice Line ID: 7
+Condition: Win Normal Clash
+> Voice Line ID: 8
+Condition: Perform Rush Attack
+> Voice Line ID: 12
+Condition: Win Normal Clash (Opponent)
+> Voice Line ID: 14
 [Changes to Player 1 detected.]
 > Add 20% more Health
 Event:     Battle Finish
 
 [Scene 4]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -25.3 -20.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): 58.3 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
 Lower Current BG Music
-BG Music:  Light Points to the Future
+BG Music:  UNKNOWN (ID: 243)
+[Initial Camera Point]
+> Position (XYZ): -5.808 -21.817 -0.024 
+> Rotation (XYZ): 14.342 -89.904 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -15.665 -24.723 0.057 
+> Rotation (XYZ): 14.342 -88.647 0.0 
+Enable MPM Explosion for Goku (GT)
+Shake Camera for 1.0 seconds
+Enable Aura Charge for Goku (GT)
+Play Animation 330_SKILL_005_CHARGE.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 43 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -28.27 -6.788 7.277 
+> Rotation (XYZ): -7.767 111.082 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): 47.917 -21.188 1.024 
+> Rotation (XYZ): 1.952 94.713 0.0 
+Play Animation 406_SURPRISED.canm for Omega Shenron
+> Loop property detected
+Play Voice Line 44 for Omega Shenron
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 34
+> Scene ID: 34
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 43
+> Scene ID: 43
 [Changes to Player 1 detected.]
 > Z-Item #7: Go To Hell
 [Changes to Opponent detected.]
@@ -135,36 +461,270 @@ Event:     Trigger Ultimate Blast
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): -14.1 -0.7 50.6 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 10.2 0.0 10.7 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Omega Shenron
+[Initial Camera Point]
+> Position (XYZ): 4.585 -18.677 33.79 
+> Rotation (XYZ): -17.508 169.07 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 3.324 -5.299 20.518 
+> Rotation (XYZ): 9.17 148.757 0.0 
+Play Animation 388_LOSE.canm for Omega Shenron
+Play Animation 386_WIN_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 8 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 31 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): -14.1 -0.7 50.6 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 10.2 0.0 10.7 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Omega Shenron
+[Initial Camera Point]
+> Position (XYZ): 4.585 -18.677 33.79 
+> Rotation (XYZ): -17.508 169.07 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 3.324 -5.299 20.518 
+> Rotation (XYZ): 9.17 148.757 0.0 
+Play Animation 388_LOSE.canm for Omega Shenron
+Play Animation 386_WIN_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 8 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 32 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): -14.1 -0.7 50.6 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 10.2 0.0 10.7 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Omega Shenron
+[Initial Camera Point]
+> Position (XYZ): 4.585 -18.677 33.79 
+> Rotation (XYZ): -17.508 169.07 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 3.324 -5.299 20.518 
+> Rotation (XYZ): 9.17 148.757 0.0 
+Play Animation 388_LOSE.canm for Omega Shenron
+Play Animation 386_WIN_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 8 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 33 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): -14.1 -0.7 50.6 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 10.2 0.0 10.7 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Omega Shenron
+[Initial Camera Point]
+> Position (XYZ): 4.585 -18.677 33.79 
+> Rotation (XYZ): -17.508 169.07 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 3.324 -5.299 20.518 
+> Rotation (XYZ): 9.17 148.757 0.0 
+Play Animation 388_LOSE.canm for Omega Shenron
+Play Animation 386_WIN_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 8 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 34 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -22.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): 55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Omega Shenron
+[Initial Camera Point]
+> Position (XYZ): 28.034 -58.048 -1.651 
+> Rotation (XYZ): -80.093 85.813 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 37.062 -58.885 -0.708 
+> Rotation (XYZ): -90.0 -87.146 0.0 
+Play Animation 388_LOSE.canm for Omega Shenron
+Play Voice Line 58 for Omega Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 11.955 -7.642 -9.911 
+> Rotation (XYZ): -4.123 -73.05 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -13.932 -9.539 -0.458 
+> Rotation (XYZ): -13.38 -86.758 0.0 
+Play Animation 386_WIN_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 12 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -27.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): 60.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Omega Shenron
+[Initial Camera Point]
+> Position (XYZ): -49.383 -27.317 21.461 
+> Rotation (XYZ): -22.606 107.009 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 44.505 -17.322 1.726 
+> Rotation (XYZ): 13.233 98.521 0.0 
+Play Animation 388_LOSE.canm for Goku (GT)
+Play Animation 386_WIN_IN.canm for Omega Shenron
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Omega Shenron
+> Loop property detected
+Play Voice Line 24 for Omega Shenron
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -27.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): 60.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Omega Shenron
+[Initial Camera Point]
+> Position (XYZ): -49.383 -27.317 21.461 
+> Rotation (XYZ): -22.606 107.009 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 44.505 -17.322 1.726 
+> Rotation (XYZ): 13.233 98.521 0.0 
+Play Animation 388_LOSE.canm for Goku (GT)
+Play Animation 386_WIN_IN.canm for Omega Shenron
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Omega Shenron
+> Loop property detected
+Play Voice Line 24 for Omega Shenron
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 42 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -27.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): 60.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Omega Shenron
+[Initial Camera Point]
+> Position (XYZ): -49.383 -27.317 21.461 
+> Rotation (XYZ): -22.606 107.009 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 44.505 -17.322 1.726 
+> Rotation (XYZ): 13.233 98.521 0.0 
+Play Animation 388_LOSE.canm for Goku (GT)
+Play Animation 386_WIN_IN.canm for Omega Shenron
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Omega Shenron
+> Loop property detected
+Play Voice Line 24 for Omega Shenron
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 43 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -27.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): 60.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Omega Shenron
+[Initial Camera Point]
+> Position (XYZ): -49.383 -27.317 21.461 
+> Rotation (XYZ): -22.606 107.009 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 44.505 -17.322 1.726 
+> Rotation (XYZ): 13.233 98.521 0.0 
+Play Animation 388_LOSE.canm for Goku (GT)
+Play Animation 386_WIN_IN.canm for Omega Shenron
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Omega Shenron
+> Loop property detected
+Play Voice Line 24 for Omega Shenron
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===

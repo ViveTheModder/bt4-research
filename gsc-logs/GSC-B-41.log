@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: Penguin Village - Noon
-BGM: Wild Rush
+BGM: UNKNOWN (ID: 18)
 
 [Player 1 Team]
 > Teammate 1
@@ -66,17 +66,196 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Kid Goku
+> Position (XYZ): 48.6 -0.0 25.0 
+> Rotation (XYZ): -0.0 -178.5 -0.0 
+Change Position/Rotation for Arale
+> Position (XYZ): 46.4 0.5 -55.0 
+> Rotation (XYZ): -0.0 1.5 -0.0 
+[Initial Camera Point]
+> Position (XYZ): 34.136 -5.924 -7.909 
+> Rotation (XYZ): 1.012 25.098 -0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 45.673 -6.276 9.182 
+> Rotation (XYZ): 1.012 12.456 -0.0 
+Play Animation 413_STAND_LOOP.canm for Kid Goku
+> Loop property detected
+Play Voice Line 0 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 44.486 -4.971 -47.112 
+> Rotation (XYZ): -24.828 165.954 -0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 44.486 -4.971 -47.112 
+> Rotation (XYZ): 14.022 165.954 -0.0 
+Play Animation 0_GROUND.canm for Arale
+> Loop property detected
+Play Voice Line 1 for Arale
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 43.643 -11.166 19.009 
+> Rotation (XYZ): -18.401 38.873 -0.0 
+Play Voice Line 2 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 36.163 -6.984 -10.368 
+> Rotation (XYZ): -7.038 170.59 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 44.447 -5.51 -46.918 
+> Rotation (XYZ): 11.458 165.137 -0.0 
+Play Animation 384_INTRO_IN.canm for Arale
+Play Voice Line 3 for Arale
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Arale
+> Loop property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
+Condition: Immediate
+> Voice Line ID: 6
+Condition: Immediate
+> Voice Line ID: 7
+Condition: Immediate
+> Voice Line ID: 8
+Condition: Immediate
+> Voice Line ID: 9
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Lose 2 Health Bars
+> Voice Line ID: 11
+Condition: Perform Dash Smash (Opponent)
+> Voice Line ID: 12
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 12
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 65
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 14
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 13
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 15
+Condition: Perform Hyper Smash (Opponent)
+> Voice Line ID: 16
+Condition: Perform Fully Charged Down Smash Attack (Opponent)
+> Voice Line ID: 17
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 18
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 19
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 20
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 21
+Condition: Perform Z-Counter (Opponent)
+> Voice Line ID: 21
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 22
+Condition: Perform Teleport
+> Voice Line ID: 23
+Condition: Perform Z-Counter
+> Voice Line ID: 23
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 16
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 24
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 25
+Condition: Perform Fully Charged Up Smash Attack (Opponent)
+> Voice Line ID: 54
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 26
+Condition: Perform Fully Charged Neutral Smash Attack (Opponent)
+> Voice Line ID: 17
 Event:     Battle Finish
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Kid Goku
+> Position (XYZ): 48.4 -0.0 20.0 
+> Rotation (XYZ): -0.0 -178.5 -0.0 
+Change Position/Rotation for Arale
+> Position (XYZ): 46.6 0.5 -50.0 
+> Rotation (XYZ): -0.0 1.5 -0.0 
+Disable Aura Charge for Kid Goku
+Disable Aura Charge for Arale
+Play Animation 413_STAND_LOOP.canm for Kid Goku
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 38.03 -11.594 41.839 
+> Rotation (XYZ): -9.038 171.802 -0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 44.793 -5.392 -13.312 
+> Rotation (XYZ): -5.031 177.953 -0.0 
+Play Animation 388_LOSE.canm for Arale
+Play Voice Line 43 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 41.786 -2.708 13.31 
+> Rotation (XYZ): 30.796 43.563 -0.0 
+Play Voice Line 66 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 22.066 -10.287 -37.128 
+> Rotation (XYZ): -13.586 120.899 -0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 41.186 -5.817 -48.571 
+> Rotation (XYZ): -1.402 120.899 -0.0 
+Play Voice Line 68 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 40.118 -6.242 -64.561 
+> Rotation (XYZ): -2.003 18.262 -0.0 
+Play Voice Line 69 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 47.152 -13.848 31.523 
+> Rotation (XYZ): -27.959 179.758 -0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 47.138 -52.557 34.759 
+> Rotation (XYZ): -51.794 179.758 -0.0 
+Play Voice Line 70 for Kid Goku
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Kid Goku
+> Position (XYZ): 48.4 -0.0 20.0 
+> Rotation (XYZ): -0.0 -147.7 -0.0 
+Change Position/Rotation for Arale
+> Position (XYZ): 46.6 0.5 -50.0 
+> Rotation (XYZ): -0.0 -22.4 -0.0 
+Disable Aura Charge for Kid Goku
+Disable Aura Charge for Arale
+[Initial Camera Point]
+> Position (XYZ): 38.395 -6.696 -22.556 
+> Rotation (XYZ): -3.313 159.979 -0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 43.804 -3.924 -42.412 
+> Rotation (XYZ): 21.609 160.533 -0.0 
+Play Animation 388_LOSE.canm for Kid Goku
+Play Animation 386_WIN_IN.canm for Arale
+Play Voice Line 27 for Arale
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Arale
+> Loop property detected
+Disable ALL VFX
 
 ===No Battle Info===

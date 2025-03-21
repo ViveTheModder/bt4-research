@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: Rocky Area - Noon
-BGM: Pathos
+BGM: UNKNOWN (ID: 184)
 
 [Player 1 Team]
 > Teammate 1
@@ -96,22 +96,211 @@ Teammate Count (Opponent): 2
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): 56.9 0.0 -66.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Majin Vegeta
+> Position (XYZ): -60.8 -0.7 127.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+[Initial Camera Point]
+> Position (XYZ): 36.508 -0.529 -53.876 
+> Rotation (XYZ): 16.661 119.918 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 51.643 -13.966 -62.586 
+> Rotation (XYZ): 17.806 119.918 0.0 
+Play Animation 384_INTRO_IN.canm for SS2 Goku (End)
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for SS2 Goku (End)
+> Loop property detected
+Play Voice Line 0 for SS2 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -53.361 -1.643 108.741 
+> Rotation (XYZ): 16.523 -23.363 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -55.643 -13.263 116.196 
+> Rotation (XYZ): -4.146 -25.302 0.0 
+Play Animation 384_INTRO_IN.canm for Majin Vegeta
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Majin Vegeta
+> Loop property detected
+Play Voice Line 1 for Majin Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -61.804 -16.557 117.579 
+> Rotation (XYZ): -14.86 10.907 0.0 
+[Additional Camera Point]
+> Transition Time: 5.5 
+> Position (XYZ): -53.749 -16.557 117.815 
+> Rotation (XYZ): -14.86 -33.333 0.0 
+Play Voice Line 16 for Majin Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Wait 70 seconds
-> GSAC ID: 1
+> Scene ID: 1
+Condition: Immediate
+> Voice Line ID: 8
+Condition: Immediate
+> Voice Line ID: 9
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Immediate
+> Voice Line ID: 11
+Condition: Immediate
+> Voice Line ID: 12
+Condition: Immediate
+> Voice Line ID: 13
+Condition: Immediate
+> Voice Line ID: 14
+Condition: Immediate
+> Voice Line ID: 15
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 2
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 17
+Condition: Win Normal Clash (Opponent)
+> Voice Line ID: 18
+Condition: Perform Normal Clash
+> Voice Line ID: 19
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 20
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 21
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 22
+Condition: Perform Aerial Clash
+> Voice Line ID: 23
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 2
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 23
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 0
+Condition: Perform Dragon Homing
+> Voice Line ID: 19
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 17
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 18
+Condition: Perform Vanishing Attack
+> Voice Line ID: 19
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 7
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): 41.4 0.0 -40.6 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Majin Vegeta
+> Position (XYZ): -45.2 -0.7 101.9 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 0_GROUND.canm for SS2 Goku (End)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -38.984 -178.002 -30.125 
+> Rotation (XYZ): -71.409 35.647 0.0 
+[Additional Camera Point]
+> Transition Time: 3.6 
+> Position (XYZ): -31.223 -138.413 -19.304 
+> Rotation (XYZ): -71.409 35.647 0.0 
+Play Voice Line 27 for Background Character
+> Wait property detected
+Play Voice Line 28 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 42.342 -5.126 -63.879 
+> Rotation (XYZ): -6.424 -18.136 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 54.318 -31.085 -69.075 
+> Rotation (XYZ): -26.786 -25.068 0.0 
+Play Voice Line 29 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 27.816 -6.725 -36.609 
+> Rotation (XYZ): 10.698 97.214 0.0 
+Play Voice Line 30 for SS2 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 48.091 -2.243 -48.571 
+> Rotation (XYZ): -8.24 -33.225 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 49.372 -20.617 -50.528 
+> Rotation (XYZ): -25.451 -33.225 0.0 
+Play Voice Line 31 for SS2 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -41.857 -8.645 91.808 
+> Rotation (XYZ): 17.25 -22.597 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -39.206 -14.186 87.021 
+> Rotation (XYZ): -11.509 -23.231 0.0 
+Play Voice Line 32 for Majin Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
+Condition: Immediate
+> Voice Line ID: 33
+Condition: Immediate
+> Voice Line ID: 34
+Condition: Immediate
+> Voice Line ID: 35
+Condition: Immediate
+> Voice Line ID: 36
+Condition: Immediate
+> Voice Line ID: 37
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 38
+Condition: Perform Fully Charged Down Smash Attack (Opponent)
+> Voice Line ID: 18
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 19
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 20
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 21
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 42
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 45
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 45
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 17
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 17
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 17
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 21
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 2
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 7
+Condition: Perform Fully Charged Up Smash Attack (Opponent)
+> Voice Line ID: 18
+Condition: Perform Fully Charged Right Smash Attack (Opponent)
+> Voice Line ID: 21
 [Changes to Player 1 detected.]
 > Add 20% more Health
 [Changes to Opponent detected.]
@@ -120,9 +309,12 @@ Event:     Battle Finish
 
 [Scene 2]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 3
+> Scene ID: 3
 [Changes to Opponent detected.]
 > Apply changes to Teammate 2
 Event:     Switch with Teammate #2 (Opponent) [AUTO]
@@ -130,39 +322,258 @@ Character: Demon King Dabura
 
 [Scene 3]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): 56.9 0.0 -66.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Demon King Dabura
+> Position (XYZ): -60.8 -0.7 127.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+[Initial Camera Point]
+> Position (XYZ): -54.63 -23.246 100.055 
+> Rotation (XYZ): -20.861 -10.519 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -57.976 -19.513 116.015 
+> Rotation (XYZ): -1.151 -5.825 0.0 
+Play Animation 0_GROUND.canm for SS2 Goku (End)
+> Loop property detected
+Play Animation 384_INTRO_IN.canm for Demon King Dabura
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Demon King Dabura
+> Loop property detected
+Play Voice Line 50 for Demon King Dabura
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
+Condition: Lose 1 Health Bar
+> Voice Line ID: 52
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 53
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 54
+Condition: Perform Dragon Homing
+> Voice Line ID: 55
+Condition: Perform Dash Smash (Opponent)
+> Voice Line ID: 56
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 57
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 61
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 59
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 60
+Condition: Perform Rush Attack
+> Voice Line ID: 61
+Condition: Perform Fully Charged Down Smash Attack (Opponent)
+> Voice Line ID: 62
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 63
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 64
+Condition: Wait 20 seconds
+> Voice Line ID: 65
+Condition: Perform Vanishing Attack
+> Voice Line ID: 55
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 56
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 58
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 58
+Condition: Perform Z-Counter (Opponent)
+> Voice Line ID: 60
+Condition: Perform Fully Charged Neutral Smash Attack (Opponent)
+> Voice Line ID: 62
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 64
 [Changes to Player 1 detected.]
 > Add 100% more Health
 Event:     Battle Finish
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): 25.8 0.0 -15.0 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Majin Vegeta
+> Position (XYZ): -29.6 -0.7 76.2 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for SS2 Goku (End)
+Disable Aura Charge for Majin Vegeta
+[Initial Camera Point]
+> Position (XYZ): -54.825 -14.309 77.24 
+> Rotation (XYZ): -12.157 127.645 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 11.289 -12.162 4.601 
+> Rotation (XYZ): -6.121 141.732 0.0 
+Play Animation 1_GROUND_TIRED.canm for SS2 Goku (End)
+> Loop property detected
+Play Animation 388_LOSE.canm for Majin Vegeta
+> Wait property detected
+Play Voice Line 100 for SS2 Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 31 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): 25.8 0.0 -15.0 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Demon King Dabura
+> Position (XYZ): -29.6 -0.7 76.2 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for SS2 Goku (End)
+Disable Aura Charge for Majin Vegeta
+[Initial Camera Point]
+> Position (XYZ): -50.638 -26.377 64.834 
+> Rotation (XYZ): -20.963 121.233 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 8.122 -11.079 5.631 
+> Rotation (XYZ): -6.775 139.693 0.0 
+Play Animation 388_LOSE.canm for Demon King Dabura
+Play Animation 386_WIN_IN.canm for SS2 Goku (End)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for SS2 Goku (End)
+> Loop property detected
+Play Voice Line 66 for SS2 Goku (End)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): 25.8 0.0 -15.0 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Majin Vegeta
+> Position (XYZ): -29.6 -0.7 76.2 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for SS2 Goku (End)
+Disable Aura Charge for Majin Vegeta
+[Initial Camera Point]
+> Position (XYZ): 21.407 -31.633 -35.057 
+> Rotation (XYZ): -31.688 -13.33 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 16.748 -13.593 -15.392 
+> Rotation (XYZ): -49.35 -13.33 0.0 
+Play Animation 0_GROUND.canm for Majin Vegeta
+> Loop property detected
+Play Animation 388_LOSE.canm for SS2 Goku (End)
+> Wait property detected
+Play Voice Line 24 for Majin Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -24.472 -9.413 39.775 
+> Rotation (XYZ): 3.497 -4.868 0.0 
+[Additional Camera Point]
+> Transition Time: 13.0 
+> Position (XYZ): -25.746 -12.985 64.505 
+> Rotation (XYZ): -4.824 -19.507 0.0 
+Play Animation 386_WIN_IN.canm for Majin Vegeta
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Majin Vegeta
+> Loop property detected
+Play Voice Line 25 for Majin Vegeta
+> Wait property detected
+Play Voice Line 26 for Majin Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): 25.8 0.0 -15.0 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Majin Vegeta
+> Position (XYZ): -29.6 -0.7 76.2 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for SS2 Goku (End)
+Disable Aura Charge for Majin Vegeta
+[Initial Camera Point]
+> Position (XYZ): 21.407 -31.633 -35.057 
+> Rotation (XYZ): -31.688 -13.33 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 16.748 -13.593 -15.392 
+> Rotation (XYZ): -49.35 -13.33 0.0 
+Play Animation 0_GROUND.canm for Majin Vegeta
+> Loop property detected
+Play Animation 388_LOSE.canm for SS2 Goku (End)
+> Wait property detected
+Play Voice Line 24 for Majin Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -24.472 -9.413 39.775 
+> Rotation (XYZ): 3.497 -4.868 0.0 
+[Additional Camera Point]
+> Transition Time: 13.0 
+> Position (XYZ): -25.746 -12.985 64.505 
+> Rotation (XYZ): -4.824 -19.507 0.0 
+Play Animation 386_WIN_IN.canm for Majin Vegeta
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Majin Vegeta
+> Loop property detected
+Play Voice Line 25 for Majin Vegeta
+> Wait property detected
+Play Voice Line 26 for Majin Vegeta
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 42 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): 25.8 0.0 -15.0 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Demon King Dabura
+> Position (XYZ): -29.6 -0.7 76.2 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for SS2 Goku (End)
+Disable Aura Charge for Demon King Dabura
+[Initial Camera Point]
+> Position (XYZ): 13.346 -21.716 -31.702 
+> Rotation (XYZ): -21.199 -4.518 0.0 
+Play Animation 388_LOSE.canm for SS2 Goku (End)
+Play Animation 387_WIN_LOOP.canm for Demon King Dabura
+> Loop property detected
+Play Voice Line 67 for Demon King Dabura
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat) - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory) - UNUSED]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

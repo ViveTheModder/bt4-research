@@ -26,12 +26,12 @@ null
 
 [Battle Settings]
 Map: Tournament of Power - Climax
-BGM: Dangerous Mind
+BGM: UNKNOWN (ID: 209)
 
 [Player 1 Team]
 > Teammate 1
-Character: MUI Goku
-Costume: 2
+Character: null
+Costume: 1
 Damaged: false
 COM Difficulty Level: 0
 Strategy Z-Item: Goku Type
@@ -81,58 +81,375 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for null
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS1 Kefla
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -26.202 -2.888 0.285 
+> Rotation (XYZ): 15.267 -89.879 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): -41.399 -7.02225 0.507 
+> Rotation (XYZ): 11.777 -96.211 0.0 
+Play Animation 0_GROUND.canm for SS1 Kefla
+> Loop property detected
+Play Voice Line 0 for SS1 Kefla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 24.284 -29.417 21.341 
+> Rotation (XYZ): -16.356 109.755 0.0 
+[Additional Camera Point]
+> Transition Time: 4.5 
+> Position (XYZ): 67.95 -18.263 5.66 
+> Rotation (XYZ): -15.003 109.755 0.0 
+Enable Ki Charge for null
+Play Animation 53_CHARGE_LOOP.canm for null
+> Loop property detected
+Play Voice Line 1 for null
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 78.034 -13.018 -1.488 
+> Rotation (XYZ): -4.52 83.108 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): 80.403 -16.597 -1.201 
+> Rotation (XYZ): -0.01 83.108 0.0 
+Enable Aura Charge for null
+Play Animation 0_GROUND.canm for null
+> Loop property detected
+Play Voice Line 2 for null
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -44.726 -11.171 16.738 
+> Rotation (XYZ): -12.615 -160.933 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -35.876 -11.666 0.589 
+> Rotation (XYZ): -12.615 -87.816 0.0 
+Disable Ki Charge for null
+Play Voice Line 3 for SS1 Kefla
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 4
+Condition: Immediate
+> Voice Line ID: 5
+Condition: Immediate
+> Voice Line ID: 6
+Condition: Immediate
+> Voice Line ID: 7
+Condition: Immediate
+> Voice Line ID: 8
+Condition: Immediate
+> Voice Line ID: 9
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Immediate
+> Voice Line ID: 11
 [Changes to Opponent detected.]
 > Z-Item #7: Defense +10
 Event:     Battle Finish
 
 [Scene 1]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for null
+> Position (XYZ): 58.0 -0.0 72.0 
+> Rotation (XYZ): -0.0 -140.2 -0.0 
+Change Position/Rotation for SS1 Kefla
+> Position (XYZ): -40.0 -0.0 -60.0 
+> Rotation (XYZ): -0.0 33.6 -0.0 
+Play Animation 0_GROUND.canm for null
+> Loop property detected
+Play Animation 0_GROUND.canm for SS1 Kefla
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 71.863 -16.442 82.901 
+> Rotation (XYZ): -5.333 -140.7 -0.0 
+[Additional Camera Point]
+> Transition Time: 7.5 
+> Position (XYZ): 72.268 -12.37 82.28 
+> Rotation (XYZ): -5.333 -135.155 -0.0 
+Enable Ki Charge for null
+Play Voice Line 12 for SS1 Kefla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -28.006 -8.401 -57.442 
+> Rotation (XYZ): 9.128 -101.776 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -31.811 -8.92 -58.235 
+> Rotation (XYZ): 21.544 -101.776 -0.0 
+Play Voice Line 13 for SS1 Kefla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 41.065 -11.544 58.38 
+> Rotation (XYZ): -5.231 54.922 -0.0 
+[Additional Camera Point]
+> Transition Time: 4.5 
+> Position (XYZ): 51.684 -13.911 64.943 
+> Rotation (XYZ): 7.509 44.149 -0.0 
+Play Voice Line 14 for null
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -31.259 -13.984 -52.9 
+> Rotation (XYZ): -28.006 -124.919 -0.0 
+Play Voice Line 15 for SS1 Kefla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -22.764 -16.773 -50.16 
+> Rotation (XYZ): -26.338 -118.532 -0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -33.154 -11.7 -55.809 
+> Rotation (XYZ): -6.584 -118.532 -0.0 
+Play Voice Line 16 for SS1 Kefla
+> Wait property detected
+Play Voice Line 17 for SS1 Kefla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 87.101 -11.07 86.517 
+> Rotation (XYZ): -8.284 -135.213 -0.0 
+[Additional Camera Point]
+> Transition Time: 1.5 
+> Position (XYZ): 87.101 -11.07 86.517 
+> Rotation (XYZ): -8.284 -135.213 -0.0 
 Lower Current BG Music
-BG Music:  Nose To Tail
+BG Music:  UNKNOWN (ID: 186)
+Play Animation 52_CHARGE_IN.canm for SS1 Kefla
+> Wait property detected
+Enable Ki Charge for SS1 Kefla
+Play Animation 53_CHARGE_LOOP.canm for SS1 Kefla
+> Loop property detected
+Play Voice Line 18 for SS1 Kefla
+> Wait property detected
+Enable MPM Explosion for SS1 Kefla
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Lose 5 Health Bars (Opponent) [AUTO]
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 19
+Condition: Immediate
+> Voice Line ID: 20
+Condition: Immediate
+> Voice Line ID: 21
+Condition: Immediate
+> Voice Line ID: 22
+Condition: Immediate
+> Voice Line ID: 23
+Condition: Immediate
+> Voice Line ID: 24
+Condition: Immediate
+> Voice Line ID: 25
+Condition: Immediate
+> Voice Line ID: 26
+Condition: Immediate
+> Voice Line ID: 27
+Condition: Immediate
+> Voice Line ID: 28
+Condition: Immediate
+> Voice Line ID: 29
+Condition: Immediate
+> Voice Line ID: 30
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Battle Finish
 
 [Scene 2]
+
+===Cinematic Info===
+Change Position/Rotation for SS1 Kefla
+> Position (XYZ): -51.4 -0.4 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for null
+> Position (XYZ): 51.4 -1.3 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Disable Aura Charge for Master Roshi - MAX Power
+[Initial Camera Point]
+> Position (XYZ): 41.25 -11.101 -46.186 
+> Rotation (XYZ): 7.923 142.813 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): 41.25 -11.101 -46.186 
+> Rotation (XYZ): 7.923 142.813 0.0 
+Play Animation 0_GROUND.canm for null
+> Loop property detected
+Play Animation 0_GROUND.canm for SS1 Kefla
+> Loop property detected
+Enable MPM Explosion for null
+Wait 4.0 seconds
+[Initial Camera Point]
+> Position (XYZ): -43.869 -12.291 36.749 
+> Rotation (XYZ): -11.406 -14.904 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -46.396 -10.515 46.242 
+> Rotation (XYZ): -5.13 -14.904 0.0 
+Play Voice Line 31 for SS1 Kefla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 48.424 -5.094 -47.986 
+> Rotation (XYZ): 31.619 172.828 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 49.101 -15.299 -53.367 
+> Rotation (XYZ): 1.581 172.828 0.0 
+Play Voice Line 32 for null
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -23.57 -1.652 34.701 
+> Rotation (XYZ): 9.731 -45.455 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): -43.588 -10.85 55.392 
+> Rotation (XYZ): 3.397 -60.53 0.0 
+Play Voice Line 33 for SS1 Kefla
+> Wait property detected
 Lower Current BG Music
-BG Music:  Caution!
+BG Music:  UNKNOWN (ID: 194)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Lose 4 Health Bars (Opponent) [AUTO]
-> GSAC ID: 3
+> Scene ID: 3
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 34
+Condition: Immediate
+> Voice Line ID: 35
+Condition: Immediate
+> Voice Line ID: 36
+Condition: Immediate
+> Voice Line ID: 37
+Condition: Immediate
+> Voice Line ID: 38
+Condition: Immediate
+> Voice Line ID: 39
+Condition: Immediate
+> Voice Line ID: 40
+Condition: Immediate
+> Voice Line ID: 41
+Condition: Immediate
+> Voice Line ID: 42
+Condition: Immediate
+> Voice Line ID: 43
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Trigger 1st Blast 1
 
 [Scene 3]
+
+===Cinematic Info===
+Change Position/Rotation for null
+> Position (XYZ): 56.9 0.0 -66.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for SS1 Kefla
+> Position (XYZ): -60.8 -0.7 127.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 0_GROUND.canm for null
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -43.885 -7.908 90.295 
+> Rotation (XYZ): 5.329 -25.553 0.0 
+[Additional Camera Point]
+> Transition Time: 18.375 
+> Position (XYZ): -52.848 -12.5135 116.04 
+> Rotation (XYZ): -3.525 -34.84 0.0 
+Play Animation 384_INTRO_IN.canm for SS1 Kefla
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for SS1 Kefla
+> Loop property detected
+Play Voice Line 44 for SS1 Kefla
+> Wait property detected
+Play Voice Line 45 for SS1 Kefla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 53.916 -14.704 -55.091 
+> Rotation (XYZ): -2.003 175.641 0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): 54.28 -14.979 -60.081 
+> Rotation (XYZ): 5.886 158.275 0.0 
+Play Voice Line 46 for null
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 51.098 -16.654 -61.878 
+> Rotation (XYZ): -9.828 135.833 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): 38.117 -14.437 -47.712 
+> Rotation (XYZ): -14.397 135.833 0.0 
+Play Voice Line 47 for null
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -67.036 -15.535 130.137 
+> Rotation (XYZ): -24.647 147.748 0.0 
+[Additional Camera Point]
+> Transition Time: 15.5 
+> Position (XYZ): -58.917 -15.535 134.737 
+> Rotation (XYZ): -24.647 162.246 0.0 
+Play Animation 0_GROUND.canm for SS1 Kefla
+> Loop property detected
+Play Voice Line 48 for SS1 Kefla
+> Wait property detected
+Play Voice Line 49 for SS1 Kefla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -49.565 -4.319 117.079 
+> Rotation (XYZ): 16.776 -53.238 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -54.404 -6.552 120.705 
+> Rotation (XYZ): 32.464 -54.266 0.0 
+Play Voice Line 50 for SS1 Kefla
+> Wait property detected
 Lower Current BG Music
-BG Music:  Power Scale
+BG Music:  UNKNOWN (ID: 185)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Lose 6 Health Bars (Opponent) [AUTO]
-> GSAC ID: 4
+> Scene ID: 4
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 51
+Condition: Immediate
+> Voice Line ID: 52
+Condition: Immediate
+> Voice Line ID: 53
+Condition: Immediate
+> Voice Line ID: 54
+Condition: Immediate
+> Voice Line ID: 55
+Condition: Immediate
+> Voice Line ID: 56
+Condition: Immediate
+> Voice Line ID: 57
 [Changes to Player 1 detected.]
 > Add 100% more Health
 [Changes to Opponent detected.]
@@ -141,26 +458,129 @@ Condition: Win via K.O. (Opponent)
 Event:     Normal Clash (Opponent)
 
 [Scene 4]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Master Roshi - MAX Power
+> Position (XYZ): 56.9 0.0 -66.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for SS1 Kefla
+> Position (XYZ): -60.8 -0.7 127.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 0_GROUND.canm for Master Roshi - MAX Power
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for SS1 Kefla
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 51.162 -6.525 -40.14 
+> Rotation (XYZ): 2.094 167.286 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 55.482 -9.96 -59.285 
+> Rotation (XYZ): 30.638 170.095 0.0 
 Lower Current BG Music
-BG Music:  Super Survivor
+BG Music:  UNKNOWN (ID: 213)
+Enable Ki Charge for null
+Play Voice Line 58 for null
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -29.915 -22.563 81.586 
+> Rotation (XYZ): -10.369 -35.629 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -48.056 -9.57 106.899 
+> Rotation (XYZ): -7.012 -35.629 0.0 
+Enable Ki Charge for SS1 Kefla
+Play Animation 53_CHARGE_LOOP.canm for SS1 Kefla
+> Loop property detected
+Play Voice Line 59 for SS1 Kefla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 56.484 -4.56 -50.895 
+> Rotation (XYZ): 24.246 -176.521 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0625 
+> Position (XYZ): 56.3 -10.371 -53.922 
+> Rotation (XYZ): 23.374 -176.521 0.0 
+Play Animation 329_SKILL_005_IN.canm for null
+> Wait property detected
+Play Animation 330_SKILL_005_CHARGE.canm for null
+> Loop property detected
+Play Voice Line 60 for null
+> Wait property detected
+Play Voice Line 61 for null
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 84.989 -15.264 -78.39 
+> Rotation (XYZ): -10.307 -41.576 0.0 
+[Additional Camera Point]
+> Transition Time: 13.0 
+> Position (XYZ): 122.427 -80.516 -72.053 
+> Rotation (XYZ): -38.08 -66.266 0.0 
+Play Animation 329_SKILL_005_IN.canm for SS1 Kefla
+> Wait property detected
+Play Animation 330_SKILL_005_CHARGE.canm for SS1 Kefla
+> Loop property detected
+Play Voice Line 62 for null
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 56.3 -10.371 -53.922 
+> Rotation (XYZ): 23.374 -176.521 0.0 
+Play Voice Line 63 for null
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 64
+Condition: Immediate
+> Voice Line ID: 65
 [Changes to Player 1 detected.]
 > Z-Item #7: Go To Hell
 Event:     Trigger Ultimate Blast
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for null
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS1 Kefla
+> Position (XYZ): -88.0 -208.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for null
+Play Animation 385_INTRO_LOOP.canm for SS1 Kefla
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for null
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 95.56 -13.301 -4.947 
+> Rotation (XYZ): -13.101 -80.686 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 118.702 -36.556 -8.451 
+> Rotation (XYZ): -29.02 -82.8 0.0 
+Play Voice Line 66 for Background Character
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory)]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat)]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: Plains - Noon
-BGM: Edge Of Spirit (BT3)
+BGM: UNKNOWN (ID: 193)
 
 [Player 1 Team]
 > Teammate 1
@@ -141,24 +141,150 @@ Teammate Count (Opponent): 2
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Tien
+> Position (XYZ): -51.4 -0.4 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 51.4 -1.3 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 40.042 -8.393 -34.508 
+> Rotation (XYZ): 21.168 156.84 0.0 
+[Additional Camera Point]
+> Transition Time: 7.3 
+> Position (XYZ): 44.298 -20.308 -50.956 
+> Rotation (XYZ): 6.234 139.446 0.0 
+Play Animation 384_INTRO_IN.canm for Nappa
+> Wait property detected
+Enable Ki Charge for Nappa
+Shake Camera for 1.0 seconds
+Play Animation 385_INTRO_LOOP.canm for Nappa
+> Loop property detected
+Play Voice Line 0 for Nappa
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -19.147 -7.1229997 19.29 
+> Rotation (XYZ): 3.815 -37.254 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -42.5 -11.411 49.996 
+> Rotation (XYZ): 25.846 -37.254 0.0 
+Play Animation 385_INTRO_LOOP.canm for Tien
+> Loop property detected
+Play Voice Line 1 for Tien
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Wait 20 seconds
-> GSAC ID: 1
+> Scene ID: 1
+Condition: Immediate
+> Voice Line ID: 3
+Condition: Perform First Attack! (Opponent)
+> Voice Line ID: 6
+Condition: Lose 1 Health Bar
+> Voice Line ID: 2
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 7
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 78
+Condition: Perform Vanishing Attack
+> Voice Line ID: 123
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 116
+Condition: Hit with Charged Ki Blast (Opponent)
+> Voice Line ID: 130
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 117
+Condition: Hit with Charged Ki Blast
+> Voice Line ID: 123
+Condition: Perform Z-Counter (Opponent)
+> Voice Line ID: 122
+Condition: Perform Fully Charged Right Smash Attack (Opponent)
+> Voice Line ID: 60
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 60
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 86
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 37
+Condition: Perform Rush Attack
+> Voice Line ID: 123
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 122
+Condition: Perform Fully Charged Up Smash Attack (Opponent)
+> Voice Line ID: 60
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 47
+> Scene ID: 47
 Condition: Wait 20 seconds
-> GSAC ID: 14
+> Scene ID: 14
+Condition: Immediate
+> Voice Line ID: 118
+Condition: Immediate
+> Voice Line ID: 9
+Condition: Perform First Attack!
+> Voice Line ID: 12
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 13
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 14
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 15
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 16
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 17
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 119
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 143
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 140
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 86
+Condition: Perform Vanishing Attack
+> Voice Line ID: 14
+Condition: Perform Dragon Homing
+> Voice Line ID: 10
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 17
+Condition: Perform Z-Counter (Opponent)
+> Voice Line ID: 17
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 143
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 60
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 60
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 86
+Condition: Perform Sonic Sway
+> Voice Line ID: 86
+Condition: Perform Throw
+> Voice Line ID: 86
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 16
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 14
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 14
+Condition: Perform Fully Charged Right Smash Attack (Opponent)
+> Voice Line ID: 60
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 2
 Event:     Switch with Teammate #2
@@ -166,20 +292,43 @@ Character: Chiaotzu
 
 [Scene 14]
 
+===Cinematic Info===
+Change Position/Rotation for Chiaotzu
+> Position (XYZ): -51.4 -144.6 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 51.4 -144.6 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -27.324 -133.754 31.491 
+> Rotation (XYZ): 16.482 -35.682 0.0 
+Play Animation 39_FLY_TIRED.canm for Chiaotzu
+> Loop property detected
+[Additional Camera Point]
+> Transition Time: 4.2 
+> Position (XYZ): -46.5 -147.76599 55.444 
+> Rotation (XYZ): 21.424 -39.73 0.0 
+Play Voice Line 11 for Chiaotzu
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Fall into ground/water [AUTO]
-> GSAC ID: 15
+> Scene ID: 15
 [Changes to Opponent detected.]
 > Z-Item #7: Absolutely Invincible Body
 Event:     Trigger Ultimate Blast
 
 [Scene 15]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 2
+> Scene ID: 2
 [Changes to Player 1 detected.]
 > Set current Health to 0%
 [Changes to Opponent detected.]
@@ -188,11 +337,56 @@ Event:     Battle Finish
 
 [Scene 16 - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 2
+> Scene ID: 2
+Condition: Perform First Attack!
+> Voice Line ID: 12
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 13
+Condition: Hit with Charged Ki Blast
+> Voice Line ID: 14
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 15
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 16
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 17
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 119
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 143
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 140
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 86
+Condition: Perform Vanishing Attack
+> Voice Line ID: 14
+Condition: Perform Dragon Homing
+> Voice Line ID: 10
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 17
+Condition: Perform Z-Counter (Opponent)
+> Voice Line ID: 17
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 143
+Condition: Hit with Charged Ki Blast (Opponent)
+> Voice Line ID: 60
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 60
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 86
+Condition: Perform Sonic Sway
+> Voice Line ID: 86
+Condition: Perform Throw
+> Voice Line ID: 86
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 16
 [Changes to Player 1 detected.]
 > Set current Health to 0%
 [Changes to Opponent detected.]
@@ -201,11 +395,54 @@ Event:     Battle Finish
 
 [Scene 2]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 32
+> Scene ID: 32
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 5
+> Scene ID: 5
+Condition: Immediate
+> Voice Line ID: 131
+Condition: Immediate
+> Voice Line ID: 141
+Condition: Immediate
+> Voice Line ID: 19
+Condition: Perform 1st Blast 2
+> Voice Line ID: 20
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 20
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 22
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 18
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 37
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 126
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 127
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 128
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 21
+Condition: Block 2nd Blast 2 (Opponent)
+> Voice Line ID: 21
+Condition: Block Ultimate Blast (Opponent)
+> Voice Line ID: 21
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 25
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 128
+Condition: Perform Vanishing Attack
+> Voice Line ID: 86
+Condition: Wait 30 seconds
+> Voice Line ID: 117
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 60
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 78
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 1
 Event:     Switch with Teammate #1
@@ -213,9 +450,12 @@ Character: Tien
 
 [Scene 3 - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 4
+> Scene ID: 4
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 3
 [Changes to Opponent detected.]
@@ -225,13 +465,44 @@ Character: Piccolo (Early)
 
 [Scene 4]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 33
+> Scene ID: 33
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Wait 30 seconds
-> GSAC ID: 5
+> Scene ID: 5
+Condition: Immediate
+> Voice Line ID: 38
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 35
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 37
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 39
+Condition: Lose 1 Health Bar
+> Voice Line ID: 27
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 129
+Condition: Hit with Charged Ki Blast (Opponent)
+> Voice Line ID: 130
+Condition: Perform Vanishing Attack
+> Voice Line ID: 126
+Condition: Block 2nd Blast 2 (Opponent)
+> Voice Line ID: 129
+Condition: Block Ultimate Blast (Opponent)
+> Voice Line ID: 129
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 130
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 60
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 60
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 37
 [Changes to Opponent detected.]
 > Add 100% more Health
 > Add 100% more Ki
@@ -239,9 +510,46 @@ Event:     Aerial Clash
 
 [Scene 5]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Tien
+> Position (XYZ): -19.3 -0.4 23.0 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 19.3 -1.3 -23.0 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Disable Aura Charge for Tien
+[Initial Camera Point]
+> Position (XYZ): -22.955 -14.003 28.092 
+> Rotation (XYZ): -0.99 141.363 0.0 
+Play Animation 413_STAND_LOOP.canm for Nappa
+> Loop property detected
+Play Animation 388_LOSE.canm for Tien
+Play Voice Line 23 for Tien
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 4.436 -6.0550003 -6.174 
+> Rotation (XYZ): 24.611 139.506 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 13.974 -18.688 -15.277 
+> Rotation (XYZ): 24.732 146.497 0.0 
+Play Voice Line 21 for Nappa
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 54.515 -35.385 -15.908 
+> Rotation (XYZ): -36.059 -72.781 0.0 
+[Additional Camera Point]
+> Transition Time: 3.2 
+> Position (XYZ): 5.127 -20.533 3.393 
+> Rotation (XYZ): -54.482 -69.964 0.0 
+Play Voice Line 24 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 6
+> Scene ID: 6
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 4
 Event:     Switch with Teammate #4
@@ -249,20 +557,150 @@ Character: Kid Gohan
 
 [Scene 6]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Kid Gohan
+> Position (XYZ): -51.4 -0.4 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 51.4 -1.3 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Enable Aura Charge for Nappa
+Play Animation 385_INTRO_LOOP.canm for Nappa
+> Loop property detected
+Play Animation 0_GROUND.canm for Kid Gohan
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -23.302 -15.669 41.878 
+> Rotation (XYZ): -20.763 -54.716 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -44.607 -8.047 56.272 
+> Rotation (XYZ): -2.671 -60.126 0.0 
+Play Voice Line 54 for Kid Gohan
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -51.116 -1.449 68.24 
+> Rotation (XYZ): -7.539 165.228 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -50.785 -11.267 66.983 
+> Rotation (XYZ): -13.135 165.228 0.0 
+Play Voice Line 56 for Piccolo (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -41.198 -13.023 53.583 
+> Rotation (XYZ): -28.241 -54.497 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -45.094 -10.453 56.362 
+> Rotation (XYZ): -26.8 -54.497 0.0 
+Play Voice Line 55 for Kid Gohan
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 54.889 -28.276 -41.731 
+> Rotation (XYZ): -16.765 -158.472 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 50.83 -22.045 -49.218 
+> Rotation (XYZ): -3.241 -176.19 0.0 
+Play Voice Line 57 for Nappa
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 45.103 -22.449999 -50.796 
+> Rotation (XYZ): -7.462 143.548 0.0 
+[Additional Camera Point]
+> Transition Time: 1.5 
+> Position (XYZ): 45.103 -22.449999 -50.796 
+> Rotation (XYZ): -7.462 143.548 0.0 
+Play Voice Line 58 for Nappa
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 34
+> Scene ID: 34
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
 Condition: Wait 30 seconds
-> GSAC ID: 7
+> Scene ID: 7
+Condition: Immediate
+> Voice Line ID: 134
+Condition: Immediate
+> Voice Line ID: 31
+Condition: Wait 15 seconds
+> Voice Line ID: 32
+Condition: Perform Vanishing Attack
+> Voice Line ID: 126
+Condition: Perform Rush Attack
+> Voice Line ID: 126
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 33
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 34
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 60
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 60
+Condition: Win Normal Clash (Opponent)
+> Voice Line ID: 135
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 140
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 135
+Condition: Perform Hyper Smash (Opponent)
+> Voice Line ID: 137
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 60
+Condition: Perform Dragon Homing
+> Voice Line ID: 86
+Condition: Perform Hyper Smash
+> Voice Line ID: 86
 Event:     Normal Clash
 
 [Scene 7]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Kid Gohan
+> Position (XYZ): -51.4 -0.4 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 51.4 -1.3 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 63.291 -14.735 22.797 
+> Rotation (XYZ): -11.364 65.928 0.0 
+Play Animation 1_GROUND_TIRED.canm for Kid Gohan
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -36.024 -6.525 33.582 
+> Rotation (XYZ): -1.696 139.365 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): 43.657 -14.299 -50.013 
+> Rotation (XYZ): 35.24 142.835 0.0 
+Play Animation 52_CHARGE_IN.canm for Nappa
+> Wait property detected
+Enable Ki Charge for Nappa
+Play Animation 53_CHARGE_LOOP.canm for Nappa
+> Loop property detected
+Play Voice Line 61 for Nappa
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 1.088 -6.679 -4.561 
+> Rotation (XYZ): 7.25 -32.019 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): -44.151 -0.586 52.283 
+> Rotation (XYZ): 24.933 -41.264 0.0 
+Play Voice Line 59 for Piccolo (Early)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 13
+> Scene ID: 13
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 3
 Event:     Switch with Teammate #3
@@ -270,24 +708,139 @@ Character: Piccolo (Early)
 
 [Scene 13]
 
+===Cinematic Info===
+Change Position/Rotation for Piccolo (Early)
+> Position (XYZ): -51.4 -0.4 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 51.4 -1.3 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Disable Aura Charge for Piccolo (Early)
+Play Animation 1_GROUND_TIRED.canm for Piccolo (Early)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 40.549 -13.75 -48.672 
+> Rotation (XYZ): 2.32 137.947 0.0 
+[Additional Camera Point]
+> Transition Time: 1.8 
+> Position (XYZ): -71.263 -4.86 67.142 
+> Rotation (XYZ): 13.391 127.379 0.0 
+Enable MPM Explosion for Nappa
+Shake Camera for 1.2 seconds
+Play Animation 54_CHARGE_MAX.canm for Nappa
+Play Voice Line 63 for Nappa
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 8
+> Scene ID: 8
 Condition: Win via K.O.
-> GSAC ID: 33
+> Scene ID: 33
 [Changes to Opponent detected.]
 > Z-Item #7: Go To Hell
 Event:     Trigger Ultimate Blast (Opponent) [AUTO]
 
 [Scene 8]
 
+===Cinematic Info===
+Add 1.8 s fade-out
+Change Position/Rotation for Piccolo (Early)
+> Position (XYZ): -51.4 -0.4 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 51.4 -1.3 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Play Animation 1_GROUND_TIRED.canm for Piccolo (Early)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -50.999 -3.603 76.47 
+> Rotation (XYZ): 9.819 -179.665 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): -49.284 -14.338 71.943 
+> Rotation (XYZ): -14.319 -178.23 0.0 
+Play Voice Line 65 for Piccolo (Early)
+> Wait property detected
+Play Voice Line 66 for Kid Gohan
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -16.939 -29.851 44.925 
+> Rotation (XYZ): -35.722 -68.869 0.0 
+[Additional Camera Point]
+> Transition Time: 22.5 
+> Position (XYZ): -43.562 -11.061 54.119 
+> Rotation (XYZ): 7.043 -75.95 0.0 
+Play Voice Line 70 for Piccolo (Early)
+> Wait property detected
+Play Voice Line 71 for Piccolo (Early)
+> Wait property detected
+Play Voice Line 72 for Piccolo (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -46.522 -5.092 53.777 
+> Rotation (XYZ): 65.39 -33.622 0.0 
+[Additional Camera Point]
+> Transition Time: 5.5 
+> Position (XYZ): -46.886 -5.034 54.324 
+> Rotation (XYZ): 65.708 -33.622 0.0 
+Play Voice Line 73 for Piccolo (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -44.304 -10.714 51.614 
+> Rotation (XYZ): 6.669 -41.436 0.0 
+Play Voice Line 74 for Piccolo (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -28.546 -2.856 37.997 
+> Rotation (XYZ): 3.025 -50.974 0.0 
+Play Animation 388_LOSE.canm for Piccolo (Early)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 35
+> Scene ID: 35
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 43
+> Scene ID: 43
 Condition: Wait 30 seconds
-> GSAC ID: 9
+> Scene ID: 9
+Condition: Immediate
+> Voice Line ID: 75
+Condition: Immediate
+> Voice Line ID: 60
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 126
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 78
+Condition: Wait 20 seconds
+> Voice Line ID: 79
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 80
+Condition: Perform Vanishing Attack
+> Voice Line ID: 138
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 126
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 140
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 135
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 77
+Condition: Block 2nd Blast 2 (Opponent)
+> Voice Line ID: 76
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 135
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 138
+Condition: Perform Vanishing Attack
+> Voice Line ID: 86
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 76
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 33
+Condition: Perform Rush Attack
+> Voice Line ID: 86
 [Changes to Player 1 detected.]
 > Add 100% more Health
 > Apply changes to Teammate 4
@@ -298,9 +851,12 @@ Character: Kid Gohan
 
 [Scene 9]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 10
+> Scene ID: 10
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 5
 [Changes to Opponent detected.]
@@ -309,14 +865,126 @@ Event:     Switch with Teammate #5
 Character: Goku (Early)
 
 [Scene 10]
+
+===Cinematic Info===
+Add 1.2 s fade-out
 Lower Current BG Music
-BG Music:  The Heat
+BG Music:  UNKNOWN (ID: 208)
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): -20.0 0.0 -45.0 
+> Rotation (XYZ): 0.0 23.4 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 80.0 0.0 30.0 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+[Initial Camera Point]
+> Position (XYZ): -6.696 -10.492001 -27.759 
+> Rotation (XYZ): 10.501 -138.289 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -16.811 -15.553 -39.141 
+> Rotation (XYZ): 37.867 -152.876 0.0 
+Play Animation 387_WIN_LOOP.canm for Goku (Early)
+> Loop property detected
+Play Voice Line 81 for Background Character
+> Wait property detected
+Play Voice Line 82 for Vegeta (Scouter)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 65.732 -23.887 24.131 
+> Rotation (XYZ): -2.143 62.685 0.0 
+[Additional Camera Point]
+> Transition Time: 5.5 
+> Position (XYZ): 70.771 -23.425 26.738 
+> Rotation (XYZ): -2.143 62.404 0.0 
+Play Animation 0_GROUND.canm for Nappa
+> Loop property detected
+Play Voice Line 83 for Nappa
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 98.701 -38.578 37.647 
+> Rotation (XYZ): -29.799 -116.538 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 85.011 -26.108 31.192 
+> Rotation (XYZ): -16.405 -119.724 0.0 
+Play Voice Line 84 for Nappa
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 6.676 -19.328 -12.979 
+> Rotation (XYZ): -14.866 -136.468 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -14.796 -6.2530003 -32.987 
+> Rotation (XYZ): 20.248 -141.835 0.0 
+Play Animation 384_INTRO_IN.canm for Goku (Early)
+> Wait property detected
+Enable Ki Charge for Goku (Early)
+Shake Camera for 1.0 seconds
+Play Animation 385_INTRO_LOOP.canm for Goku (Early)
+> Loop property detected
+Play Voice Line 85 for Goku (Early)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 36
+> Scene ID: 36
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 44
+> Scene ID: 44
+Condition: Immediate
+> Voice Line ID: 88
+Condition: Immediate
+> Voice Line ID: 89
+Condition: Immediate
+> Voice Line ID: 90
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 97
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 98
+Condition: Lose 5 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 100
+Condition: Lose 6 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 101
+Condition: Perform Teleport
+> Voice Line ID: 95
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 91
+Condition: Perform Vanishing Attack
+> Voice Line ID: 92
+Condition: Perform Dash Smash
+> Voice Line ID: 93
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 99
+Condition: Perform Hyper Smash
+> Voice Line ID: 102
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 102
+Condition: Perform Z-Counter (Opponent)
+> Voice Line ID: 103
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 104
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 106
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 105
+Condition: Perform Z-Counter
+> Voice Line ID: 93
+Condition: Perform Teleport
+> Voice Line ID: 108
+Condition: Perform Throw
+> Voice Line ID: 93
+Condition: Perform Dragon Homing
+> Voice Line ID: 99
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 104
+Condition: Perform Sonic Sway
+> Voice Line ID: 107
+Condition: Perform Guard Crush
+> Voice Line ID: 107
+Condition: Perform Fully Charged Right Smash Attack (Opponent)
+> Voice Line ID: 104
+Condition: Perform Fully Charged Up Smash Attack (Opponent)
+> Voice Line ID: 104
 [Changes to Opponent detected.]
 > Set COM Difficulty Level to 3
 > Add 100% more Health
@@ -328,82 +996,372 @@ Event:     Battle Finish
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+[Initial Camera Point]
+> Position (XYZ): -19.883 -15.324 -31.318 
+> Rotation (XYZ): -3.635 62.219 0.0 
+Change Position/Rotation for Tien
+> Position (XYZ): 4.2 0.0 -26.9 
+> Rotation (XYZ): 0.0 23.4 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 55.8 0.0 11.9 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Disable Aura Charge for Tien
+Disable Aura Charge for Nappa
+Play Animation 387_WIN_LOOP.canm for Tien
+> Loop property detected
+Play Animation 388_LOSE.canm for Nappa
+> Wait property detected
+Play Voice Line 144 for Tien
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 31 (Victory)]
+
+===Cinematic Info===
+[Initial Camera Point]
+> Position (XYZ): -14.317 -17.748 -30.899 
+> Rotation (XYZ): -1.998 56.351 0.0 
+Change Position/Rotation for Chiaotzu
+> Position (XYZ): 4.2 0.0 -26.9 
+> Rotation (XYZ): 0.0 23.4 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 55.8 0.0 11.9 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Disable Aura Charge for Chiaotzu
+Disable Aura Charge for Nappa
+Play Animation 387_WIN_LOOP.canm for Chiaotzu
+> Loop property detected
+Play Animation 388_LOSE.canm for Nappa
+> Wait property detected
+Play Voice Line 29 for Chiaotzu
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 32 (Victory)]
 
+===Cinematic Info===
+[Initial Camera Point]
+> Position (XYZ): -19.883 -15.324 -31.318 
+> Rotation (XYZ): -3.635 62.219 0.0 
+Change Position/Rotation for Tien
+> Position (XYZ): 4.2 0.0 -26.9 
+> Rotation (XYZ): 0.0 23.4 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 55.8 0.0 11.9 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Disable Aura Charge for Tien
+Disable Aura Charge for Nappa
+Play Animation 387_WIN_LOOP.canm for Tien
+> Loop property detected
+Play Animation 388_LOSE.canm for Nappa
+> Wait property detected
+Play Voice Line 144 for Tien
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 33 (Victory)]
+
+===Cinematic Info===
+[Initial Camera Point]
+> Position (XYZ): -14.317 -17.748 -30.899 
+> Rotation (XYZ): -1.998 56.351 0.0 
+Change Position/Rotation for Piccolo (Early)
+> Position (XYZ): 4.2 0.0 -26.9 
+> Rotation (XYZ): 0.0 23.4 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 55.8 0.0 11.9 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Disable Aura Charge for Piccolo (Early)
+Disable Aura Charge for Nappa
+Play Animation 387_WIN_LOOP.canm for Piccolo (Early)
+> Loop property detected
+Play Animation 388_LOSE.canm for Nappa
+> Wait property detected
+Play Voice Line 133 for Piccolo (Early)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 34 (Victory)]
 
+===Cinematic Info===
+[Initial Camera Point]
+> Position (XYZ): -14.317 -17.748 -30.899 
+> Rotation (XYZ): -1.998 56.351 0.0 
+Change Position/Rotation for Kid Gohan
+> Position (XYZ): 4.2 0.0 -26.9 
+> Rotation (XYZ): 0.0 23.4 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 55.8 0.0 11.9 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Disable Aura Charge for Kid Gohan
+Disable Aura Charge for Nappa
+Play Animation 387_WIN_LOOP.canm for Kid Gohan
+> Loop property detected
+Play Animation 388_LOSE.canm for Nappa
+> Wait property detected
+Play Voice Line 62 for Kid Gohan
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 35 (Victory)]
+
+===Cinematic Info===
+[Initial Camera Point]
+> Position (XYZ): -14.317 -17.748 -30.899 
+> Rotation (XYZ): -1.998 56.351 0.0 
+Change Position/Rotation for Kid Gohan
+> Position (XYZ): 4.2 0.0 -26.9 
+> Rotation (XYZ): 0.0 23.4 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 55.8 0.0 11.9 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Disable Aura Charge for Kid Gohan
+Disable Aura Charge for Nappa
+Play Animation 387_WIN_LOOP.canm for Kid Gohan
+> Loop property detected
+Play Animation 388_LOSE.canm for Nappa
+> Wait property detected
+Play Voice Line 62 for Kid Gohan
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 36 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): 4.2 0.0 -26.9 
+> Rotation (XYZ): 0.0 23.4 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 55.8 0.0 11.9 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Disable Aura Charge for Goku (Early)
+Disable Aura Charge for Nappa
+[Initial Camera Point]
+> Position (XYZ): 32.31 -18.16 2.271 
+> Rotation (XYZ): -14.916 63.032 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -13.285 -24.263 -30.165 
+> Rotation (XYZ): -22.782 63.565 0.0 
+Play Animation 1_GROUND_TIRED.canm for Nappa
+> Loop property detected
+Play Animation 387_WIN_LOOP.canm for Goku (Early)
+> Loop property detected
+Play Voice Line 110 for Nappa
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 10.464 -19.642 -20.863 
+> Rotation (XYZ): -2.822 -138.375 0.0 
+Play Voice Line 111 for Goku (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 66.511 -38.591 52.032 
+> Rotation (XYZ): -31.041 -155.272 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 55.519 -23.475 28.165 
+> Rotation (XYZ): -27.648 -155.272 0.0 
+Play Voice Line 112 for Nappa
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 48.039 -11.3575 31.065 
+> Rotation (XYZ): -4.121 -158.37 0.0 
+Play Animation 388_LOSE.canm for Nappa
+> Wait property detected
+Play Voice Line 113 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
+
+===Cinematic Info===
+[Initial Camera Point]
+> Position (XYZ): 28.708 -12.704 8.346 
+> Rotation (XYZ): -20.004 -137.619 0.0 
+Change Position/Rotation for Tien
+> Position (XYZ): 4.5 0.0 -26.6 
+> Rotation (XYZ): 0.0 23.4 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 55.5 0.0 11.6 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Disable Aura Charge for Tien
+Disable Aura Charge for Nappa
+Play Animation 388_LOSE.canm for Tien
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Nappa
+> Loop property detected
+Play Voice Line 4 for Chiaotzu
+> Wait property detected
+Play Voice Line 5 for Background Character
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 42 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Nappa
+> Position (XYZ): 55.5 0.0 11.6 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Disable Aura Charge for Kid Gohan
+[Initial Camera Point]
+> Position (XYZ): 43.68 -20.636 12.465 
+> Rotation (XYZ): 4.075 93.569 0.0 
+Play Animation 388_LOSE.canm for Kid Gohan
+Play Voice Line 115 for Nappa
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -89.795 -28.399 75.05 
+> Rotation (XYZ): -17.124 115.994 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -81.898 -103.167 71.2 
+> Rotation (XYZ): -49.75 115.994 0.0 
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 43 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Nappa
+> Position (XYZ): 55.5 0.0 11.6 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Disable Aura Charge for Kid Gohan
+[Initial Camera Point]
+> Position (XYZ): 43.68 -20.636 12.465 
+> Rotation (XYZ): 4.075 93.569 0.0 
+Play Animation 388_LOSE.canm for Kid Gohan
+Play Voice Line 115 for Nappa
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -89.795 -28.399 75.05 
+> Rotation (XYZ): -17.124 115.994 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -81.898 -103.167 71.2 
+> Rotation (XYZ): -49.75 115.994 0.0 
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 44 (Defeat)]
+
+===Cinematic Info===
+[Initial Camera Point]
+> Position (XYZ): 32.297 -17.332 13.175 
+> Rotation (XYZ): -3.488 93.569 0.0 
+Change Position/Rotation for Nappa
+> Position (XYZ): 55.5 0.0 11.6 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Disable Aura Charge for Goku (Early)
+Play Animation 388_LOSE.canm for Goku (Early)
+Play Voice Line 139 for Nappa
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -72.358 -27.978 52.185 
+> Rotation (XYZ): -25.453 101.744 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -55.174 -121.863 51.896 
+> Rotation (XYZ): -65.249 114.696 0.0 
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 45 (Defeat) - UNUSED]
 
+===Cinematic Info===
+Change Position/Rotation for Nappa
+> Position (XYZ): 55.5 0.0 11.6 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+[Initial Camera Point]
+> Position (XYZ): 32.297 -17.332 13.175 
+> Rotation (XYZ): -3.488 93.569 0.0 
+Play Voice Line 139 for Nappa
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 46 (Defeat) - UNUSED]
+
+===Cinematic Info===
+Change Position/Rotation for Nappa
+> Position (XYZ): 55.5 0.0 11.6 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+[Initial Camera Point]
+> Position (XYZ): 32.297 -17.332 13.175 
+> Rotation (XYZ): -3.488 93.569 0.0 
+Play Voice Line 139 for Nappa
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 47 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Nappa
+> Position (XYZ): 55.5 0.0 11.6 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+[Initial Camera Point]
+> Position (XYZ): 43.68 -20.636 12.465 
+> Rotation (XYZ): 4.075 93.569 0.0 
+Play Animation 388_LOSE.canm for Chiaotzu
+Play Voice Line 115 for Nappa
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 11 - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 2
+> Scene ID: 2
 [Changes to Opponent detected.]
 > Z-Item #7: Absolutely Invincible Body
 Event:     Trigger Ultimate Blast
 
 [Scene 12 - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 33
+> Scene ID: 33
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 8
+> Scene ID: 8
 [Changes to Opponent detected.]
 > Z-Item #7: Go To Hell
 Event:     Trigger Ultimate Blast (Opponent) [AUTO]

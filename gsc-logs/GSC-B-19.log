@@ -1,5 +1,5 @@
 [General Information]
-Name: The Super Saiyan God
+Name: Battle of Gods
 Saga: Dragon Ball Super Saga
 
 [Rewards]
@@ -17,16 +17,16 @@ null
 null
 > Acquired Characters
 SSG Goku
-null
-null
+Beerus
+SSG Vegeta
 > Acquired Scenarios
-The Battle of Gods
+Resurrection F
 null
 null
 
 [Battle Settings]
-Map: Islands
-BGM: Stand After Confusion
+Map: Empty
+BGM: UNKNOWN (ID: 9)
 
 [Player 1 Team]
 > Teammate 1
@@ -36,8 +36,38 @@ Damaged: false
 COM Difficulty Level: 0
 Strategy Z-Item: Goku Type
 Initial Health: 100%
-Z-Item #1: Whis Training
-Z-Item #2: Attack +4
+Z-Item #1: King Kai's Training
+Z-Item #2: Serious!
+Z-Item #3: Defense +10
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+> Teammate 2
+Character: SS2 Caulifla
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: King Kai's Training
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: Power Body
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+> Teammate 3
+Character: Bojack
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: null
 Z-Item #3: null
 Z-Item #4: null
 Z-Item #5: null
@@ -49,203 +79,1698 @@ Z-Item #7: null
 Character: Beerus
 Costume: 1
 Damaged: false
-COM Difficulty Level: 0
+COM Difficulty Level: 17
 Strategy Z-Item: Goku Type
 Initial Health: 100%
-Z-Item #1: Whis Training
-Z-Item #2: Attack +4
+Z-Item #1: King Kai's Training
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: Power Body
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+> Teammate 2
+Character: SS1 Teen Gohan
+Costume: 2
+Damaged: false
+COM Difficulty Level: 7
+Strategy Z-Item: Gohan Type
+Initial Health: 100%
+Z-Item #1: Master Roshi's Training
+Z-Item #2: null
 Z-Item #3: null
 Z-Item #4: null
 Z-Item #5: null
-Z-Item #6: null
-Z-Item #7: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+> Teammate 3
+Character: Piccolo (End)
+Costume: 1
+Damaged: false
+COM Difficulty Level: 6
+Strategy Z-Item: Piccolo Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+> Teammate 4
+Character: SS1 Trunks (Sword)
+Costume: 2
+Damaged: false
+COM Difficulty Level: 6
+Strategy Z-Item: Trunks Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
+
+> Teammate 5
+Character: SS1 Vegeta
+Costume: 1
+Damaged: false
+COM Difficulty Level: 6
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: null
+Z-Item #2: null
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
 
 > Results
-Teammate Count (Player 1): 1
-Teammate Count (Opponent): 1
+Teammate Count (Player 1): 3
+Teammate Count (Opponent): 5
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Beerus
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SSG Goku
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -78.82 -9.869 0.556 
+> Rotation (XYZ): -32.05 -94.849 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -74.708 -11.025 0.311 
+> Rotation (XYZ): 18.903 -94.849 0.0 
+Play Animation 413_STAND_LOOP.canm for SSG Goku
+> Loop property detected
+Play Voice Line 0 for SS1 Teen Gohan
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 62.156 -15.514 1.527 
+> Rotation (XYZ): -2.033 97.051 0.0 
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Voice Line 1 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -72.82 -15.869 3.556 
+> Rotation (XYZ): -15.049999 -124.849 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -79.708 -15.025 8.311 
+> Rotation (XYZ): 10.903 -120.849 0.0 
+Play Animation 413_STAND_LOOP.canm for SSG Goku
+> Loop property detected
+Play Voice Line 2 for SSG Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 72.156 -15.514 10.527 
+> Rotation (XYZ): -2.033 160.05101 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): 69.156 -15.514 10.527 
+> Rotation (XYZ): -2.033 160.05101 0.0 
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Voice Line 3 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -82.82 -15.869 10.556 
+> Rotation (XYZ): -2.049999 -160.849 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -85.708 -15.025 10.311 
+> Rotation (XYZ): -2.903 -160.849 0.0 
+Play Animation 413_STAND_LOOP.canm for SSG Goku
+> Loop property detected
+Play Voice Line 4 for SSG Goku
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
-Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 1
 Condition: Win via K.O.
-> GSAC ID: 1
+> Scene ID: 39
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Scene ID: 13
+Condition: Wait 15 seconds
+> Scene ID: 13
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 5
+Condition: Immediate
+> Voice Line ID: 6
 Event:     Battle Finish
+
+[Scene 13]
+
+===Cinematic Info===
+Change Position/Rotation for SSG Goku
+> Position (XYZ): 0.0 -30.0 -50.0 
+> Rotation (XYZ): 0.0 0.0 0.0 
+Change Position/Rotation for Beerus
+> Position (XYZ): 0.0 -30.0 50.0 
+> Rotation (XYZ): 0.0 -180.0 0.0 
+Play Animation 38_FLY.canm for SSG Goku
+> Loop property detected
+Play Animation 38_FLY.canm for Beerus
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -8.79 -40.417 -26.327 
+> Rotation (XYZ): 6.429 151.16 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): -1.282 -42.596 -41.301 
+> Rotation (XYZ): 9.29 156.653 0.0 
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Win Normal Clash
+> Scene ID: 14
+Condition: Win Normal Clash (Opponent)
+> Scene ID: 14
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Event:     Normal Clash (Opponent)
+
+[Scene 14]
+
+===Cinematic Info===
+Disable ALL VFX
+
+===Battle Info===
+Condition: Wait 10 seconds
+> Scene ID: 1
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 7
+Condition: Immediate
+> Voice Line ID: 8
+[Changes to Opponent detected.]
+> Apply changes to Teammate 4
+Event:     Map Destruction
 
 [Scene 1]
 
-===Battle Info===
-Condition: Hit with 1st Blast 2
-> GSAC ID: 2
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Opponent detected.]
-> Add 100% more Health
-Event:     Trigger 1st Blast 2
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Beerus
+> Position (XYZ): 88.0 -100.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SSG Goku
+> Position (XYZ): -88.0 -80.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 62.156 -103.514 1.527 
+> Rotation (XYZ): 18.033 97.051 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 62.156 -107.514 1.527 
+> Rotation (XYZ): 26.033 97.051 0.0 
+Enable Ki Charge for SSG Goku
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for SSG Goku
+> Loop property detected
+Play Voice Line 9 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -75.82 -98.869 0.556 
+> Rotation (XYZ): -23.05 -90.849 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -80.708 -96.025 0.311 
+> Rotation (XYZ): -20.903 -90.849 0.0 
+Play Animation 413_STAND_LOOP.canm for SSG Goku
+> Loop property detected
+Play Voice Line 250 for Beerus
+> Wait property detected
+Play Voice Line 242 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 63.156 -110.514 1.527 
+> Rotation (XYZ): 18.033 97.051 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): 67.156 -110.514 1.527 
+> Rotation (XYZ): 18.033 97.051 0.0 
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Voice Line 10 for Beerus
+> Wait property detected
+Change Position/Rotation for Beerus
+> Position (XYZ): 48.0 -100.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SSG Goku
+> Position (XYZ): -88.0 -100.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 10.82 -110.869 110.556 
+> Rotation (XYZ): -2.049999 -160.849 0.0 
+[Additional Camera Point]
+> Transition Time: 12.0 
+> Position (XYZ): 25.708 -111.025 110.311 
+> Rotation (XYZ): -2.903 -160.849 0.0 
+Play Animation 38_FLY.canm for SSG Goku
+> Loop property detected
+Play Voice Line 11 for SSG Goku
+> Wait property detected
+Play Voice Line 12 for Beerus
+> Wait property detected
+Play Voice Line 13 for SSG Goku
+> Wait property detected
+Play Voice Line 14 for Beerus
+> Wait property detected
+Change Position/Rotation for Beerus
+> Position (XYZ): 88.0 -100.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SSG Goku
+> Position (XYZ): -88.0 -80.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -75.82 -98.869 0.556 
+> Rotation (XYZ): -23.05 -90.849 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -80.708 -96.025 0.311 
+> Rotation (XYZ): -20.903 -90.849 0.0 
+Play Animation 286_SKILL_003_EVENT_3.canm for SSG Goku
+Play Voice Line 15 for SSG Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 67.156 -112.514 1.527 
+> Rotation (XYZ): 18.033 97.051 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): 67.156 -112.514 1.527 
+> Rotation (XYZ): 18.033 97.051 0.0 
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Voice Line 16 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 90.156 -125.514 1.527 
+> Rotation (XYZ): -25.033 -90.051 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): 90.156 -125.514 1.527 
+> Rotation (XYZ): -25.033 -90.051 0.0 
+Play Animation 287_SKILL_003_EVENT_4.canm for SSG Goku
+> Wait property detected
+Enable Ki Charge for SSG Goku
+Shake Camera for 1.0 seconds
+Play Animation 353_SKILL_005_EVENT_2.canm for SSG Goku
+> Loop property detected
+Play Voice Line 17 for SSG Goku
+> Wait property detected
+Disable ALL VFX
 
-[Scene 2]
-Lower Current BG Music
-BG Music:  Rampaging Metalhead
-
 ===Battle Info===
-Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 3
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
+Condition: Wait 45 seconds
+> Scene ID: 2
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 18
+Condition: Immediate
+> Voice Line ID: 19
+Condition: Immediate
+> Voice Line ID: 20
+Condition: Immediate
+> Voice Line ID: 21
+Condition: Immediate
+> Voice Line ID: 22
+Condition: Immediate
+> Voice Line ID: 23
+Condition: Immediate
+> Voice Line ID: 24
+[Changes to Player 1 detected.]
+> Add 50% more Health
 [Changes to Opponent detected.]
+> Set COM Difficulty Level to 18
 > Add 100% more Health
 Event:     Aerial Clash (Opponent)
 
-[Scene 3]
-Lower Current BG Music
-BG Music:  Perseverance
+[Scene 2]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SSG Goku
+> Position (XYZ): -56.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Beerus
+> Position (XYZ): 89.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 0_GROUND.canm for SSG Goku
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Beerus
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -69.831 -12.39 18.069 
+> Rotation (XYZ): -3.339 107.81 0.0 
+[Additional Camera Point]
+> Transition Time: 8.5 
+> Position (XYZ): -67.518 -12.39 -15.241 
+> Rotation (XYZ): -3.339 63.37 0.0 
+Play Voice Line 25 for Beerus
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
-Condition: Lose 5 Health Bars (Opponent) [AUTO]
-> GSAC ID: 4
 Condition: Win via K.O.
-> GSAC ID: 4
+> Scene ID: 3
+Condition: Wait 50 seconds (Opponent)
+> Scene ID: 3
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Normal Clash (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 26
+Condition: Immediate
+> Voice Line ID: 27
+Condition: Immediate
+> Voice Line ID: 28
+Condition: Immediate
+> Voice Line ID: 29
+Condition: Immediate
+> Voice Line ID: 30
+Condition: Immediate
+> Voice Line ID: 31
+Condition: Immediate
+> Voice Line ID: 32
+Condition: Immediate
+> Voice Line ID: 33
+Condition: Immediate
+> Voice Line ID: 34
+Condition: Immediate
+> Voice Line ID: 35
+Condition: Immediate
+> Voice Line ID: 36
+[Changes to Opponent detected.]
+> Set COM Difficulty Level to 19
+> Add 100% more Health
+Event:     Normal Clash
+
+[Scene 3]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SSG Goku
+> Position (XYZ): -25.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Beerus
+> Position (XYZ): 58.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 49.336 -4.046 9.849 
+> Rotation (XYZ): 3.753 137.879 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 50.126 -14.08 8.975 
+> Rotation (XYZ): 3.753 137.879 0.0 
+Play Animation 0_GROUND.canm for SSG Goku
+> Loop property detected
+Play Animation 0_GROUND.canm for Beerus
+> Loop property detected
+Play Voice Line 37 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -18.82 -9.869 10.556 
+> Rotation (XYZ): -2.049999 -160.849 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -18.708 -12.025 10.311 
+> Rotation (XYZ): -2.903 -160.849 0.0 
+Play Voice Line 38 for SSG Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -38.31 -3.125 9.208 
+> Rotation (XYZ): 7.537 112.883 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -32.058 -4.023 6.569 
+> Rotation (XYZ): 7.537 112.883 0.0 
+Play Voice Line 39 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -8.82 -9.869 0.556 
+> Rotation (XYZ): -2.049999 -90.849 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -4.708 -12.025 0.311 
+> Rotation (XYZ): -2.903 -90.849 0.0 
+Play Voice Line 40 for SSG Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 28.82 -9.869 0.556 
+> Rotation (XYZ): -2.049999 90.849 0.0 
+[Additional Camera Point]
+> Transition Time: 0.8 
+> Position (XYZ): 51.708 -15.025 0.311 
+> Rotation (XYZ): -2.903 90.849 0.0 
+Play Animation 406_SURPRISED.canm for Beerus
+> Loop property detected
+Play Voice Line 41 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 31.310001 -3.125 6.208 
+> Rotation (XYZ): 7.537 112.883 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 41.058 -7.023 6.569 
+> Rotation (XYZ): 10.537 112.883 0.0 
+Enable Ki Charge for Beerus
+Play Animation 52_CHARGE_IN.canm for Beerus
+> Wait property detected
+Play Animation 53_CHARGE_LOOP.canm for Beerus
+> Loop property detected
+Play Voice Line 42 for Beerus
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win Normal Clash
+> Scene ID: 4
+Condition: Win Normal Clash (Opponent)
+> Scene ID: 4
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 43
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Normal Clash
 
 [Scene 4]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
-Condition: Lose 1 Health Bar (Opponent) [AUTO]
-> GSAC ID: 5
-Condition: Lose 1 Health Bar
-> GSAC ID: 5
+Condition: Wait 10 seconds
+> Scene ID: 6
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Opponent detected.]
-> Add 100% more Health
-Event:     Beam Struggle between Player 1's 1st Blast 2 and COM's 1st Blast 2 (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 44
+Event:     Assign Transformation
+Character: Goku (End)
 
 [Scene 5]
-Lower Current BG Music
-BG Music:  Power Scale
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===Battle Info===
-Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 6
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Scene ID: 7
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Player 1 detected.]
-> Add 100% more Health
-> Z-Item #7: Attack +50
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 85
+Condition: Immediate
+> Voice Line ID: 86
+Condition: Immediate
+> Voice Line ID: 87
+Condition: Immediate
+> Voice Line ID: 88
+Condition: Immediate
+> Voice Line ID: 89
 [Changes to Opponent detected.]
-> Add 100% more Health
-Event:     Assign Transformation (Opponent) [AUTO]
+> Apply changes to Teammate 4
+Event:     Map Destruction
 
 [Scene 6]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS1 Trunks (Sword)
+> Position (XYZ): -25.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for SS2 Caulifla
+> Position (XYZ): 58.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 41.268997 -7.577999 -2.613 
+> Rotation (XYZ): 2.214 73.811 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 34.868 -9.084 -7.084 
+> Rotation (XYZ): 2.214 73.811 0.0 
+Lower Current BG Music
+BG Music:  UNKNOWN (ID: 28)
+Play Animation 52_CHARGE_IN.canm for SS2 Caulifla
+> Wait property detected
+Enable Ki Charge for SSG Goku
+Play Animation 53_CHARGE_LOOP.canm for SS2 Caulifla
+> Loop property detected
+Play Voice Line 47 for SSG Goku
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
-Condition: Lose 6 Health Bars (Opponent) [AUTO]
-> GSAC ID: 7
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 17
+Condition: Immediate
+> Scene ID: 5
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 47
+Condition: Immediate
+> Voice Line ID: 66
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 67
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 69
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 72
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 74
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 75
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 76
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 77
+Condition: Perform Normal Clash
+> Voice Line ID: 78
+Condition: Perform Rush Attack
+> Voice Line ID: 79
+Condition: Reach Full Ki Bars
+> Voice Line ID: 80
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 33
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 76
+Condition: Perform Aerial Clash
+> Voice Line ID: 78
+Condition: Perform Z-Counter
+> Voice Line ID: 80
+Condition: Perform Guard Crush
+> Voice Line ID: 80
 [Changes to Player 1 detected.]
-> Z-Item #7: null
+> Set current Health to 100%
+> Z-Item #4: Extreme Hand-to-Hand
 [Changes to Opponent detected.]
-> Z-Item #7: Defense +30
-Event:     Assign Transformation (Opponent) [AUTO]
+> Set current Health to 100%
+> Z-Item #1: Ultimate Warrior 1
+> Z-Item #2: Master Roshi's Training
+Event:     Assign Transformation
+Character: SS1 Goku (End)
 
 [Scene 7]
-Lower Current BG Music
-BG Music:  The Heat
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS1 Vegeta
+> Position (XYZ): -25.0 -100.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for SS2 Caulifla
+> Position (XYZ): 58.0 -100.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 80.757996 -120.507 14.974 
+> Rotation (XYZ): -11.365 -111.837 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): 80.167 -120.507 -14.258 
+> Rotation (XYZ): -15.365 -67.53 0.0 
+Enable Ki Charge for SSG Goku
+Play Animation 330_SKILL_005_CHARGE.canm for SSG Goku
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Beerus
+> Loop property detected
+Play Voice Line 48 for SSG Goku
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
-Condition: Lose 1 Health Bar (Opponent) [AUTO]
-> GSAC ID: 8
-Condition: Lose 1 Health Bar
-> GSAC ID: 8
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 8
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Opponent detected.]
-> Z-Item #7: null
-> Add 100% more Health
-Event:     Beam Struggle between Player 1's 1st Blast 2 and COM's 1st Blast 2 (Opponent)
+> Scene ID: 44
+[Changes to Player 1 detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger Ultimate Blast
 
 [Scene 8]
 
-===Battle Info===
-Condition: Lose 4 Health Bars (Opponent) [AUTO]
-> GSAC ID: 9
-Condition: Win via K.O.
-> GSAC ID: 9
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Assign Transformation (Opponent) [AUTO]
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS1 Vegeta
+> Position (XYZ): -25.0 -100.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for SS2 Caulifla
+> Position (XYZ): 58.0 -100.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 0.757996 -105.507 -14.974 
+> Rotation (XYZ): 11.365 -67.837 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -26.167 -115.507 14.258 
+> Rotation (XYZ): 30.365 -104.53 0.0 
+Enable Ki Charge for Beerus
+Play Animation 330_SKILL_005_CHARGE.canm for Beerus
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for SSG Goku
+> Loop property detected
+Play Voice Line 49 for Beerus
+> Wait property detected
+Disable ALL VFX
 
-[Scene 9]
-Lower Current BG Music
-BG Music:  Greatest Tactics in the Universe
-
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 10
+> Scene ID: 11
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 9
 [Changes to Opponent detected.]
 > Add 100% more Health
 > Z-Item #7: Go To Hell
-Event:     Beam Struggle between Player 1's 1st Blast 2 and COM's 1st Blast 2 (Opponent)
+Event:     Trigger Ultimate Blast (Opponent) [AUTO]
+
+[Scene 9]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS1 Vegeta
+> Position (XYZ): -25.0 -100.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for SS2 Caulifla
+> Position (XYZ): 58.0 -67.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 80.757996 -65.507 14.974 
+> Rotation (XYZ): 11.365 -111.837 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 80.167 -68.507 -14.258 
+> Rotation (XYZ): 29.365 -67.53 0.0 
+Play Animation 39_FLY_TIRED.canm for SSG Goku
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Beerus
+> Loop property detected
+Play Voice Line 51 for Beerus
+> Wait property detected
+Play Voice Line 52 for SSG Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 40.757996 -65.507 0.974 
+> Rotation (XYZ): 30.365 90.837 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 46.167 -67.507 0.258 
+> Rotation (XYZ): 35.365 90.53 0.0 
+Play Voice Line 53 for Beerus
+> Wait property detected
+Play Voice Line 54 for SSG Goku
+> Wait property detected
+Play Voice Line 55 for SSG Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -13.757996 -119.507 -9.974 
+> Rotation (XYZ): -31.365 -30.836998 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -13.167 -119.107 -10.258 
+> Rotation (XYZ): -26.365 -30.529999 0.0 
+Play Voice Line 56 for Beerus
+> Wait property detected
+Play Voice Line 57 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -40.757996 -125.507 -11.974 
+> Rotation (XYZ): -30.365 70.837 0.0 
+[Additional Camera Point]
+> Transition Time: 22.0 
+> Position (XYZ): -37.167 -123.507 -1.258 
+> Rotation (XYZ): -30.365 80.53 -15.0 
+Play Voice Line 58 for SSG Goku
+> Wait property detected
+Play Voice Line 59 for Beerus
+> Wait property detected
+Play Voice Line 60 for SSG Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 49.757996 -73.507 0.974 
+> Rotation (XYZ): 30.365 90.837 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 49.167 -74.507 0.258 
+> Rotation (XYZ): 35.365 90.53 0.0 
+Play Voice Line 61 for SSG Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -21.107996 -114.80701 0.524 
+> Rotation (XYZ): 30.365 -90.837 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): -8.167 -100.507 0.258 
+> Rotation (XYZ): 30.365 -90.53 0.0 
+Play Animation 285_SKILL_003_EVENT_2.canm for Beerus
+Play Voice Line 62 for Beerus
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Win via K.O.
+> Scene ID: 8
+Condition: Win via K.O. (Opponent)
+> Scene ID: 10
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
 
 [Scene 10]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
-Condition: Hit with 1st Blast 2
-> GSAC ID: 11
+Condition: Immediate
+> Scene ID: 11
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 [Changes to Opponent detected.]
-> Add 100% more Health
-Event:     Trigger 1st Blast 2
+> Apply changes to Teammate 4
+Event:     Assign Transformation
+Character: Goku (End)
 
 [Scene 11]
-Lower Current BG Music
-BG Music:  Crisis
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS1 Vegeta
+> Position (XYZ): -25.0 -100.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for SS2 Caulifla
+> Position (XYZ): 58.0 -67.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 80.757996 -60.507004 -14.974 
+> Rotation (XYZ): 29.365 -67.837 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 80.167 -60.507004 14.258 
+> Rotation (XYZ): 11.365 -111.53 0.0 
+Play Animation 215_DAMAGE_FLOATING_ON_WATER_IN.canm for SSG Goku
+> Loop property detected
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Voice Line 63 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 55.82 -70.869 80.556 
+> Rotation (XYZ): -2.049999 -180.849 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 55.708 -70.025 80.311 
+> Rotation (XYZ): -2.903 -180.849 0.0 
+Play Animation 215_DAMAGE_FLOATING_ON_WATER_IN.canm for SSG Goku
+> Loop property detected
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Voice Line 250 for SS1 Vegeta
+> Wait property detected
+Enable Ki Charge for SSG Goku
+Play Voice Line 250 for SS1 Vegeta
+> Wait property detected
+Play Voice Line 250 for SS1 Vegeta
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Immediate
+> Scene ID: 12
+Condition: Win via K.O. (Opponent)
+> Scene ID: 44
+Condition: Immediate
+> Voice Line ID: 85
+Condition: Immediate
+> Voice Line ID: 86
+Condition: Win Beam Struggle (Opponent)
+> Voice Line ID: 87
+Condition: Perform Normal Clash
+> Voice Line ID: 88
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 89
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 90
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 91
+Condition: Win Normal Clash (Opponent)
+> Voice Line ID: 92
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 93
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 94
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 95
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 68
+Condition: Perform Sonic Sway (Opponent)
+> Voice Line ID: 87
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 90
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 94
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Assign Transformation
+Character: SSG Goku
+
+[Scene 12]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS1 Vegeta
+> Position (XYZ): -25.0 -100.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for SS2 Caulifla
+> Position (XYZ): 58.0 -67.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 55.757996 -83.507 0.058 
+> Rotation (XYZ): -10.365 90.536995 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 55.167 -83.507 0.058 
+> Rotation (XYZ): -10.365 90.53 0.0 
+Enable Ki Charge for SSG Goku
+Play Animation 288_SKILL_003_EVENT_5.canm for SSG Goku
+> Loop property detected
+Play Voice Line 64 for SSG Goku
+> Wait property detected
+Wait 4.0 seconds
+Add 2.0 s fade-in
+> Wait property detected
+> Change fade-out color to white
+[Initial Camera Point]
+> Position (XYZ): -10.757996 -82.507 0.254 
+> Rotation (XYZ): 0.365 90.527 0.0 
+Add 1.0 s fade-out
+> Wait property detected
+> Change fade-out color to white
+Disable ALL VFX
+
+===Battle Info===
+Condition: Immediate
+> Scene ID: 31
+Condition: Win via K.O. (Opponent)
+> Scene ID: 10
+Condition: Immediate
+> Voice Line ID: 85
+Condition: Immediate
+> Voice Line ID: 86
+Condition: Win Beam Struggle (Opponent)
+> Voice Line ID: 87
+Condition: Perform Normal Clash
+> Voice Line ID: 88
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 89
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 90
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 91
+Condition: Win Normal Clash (Opponent)
+> Voice Line ID: 92
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 93
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 94
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 95
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 68
+Condition: Perform Sonic Sway (Opponent)
+> Voice Line ID: 87
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 90
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 94
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Assign Transformation
+Character: Goku (End)
+
+[Scene 18 - UNUSED]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS1 Vegeta
+> Position (XYZ): -25.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for SS2 Caulifla
+> Position (XYZ): 58.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -6.908 -8.958 -12.94 
+> Rotation (XYZ): -5.023 -51.853 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -13.089 -9.717 -4.1 
+> Rotation (XYZ): 9.024 -66.617 0.0 
+Play Animation 385_INTRO_LOOP.canm for SS1 Vegeta
+> Loop property detected
+Play Voice Line 152 for SS1 Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -45.758 -15.507 14.974 
+> Rotation (XYZ): -11.365 111.837 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): -45.167 -15.507 -14.258 
+> Rotation (XYZ): -11.365 67.53 0.0 
+Play Voice Line 83 for SS1 Trunks (Sword)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 9.526 -1.713 -0.806 
+> Rotation (XYZ): 10.652 -85.215 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): -14.57 -10.797 -3.915 
+> Rotation (XYZ): 6.075 -68.18 0.0 
+Play Voice Line 84 for SS1 Vegeta
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 30
-Event:     Trigger 2nd Blast 2 (Opponent) [AUTO]
+> Scene ID: 48
+Condition: Immediate
+> Voice Line ID: 85
+Condition: Immediate
+> Voice Line ID: 86
+Condition: Win Beam Struggle (Opponent)
+> Voice Line ID: 87
+Condition: Perform Normal Clash
+> Voice Line ID: 88
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 89
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 90
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 91
+Condition: Win Normal Clash (Opponent)
+> Voice Line ID: 92
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 93
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 94
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 95
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 68
+Condition: Perform Sonic Sway (Opponent)
+> Voice Line ID: 87
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 90
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 94
+[Changes to Opponent detected.]
+> Add 100% more Health
+> Z-Item #1: Ultimate Warrior 1
+> Z-Item #2: Master Roshi's Training
+Event:     Normal Clash
 
-[Scene 30 (Victory)]
-Lower Current BG Music
-Lower Current BG Music
-BG Music:  Fly High
+[Scene 30 (Victory) - UNUSED]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SSG Goku
+> Position (XYZ): -25.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Beerus
+> Position (XYZ): 58.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 49.336 -4.046 9.849 
+> Rotation (XYZ): 3.753 137.879 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 50.126 -14.08 8.975 
+> Rotation (XYZ): 3.753 137.879 0.0 
+Play Animation 0_GROUND.canm for SSG Goku
+> Loop property detected
+Play Animation 0_GROUND.canm for Beerus
+> Loop property detected
+Play Voice Line 37 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -18.82 -9.869 10.556 
+> Rotation (XYZ): -2.049999 -160.849 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -18.708 -12.025 10.311 
+> Rotation (XYZ): -2.903 -160.849 0.0 
+Play Voice Line 38 for SSG Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -38.31 -3.125 9.208 
+> Rotation (XYZ): 7.537 112.883 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -32.058 -4.023 6.569 
+> Rotation (XYZ): 7.537 112.883 0.0 
+Play Voice Line 39 for Beerus
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
+Condition: Wait 20 seconds
+> Scene ID: 4
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 13
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 41
+Condition: Perform Dragon Homing
+> Voice Line ID: 27
+Condition: Perform Vanishing Attack
+> Voice Line ID: 28
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 29
+Condition: Perform Throw
+> Voice Line ID: 30
+Condition: UNKNOWN(ID: 35)
+> Voice Line ID: 31
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 32
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 33
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 34
+Condition: Win Beam Struggle
+> Voice Line ID: 35
+Condition: Win Normal Clash
+> Voice Line ID: 36
+Condition: Block 1st Blast 2
+> Voice Line ID: 37
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 38
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 39
+Condition: Perform Hyper Smash
+> Voice Line ID: 41
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 42
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 33
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 42
+Condition: Block 2nd Blast 2
+> Voice Line ID: 37
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 38
+Condition: Perform Dash Smash
+> Voice Line ID: 41
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 42
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 30
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 29
+[Changes to Player 1 detected.]
+> Add 100% more Health
+
+[Scene 31 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for SS2 Caulifla
+> Position (XYZ): -22.0 -100.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for SS1 Teen Gohan
+> Position (XYZ): 55.0 -100.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for SS2 Caulifla
+Disable Aura Charge for SS1 Teen Gohan
+Lower Current BG Music
+[Initial Camera Point]
+> Position (XYZ): 51.68 -113.077 -5.208 
+> Rotation (XYZ): 3.034 -65.781 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 51.68 -113.077 -5.208 
+> Rotation (XYZ): 3.034 -68.781 0.0 
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Animation 39_FLY_TIRED.canm for SSG Goku
+> Loop property detected
+Play Voice Line 250 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 35.68 -113.977 -3.308 
+> Rotation (XYZ): 3.034 65.781 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 35.98 -113.977 -3.008 
+> Rotation (XYZ): 3.034 68.781 0.0 
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Animation 39_FLY_TIRED.canm for SSG Goku
+> Loop property detected
+Play Voice Line 65 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -10.68 -109.977 -5.308 
+> Rotation (XYZ): 3.034 -65.781 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -10.98 -109.977 -5.008 
+> Rotation (XYZ): 3.034 -60.781 0.0 
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Animation 39_FLY_TIRED.canm for SSG Goku
+> Loop property detected
+Play Voice Line 66 for SSG Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 10.82 -165.869 110.556 
+> Rotation (XYZ): -30.05 -180.849 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 10.708 -165.02501 110.311 
+> Rotation (XYZ): -30.903 -180.849 0.0 
+Play Voice Line 67 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 60.68 -108.077 -5.208 
+> Rotation (XYZ): 3.034 -65.781 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 60.68 -110.077 -5.208 
+> Rotation (XYZ): 3.034 -68.781 0.0 
+Enable Ki Charge for SS1 Vegeta
+Play Animation 284_SKILL_003_EVENT_1.canm for Beerus
+> Wait property detected
+Enable Ki Charge for SS1 Vegeta
+Play Animation 39_FLY_TIRED.canm for SSG Goku
+> Loop property detected
+Play Voice Line 250 for SS2 Caulifla
+> Wait property detected
+Play Voice Line 250 for SS2 Caulifla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -10.68 -110.977 -5.308 
+> Rotation (XYZ): 0.034 -65.781 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -10.98 -110.977 -5.008 
+> Rotation (XYZ): 0.034 -60.781 0.0 
+Play Animation 39_FLY_TIRED.canm for SSG Goku
+> Loop property detected
+Play Voice Line 250 for SS2 Caulifla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 42.68 -112.977 0.308 
+> Rotation (XYZ): 15.034 100.781 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 43.18 -110.977 2.008 
+> Rotation (XYZ): 15.034 106.781 0.0 
+Play Animation 39_FLY_TIRED.canm for SSG Goku
+> Loop property detected
+Play Voice Line 250 for SS2 Caulifla
+> Wait property detected
+Play Voice Line 250 for SS2 Caulifla
+> Wait property detected
+Enable MPM Explosion for Beerus
+Play Voice Line 250 for SS2 Caulifla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -45.68 -107.977 8.308 
+> Rotation (XYZ): 0.034 104.781 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -46.18 -107.977 14.008 
+> Rotation (XYZ): 0.034 108.781 0.0 
+Play Animation 39_FLY_TIRED.canm for SSG Goku
+> Loop property detected
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Voice Line 68 for SSG Goku
+> Wait property detected
+Play Voice Line 69 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -9.08 -109.977 0.308 
+> Rotation (XYZ): 3.034 -90.781 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -9.08 -109.977 0.008 
+> Rotation (XYZ): 3.034 -90.781 0.0 
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Animation 39_FLY_TIRED.canm for SSG Goku
+> Loop property detected
+Play Voice Line 70 for SSG Goku
+> Wait property detected
+Play Voice Line 71 for SSG Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 36.68 -113.177 0.308 
+> Rotation (XYZ): 15.034 96.781 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 35.18 -113.177 0.008 
+> Rotation (XYZ): 15.034 90.781 0.0 
+Play Animation 39_FLY_TIRED.canm for SSG Goku
+> Loop property detected
+Play Voice Line 72 for Beerus
+> Wait property detected
+Play Voice Line 73 for Beerus
+> Wait property detected
+Play Voice Line 74 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -9.08 -109.977 0.308 
+> Rotation (XYZ): 3.034 -90.781 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -9.08 -109.977 0.008 
+> Rotation (XYZ): 3.034 -90.781 0.0 
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Animation 39_FLY_TIRED.canm for SSG Goku
+> Loop property detected
+Play Voice Line 75 for SSG Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 10.82 -165.869 110.556 
+> Rotation (XYZ): -30.05 -180.849 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 10.708 -165.02501 110.311 
+> Rotation (XYZ): -30.903 -180.849 0.0 
+Play Voice Line 76 for Beerus
+> Wait property detected
+Play Voice Line 77 for SSG Goku
+> Wait property detected
+Play Voice Line 78 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -15.68 -109.977 -5.308 
+> Rotation (XYZ): 3.034 -0.780998 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -18.18 -109.977 -8.008 
+> Rotation (XYZ): 3.034 -0.780998 0.0 
+Play Animation 39_FLY_TIRED.canm for SSG Goku
+> Loop property detected
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Voice Line 79 for SSG Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -29.68 -107.977 6.308 
+> Rotation (XYZ): 0.034 108.781 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -29.18 -107.977 6.008 
+> Rotation (XYZ): 0.034 108.781 0.0 
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Animation 39_FLY_TIRED.canm for SSG Goku
+> Loop property detected
+Play Voice Line 80 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 35.68 -113.977 -3.308 
+> Rotation (XYZ): 3.034 65.781 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 35.98 -113.977 -3.008 
+> Rotation (XYZ): 3.034 68.781 0.0 
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Voice Line 81 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 51.68 -113.077 -5.208 
+> Rotation (XYZ): 3.034 -65.781 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 51.68 -113.077 -5.208 
+> Rotation (XYZ): 3.034 -68.781 0.0 
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Animation 39_FLY_TIRED.canm for SSG Goku
+> Loop property detected
+Play Voice Line 82 for SSG Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -45.68 -107.977 8.308 
+> Rotation (XYZ): 0.034 104.781 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -46.18 -107.977 14.008 
+> Rotation (XYZ): 0.034 108.781 0.0 
+Play Animation 39_FLY_TIRED.canm for SSG Goku
+> Loop property detected
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Voice Line 83 for Beerus
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 35.68 -113.977 -3.308 
+> Rotation (XYZ): 3.034 65.781 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 35.98 -113.977 -3.008 
+> Rotation (XYZ): 3.034 68.781 0.0 
+Play Animation 385_INTRO_LOOP.canm for Beerus
+> Loop property detected
+Play Animation 39_FLY_TIRED.canm for SSG Goku
+> Loop property detected
+Play Voice Line 84 for Beerus
+> Wait property detected
+Disable ALL VFX
+
+===No Battle Info===
+
+[Scene 32 (Victory) - UNUSED]
+
+===Cinematic Info===
+Change Position/Rotation for Beerus
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SSG Goku
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SSG Goku
+Disable Aura Charge for Beerus
+[Initial Camera Point]
+> Position (XYZ): -75.975 -18.192 27.547 
+> Rotation (XYZ): -14.379 -156.601 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -79.182 -8.383 4.454 
+> Rotation (XYZ): 14.564 -116.088 0.0 
+Play Animation 386_WIN_IN.canm for SSG Goku
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for SSG Goku
+> Loop property detected
+Play Voice Line 18 for SSG Goku
+> Wait property detected
+Disable ALL VFX
+
+===No Battle Info===
 
 [Scene 39 (Placeholder Victory)]
+
+===Cinematic Info===
+Disable ALL VFX
+
+===No Battle Info===
+
+[Scene 40 (Defeat) - UNUSED]
+
+===Cinematic Info===
+Change Position/Rotation for SSG Goku
+> Position (XYZ): 45.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Beerus
+> Position (XYZ): -12.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SSG Goku
+Disable Aura Charge for Beerus
+[Initial Camera Point]
+> Position (XYZ): 55.709 -13.844 -24.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 1.722 -8.019 -0.9 
+> Rotation (XYZ): 7.214 -81.245 0.0 
+Play Animation 388_LOSE.canm for SSG Goku
+Play Animation 386_WIN_IN.canm for Beerus
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Beerus
+> Loop property detected
+Play Voice Line 11 for Beerus
+> Wait property detected
+Disable ALL VFX
+
+===No Battle Info===
+
+[Scene 41 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for SS2 Caulifla
+> Position (XYZ): 45.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS1 Teen Gohan
+> Position (XYZ): -12.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SS2 Caulifla
+Disable Aura Charge for SS1 Teen Gohan
+[Initial Camera Point]
+> Position (XYZ): 55.709 -13.844 -24.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 1.722 -8.019 -0.9 
+> Rotation (XYZ): 7.214 -81.245 0.0 
+Play Animation 388_LOSE.canm for SS2 Caulifla
+Play Animation 386_WIN_IN.canm for SS1 Teen Gohan
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for SS1 Teen Gohan
+> Loop property detected
+Play Voice Line 43 for SS1 Teen Gohan
+> Wait property detected
+Disable ALL VFX
+
+===No Battle Info===
+
+[Scene 42 (Defeat) - UNUSED]
+
+===Cinematic Info===
+Change Position/Rotation for SS2 Caulifla
+> Position (XYZ): 45.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Piccolo (End)
+> Position (XYZ): -12.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SS2 Caulifla
+Disable Aura Charge for Piccolo (End)
+[Initial Camera Point]
+> Position (XYZ): 55.709 -13.844 -24.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.927 -13.206 -2.818 
+> Rotation (XYZ): 6.08 -77.591 0.0 
+Play Animation 388_LOSE.canm for SS2 Caulifla
+Play Animation 386_WIN_IN.canm for Piccolo (End)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Piccolo (End)
+> Loop property detected
+Play Voice Line 63 for Background Character
+> Wait property detected
+Disable ALL VFX
+
+===No Battle Info===
+
+[Scene 43 (Defeat) - UNUSED]
+
+===Cinematic Info===
+Change Position/Rotation for SS2 Caulifla
+> Position (XYZ): 45.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS1 Trunks (Sword)
+> Position (XYZ): -12.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SS2 Caulifla
+Disable Aura Charge for SS1 Trunks (Sword)
+[Initial Camera Point]
+> Position (XYZ): 55.709 -13.844 -24.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.927 -13.206 -2.818 
+> Rotation (XYZ): 6.08 -77.591 0.0 
+Play Animation 388_LOSE.canm for SS2 Caulifla
+Play Animation 386_WIN_IN.canm for SS1 Trunks (Sword)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for SS1 Trunks (Sword)
+> Loop property detected
+Play Voice Line 81 for SS1 Trunks (Sword)
+> Wait property detected
+Disable ALL VFX
+
+===No Battle Info===
+
+[Scene 44 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for SS2 Caulifla
+> Position (XYZ): 45.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS1 Vegeta
+> Position (XYZ): -12.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SS2 Caulifla
+Disable Aura Charge for SS1 Vegeta
+[Initial Camera Point]
+> Position (XYZ): 55.709 -13.844 -24.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.927 -13.206 -2.818 
+> Rotation (XYZ): 6.08 -77.591 0.0 
+Play Animation 388_LOSE.canm for SS2 Caulifla
+Play Animation 386_WIN_IN.canm for SS1 Vegeta
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for SS1 Vegeta
+> Loop property detected
+Play Voice Line 96 for SS1 Vegeta
+> Wait property detected
+Disable ALL VFX
+
+===No Battle Info===
+
+[Scene 45 (Defeat) - UNUSED]
+
+===Cinematic Info===
+Change Position/Rotation for SS2 Caulifla
+> Position (XYZ): 45.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS1 Teen Gohan
+> Position (XYZ): -12.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SS2 Caulifla
+Disable Aura Charge for SS1 Teen Gohan
+[Initial Camera Point]
+> Position (XYZ): 55.709 -13.844 -24.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 1.722 -8.019 -0.9 
+> Rotation (XYZ): 7.214 -81.245 0.0 
+Play Animation 388_LOSE.canm for SS2 Caulifla
+Play Animation 386_WIN_IN.canm for SS1 Teen Gohan
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for SS1 Teen Gohan
+> Loop property detected
+Play Voice Line 115 for SS1 Teen Gohan
+> Wait property detected
+Disable ALL VFX
+
+===No Battle Info===
+
+[Scene 46 (Defeat) - UNUSED]
+
+===Cinematic Info===
+Change Position/Rotation for SS2 Caulifla
+> Position (XYZ): 45.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Piccolo (End)
+> Position (XYZ): -12.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SS2 Caulifla
+Disable Aura Charge for Piccolo (End)
+[Initial Camera Point]
+> Position (XYZ): 55.709 -13.844 -24.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.927 -13.206 -2.818 
+> Rotation (XYZ): 6.08 -77.591 0.0 
+Play Animation 388_LOSE.canm for SS2 Caulifla
+Play Animation 386_WIN_IN.canm for Piccolo (End)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Piccolo (End)
+> Loop property detected
+Play Voice Line 133 for Piccolo (End)
+> Wait property detected
+Disable ALL VFX
+
+===No Battle Info===
+
+[Scene 47 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for SS2 Caulifla
+> Position (XYZ): 45.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS1 Trunks (Sword)
+> Position (XYZ): -12.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SS2 Caulifla
+Disable Aura Charge for SS1 Trunks (Sword)
+[Initial Camera Point]
+> Position (XYZ): 55.709 -13.844 -24.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.927 -13.206 -2.818 
+> Rotation (XYZ): 6.08 -77.591 0.0 
+Play Animation 388_LOSE.canm for SS2 Caulifla
+Play Animation 386_WIN_IN.canm for SS1 Trunks (Sword)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for SS1 Trunks (Sword)
+> Loop property detected
+Play Voice Line 151 for SS1 Trunks (Sword)
+> Wait property detected
+Disable ALL VFX
+
+===No Battle Info===
+
+[Scene 48 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for SS2 Caulifla
+> Position (XYZ): 45.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS1 Vegeta
+> Position (XYZ): -12.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SS2 Caulifla
+Disable Aura Charge for SS1 Vegeta
+[Initial Camera Point]
+> Position (XYZ): 55.709 -13.844 -24.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.927 -13.206 -2.818 
+> Rotation (XYZ): 6.08 -77.591 0.0 
+Play Animation 388_LOSE.canm for SS2 Caulifla
+Play Animation 386_WIN_IN.canm for SS1 Vegeta
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for SS1 Vegeta
+> Loop property detected
+Play Voice Line 166 for SS1 Vegeta
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat)]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

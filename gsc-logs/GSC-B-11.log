@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: Cell Game Arena - Ruins
-BGM: Critical Power 
+BGM: UNKNOWN (ID: 120)
 
 [Player 1 Team]
 > Teammate 1
@@ -107,7 +107,7 @@ Z-Item #7: null
 
 > Teammate 5
 Character: Cell - Perfect
-Costume: 2
+Costume: 3
 Damaged: false
 COM Difficulty Level: 8
 Strategy Z-Item: Cell Type
@@ -126,20 +126,71 @@ Teammate Count (Opponent): 5
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for SS2 Teen Gohan
+> Position (XYZ): -25.0 -15.0 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Cell Jr.
+> Position (XYZ): 25.0 -15.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 0_GROUND.canm for SS2 Teen Gohan
+> Loop property detected
+Play Animation 0_GROUND.canm for Cell Jr.
+> Loop property detected
+Enable Aura Charge for SS2 Teen Gohan
+[Initial Camera Point]
+> Position (XYZ): -15.209 -20.875 -38.774 
+> Rotation (XYZ): -23.62 -66.189 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): -15.209 -20.875 -38.774 
+> Rotation (XYZ): 33.003 -66.189 0.0 
+Play Voice Line 0 for SS2 Teen Gohan
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 22.785 -58.27 -3.251 
+> Rotation (XYZ): -41.885 -142.439 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -17.376 -30.557 -30.558 
+> Rotation (XYZ): -27.595 -123.875 0.0 
+Play Voice Line 1 for Cell - Perfect
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
+Condition: Immediate
+> Voice Line ID: 2
+Condition: Lose 2 Health Bars
+> Voice Line ID: 109
+Condition: Lose 3 Health Bars
+> Voice Line ID: 85
+Condition: Lose 4 Health Bars
+> Voice Line ID: 101
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
+Condition: Immediate
+> Voice Line ID: 3
+Condition: Lose 2 Health Bars
+> Voice Line ID: 109
+Condition: Lose 3 Health Bars
+> Voice Line ID: 85
+Condition: Lose 4 Health Bars
+> Voice Line ID: 101
 [Changes to Opponent detected.]
 > Apply changes to Teammate 2
 Event:     Switch with Teammate #2 (Opponent) [AUTO]
@@ -147,11 +198,22 @@ Character: Cell Jr.
 
 [Scene 2]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 3
+> Scene ID: 3
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
+Condition: Immediate
+> Voice Line ID: 4
+Condition: Lose 2 Health Bars
+> Voice Line ID: 109
+Condition: Lose 3 Health Bars
+> Voice Line ID: 85
+Condition: Lose 4 Health Bars
+> Voice Line ID: 101
 [Changes to Opponent detected.]
 > Apply changes to Teammate 3
 Event:     Switch with Teammate #3 (Opponent) [AUTO]
@@ -159,11 +221,22 @@ Character: Cell Jr.
 
 [Scene 3]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 4
+> Scene ID: 4
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
+Condition: Immediate
+> Voice Line ID: 7
+Condition: Lose 2 Health Bars
+> Voice Line ID: 109
+Condition: Lose 3 Health Bars
+> Voice Line ID: 85
+Condition: Lose 4 Health Bars
+> Voice Line ID: 101
 [Changes to Opponent detected.]
 > Apply changes to Teammate 4
 Event:     Switch with Teammate #4 (Opponent) [AUTO]
@@ -171,13 +244,16 @@ Character: Cell Jr.
 
 [Scene 4]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Immediate
-> GSAC ID: 5
+> Scene ID: 5
 [Changes to Opponent detected.]
 > Apply changes to Teammate 5
 Event:     Switch with Teammate #5 (Opponent) [AUTO]
@@ -185,58 +261,539 @@ Character: Cell - Perfect
 
 [Scene 5]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS2 Teen Gohan
+> Position (XYZ): -40.0 -25.0 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Cell - Perfect
+> Position (XYZ): 40.0 -25.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 38_FLY.canm for SS2 Teen Gohan
+> Loop property detected
+Play Animation 38_FLY.canm for Cell - Perfect
+> Loop property detected
+Enable Aura Charge for SS2 Teen Gohan
+Disable Aura Charge for Cell - Perfect
+[Initial Camera Point]
+> Position (XYZ): 23.252 -45.28 -35.672 
+> Rotation (XYZ): -7.929 86.888 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 30.615 -44.253 -35.271 
+> Rotation (XYZ): -7.929 86.888 0.0 
+Play Voice Line 9 for Cell - Perfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 67.362 -42.992 -61.087 
+> Rotation (XYZ): -7.021 -57.791 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 59.027 -43.587 -48.694 
+> Rotation (XYZ): -15.98 -71.494 0.0 
+Play Voice Line 10 for Cell - Perfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -36.833 -33.509 -44.714 
+> Rotation (XYZ): 11.657 -9.67 0.0 
+Play Voice Line 11 for SS2 Teen Gohan
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 34.266 -44.032 -41.161 
+> Rotation (XYZ): -8.987 24.716 0.0 
+Play Voice Line 12 for Cell - Perfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -53.617 -38.727 -44.751 
+> Rotation (XYZ): -1.701 81.855 0.0 
+[Additional Camera Point]
+> Transition Time: 3.2 
+> Position (XYZ): -53.617 -38.727 -44.751 
+> Rotation (XYZ): -1.701 81.855 0.0 
+Enable Aura Charge for Cell - Perfect
+Play Voice Line 13 for Cell - Perfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 9.071 -15.55 -33.668 
+> Rotation (XYZ): 26.995 93.538 0.0 
+Play Animation 52_CHARGE_IN.canm for Cell - Perfect
+> Wait property detected
+Play Animation 53_CHARGE_LOOP.canm for Cell - Perfect
+> Loop property detected
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 25.222 -33.552 -34.666 
+> Rotation (XYZ): 13.665 93.538 0.0 
+Enable Ki Charge for Cell - Perfect
+Shake Camera for 0.5 seconds
+Play Voice Line 14 for Cell - Perfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 5.12 -45.342 -36.881 
+> Rotation (XYZ): -17.08 89.1 0.0 
+[Additional Camera Point]
+> Transition Time: 0.2 
+> Position (XYZ): -66.217 -43.758 -53.645 
+> Rotation (XYZ): -12.192 80.416 0.0 
+Play Animation 54_CHARGE_MAX.canm for Cell - Perfect
+Shake Camera for 0.5 seconds
+Enable MPM Explosion for Cell - Perfect
+Play Voice Line 15 for Cell - Perfect
+> Wait property detected
+Wait 0.5 seconds
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 6
+> Scene ID: 6
+Condition: Immediate
+> Voice Line ID: 16
+Condition: Immediate
+> Voice Line ID: 17
+Condition: Immediate
+> Voice Line ID: 18
+Condition: Immediate
+> Voice Line ID: 19
+Condition: Lose 3 Health Bars
+> Voice Line ID: 109
+Condition: Lose 4 Health Bars
+> Voice Line ID: 85
+Condition: Lose 5 Health Bars
+> Voice Line ID: 86
+Condition: Perform Throw
+> Voice Line ID: 23
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 119
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 145
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 166
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 84
+Condition: Perform Fully Charged Neutral Smash Attack
+> Voice Line ID: 119
+Condition: Perform Guard Crush
+> Voice Line ID: 92
+Condition: Perform Sonic Sway
+> Voice Line ID: 96
+Condition: Perform Teleport
+> Voice Line ID: 96
+Condition: Perform Dragon Smash
+> Voice Line ID: 157
+Condition: Perform Vanishing Attack
+> Voice Line ID: 110
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 148
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 83
+Condition: Perform Ultimate Blast
+> Voice Line ID: 22
+Condition: UNKNOWN(ID: 35)
+> Voice Line ID: 165
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 92
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 164
+Condition: Lose 5 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 108
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 24
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 118
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 97
+Condition: Perform Normal Clash
+> Voice Line ID: 167
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 20
 Event:     Go to MAX POWER Mode (Opponent) [AUTO]
 
 [Scene 6]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Lose 4 Health Bars (Opponent) [AUTO]
-> GSAC ID: 7
+> Scene ID: 7
+Condition: Lose 3 Health Bars
+> Voice Line ID: 109
+Condition: Lose 4 Health Bars
+> Voice Line ID: 85
+Condition: Lose 5 Health Bars
+> Voice Line ID: 86
+Condition: Perform Throw
+> Voice Line ID: 23
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 25
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 145
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 166
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 84
+Condition: Perform Fully Charged Neutral Smash Attack
+> Voice Line ID: 119
+Condition: Perform Guard Crush
+> Voice Line ID: 92
+Condition: Perform Sonic Sway
+> Voice Line ID: 96
+Condition: Perform Teleport
+> Voice Line ID: 96
+Condition: Perform Dragon Smash
+> Voice Line ID: 21
+Condition: Perform Vanishing Attack
+> Voice Line ID: 110
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 148
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 83
+Condition: Perform Ultimate Blast
+> Voice Line ID: 22
+Condition: UNKNOWN(ID: 35)
+> Voice Line ID: 165
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 92
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 164
+Condition: Lose 5 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 108
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 24
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 118
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 97
+Condition: Perform Normal Clash
+> Voice Line ID: 167
+Condition: Perform Aerial Clash
+> Voice Line ID: 155
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 20
 Event:     Battle Finish
 
 [Scene 7]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS2 Teen Gohan
+> Position (XYZ): -99.5 -30.0 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Cell - Perfect
+> Position (XYZ): 99.5 -87.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 38_FLY.canm for SS2 Teen Gohan
+> Loop property detected
+Play Animation 39_FLY_TIRED.canm for Cell - Perfect
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 88.083 -91.669 -41.693 
+> Rotation (XYZ): 40.516 36.6 0.0 
+Play Voice Line 26 for Cell - Perfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 111.495 -106.67 -18.251 
+> Rotation (XYZ): -25.039 -117.046 0.0 
+Play Voice Line 27 for Cell - Perfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 74.375 -105.058 -32.054 
+> Rotation (XYZ): -8.638 95.329 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 43.764 -109.728 -29.199 
+> Rotation (XYZ): -8.638 95.329 0.0 
+Play Animation 284_SKILL_003_EVENT_1.canm for Cell - Perfect
+> Wait property detected
+Play Animation 285_SKILL_003_EVENT_2.canm for Cell - Perfect
+> Loop property detected
+Enable Ki Charge for Cell - Perfect
+Shake Camera for 1.0 seconds
+Play Voice Line 28 for Cell - Perfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 37.737 -85.213 -34.135 
+> Rotation (XYZ): -30.123 -91.084 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -86.845 -41.095 -36.756 
+> Rotation (XYZ): 0.973 -79.977 0.0 
+Play Voice Line 29 for Cell - Perfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 80.39 -101.143 -28.854 
+> Rotation (XYZ): 5.673 101.65 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 58.45 -99.911 -24.331 
+> Rotation (XYZ): 0.364 101.65 0.0 
+Play Voice Line 32 for Background Character
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Win Beam Struggle
-> GSAC ID: 8
+> Scene ID: 8
+Condition: Lose 4 Health Bars
+> Voice Line ID: 85
+Condition: Lose 5 Health Bars
+> Voice Line ID: 86
+Condition: Perform Throw
+> Voice Line ID: 23
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 25
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 145
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 166
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 84
+Condition: Perform Fully Charged Neutral Smash Attack
+> Voice Line ID: 119
+Condition: Perform Guard Crush
+> Voice Line ID: 92
+Condition: Perform Sonic Sway
+> Voice Line ID: 96
+Condition: Perform Teleport
+> Voice Line ID: 96
+Condition: Perform Dragon Smash
+> Voice Line ID: 21
+Condition: Perform Vanishing Attack
+> Voice Line ID: 110
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 83
+Condition: Perform Ultimate Blast
+> Voice Line ID: 22
+Condition: UNKNOWN(ID: 35)
+> Voice Line ID: 165
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 92
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 164
+Condition: Lose 5 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 108
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 24
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 118
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 97
 [Changes to Player 1 detected.]
 > Add 100% more Ki
 [Changes to Opponent detected.]
 > Add 100% more Ki
-Event:     Unknown (ID: 30)
+Event:     UNKNOWN (ID: 30)
 
 [Scene 8]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS2 Teen Gohan
+> Position (XYZ): -99.5 -15.0 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Cell - Perfect
+> Position (XYZ): 99.5 -87.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Cell - Perfect
+Play Animation 413_STAND_LOOP.canm for SS2 Teen Gohan
+> Loop property detected
+Play Animation 212_DAMAGE_LYING_TIRED_IN.canm for Cell - Perfect
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 82.251 -89.435 -35.1 
+> Rotation (XYZ): 40.874 91.621 0.0 
+Play Voice Line 33 for Cell - Perfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -87.0 -29.023 -25.784 
+> Rotation (XYZ): -7.225 -125.342 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -95.694 -27.81 -31.949 
+> Rotation (XYZ): -5.059 -125.342 0.0 
+Play Voice Line 34 for Background Character
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
+Condition: Immediate
+> Voice Line ID: 35
+Condition: Immediate
+> Voice Line ID: 36
+Condition: Immediate
+> Voice Line ID: 37
+Condition: Immediate
+> Voice Line ID: 38
+Condition: Immediate
+> Voice Line ID: 39
+Condition: Lose 4 Health Bars
+> Voice Line ID: 85
+Condition: Lose 5 Health Bars
+> Voice Line ID: 86
+Condition: Perform Throw
+> Voice Line ID: 23
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 25
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 145
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 166
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 84
+Condition: Perform Fully Charged Neutral Smash Attack
+> Voice Line ID: 119
+Condition: Perform Guard Crush
+> Voice Line ID: 92
+Condition: Perform Sonic Sway
+> Voice Line ID: 96
+Condition: Perform Teleport
+> Voice Line ID: 96
+Condition: Perform Dragon Smash
+> Voice Line ID: 21
+Condition: Perform Vanishing Attack
+> Voice Line ID: 110
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 148
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 83
+Condition: Perform Ultimate Blast
+> Voice Line ID: 22
+Condition: UNKNOWN(ID: 35)
+> Voice Line ID: 165
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 92
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 164
+Condition: Lose 5 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 108
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 24
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 118
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 97
+Condition: Perform Normal Clash
+> Voice Line ID: 167
+Condition: Perform Aerial Clash
+> Voice Line ID: 155
 Event:     Battle Finish
 
 [Scene 30 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for SS2 Teen Gohan
+> Position (XYZ): -40.0 -25.0 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Cell - Perfect
+> Position (XYZ): 40.0 -25.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 38_FLY.canm for SS2 Teen Gohan
+> Loop property detected
+Play Animation 39_FLY_TIRED.canm for Cell - Perfect
+> Loop property detected
+Disable Aura Charge for SS2 Teen Gohan
+Disable Aura Charge for Cell - Perfect
+[Initial Camera Point]
+> Position (XYZ): -20.543 -25.136 -48.692 
+> Rotation (XYZ): 16.31 -51.345 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -33.59 -36.861 -38.255 
+> Rotation (XYZ): 6.541 -55.914 0.0 
+Play Voice Line 52 for SS2 Teen Gohan
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 12.651 -46.182 -36.255 
+> Rotation (XYZ): -23.359 85.103 0.0 
+Play Voice Line 43 for Cell - Perfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -63.182 -37.63 -23.167 
+> Rotation (XYZ): -2.269 103.945 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -70.393 -87.73 -21.377 
+> Rotation (XYZ): -44.409 103.945 0.0 
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for SS2 Teen Gohan
+> Position (XYZ): -20.0 -15.0 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Cell Jr.
+> Position (XYZ): 20.0 -15.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 1_GROUND_TIRED.canm for SS2 Teen Gohan
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Cell Jr.
+> Loop property detected
+Disable Aura Charge for SS2 Teen Gohan
+Disable Aura Charge for Cell Jr.
+[Initial Camera Point]
+> Position (XYZ): 6.311 -19.233 -33.647 
+> Rotation (XYZ): 8.603 87.31 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 9.347 -26.227 -34.356 
+> Rotation (XYZ): -14.736 82.413 0.0 
+Play Animation 388_LOSE.canm for SS2 Teen Gohan
+Play Animation 387_WIN_LOOP.canm for Cell Jr.
+> Loop property detected
+Wait 3.0 seconds
+Play Voice Line 101 for Cell - Perfect
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for SS2 Teen Gohan
+> Position (XYZ): -20.0 -15.0 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Cell - Perfect
+> Position (XYZ): 20.0 -15.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 413_STAND_LOOP.canm for Cell - Perfect
+> Loop property detected
+Play Animation 388_LOSE.canm for SS2 Teen Gohan
+Disable Aura Charge for SS2 Teen Gohan
+Disable Aura Charge for Cell - Perfect
+[Initial Camera Point]
+> Position (XYZ): -3.558 -23.039 -36.832 
+> Rotation (XYZ): 12.755 85.038 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 5.821 -29.158 -34.898 
+> Rotation (XYZ): 14.38 89.746 0.0 
+Play Animation 386_WIN_IN.canm for Cell - Perfect
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Cell - Perfect
+> Loop property detected
+Play Voice Line 82 for Cell - Perfect
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===

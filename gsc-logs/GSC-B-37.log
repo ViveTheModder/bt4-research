@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: City Ruins - Evening
-BGM: Belief Of Steel
+BGM: UNKNOWN (ID: 71)
 
 [Player 1 Team]
 > Teammate 1
@@ -111,34 +111,141 @@ Teammate Count (Opponent): 3
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Nuova Shenron
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 69.83 -4.973 8.81 
+> Rotation (XYZ): 3.903 119.813 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 76.159 -6.16 -2.446 
+> Rotation (XYZ): -5.375 84.77 0.0 
+Play Animation 384_INTRO_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 0 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -26.202 -2.888 0.285 
+> Rotation (XYZ): 15.267 -89.879 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): -41.399 -11.232 0.507 
+> Rotation (XYZ): 11.777 -96.211 0.0 
+Play Animation 413_STAND_LOOP.canm for Nuova Shenron
+> Loop property detected
+Play Voice Line 1 for Nuova Shenron
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 10 seconds
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 2
+Condition: Immediate
+> Voice Line ID: 3
+Condition: Immediate
+> Voice Line ID: 4
 Event:     Battle Finish
 
 [Scene 1]
+
+===Cinematic Info===
 Lower Current BG Music
-BG Music:  Fire Nation
+BG Music:  UNKNOWN (ID: 146)
+Change Position/Rotation for Nuova Shenron
+> Position (XYZ): -40.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 40.0 0.0 35.0 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): 7.917 -12.567 6.403 
+> Rotation (XYZ): -16.237 48.933 0.0 
+[Additional Camera Point]
+> Transition Time: 2.5 
+> Position (XYZ): 26.663 -3.517 22.738 
+> Rotation (XYZ): 2.948 48.933 0.0 
+Play Animation 52_CHARGE_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 53_CHARGE_LOOP.canm for Goku (GT)
+> Loop property detected
+Enable Ki Charge for Goku (GT)
+Shake Camera for 1.0 seconds
+Play Voice Line 5 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 2
+> Scene ID: 2
 Event:     Assign Transformation
 Character: SS4 Goku (GT)
 
 [Scene 2]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Nuova Shenron
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -44.726 -14.171 16.738 
+> Rotation (XYZ): -12.615 -160.933 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -35.876 -13.666 0.589 
+> Rotation (XYZ): -12.615 -87.816 0.0 
+Disable Ki Charge for Goku (GT)
+Play Animation 385_INTRO_LOOP.canm for Nuova Shenron
+> Loop property detected
+Play Voice Line 6 for Nuova Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 78.034 -10.455522 -1.488 
+> Rotation (XYZ): -4.52 83.108 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): 80.403 -19.614635 -1.201 
+> Rotation (XYZ): -0.01 83.108 0.0 
+Enable Aura Charge for Goku (GT)
+Play Animation 385_INTRO_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 7 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 20 seconds
-> GSAC ID: 3
+> Scene ID: 3
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 8
+Condition: Immediate
+> Voice Line ID: 9
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Immediate
+> Voice Line ID: 11
+Condition: Immediate
+> Voice Line ID: 12
 [Changes to Player 1 detected.]
 > Add 50% more Health
 [Changes to Opponent detected.]
@@ -152,26 +259,122 @@ Event:     Battle Finish
 
 [Scene 3]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 0.0 -25.0 -50.0 
+> Rotation (XYZ): 0.0 -36.0 0.0 
+Change Position/Rotation for Nuova Shenron
+> Position (XYZ): 0.0 -25.5 50.0 
+> Rotation (XYZ): 0.0 -180.0 0.0 
+Play Animation 38_FLY.canm for Goku (GT)
+> Loop property detected
+Play Animation 38_FLY.canm for Nuova Shenron
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 123.194 -42.93 -35.255 
+> Rotation (XYZ): -4.609 -75.588 0.0 
+[Additional Camera Point]
+> Transition Time: 4.5 
+> Position (XYZ): 88.46 -40.043 -26.565 
+> Rotation (XYZ): -4.609 -76.164 0.0 
+Enable Ki Charge for Goku (GT)
+Play Animation 261_SKILL_003_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 282_SKILL_003_22.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 13 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 13.908 -36.17 -37.688 
+> Rotation (XYZ): 3.053 -124.576 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 6.471 -40.652 -42.814 
+> Rotation (XYZ): 10.564 -124.576 0.0 
+Play Voice Line 14 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 5 Health Bars (Opponent) [AUTO]
-> GSAC ID: 4
+> Scene ID: 4
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 15
+Condition: Immediate
+> Voice Line ID: 16
+Condition: Immediate
+> Voice Line ID: 17
+Condition: Immediate
+> Voice Line ID: 18
+Condition: Immediate
+> Voice Line ID: 19
+Condition: Immediate
+> Voice Line ID: 20
 [Changes to Player 1 detected.]
 > Add 50% more Health
 Event:     Normal Clash
 
 [Scene 4]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Nuova Shenron
+> Position (XYZ): -56.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -68.0 0.0 1.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 413_STAND_LOOP.canm for Nuova Shenron
+> Loop property detected
+Play Animation 316_SKILL_004_22.canm for Goku (GT)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -93.831 -12.39 18.069 
+> Rotation (XYZ): -3.339 107.81 0.0 
+[Additional Camera Point]
+> Transition Time: 8.5 
+> Position (XYZ): -91.518 -12.39 -15.241 
+> Rotation (XYZ): -3.339 63.37 0.0 
+Play Voice Line 21 for Nuova Shenron
+> Wait property detected
+Play Voice Line 22 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -59.256 -27.368 -2.87 
+> Rotation (XYZ): -84.752 -83.882 0.0 
+[Additional Camera Point]
+> Transition Time: 9.3125 
+> Position (XYZ): -62.257 -15.6795 -1.503 
+> Rotation (XYZ): 23.314 -83.882 0.0 
+Play Voice Line 23 for Goku (GT)
+> Wait property detected
+Play Voice Line 24 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -49.904 -19.235 -31.168 
+> Rotation (XYZ): -20.524 -17.08775 0.0 
+Play Voice Line 25 for Nuova Shenron
+> Wait property detected
+Play Voice Line 26 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Wait 10 seconds
-> GSAC ID: 5
+> Scene ID: 5
+Condition: Immediate
+> Voice Line ID: 27
+Condition: Immediate
+> Voice Line ID: 28
 [Changes to Player 1 detected.]
 > Add 50% more Health
 [Changes to Opponent detected.]
@@ -180,27 +383,113 @@ Event:     Battle Finish
 
 [Scene 5]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 6
+> Scene ID: 6
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Switch with Teammate #2 (Opponent) [AUTO]
 Character: Eis Shenron
 
 [Scene 6]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 70.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Eis Shenron
+> Position (XYZ): -70.0 -49.1 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 413_STAND_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Animation 38_FLY.canm for Eis Shenron
+> Loop property detected
+Disable Aura Charge for Goku (GT)
+[Initial Camera Point]
+> Position (XYZ): 82.637 -13.763 -44.041 
+> Rotation (XYZ): 1.771 -81.089 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 97.214 -13.651 -46.327 
+> Rotation (XYZ): -2.753 -81.089 0.0 
 Lower Current BG Music
-BG Music:  Super Strength
+BG Music:  UNKNOWN (ID: 147)
+Play Voice Line 29 for Nuova Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -23.59 -61.825 -34.263 
+> Rotation (XYZ): 2.629 -90.777 0.0 
+[Additional Camera Point]
+> Transition Time: 1.5 
+> Position (XYZ): -62.017 -65.678 -34.784 
+> Rotation (XYZ): 2.629 -90.777 0.0 
+Play Animation 385_INTRO_LOOP.canm for Eis Shenron
+> Loop property detected
+Play Voice Line 30 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -54.959 -56.012 -40.944 
+> Rotation (XYZ): 22.297 -65.693 0.0 
+Play Voice Line 31 for Eis Shenron
+> Wait property detected
+Play Voice Line 32 for Nuova Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 58.308 -16.78 -33.295 
+> Rotation (XYZ): -11.397 105.225 0.0 
+Play Animation 406_SURPRISED.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 33 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Wait 100 seconds
-> GSAC ID: 7
+> Scene ID: 7
+Condition: Immediate
+> Voice Line ID: 34
+Condition: Immediate
+> Voice Line ID: 35
+Condition: Immediate
+> Voice Line ID: 36
+Condition: Immediate
+> Voice Line ID: 37
+Condition: Immediate
+> Voice Line ID: 38
+Condition: Immediate
+> Voice Line ID: 39
+Condition: Immediate
+> Voice Line ID: 40
+Condition: Immediate
+> Voice Line ID: 41
+Condition: Immediate
+> Voice Line ID: 42
+Condition: Immediate
+> Voice Line ID: 43
+Condition: Immediate
+> Voice Line ID: 44
+Condition: Immediate
+> Voice Line ID: 45
+Condition: Immediate
+> Voice Line ID: 46
+Condition: Immediate
+> Voice Line ID: 47
+Condition: Immediate
+> Voice Line ID: 48
+Condition: Immediate
+> Voice Line ID: 49
+Condition: Immediate
+> Voice Line ID: 50
 [Changes to Player 1 detected.]
 > Add 50% more Health
 [Changes to Opponent detected.]
@@ -209,13 +498,81 @@ Event:     Battle Finish
 
 [Scene 7]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -26.8 0.0 -27.5 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Change Position/Rotation for Eis Shenron
+> Position (XYZ): 26.8 0.0 27.5 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (GT)
+> Loop property detected
+Play Animation 0_GROUND.canm for Eis Shenron
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -22.671 -7.722 -20.134 
+> Rotation (XYZ): 23.923 -158.132 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -15.569 -0.403 -2.439 
+> Rotation (XYZ): 16.463 -158.598 0.0 
+Play Voice Line 51 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 16.071 -3.916 27.114 
+> Rotation (XYZ): 39.409 90.615 0.0 
+Play Voice Line 52 for Eis Shenron
+> Wait property detected
+Play Voice Line 53 for Eis Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 19.129 -14.083 29.33 
+> Rotation (XYZ): 17.379 129.067 0.0 
+Play Voice Line 54 for Eis Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 34.594 -20.628 26.314 
+> Rotation (XYZ): -15.234 -119.739 0.0 
+[Additional Camera Point]
+> Transition Time: 20.0 
+> Position (XYZ): 25.97 -20.628 40.103 
+> Rotation (XYZ): -15.234 -146.272 0.0 
+Play Voice Line 55 for Nuova Shenron
+> Wait property detected
+Play Voice Line 56 for Nuova Shenron
+> Wait property detected
+Play Voice Line 57 for Nuova Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 9.506 -4.53675 29.782 
+> Rotation (XYZ): 20.681 106.881 0.0 
+Play Voice Line 58 for Eis Shenron
+> Wait property detected
+Play Voice Line 59 for Eis Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -49.172 -6.644 -38.793 
+> Rotation (XYZ): 0.001 52.071 0.0 
+[Additional Camera Point]
+> Transition Time: 11.0 
+> Position (XYZ): 18.943 -15.1595 25.179 
+> Rotation (XYZ): 9.187 81.9 0.0 
+Play Voice Line 60 for Eis Shenron
+> Wait property detected
+Play Voice Line 61 for Eis Shenron
+> Wait property detected
+Play Voice Line 62 for Nuova Shenron
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 8
+> Scene ID: 8
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 [Changes to Opponent detected.]
 > Z-Item #7: null
 Event:     Switch with Teammate #1 (Opponent) [AUTO]
@@ -223,28 +580,93 @@ Character: Nuova Shenron
 
 [Scene 8]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Nuova Shenron
+> Position (XYZ): 26.8 0.0 27.5 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -26.8 0.0 -27.5 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (GT)
+> Loop property detected
+Play Animation 0_GROUND.canm for Nuova Shenron
+> Loop property detected
+Disable Aura Charge for Goku (End)
+[Initial Camera Point]
+> Position (XYZ): 12.6 -4.261 22.785 
+> Rotation (XYZ): 24.69 74.119 0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): 17.85 -7.12 24.279 
+> Rotation (XYZ): 32.889 74.119 0.0 
+Enable Ki Charge for Nuova Shenron
+Play Animation 261_SKILL_003_IN.canm for Nuova Shenron
+> Wait property detected
+Play Animation 262_SKILL_003_CHARGE.canm for Nuova Shenron
+> Loop property detected
+Play Voice Line 63 for Nuova Shenron
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Hit with 1st Blast 2 (Opponent)
-> GSAC ID: 9
+> Scene ID: 9
 [Changes to Player 1 detected.]
 > Z-Item #7: Absolutely Invincible Body
 Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
 
 [Scene 9]
+
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Nuova Shenron
+> Position (XYZ): 26.8 0.0 27.5 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -26.8 0.0 -27.5 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Play Animation 0_GROUND.canm for Goku (GT)
+> Loop property detected
+Play Animation 0_GROUND.canm for Nuova Shenron
+> Loop property detected
+Disable Aura Charge for Goku (End)
+[Initial Camera Point]
+> Position (XYZ): 26.64 -22.141 36.975 
+> Rotation (XYZ): 1.467 -146.26 0.0 
+[Additional Camera Point]
+> Transition Time: 12.5 
+> Position (XYZ): 26.634 -18.345 36.966 
+> Rotation (XYZ): -25.295 -146.26 0.0 
 Lower Current BG Music
-BG Music:  Deep Wild
+BG Music:  UNKNOWN (ID: 129)
+Play Voice Line 64 for Goku (GT)
+> Wait property detected
+Play Voice Line 65 for Eis Shenron
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 10
+> Scene ID: 10
+Condition: Immediate
+> Voice Line ID: 66
+Condition: Immediate
+> Voice Line ID: 67
+Condition: Immediate
+> Voice Line ID: 68
+Condition: Immediate
+> Voice Line ID: 69
+Condition: Immediate
+> Voice Line ID: 70
 [Changes to Player 1 detected.]
 > Z-Item #7: null
 Event:     Switch with Teammate #2 (Opponent) [AUTO]
@@ -252,24 +674,119 @@ Character: Eis Shenron
 
 [Scene 10]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Nuova Shenron
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 0_GROUND.canm for Goku (GT)
+> Loop property detected
+Play Animation 0_GROUND.canm for Eis Shenron
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 118.909 -28.968 22.413 
+> Rotation (XYZ): -20.97 -103.913 0.0 
+[Additional Camera Point]
+> Transition Time: 16.0 
+> Position (XYZ): 98.149 -11.827 16.103 
+> Rotation (XYZ): -3.955 -121.337 0.0 
+Play Voice Line 71 for Goku (GT)
+> Wait property detected
+Play Voice Line 72 for Eis Shenron
+> Wait property detected
+Play Voice Line 73 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -77.724 -13.8735 -3.193 
+> Rotation (XYZ): 6.778 -75.189 0.0 
+Play Voice Line 74 for Eis Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 57.89 -16.184 22.172 
+> Rotation (XYZ): -12.148 126.123 0.0 
+[Additional Camera Point]
+> Transition Time: 4.7 
+> Position (XYZ): 73.454 -8.986 2.464 
+> Rotation (XYZ): 7.763 101.745 0.0 
+Play Voice Line 75 for Goku (GT)
+> Wait property detected
+Play Voice Line 76 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -39.872 -11.86 0.923 
+> Rotation (XYZ): 3.386 -91.143 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -69.49 -7.7615 -6.474 
+> Rotation (XYZ): 14.749 -73.541 0.0 
+Play Voice Line 77 for Eis Shenron
+> Wait property detected
+Play Voice Line 78 for Eis Shenron
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Wait 10 seconds
-> GSAC ID: 11
+> Scene ID: 11
+Condition: Immediate
+> Voice Line ID: 79
+Condition: Immediate
+> Voice Line ID: 80
+Condition: Immediate
+> Voice Line ID: 81
 Event:     Trigger 2nd Blast 1
 
 [Scene 11]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Eis Shenron
+> Position (XYZ): 48.9 -0.0 40.0 
+> Rotation (XYZ): -0.0 -147.7 -0.0 
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 46.1 0.5 -70.0 
+> Rotation (XYZ): -0.0 -22.4 -0.0 
+Play Animation 413_STAND_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Animation 0_GROUND.canm for Eis Shenron
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 47.334 -19.915 -53.665 
+> Rotation (XYZ): -22.509 -173.426 -0.0 
+Play Voice Line 82 for Goku (GT)
+> Wait property detected
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 46.1 0.5 -70.0 
+> Rotation (XYZ): -0.0 -89.6 -0.0 
+[Initial Camera Point]
+> Position (XYZ): 40.064 -10.621 -38.407 
+> Rotation (XYZ): 0.801 170.425 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 44.379 -14.4045 -56.819 
+> Rotation (XYZ): 5.768 171.745 -0.0 
+Enable Ki Charge for Goku (GT)
+Play Animation 261_SKILL_003_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 282_SKILL_003_22.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 83 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Immediate
-> GSAC ID: 12
+> Scene ID: 12
 [Changes to Opponent detected.]
 > Add 50% more Health
 Event:     Switch with Teammate #3 (Opponent) [AUTO]
@@ -277,13 +794,48 @@ Character: Pan
 
 [Scene 12]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Pan
+> Position (XYZ): 48.9 -0.0 40.0 
+> Rotation (XYZ): -0.0 -147.7 -0.0 
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 46.1 0.5 -70.0 
+> Rotation (XYZ): -0.0 -22.4 -0.0 
+Play Animation 0_GROUND.canm for Goku (GT)
+> Loop property detected
+Play Animation 212_DAMAGE_LYING_TIRED_IN.canm for Pan
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 40.828 -1.181 28.424 
+> Rotation (XYZ): 14.162 31.596 -0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 44.342 -5.736 34.136 
+> Rotation (XYZ): 30.863 34.302 -0.0 
+Play Voice Line 84 for Eis Shenron
+> Wait property detected
+Play Voice Line 85 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Lose 4 Health Bars (Opponent) [AUTO]
-> GSAC ID: 13
+> Scene ID: 13
+Condition: Immediate
+> Voice Line ID: 86
+Condition: Immediate
+> Voice Line ID: 87
+Condition: Immediate
+> Voice Line ID: 88
+Condition: Immediate
+> Voice Line ID: 89
+Condition: Immediate
+> Voice Line ID: 90
 [Changes to Player 1 detected.]
 > Add 100% more Health
 Event:     Switch with Teammate #2 (Opponent) [AUTO]
@@ -291,25 +843,106 @@ Character: Eis Shenron
 
 [Scene 13]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Eis Shenron
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 0_GROUND.canm for Goku (GT)
+> Loop property detected
+Play Animation 0_GROUND.canm for Eis Shenron
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 96.499 -6.804 14.445 
+> Rotation (XYZ): 10.698 -122.91 0.0 
+Play Voice Line 91 for Goku (GT)
+> Wait property detected
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -160.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 58.222 -3.226 -2.044 
+> Rotation (XYZ): 4.174 85.855 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 78.172 -14.414 -0.598 
+> Rotation (XYZ): 22.96 85.855 0.0 
+Enable Ki Charge for Goku (GT)
+Play Animation 261_SKILL_003_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 282_SKILL_003_22.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 92 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 14
+> Scene ID: 14
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Switch with Teammate #1 (Opponent) [AUTO]
 Character: Nuova Shenron
 
 [Scene 14]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Nuova Shenron
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 124.389 -110.511 66.105 
+> Rotation (XYZ): -45.332 -132.591 0.0 
+[Additional Camera Point]
+> Transition Time: 13.3125 
+> Position (XYZ): 97.646 -67.494 41.337 
+> Rotation (XYZ): -43.225 -131.267 0.0 
+Play Animation 0_GROUND.canm for Goku (GT)
+> Loop property detected
+Play Animation 0_GROUND.canm for Nuova Shenron
+> Loop property detected
+Play Voice Line 93 for Nuova Shenron
+> Wait property detected
+Play Voice Line 94 for Eis Shenron
+> Wait property detected
+Play Voice Line 95 for Eis Shenron
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Lose 6 Health Bars (Opponent) [AUTO]
-> GSAC ID: 15
+> Scene ID: 15
+Condition: Immediate
+> Voice Line ID: 96
+Condition: Immediate
+> Voice Line ID: 97
+Condition: Immediate
+> Voice Line ID: 98
+Condition: Immediate
+> Voice Line ID: 99
+Condition: Immediate
+> Voice Line ID: 100
+Condition: Immediate
+> Voice Line ID: 101
+Condition: Immediate
+> Voice Line ID: 102
+Condition: Immediate
+> Voice Line ID: 103
+Condition: Immediate
+> Voice Line ID: 104
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Switch with Teammate #2 (Opponent) [AUTO]
@@ -317,83 +950,346 @@ Character: Eis Shenron
 
 [Scene 15]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Eis Shenron
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 69.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 0_GROUND.canm for Goku (GT)
+> Loop property detected
+Play Animation 284_SKILL_003_EVENT_1.canm for Eis Shenron
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 118.909 -28.968 22.413 
+> Rotation (XYZ): -20.97 -103.913 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 98.149 -11.827 16.103 
+> Rotation (XYZ): -3.955 -121.337 0.0 
+Play Animation 284_SKILL_003_EVENT_1.canm for Goku (GT)
+> Wait property detected
+Play Voice Line 105 for Goku (GT)
+> Wait property detected
+Play Voice Line 106 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 82.8 -5.414 -55.898 
+> Rotation (XYZ): 5.043 -0.672 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): 78.944 -7.235 -34.9265 
+> Rotation (XYZ): 2.522 -0.162 0.0 
+Play Voice Line 107 for Goku (GT)
+> Wait property detected
+Play Voice Line 108 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Wait 30 seconds
-> GSAC ID: 16
+> Scene ID: 16
+Condition: Immediate
+> Voice Line ID: 109
+Condition: Immediate
+> Voice Line ID: 110
+Condition: Immediate
+> Voice Line ID: 111
+Condition: Immediate
+> Voice Line ID: 112
+Condition: Immediate
+> Voice Line ID: 113
+Condition: Immediate
+> Voice Line ID: 114
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Trigger 2nd Blast 1 (Opponent) [AUTO]
 
 [Scene 16]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Nuova Shenron
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 0.836 -1.85 -2.856 
+> Rotation (XYZ): 9.538 -89.654 0.0 
+[Additional Camera Point]
+> Transition Time: 1.5 
+> Position (XYZ): -51.025 -24.186 -0.359 
+> Rotation (XYZ): -55.874 -88.397 0.0 
+Play Animation 52_CHARGE_IN.canm for Goku (GT)
+> Wait property detected
+Shake Camera for 0.8 seconds
+Enable Ki Charge for Goku (GT)
+Play Animation 53_CHARGE_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 115 for Goku (GT)
+> Wait property detected
+Wait 0.5 seconds
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 17
+> Scene ID: 17
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 [Changes to Player 1 detected.]
 > Z-Item #7: Go To Hell
 Event:     Trigger Ultimate Blast
 
 [Scene 17]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Eis Shenron
+> Position (XYZ): 43.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -10.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Eis Shenron
+[Initial Camera Point]
+> Position (XYZ): -0.801 -4.336 -8.68 
+> Rotation (XYZ): 13.03 75.299 0.0 
+Play Animation 388_LOSE.canm for Eis Shenron
+Play Voice Line 116 for Eis Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 51.422 -27.345 1.409 
+> Rotation (XYZ): -33.319 -91.095 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): -0.044 -19.178 0.933 
+> Rotation (XYZ): -14.874 -99.818 0.0 
+Play Animation 386_WIN_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 117 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 18
+> Scene ID: 18
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Switch with Teammate #1 (Opponent) [AUTO]
 Character: Nuova Shenron
 
 [Scene 18]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 70.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Nuova Shenron
+> Position (XYZ): -70.0 0.9 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (GT)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Eis Shenron
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 84.906 -8.996 -44.733 
+> Rotation (XYZ): 1.632 -75.158 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -60.592 -16.592 -36.321 
+> Rotation (XYZ): -2.323 -83.527 0.0 
+Play Voice Line 118 for Nuova Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 60.879 -6.506 -34.033 
+> Rotation (XYZ): 45.51 98.473 0.0 
+Play Voice Line 119 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -53.776 -11.947 -26.626 
+> Rotation (XYZ): -4.255 -123.215 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -61.823 -16.602 -31.883 
+> Rotation (XYZ): 2.051 -125.87 0.0 
+Play Voice Line 120 for Nuova Shenron
+> Wait property detected
 Lower Current BG Music
-BG Music:  Dark Half
+BG Music:  UNKNOWN (ID: 7)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 19
+> Scene ID: 19
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Switch with Teammate #2
 Character: Syn Shenron
 
 [Scene 19]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 32
+> Scene ID: 32
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Trigger 2nd Blast 2
 
 [Scene 30 (Victory) - UNUSED]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Nuova Shenron
+> Position (XYZ): -14.1 -0.7 50.6 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 10.2 0.0 10.7 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Nuova Shenron
+[Initial Camera Point]
+> Position (XYZ): 4.585 -18.677 33.79 
+> Rotation (XYZ): -17.508 169.07 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 3.324 -5.299 20.518 
+> Rotation (XYZ): 9.17 148.757 0.0 
+Play Animation 388_LOSE.canm for Nuova Shenron
+Play Animation 386_WIN_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 14 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 31 (Victory) - UNUSED]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Nuova Shenron
+> Position (XYZ): -8.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 41.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Nuova Shenron
+[Initial Camera Point]
+> Position (XYZ): 33.047 -15.284 17.015 
+> Rotation (XYZ): -15.488 -138.413 0.0 
+Play Animation 388_LOSE.canm for Nuova Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -10.789 -17.181 -15.737 
+> Rotation (XYZ): -19.041 62.492 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 29.192 -17.412 0.385 
+> Rotation (XYZ): -14.819 89.321 0.0 
+Play Animation 386_WIN_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 33 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 32 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for Syn Shenron
+> Position (XYZ): -22.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Nuova Shenron
+> Position (XYZ): 55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Nuova Shenron
+[Initial Camera Point]
+> Position (XYZ): -39.68 -16.154 -17.208 
+> Rotation (XYZ): 3.034 65.781 0.0 
+Play Animation 388_LOSE.canm for Nuova Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 8.028 -16.397 -34.004 
+> Rotation (XYZ): -5.979 -35.901 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -6.089 -14.655 -4.782 
+> Rotation (XYZ): 16.362 -73.702 0.0 
+Play Animation 386_WIN_IN.canm for Syn Shenron
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Syn Shenron
+> Loop property detected
+Play Voice Line 121 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory)]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 40 (Defeat) - UNUSED]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 45.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Nuova Shenron
+> Position (XYZ): -12.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Nuova Shenron
+[Initial Camera Point]
+> Position (XYZ): 55.709 -13.844 -24.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 1.399 -15.89 3.589 
+> Rotation (XYZ): 9.095 -112.22 0.0 
+Play Animation 388_LOSE.canm for Goku (GT)
+Play Animation 386_WIN_IN.canm for Nuova Shenron
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Nuova Shenron
+> Loop property detected
+Play Voice Line 15 for Nuova Shenron
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat)]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

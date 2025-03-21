@@ -21,12 +21,12 @@ null
 null
 > Acquired Scenarios
 Frieza's Ultimate Transformation!
-null
+Alone for the Final Battle
 null
 
 [Battle Settings]
 Map: Planet Namek
-BGM: Move Foward Fearlessly
+BGM: UNKNOWN (ID: 15)
 
 [Player 1 Team]
 > Teammate 1
@@ -126,22 +126,181 @@ Teammate Count (Opponent): 3
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): -40.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Recoome
+> Position (XYZ): 40.0 0.0 35.0 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): -34.021 -10.382 -12.431 
+> Rotation (XYZ): 0.375 -169.602 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -35.228 -13.492 -22.598 
+> Rotation (XYZ): -5.132 -165.951 0.0 
+Play Animation 384_INTRO_IN.canm for Goku (Mid)
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Goku (Mid)
+> Loop property detected
+Play Voice Line 0 for Goku (Mid)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 13.226 -2.628 20.14 
+> Rotation (XYZ): 18.584 59.401 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 25.009 -13.783 25.537 
+> Rotation (XYZ): -4.852 57.137 0.0 
+Play Animation 384_INTRO_IN.canm for Recoome
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Recoome
+> Loop property detected
+Play Voice Line 1 for Recoome
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Wait 140 seconds
-> GSAC ID: 3
+> Scene ID: 3
+Condition: Immediate
+> Voice Line ID: 11
+Condition: Immediate
+> Voice Line ID: 14
+Condition: Immediate
+> Voice Line ID: 15
+Condition: Perform Vanishing Attack
+> Voice Line ID: 9
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 12
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 13
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 125
+Condition: Perform Fully Charged Neutral Smash Attack
+> Voice Line ID: 126
+Condition: Perform Throw
+> Voice Line ID: 127
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 105
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 16
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 17
+Condition: Perform Dash Smash (Opponent)
+> Voice Line ID: 2
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 19
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 20
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 24
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 99
+Condition: Perform Dragon Homing
+> Voice Line ID: 26
+Condition: Wait 20 seconds
+> Voice Line ID: 101
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 102
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 103
+Condition: Perform Teleport
+> Voice Line ID: 3
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 105
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 4
+Condition: Perform Sonic Sway
+> Voice Line ID: 6
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 108
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): -22.6 0.0 -19.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Recoome
+> Position (XYZ): 22.6 0.0 19.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): 26.273 -13.054 7.739 
+> Rotation (XYZ): -11.767 -102.06 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 46.497 -19.121 8.124 
+> Rotation (XYZ): -13.781 -99.054 0.0 
+Play Animation 388_LOSE.canm for Recoome
+Play Animation 387_WIN_LOOP.canm for Goku (Mid)
+> Loop property detected
+Play Voice Line 25 for Goku (Mid)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
+Condition: Immediate
+> Voice Line ID: 49
+Condition: Immediate
+> Voice Line ID: 50
+Condition: Immediate
+> Voice Line ID: 47
+Condition: Perform Rush Attack
+> Voice Line ID: 51
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 52
+Condition: Perform Teleport
+> Voice Line ID: 53
+Condition: Perform Burst Meteo Finisher (Opponent)
+> Voice Line ID: 54
+Condition: Perform 1st Blast 1
+> Voice Line ID: 55
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 123
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 57
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 119
+Condition: Perform Hyper Smash
+> Voice Line ID: 121
+Condition: Perform Dash Smash
+> Voice Line ID: 122
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 123
+Condition: Taunt
+> Voice Line ID: 124
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 51
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 123
+Condition: Perform Dragon Smash
+> Voice Line ID: 121
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 128
+Condition: Block Ultimate Blast
+> Voice Line ID: 67
+Condition: Perform Vanishing Attack
+> Voice Line ID: 79
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 115
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 116
+Condition: Perform Throw
+> Voice Line ID: 117
+Condition: Perform Fully Charged Neutral Smash Attack
+> Voice Line ID: 116
 [Changes to Player 1 detected.]
 > Add 20% more Health
 [Changes to Opponent detected.]
@@ -151,11 +310,81 @@ Character: Jeice
 
 [Scene 2]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): -22.6 0.0 -19.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Jeice
+> Position (XYZ): 22.6 0.0 19.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): 37.54 -31.412 10.322 
+> Rotation (XYZ): -34.143 -104.473 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -0.586 -24.767 -11.839 
+> Rotation (XYZ): -32.134 -111.797 0.0 
+Play Animation 388_LOSE.canm for Jeice
+Play Animation 387_WIN_LOOP.canm for Goku (Mid)
+> Loop property detected
+Play Voice Line 59 for Goku (Mid)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
+Condition: Immediate
+> Voice Line ID: 60
+Condition: Wait 10 seconds
+> Voice Line ID: 111
+Condition: Perform Vanishing Attack
+> Voice Line ID: 65
+Condition: Hit with Charged Ki Blast
+> Voice Line ID: 56
+Condition: Perform Hyper Smash
+> Voice Line ID: 69
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 54
+Condition: Perform Sonic Sway
+> Voice Line ID: 60
+Condition: Wait 20 seconds
+> Voice Line ID: 76
+Condition: Perform Throw
+> Voice Line ID: 82
+Condition: Perform Dragon Homing
+> Voice Line ID: 82
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 83
+Condition: Perform Dash Smash
+> Voice Line ID: 84
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 85
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 109
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 110
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 112
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 110
+Condition: Taunt
+> Voice Line ID: 114
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 125
+Condition: Perform Guard Crush
+> Voice Line ID: 126
+Condition: Perform Rush Attack
+> Voice Line ID: 127
+Condition: Perform Hyper Smash (Opponent)
+> Voice Line ID: 118
+Condition: Perform Teleport
+> Voice Line ID: 61
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 113
 [Changes to Player 1 detected.]
 > Add 20% more Health
 [Changes to Opponent detected.]
@@ -165,32 +394,187 @@ Character: Burter
 
 [Scene 3]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 4
+> Scene ID: 4
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 2
 Event:     Switch with Teammate #2
 Character: Nail
 
 [Scene 4]
+
+===Cinematic Info===
+Add 1.2 s fade-out
 Lower Current BG Music
-BG Music:  Aftermath (UT)
+BG Music:  UNKNOWN (ID: 126)
+Change Position/Rotation for Nail
+> Position (XYZ): -40.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Recoome
+> Position (XYZ): 40.0 0.0 35.0 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): -23.077 -13.342 -19.798 
+> Rotation (XYZ): -2.322 -129.543 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -23.751 -9.996 -24.4 
+> Rotation (XYZ): -4.024 -122.346 0.0 
+Play Animation 384_INTRO_IN.canm for Nail
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Nail
+> Loop property detected
+Play Voice Line 27 for Nail
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -30.455 -11.383 -30.674 
+> Rotation (XYZ): 5.136 -99.655 0.0 
+Play Voice Line 28 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -25.535 -16.882 -27.442 
+> Rotation (XYZ): -33.335 -114.836 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -29.976 -10.802 -29.303 
+> Rotation (XYZ): 7.09 -111.458 0.0 
+Play Voice Line 29 for Nail
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 5
+> Scene ID: 5
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 43
+> Scene ID: 43
+Condition: Immediate
+> Voice Line ID: 34
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 16
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 24
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 20
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 24
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 99
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 100
+Condition: Perform Vanishing Attack
+> Voice Line ID: 101
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 102
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 103
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 26
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 105
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 100
+Condition: Perform Dragon Homing
+> Voice Line ID: 101
+Condition: Lose 2 Health Bars
+> Voice Line ID: 108
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 38
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 39
+Condition: Perform 1st Blast 2
+> Voice Line ID: 89
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 89
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 38
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 38
+Condition: Perform Z-Counter
+> Voice Line ID: 93
 Event:     Battle Finish
 
 [Scene 5]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Nail
+> Position (XYZ): -21.8 0.0 -19.1 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Recoome
+> Position (XYZ): 21.8 0.0 19.1 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): 30.862 -10.975 7.726 
+> Rotation (XYZ): -15.053 -98.574 0.0 
+Play Animation 388_LOSE.canm for Recoome
+Play Animation 386_WIN_IN.canm for Nail
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Nail
+> Loop property detected
+Play Voice Line 40 for Goku (Mid)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 2.142 -9.978 -17.452 
+> Rotation (XYZ): -7.015 -89.665 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -9.99 -9.556 -17.381 
+> Rotation (XYZ): 10.358 -89.665 0.0 
+Play Voice Line 41 for Nail
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 44
+> Scene ID: 44
+Condition: Immediate
+> Voice Line ID: 32
+Condition: Wait 15 seconds
+> Voice Line ID: 91
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 35
+Condition: Perform Dragon Homing
+> Voice Line ID: 36
+Condition: Perform Rush Attack
+> Voice Line ID: 36
+Condition: Perform Vanishing Attack
+> Voice Line ID: 38
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 39
+Condition: Perform 1st Blast 2
+> Voice Line ID: 89
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 122
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 122
+Condition: Lose 1 Health Bar
+> Voice Line ID: 92
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 123
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 123
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 98
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 119
+Condition: Perform Hyper Smash
+> Voice Line ID: 121
+Condition: Perform Dash Smash
+> Voice Line ID: 122
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 123
+Condition: Perform Z-Counter
+> Voice Line ID: 124
+Condition: Lose 2 Health Bars
+> Voice Line ID: 128
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 89
 [Changes to Opponent detected.]
 > Apply changes to Teammate 2
 Event:     Switch with Teammate #2 (Opponent) [AUTO]
@@ -198,36 +582,215 @@ Character: Jeice
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+[Initial Camera Point]
+> Position (XYZ): 10.827 -8.799 28.162 
+> Rotation (XYZ): -8.173 -158.672 0.0 
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): -22.6 0.0 -19.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Burter
+> Position (XYZ): 22.6 0.0 19.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): 37.54 -31.412 10.322 
+> Rotation (XYZ): -34.143 -104.473 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -9.373 -15.274 -12.676 
+> Rotation (XYZ): -2.149 -118.215 0.0 
+Play Animation 388_LOSE.canm for Burter
+Play Animation 387_WIN_LOOP.canm for Goku (Mid)
+> Loop property detected
+Play Voice Line 87 for Goku (Mid)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 31 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for Nail
+> Position (XYZ): -21.8 0.0 -19.1 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Jeice
+> Position (XYZ): 21.8 0.0 19.1 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): 35.673 -17.444 9.456 
+> Rotation (XYZ): -21.78 -98.343 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): -7.545 -12.319 -14.517 
+> Rotation (XYZ): -10.253 -97.126 0.0 
+Play Animation 388_LOSE.canm for Jeice
+Play Animation 386_WIN_IN.canm for Nail
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Nail
+> Loop property detected
+Play Voice Line 43 for Goku (Mid)
+> Wait property detected
+Play Voice Line 44 for Nail
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -25.852 -14.838 -41.883 
+> Rotation (XYZ): -15.096 28.041 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -21.586 -48.474 -33.874 
+> Rotation (XYZ): -58.634 28.041 0.0 
+Play Voice Line 45 for Goku (Mid)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): -21.8 0.0 -19.1 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Recoome
+> Position (XYZ): 21.8 0.0 19.1 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): -29.622 -5.163 -14.868 
+> Rotation (XYZ): 3.074 61.694 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 4.042 -11.431 14.467 
+> Rotation (XYZ): 18.967 73.746 0.0 
+Play Animation 388_LOSE.canm for Goku (Mid)
+Play Animation 386_WIN_IN.canm for Recoome
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Recoome
+> Loop property detected
+Play Voice Line 100 for Recoome
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): -21.8 0.0 -19.1 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Jeice
+> Position (XYZ): 21.8 0.0 19.1 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): -18.889 -10.827 -34.655 
+> Rotation (XYZ): -9.048 26.924 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 5.517 -23.997 -8.602 
+> Rotation (XYZ): -20.166 30.762 0.0 
+Play Animation 388_LOSE.canm for Goku (Mid)
+Play Animation 386_WIN_IN.canm for Jeice
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Jeice
+> Loop property detected
+Play Voice Line 58 for Jeice
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 42 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): -21.8 0.0 -19.1 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Burter
+> Position (XYZ): 21.8 0.0 19.1 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): -18.889 -10.827 -34.655 
+> Rotation (XYZ): -9.048 26.924 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 9.34 -21.036 -2.18 
+> Rotation (XYZ): -21.267 30.762 0.0 
+Play Animation 388_LOSE.canm for Goku (Mid)
+Play Animation 386_WIN_IN.canm for Burter
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Burter
+> Loop property detected
+Play Voice Line 88 for Burter
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 43 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Nail
+> Position (XYZ): -21.8 0.0 -19.1 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Recoome
+> Position (XYZ): 21.8 0.0 19.1 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): -29.622 -5.163 -14.868 
+> Rotation (XYZ): 3.074 61.694 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 4.042 -11.431 14.467 
+> Rotation (XYZ): 18.967 73.746 0.0 
+Play Animation 388_LOSE.canm for Nail
+Play Animation 386_WIN_IN.canm for Recoome
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Recoome
+> Loop property detected
+Play Voice Line 100 for Recoome
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 44 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Nail
+> Position (XYZ): -21.8 0.0 -19.1 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Jeice
+> Position (XYZ): 21.8 0.0 19.1 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): -18.889 -10.827 -34.655 
+> Rotation (XYZ): -9.048 26.924 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 9.34 -21.036 -2.18 
+> Rotation (XYZ): -21.267 30.762 0.0 
+Play Animation 388_LOSE.canm for Nail
+Play Animation 386_WIN_IN.canm for Jeice
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Jeice
+> Loop property detected
+Play Voice Line 58 for Jeice
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat) - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory) - UNUSED]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: Planet Tuffle
-BGM: Dark Half
+BGM: UNKNOWN (ID: 7)
 
 [Player 1 Team]
 > Teammate 1
@@ -96,24 +96,148 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 88.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): -55.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 68.459 -12.177 -442.544 
+> Rotation (XYZ): 6.673 71.573 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 77.672 -13.558001 -439.474 
+> Rotation (XYZ): 10.739 71.573 0.0 
+Play Animation 406_SURPRISED.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 0 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -31.297 -20.09 -449.556 
+> Rotation (XYZ): -1.996 -58.57 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): -43.728 -18.386002 -433.611 
+> Rotation (XYZ): 9.676 -107.861 0.0 
+Play Animation 384_INTRO_IN.canm for Baby Vegeta
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 1 for Baby Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Wait 60 seconds
-> GSAC ID: 1
+> Scene ID: 1
+Condition: Immediate
+> Voice Line ID: 2
+Condition: Immediate
+> Voice Line ID: 3
+Condition: Immediate
+> Voice Line ID: 4
+Condition: Immediate
+> Voice Line ID: 5
+Condition: Immediate
+> Voice Line ID: 6
+Condition: Immediate
+> Voice Line ID: 7
+Condition: Immediate
+> Voice Line ID: 8
+Condition: Immediate
+> Voice Line ID: 9
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Lose 2 Health Bars
+> Voice Line ID: 11
+Condition: Lose 1 Health Bar
+> Voice Line ID: 12
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 13
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 14
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 15
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 13
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 16
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 16
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -20.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): 53.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -2.193 -9.462001 -439.289 
+> Rotation (XYZ): 10.272 -80.476 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -12.291 -13.878 -437.595 
+> Rotation (XYZ): 14.848 -80.476 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 19 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Wait 30 seconds
-> GSAC ID: 11
+> Scene ID: 11
+Condition: Immediate
+> Voice Line ID: 23
+Condition: Immediate
+> Voice Line ID: 24
+Condition: Wait 20 seconds
+> Voice Line ID: 25
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 26
+Condition: Immediate
+> Voice Line ID: 27
+Condition: Hit with Charged Ki Blast
+> Voice Line ID: 28
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 29
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 31
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 32
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 34
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 35
+Condition: Perform Normal Clash
+> Voice Line ID: 36
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 37
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 104
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 31
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 32
+Condition: Perform Guard Crush
+> Voice Line ID: 35
+Condition: Perform Aerial Clash
+> Voice Line ID: 36
 [Changes to Player 1 detected.]
 > Add 50% more Health
 > Add 50% more Ki
@@ -122,21 +246,85 @@ Character: SS3 Goku (GT)
 
 [Scene 11]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 88.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): -55.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 85.088 -12.567 -447.201 
+> Rotation (XYZ): 1.996 -3.864 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 73.374 -12.889 -438.987 
+> Rotation (XYZ): 1.996 72.284 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 30 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 12
+> Scene ID: 12
 Event:     Assign Transformation
 Character: Goku (GT)
 
 [Scene 12]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 88.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): -55.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -27.422 -10.799001 -436.285 
+> Rotation (XYZ): 17.226 -91.321 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): -43.564 -18.719002 -437.801 
+> Rotation (XYZ): 1.7 -81.897 0.0 
+Play Animation 0_GROUND.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 33 for Baby Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 34
+> Scene ID: 34
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 44
+> Scene ID: 44
 Condition: Wait 20 seconds
-> GSAC ID: 7
+> Scene ID: 7
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 15
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 16
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 16
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 34
+Condition: UNKNOWN(ID: 35)
+> Voice Line ID: 37
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 29
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 29
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 31
+Condition: Block 1st Blast 2
+> Voice Line ID: 35
+Condition: Perform First Attack! (Opponent)
+> Voice Line ID: 36
+Condition: Block 2nd Blast 2
+> Voice Line ID: 35
 [Changes to Opponent detected.]
 > Set COM Difficulty Level to 8
 > Add 50% more Health
@@ -147,13 +335,71 @@ Character: Super Baby 1
 
 [Scene 7]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -20.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): 53.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 61.511 -15.450001 -427.796 
+> Rotation (XYZ): -4.084 -118.317 0.0 
+[Additional Camera Point]
+> Transition Time: 11.0 
+> Position (XYZ): 61.492 -26.546001 -429.829 
+> Rotation (XYZ): -10.295 -110.85 0.0 
+Play Animation 0_GROUND.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 79 for Baby Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 29.417 -11.527 -439.084 
+> Rotation (XYZ): 11.108 80.923 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): 40.427 -13.586 -437.325 
+> Rotation (XYZ): 24.12 80.923 0.0 
+Enable Aura Charge for Baby Vegeta
+Play Animation 52_CHARGE_IN.canm for Baby Vegeta
+> Wait property detected
+Enable Ki Charge for Baby Vegeta
+Play Animation 53_CHARGE_LOOP.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 80 for Baby Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 47
+> Scene ID: 47
 Condition: Wait 10 seconds
-> GSAC ID: 2
+> Scene ID: 2
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 15
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 13
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 16
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 34
+Condition: UNKNOWN(ID: 35)
+> Voice Line ID: 37
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 29
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 29
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 31
+Condition: Block 1st Blast 2
+> Voice Line ID: 35
+Condition: Perform First Attack! (Opponent)
+> Voice Line ID: 36
+Condition: Block 2nd Blast 2
+> Voice Line ID: 35
 [Changes to Opponent detected.]
 > Add 50% more Health
 > Z-Item #1: Ultimate Body
@@ -162,9 +408,12 @@ Character: Super Baby 2
 
 [Scene 2]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 3
+> Scene ID: 3
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 2
 Event:     Switch with Teammate #2
@@ -172,22 +421,95 @@ Character: Majuub
 
 [Scene 3]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Majuub
+> Position (XYZ): 88.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): -55.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 73.165 -34.228 -417.777 
+> Rotation (XYZ): -31.015 140.176 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 78.114 -19.092 -441.585 
+> Rotation (XYZ): 11.938 59.631 0.0 
+Play Animation 384_INTRO_IN.canm for Majuub
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Majuub
+> Loop property detected
+Play Voice Line 40 for Majuub
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -43.676 -27.962002 -443.044 
+> Rotation (XYZ): -22.957 -56.624 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -49.998 -25.763 -442.437 
+> Rotation (XYZ): -11.091 -29.862 0.0 
+Play Animation 0_GROUND.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 41 for Baby Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 32
+> Scene ID: 32
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
 Condition: Wait 45 seconds
-> GSAC ID: 4
+> Scene ID: 4
+Condition: Immediate
+> Voice Line ID: 42
+Condition: Block 1st Blast 2
+> Voice Line ID: 43
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 44
+Condition: Perform Sonic Sway
+> Voice Line ID: 45
+Condition: Perform First Attack!
+> Voice Line ID: 46
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 47
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 48
+Condition: Perform Aerial Clash
+> Voice Line ID: 49
+Condition: Perform 1st Blast 2
+> Voice Line ID: 50
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 51
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 52
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 53
+Condition: Perform Hyper Smash
+> Voice Line ID: 54
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 55
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 56
+Condition: Perform Rush Attack
+> Voice Line ID: 54
+Condition: Perform Normal Clash
+> Voice Line ID: 49
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 44
 [Changes to Player 1 detected.]
 > Add 100% more Health
 Event:     Battle Finish
 
 [Scene 4]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 5
+> Scene ID: 5
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 1
 Event:     Switch with Teammate #1
@@ -195,26 +517,117 @@ Character: Goku (GT)
 
 [Scene 5]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -7.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): 40.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 31.746 -19.777 -429.841 
+> Rotation (XYZ): 22.955 128.693 0.0 
+[Additional Camera Point]
+> Transition Time: 0.5 
+> Position (XYZ): 35.709 -22.322 -433.016 
+> Rotation (XYZ): 22.955 128.693 0.0 
+Play Animation 0_GROUND.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 59 for Baby Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 64.479 -27.462002 -423.081 
+> Rotation (XYZ): -15.747 -106.292 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 3.857 -15.198 -432.345 
+> Rotation (XYZ): -9.019 -101.819 0.0 
+Play Animation 384_INTRO_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 60 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 33
+> Scene ID: 33
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 43
+> Scene ID: 43
 Condition: Wait 20 seconds
-> GSAC ID: 6
+> Scene ID: 6
+Condition: Immediate
+> Voice Line ID: 61
+Condition: Immediate
+> Voice Line ID: 62
+Condition: Perform Dragon Homing
+> Voice Line ID: 63
+Condition: Perform Vanishing Attack
+> Voice Line ID: 63
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 13
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 13
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 16
+Condition: Perform Throw
+> Voice Line ID: 35
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 16
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 96
 [Changes to Player 1 detected.]
 > Add 50% more Health
 Event:     Battle Finish
 
 [Scene 6]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 8
+> Scene ID: 8
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 44
+> Scene ID: 44
 Condition: Wait 120 seconds
-> GSAC ID: 9
+> Scene ID: 9
+Condition: Immediate
+> Voice Line ID: 64
+Condition: Immediate
+> Voice Line ID: 68
+Condition: Perform Aerial Clash
+> Voice Line ID: 68
+Condition: Perform Sonic Sway (Opponent)
+> Voice Line ID: 78
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 13
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 13
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 16
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 16
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 105
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 106
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 102
+Condition: Perform Hyper Smash
+> Voice Line ID: 108
+Condition: UNKNOWN(ID: 53)
+> Voice Line ID: 108
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 96
+Condition: Perform Burst Meteo Finisher
+> Voice Line ID: 112
+Condition: Perform Aerial Clash
+> Voice Line ID: 103
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 102
 [Changes to Player 1 detected.]
 > Add 70% more Health
 > Z-Item #1: King Kai's Training
@@ -234,14 +647,82 @@ Event:     Assign Transformation
 Character: SS4 Goku (GT)
 
 [Scene 8]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -20.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): 53.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -44.045 -25.580002 -457.137 
+> Rotation (XYZ): -13.201 71.476 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 34.364 -22.21 -439.774 
+> Rotation (XYZ): 0.831 77.153 0.0 
+Play Animation 0_GROUND.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 82 for Baby Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -9.603 -9.928 -438.416 
+> Rotation (XYZ): 41.724 -83.299 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -11.24 -27.25 -435.198 
+> Rotation (XYZ): -22.743 -93.243 0.0 
+Play Animation 384_INTRO_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 138 for Goku (GT)
+> Wait property detected
 Lower Current BG Music
-BG Music:  Final Disturbance
+BG Music:  UNKNOWN (ID: 223)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 35
+> Scene ID: 35
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 45
+> Scene ID: 45
+Condition: Immediate
+> Voice Line ID: 137
+Condition: Immediate
+> Voice Line ID: 139
+Condition: Immediate
+> Voice Line ID: 140
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 141
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 142
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 143
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 144
+Condition: Perform Teleport
+> Voice Line ID: 145
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 146
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 147
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 147
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 149
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 149
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 105
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 106
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 96
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 105
 [Changes to Player 1 detected.]
 > Add 50% more Health
 [Changes to Opponent detected.]
@@ -258,9 +739,12 @@ Character: Great Ape Baby
 
 [Scene 9]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 10
+> Scene ID: 10
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 3
 Event:     Switch with Teammate #3
@@ -268,71 +752,545 @@ Character: Pan
 
 [Scene 10]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Pan
+> Position (XYZ): -20.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): 53.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 36.422 -11.352 -436.309 
+> Rotation (XYZ): 39.114 89.148 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 42.146 -19.801 -436.224 
+> Rotation (XYZ): 20.816 89.148 0.0 
+Play Animation 384_INTRO_IN.canm for Baby Vegeta
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 114 for Baby Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -6.924 -14.911 -430.35 
+> Rotation (XYZ): 9.552 -114.14 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -9.818 -16.131 -431.647 
+> Rotation (XYZ): 9.552 -114.14 0.0 
+Play Animation 413_STAND_LOOP.canm for Pan
+> Loop property detected
+Play Voice Line 115 for Pan
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 42.146 -19.801 -436.224 
+> Rotation (XYZ): 20.816 89.148 0.0 
+Play Animation 0_GROUND.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 116 for Baby Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 36
+> Scene ID: 36
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 46
+> Scene ID: 46
+Condition: Immediate
+> Voice Line ID: 117
+Condition: Immediate
+> Voice Line ID: 118
+Condition: Immediate
+> Voice Line ID: 119
+Condition: Immediate
+> Voice Line ID: 120
+Condition: Perform First Attack! (Opponent)
+> Voice Line ID: 121
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 122
+Condition: Perform Ultimate Blast
+> Voice Line ID: 123
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 124
+Condition: Perform Guard Crush (Opponent)
+> Voice Line ID: 125
+Condition: Perform Hyper Smash (Opponent)
+> Voice Line ID: 126
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 127
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 128
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 129
+Condition: Block 1st Blast 2
+> Voice Line ID: 130
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 131
+Condition: Perform Dragon Homing
+> Voice Line ID: 132
+Condition: Perform Dragon Smash (Opponent)
+> Voice Line ID: 125
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 127
+Condition: Perform Vanishing Attack
+> Voice Line ID: 132
+Condition: Block 2nd Blast 2
+> Voice Line ID: 130
 [Changes to Player 1 detected.]
 > Add 100% more Health
 Event:     Battle Finish
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -22.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): 55.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Baby Vegeta
+[Initial Camera Point]
+> Position (XYZ): -6.199 -32.698 -416.009 
+> Rotation (XYZ): -21.025 -145.75 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -6.853 -19.484001 -434.026 
+> Rotation (XYZ): -17.569 -95.924 0.0 
+Play Animation 388_LOSE.canm for Baby Vegeta
+Play Animation 386_WIN_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 22 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 31 (Victory)]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -22.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): 55.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Baby Vegeta
+[Initial Camera Point]
+> Position (XYZ): -6.199 -32.698 -416.009 
+> Rotation (XYZ): -21.025 -145.75 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -6.853 -19.484001 -434.026 
+> Rotation (XYZ): -17.569 -95.924 0.0 
+Play Animation 388_LOSE.canm for Baby Vegeta
+Play Animation 386_WIN_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 22 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 32 (Victory)]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Majuub
+> Position (XYZ): -22.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): 55.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Majuub
+Disable Aura Charge for Baby Vegeta
+[Initial Camera Point]
+> Position (XYZ): -6.199 -32.698 -416.009 
+> Rotation (XYZ): -21.025 -145.75 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -11.948 -26.275002 -433.941 
+> Rotation (XYZ): -12.724 -106.388 0.0 
+Play Animation 388_LOSE.canm for Baby Vegeta
+Play Animation 386_WIN_IN.canm for Majuub
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Majuub
+> Loop property detected
+Play Voice Line 57 for Majuub
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 33 (Victory)]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -22.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): 55.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Baby Vegeta
+[Initial Camera Point]
+> Position (XYZ): -6.199 -32.698 -416.009 
+> Rotation (XYZ): -21.025 -145.75 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -6.853 -19.484001 -434.026 
+> Rotation (XYZ): -17.569 -95.924 0.0 
+Play Animation 388_LOSE.canm for Baby Vegeta
+Play Animation 386_WIN_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 22 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 34 (Victory)]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -22.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): 55.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Baby Vegeta
+[Initial Camera Point]
+> Position (XYZ): -6.199 -32.698 -416.009 
+> Rotation (XYZ): -21.025 -145.75 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -6.853 -19.484001 -434.026 
+> Rotation (XYZ): -17.569 -95.924 0.0 
+Play Animation 388_LOSE.canm for Baby Vegeta
+Play Animation 386_WIN_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 22 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 35 (Victory)]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): -22.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): 55.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Baby Vegeta
+[Initial Camera Point]
+> Position (XYZ): 94.914 -36.564 1.187 
+> Rotation (XYZ): -22.743 -90.323 0.0 
+Play Animation 388_LOSE.canm for Baby Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -6.199 -32.698 -416.009 
+> Rotation (XYZ): -21.025 -145.75 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -11.948 -26.275002 -433.941 
+> Rotation (XYZ): -12.724 -106.388 0.0 
+Play Animation 386_WIN_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 150 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 36 (Victory)]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Pan
+> Position (XYZ): -9.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): 42.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Pan
+Disable Aura Charge for Baby Vegeta
+[Initial Camera Point]
+> Position (XYZ): -14.29 -13.139 -444.16 
+> Rotation (XYZ): 3.078 61.675 0.0 
+Play Animation 388_LOSE.canm for Baby Vegeta
+Play Voice Line 133 for Baby Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 1.795 -25.838001 -424.965 
+> Rotation (XYZ): -31.447 -133.794 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.102 -16.174 -441.187 
+> Rotation (XYZ): 1.535 -58.069 0.0 
+Play Animation 386_WIN_IN.canm for Pan
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Pan
+> Loop property detected
+Play Voice Line 134 for Pan
+> Wait property detected
+Play Voice Line 135 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 45.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): -12.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Baby Vegeta
+[Initial Camera Point]
+> Position (XYZ): 55.709 -22.404 -460.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.987 -22.659 -435.53 
+> Rotation (XYZ): 2.58 -88.173 0.0 
+Play Animation 388_LOSE.canm for Goku (GT)
+Play Animation 386_WIN_IN.canm for Baby Vegeta
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 21 for Baby Vegeta
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 45.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): -12.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Baby Vegeta
+[Initial Camera Point]
+> Position (XYZ): 55.709 -22.404 -460.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.987 -22.659 -435.53 
+> Rotation (XYZ): 2.58 -88.173 0.0 
+Play Animation 388_LOSE.canm for Goku (GT)
+Play Animation 386_WIN_IN.canm for Baby Vegeta
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 21 for Baby Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 42 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Majuub
+> Position (XYZ): 45.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): -12.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Majuub
+Disable Aura Charge for Baby Vegeta
+[Initial Camera Point]
+> Position (XYZ): 55.709 -22.404 -460.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.987 -22.659 -435.53 
+> Rotation (XYZ): 2.58 -88.173 0.0 
+Play Animation 388_LOSE.canm for Majuub
+Play Animation 386_WIN_IN.canm for Baby Vegeta
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 21 for Baby Vegeta
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 43 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 45.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): -12.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Baby Vegeta
+[Initial Camera Point]
+> Position (XYZ): 55.709 -22.404 -460.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.987 -22.659 -435.53 
+> Rotation (XYZ): 2.58 -88.173 0.0 
+Play Animation 388_LOSE.canm for Goku (GT)
+Play Animation 386_WIN_IN.canm for Baby Vegeta
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 21 for Baby Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 44 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 45.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): -12.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Baby Vegeta
+[Initial Camera Point]
+> Position (XYZ): 55.709 -22.404 -460.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.987 -22.659 -435.53 
+> Rotation (XYZ): 2.58 -88.173 0.0 
+Play Animation 388_LOSE.canm for Goku (GT)
+Play Animation 386_WIN_IN.canm for Baby Vegeta
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 21 for Baby Vegeta
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 45 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 45.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): -12.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Baby Vegeta
+[Initial Camera Point]
+> Position (XYZ): 55.709 -22.404 -460.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 21.241 -23.693 -430.041 
+> Rotation (XYZ): 37.945 -86.305 0.0 
+Play Animation 388_LOSE.canm for Goku (GT)
+Play Animation 386_WIN_IN.canm for Baby Vegeta
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 151 for Baby Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 46 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Pan
+> Position (XYZ): 45.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): -12.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Pan
+Disable Aura Charge for Baby Vegeta
+[Initial Camera Point]
+> Position (XYZ): 55.709 -22.404 -460.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.987 -22.659 -435.53 
+> Rotation (XYZ): 2.58 -88.173 0.0 
+Play Animation 388_LOSE.canm for Pan
+Play Animation 386_WIN_IN.canm for Baby Vegeta
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 136 for Baby Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 47 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 45.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Baby Vegeta
+> Position (XYZ): -12.0 -5.03 -436.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Baby Vegeta
+[Initial Camera Point]
+> Position (XYZ): 55.709 -22.404 -460.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.987 -22.659 -435.53 
+> Rotation (XYZ): 2.58 -88.173 0.0 
+Play Animation 388_LOSE.canm for Goku (GT)
+Play Animation 386_WIN_IN.canm for Baby Vegeta
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Baby Vegeta
+> Loop property detected
+Play Voice Line 113 for Baby Vegeta
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===

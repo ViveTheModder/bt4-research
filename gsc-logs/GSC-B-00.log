@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: Wasteland - Noon
-BGM: Greatest Tactics in the Universe
+BGM: UNKNOWN (ID: 217)
 
 [Player 1 Team]
 > Teammate 1
@@ -81,24 +81,136 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Raditz
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -40.331 -34.808 2.366 
+> Rotation (XYZ): -23.939 -93.405 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -76.512 -17.792 0.214 
+> Rotation (XYZ): -11.94 -90.921 0.0 
+Play Animation 385_INTRO_LOOP.canm for Raditz
+> Loop property detected
+Play Voice Line 0 for Raditz
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 66.181 -2.412 2.81 
+> Rotation (XYZ): 12.336 95.831 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 79.43 -6.133 0.378 
+> Rotation (XYZ): 23.906 110.528 0.0 
+Play Animation 384_INTRO_IN.canm for Goku (Early)
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Goku (Early)
+> Loop property detected
+Play Voice Line 1 for Goku (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -76.755 -16.01 10.17 
+> Rotation (XYZ): -1.387 -139.886 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -80.37 -15.942 5.878 
+> Rotation (XYZ): 5.503 -136.892 0.0 
+Play Voice Line 2 for Raditz
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 78.036 -9.635 4.857 
+> Rotation (XYZ): -3.137 135.44 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 82.537 -9.391 1.498 
+> Rotation (XYZ): 4.94 131.647 0.0 
+Play Voice Line 3 for Goku (Early)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Wait 20 seconds
-> GSAC ID: 1
+> Scene ID: 1
+Condition: Immediate
+> Voice Line ID: 4
+Condition: Immediate
+> Voice Line ID: 5
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Wait 40 seconds
-> GSAC ID: 2
+> Scene ID: 2
+Condition: Immediate
+> Voice Line ID: 6
+Condition: Immediate
+> Voice Line ID: 7
+Condition: Immediate
+> Voice Line ID: 8
+Condition: Immediate
+> Voice Line ID: 9
+Condition: Lose 2 Health Bars
+> Voice Line ID: 55
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 19
+Condition: Perform Dragon Smash (Opponent)
+> Voice Line ID: 12
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 13
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 33
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 34
+Condition: Lose 1 Health Bar
+> Voice Line ID: 14
+Condition: Perform Dragon Smash
+> Voice Line ID: 85
+Condition: Perform Vanishing Attack
+> Voice Line ID: 87
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 86
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 104
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 104
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 12
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 103
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 20
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 21
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 52
+Condition: Perform Dragon Homing
+> Voice Line ID: 53
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 56
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 110
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 102
+Condition: Perform Fully Charged Down Smash Attack (Opponent)
+> Voice Line ID: 52
+Condition: Perform Fully Charged Neutral Smash Attack (Opponent)
+> Voice Line ID: 52
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 2
 Event:     Switch with Teammate #2
@@ -106,13 +218,99 @@ Character: Piccolo (Early)
 
 [Scene 2]
 
+===Cinematic Info===
+Change Position/Rotation for Piccolo (Early)
+> Position (XYZ): -51.4 -0.4 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Raditz
+> Position (XYZ): 51.4 -1.3 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Disable Aura Charge for Piccolo (Early)
+[Initial Camera Point]
+> Position (XYZ): 28.625 -12.101 -29.093 
+> Rotation (XYZ): 7.923 142.813 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): 28.625 -12.101 -29.093 
+> Rotation (XYZ): 7.923 142.813 0.0 
+Play Animation 1_GROUND_TIRED.canm for Piccolo (Early)
+> Loop property detected
+Play Animation 384_INTRO_IN.canm for Raditz
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Raditz
+> Loop property detected
+Wait 2.5 seconds
+[Initial Camera Point]
+> Position (XYZ): -43.869 -12.291 36.749 
+> Rotation (XYZ): -11.406 -14.904 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -46.396 -10.515 46.242 
+> Rotation (XYZ): -5.13 -14.904 0.0 
+Play Voice Line 35 for Goku (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 48.424 -5.094 -47.986 
+> Rotation (XYZ): 31.619 172.828 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 49.101 -16.598 -53.367 
+> Rotation (XYZ): 1.581 172.828 0.0 
+Play Voice Line 36 for Raditz
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Wait 30 seconds
-> GSAC ID: 3
+> Scene ID: 3
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Immediate
+> Voice Line ID: 11
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 61
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 62
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 63
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 16
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 96
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 27
+Condition: Perform Fully Charged Up Smash Attack (Opponent)
+> Voice Line ID: 61
+Condition: Perform Fully Charged Down Smash Attack (Opponent)
+> Voice Line ID: 61
+Condition: Perform Fully Charged Neutral Smash Attack (Opponent)
+> Voice Line ID: 61
+Condition: Perform Fully Charged Right Smash Attack (Opponent)
+> Voice Line ID: 61
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 16
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 19
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 103
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 20
+Condition: Perform Fully Charged Right Smash Attack (Opponent)
+> Voice Line ID: 52
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 56
+Condition: Hit with Charged Ki Blast (Opponent)
+> Voice Line ID: 102
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 110
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 102
+Condition: Perform Fully Charged Up Smash Attack (Opponent)
+> Voice Line ID: 52
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 1
 Event:     Switch with Teammate #1
@@ -120,35 +318,194 @@ Character: Goku (Early)
 
 [Scene 4 - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 7
+> Scene ID: 7
 Condition: Fall into ground/water (Opponent) [AUTO]
-> GSAC ID: 5
+> Scene ID: 5
 Event:     Battle Finish
 
 [Scene 3]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Raditz
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Goku (Early)
+[Initial Camera Point]
+> Position (XYZ): 75.233 -2.725 -4.98 
+> Rotation (XYZ): 27.296 67.553 0.0 
+[Additional Camera Point]
+> Transition Time: 15.0 
+> Position (XYZ): 76.584 -8.24 4.379 
+> Rotation (XYZ): 17.279 107.342 0.0 
+Play Animation 385_INTRO_LOOP.canm for Raditz
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Goku (Early)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 121.983 -70.572 -46.574 
+> Rotation (XYZ): -37.082 -57.507 0.0 
+[Additional Camera Point]
+> Transition Time: 5.5 
+> Position (XYZ): 102.766 -53.124 -33.396 
+> Rotation (XYZ): -36.446 -56.472 0.0 
+Play Voice Line 37 for Piccolo (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 80.167 -7.82 -7.067 
+> Rotation (XYZ): 18.802 29.474 0.0 
+Play Voice Line 38 for Goku (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 66.766 -18.28 -7.573 
+> Rotation (XYZ): -26.224 66.494 0.0 
+Play Voice Line 39 for Piccolo (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -106.456 -21.038 -12.493 
+> Rotation (XYZ): -20.362 67.561 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -97.423 -17.42 -8.763 
+> Rotation (XYZ): -13.649 67.561 0.0 
+Play Voice Line 40 for Raditz
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -71.051 -20.453 -4.925 
+> Rotation (XYZ): -17.981 -71.414 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -79.857 -17.438 -1.964 
+> Rotation (XYZ): -17.981 -71.414 0.0 
+Play Voice Line 41 for Raditz
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 73.086 -17.716 -1.469 
+> Rotation (XYZ): -37.358 80.337 0.0 
+[Additional Camera Point]
+> Transition Time: 13.0 
+> Position (XYZ): 78.696 -11.563 -0.514 
+> Rotation (XYZ): 10.245 76.219 0.0 
+Play Voice Line 42 for Goku (Early)
+> Wait property detected
+Play Voice Line 43 for Piccolo (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 95.56 -13.301 -4.947 
+> Rotation (XYZ): -13.101 -80.686 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 118.702 -36.556 -8.451 
+> Rotation (XYZ): -29.02 -82.8 0.0 
+Play Voice Line 44 for Piccolo (Early)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 7
+> Scene ID: 7
 Condition: Wait 30 seconds
-> GSAC ID: 5
+> Scene ID: 5
+Condition: Immediate
+> Voice Line ID: 45
+Condition: Immediate
+> Voice Line ID: 46
+Condition: Immediate
+> Voice Line ID: 41
+Condition: Perform Dragon Smash
+> Voice Line ID: 47
+Condition: Perform Dash Smash
+> Voice Line ID: 48
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 64
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 49
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 50
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 103
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 51
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 104
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 96
+Condition: Perform Dragon Smash (Opponent)
+> Voice Line ID: 12
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 13
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 97
+Condition: Wait 30 seconds
+> Voice Line ID: 67
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 19
+Condition: Perform Vanishing Attack
+> Voice Line ID: 48
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 21
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 27
+Condition: Hit with Charged Ki Blast
+> Voice Line ID: 47
+Condition: Perform Fully Charged Down Smash Attack (Opponent)
+> Voice Line ID: 52
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 54
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 56
+Condition: Perform Dash Smash (Opponent)
+> Voice Line ID: 110
+Condition: Perform Fully Charged Neutral Smash Attack (Opponent)
+> Voice Line ID: 52
 Event:     Aerial Clash
 
 [Scene 5]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Raditz
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 79.686 -6.48 11.781 
+> Rotation (XYZ): 10.301 147.72 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 83.726 -11.906 6.247 
+> Rotation (XYZ): 5.927 169.668 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (Early)
+> Loop property detected
+Play Voice Line 65 for Goku (Early)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Wait 10 seconds
-> GSAC ID: 6
+> Scene ID: 6
+Condition: Immediate
+> Voice Line ID: 68
+Condition: Immediate
+> Voice Line ID: 69
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 2
 Event:     Switch with Teammate #2
@@ -156,22 +513,106 @@ Character: Piccolo (Early)
 
 [Scene 6]
 
+===Cinematic Info===
+Change Position/Rotation for Piccolo (Early)
+> Position (XYZ): -51.4 -0.4 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Raditz
+> Position (XYZ): 51.4 -1.3 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -23.57 -1.652 34.701 
+> Rotation (XYZ): 9.731 -45.455 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): -43.588 -9.85 55.392 
+> Rotation (XYZ): 3.397 -60.53 0.0 
+Play Animation 329_SKILL_005_IN.canm for Piccolo (Early)
+> Wait property detected
+Enable Ki Charge for Piccolo (Early)
+Shake Camera for 1.0 seconds
+Play Animation 330_SKILL_005_CHARGE.canm for Piccolo (Early)
+> Loop property detected
+Wait 3.0 seconds
+[Initial Camera Point]
+> Position (XYZ): -26.969 -11.076 33.827 
+> Rotation (XYZ): -3.984 139.954 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): 46.611 -14.634 -54.973 
+> Rotation (XYZ): 20.749 141.475 0.0 
+Play Animation 406_SURPRISED.canm for Raditz
+> Loop property detected
+Shake Camera for 1.0 seconds
+Play Voice Line 70 for Raditz
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 32
+> Scene ID: 32
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 [Changes to Player 1 detected.]
 > Z-Item #7: Go To Hell
 Event:     Trigger Ultimate Blast
 
 [Scene 7]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
+Condition: Immediate
+> Voice Line ID: 110
+Condition: Immediate
+> Voice Line ID: 99
+Condition: Immediate
+> Voice Line ID: 56
+Condition: Lose 2 Health Bars
+> Voice Line ID: 55
+Condition: Perform Dragon Smash
+> Voice Line ID: 53
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 103
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 51
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 94
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 20
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 104
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 102
+Condition: Perform Ultimate Blast
+> Voice Line ID: 68
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 54
+Condition: Perform Vanishing Attack
+> Voice Line ID: 63
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 64
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 19
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 63
+Condition: Perform Fully Charged Right Smash Attack (Opponent)
+> Voice Line ID: 52
+Condition: Perform Dragon Homing
+> Voice Line ID: 53
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 54
+Condition: Perform Fully Charged Right Smash Attack (Opponent)
+> Voice Line ID: 52
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 63
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 63
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 2
 Event:     Switch with Teammate #2
@@ -179,20 +620,167 @@ Character: Piccolo (Early)
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Raditz
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Piccolo (Early)
+> Position (XYZ): -51.2 -0.7 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Raditz
+Disable Aura Charge for Piccolo (Early)
+Play Animation 388_LOSE.canm for Raditz
+Play Animation 387_WIN_LOOP.canm for Piccolo (Early)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -34.355 -16.53 -20.669 
+> Rotation (XYZ): -12.775 -51.65 0.0 
+Play Voice Line 78 for Piccolo (Early)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 31 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for Raditz
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): -51.2 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Raditz
+Disable Aura Charge for Goku (Early)
+Play Animation 388_LOSE.canm for Raditz
+Play Animation 387_WIN_LOOP.canm for Goku (Early)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -83.077 -7.979 16.748 
+> Rotation (XYZ): 0.393 139.766 0.0 
+Play Voice Line 79 for Goku (Early)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 32 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Piccolo (Early)
+> Position (XYZ): -25.7 -0.4 30.6 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Raditz
+> Position (XYZ): 25.7 0.2 -30.6 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Play Animation 413_STAND_LOOP.canm for Piccolo (Early)
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Raditz
+> Loop property detected
+Disable Aura Charge for Raditz
+Disable Aura Charge for Piccolo (Early)
+[Initial Camera Point]
+> Position (XYZ): -63.029 -21.782 38.014 
+> Rotation (XYZ): -15.483 124.487 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -51.772 -18.036 30.533 
+> Rotation (XYZ): -15.483 119.608 0.0 
+Play Voice Line 71 for Raditz
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 1.64 -15.986 -15.672 
+> Rotation (XYZ): -16.732 114.669 0.0 
+[Additional Camera Point]
+> Transition Time: 14.0 
+> Position (XYZ): 14.464 -9.064 -21.561 
+> Rotation (XYZ): 3.082 114.669 0.0 
+Play Voice Line 72 for Raditz
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 26.137 -9.083 -47.611 
+> Rotation (XYZ): -9.38 -19.766 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 23.124 -17.16 -39.227 
+> Rotation (XYZ): -17.231 -19.766 0.0 
+Play Voice Line 73 for Raditz
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -16.525 -5.664 16.764 
+> Rotation (XYZ): 36.816 -33.179 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -21.366 -13.273 25.029 
+> Rotation (XYZ): 40.004 -37.313 0.0 
+Play Voice Line 74 for Raditz
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 7.305 -14.167 -19.242 
+> Rotation (XYZ): -11.653 113.471 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): 19.007 -13.422 -23.908 
+> Rotation (XYZ): -4.523 116.766 0.0 
+Play Voice Line 75 for Raditz
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 8.411 -13.281 -8.001 
+> Rotation (XYZ): -19.619 143.092 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -52.219 -17.408 38.912 
+> Rotation (XYZ): -15.808 130.807 0.0 
+Play Animation 388_LOSE.canm for Raditz
+> Wait property detected
+Play Voice Line 77 for Piccolo (Early)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Piccolo (Early)
+> Position (XYZ): -19.3 -0.4 23.0 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Raditz
+> Position (XYZ): 19.3 -1.3 -23.0 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Disable Aura Charge for Raditz
+Disable Aura Charge for Piccolo (Early)
+Play Animation 388_LOSE.canm for Piccolo (Early)
+Play Animation 387_WIN_LOOP.canm for Raditz
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -11.8 -22.112 34.985 
+> Rotation (XYZ): -22.058 163.165 0.0 
+Play Voice Line 32 for Raditz
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): -19.3 -0.4 23.0 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Raditz
+> Position (XYZ): 19.3 -1.3 -23.0 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Disable Aura Charge for Raditz
+Disable Aura Charge for Goku (Early)
+Play Animation 388_LOSE.canm for Goku (Early)
+Play Animation 387_WIN_LOOP.canm for Raditz
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -11.8 -22.112 34.985 
+> Rotation (XYZ): -22.058 163.165 0.0 
+Play Voice Line 80 for Raditz
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===

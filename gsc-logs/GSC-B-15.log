@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: Rocky Area - Noon
-BGM: Battalion Unchained
+BGM: UNKNOWN (ID: 195)
 
 [Player 1 Team]
 > Teammate 1
@@ -96,70 +96,342 @@ Teammate Count (Opponent): 2
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Majin Vegeta
+> Position (XYZ): 56.9 0.0 -66.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Majin Buu
+> Position (XYZ): -60.8 -0.7 127.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+[Initial Camera Point]
+> Position (XYZ): 50.77 -2.972 -37.495 
+> Rotation (XYZ): 11.121 168.219 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 54.733 -10.051 -56.499 
+> Rotation (XYZ): 12.001 168.219 0.0 
+Play Animation 0_GROUND.canm for Majin Vegeta
+> Loop property detected
+Play Voice Line 0 for Majin Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -14.881 -6.369 86.897 
+> Rotation (XYZ): 4.644 -45.905 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -46.721 -11.271 115.474 
+> Rotation (XYZ): 9.383 -50.178 0.0 
+Play Animation 384_INTRO_IN.canm for Majin Buu
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Majin Buu
+> Loop property detected
+Play Voice Line 1 for Majin Buu
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Wait 60 seconds
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 3
+Condition: Immediate
+> Voice Line ID: 4
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 5
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 6
+Condition: Perform Vanishing Attack
+> Voice Line ID: 7
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 8
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 9
+Condition: Win Beam Struggle (Opponent)
+> Voice Line ID: 10
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 11
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 12
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 13
+Condition: Hit with Charged Ki Blast (Opponent)
+> Voice Line ID: 14
+Condition: Win Normal Clash (Opponent)
+> Voice Line ID: 15
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 16
+Condition: Perform Dash Smash
+> Voice Line ID: 7
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 42
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 42
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Majin Vegeta
+> Position (XYZ): 46.6 0.0 -49.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Majin Buu
+> Position (XYZ): -50.4 -0.7 110.4 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 1_GROUND_TIRED.canm for Majin Vegeta
+> Loop property detected
+Play Animation 0_GROUND.canm for Majin Buu
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 44.989 -4.345 -37.976 
+> Rotation (XYZ): 28.947 179.238 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 44.995 -10.833 -38.425 
+> Rotation (XYZ): 5.969 179.238 0.0 
+Play Voice Line 19 for Majin Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -43.191 -34.891 92.659 
+> Rotation (XYZ): -46.46 -19.231 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -44.702 -14.19 96.989 
+> Rotation (XYZ): 2.445 -19.231 0.0 
+Play Voice Line 20 for Majin Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 43.438 -11.066 -40.522 
+> Rotation (XYZ): -1.332 164.316 0.0 
+Play Voice Line 21 for Majin Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 80 seconds
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Win via K.O.
-> GSAC ID: 3
+> Scene ID: 3
+Condition: Immediate
+> Voice Line ID: 22
+Condition: Immediate
+> Voice Line ID: 23
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 24
+Condition: Lose 1 Health Bar
+> Voice Line ID: 25
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 26
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 27
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 28
+Condition: Perform Fully Charged Neutral Smash Attack (Opponent)
+> Voice Line ID: 28
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 30
+Condition: Perform Dash Smash (Opponent)
+> Voice Line ID: 31
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 32
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 33
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 59
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 43
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 5
+Condition: Perform Vanishing Attack
+> Voice Line ID: 9
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 42
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 42
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Aerial Clash
 
 [Scene 2]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Majin Vegeta
+> Position (XYZ): 46.6 0.0 -49.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Majin Buu
+> Position (XYZ): -50.4 -0.7 110.4 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 1_GROUND_TIRED.canm for Majin Vegeta
+> Loop property detected
+Play Animation 0_GROUND.canm for Majin Buu
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 44.941 -2.568 -58.773 
+> Rotation (XYZ): -1.016 -8.674 0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): 44.486 -12.556 -55.792 
+> Rotation (XYZ): -6.568 -8.674 0.0 
 Lower Current BG Music
-BG Music:  Lost Courage
+BG Music:  UNKNOWN (ID: 205)
+Play Voice Line 36 for Majin Vegeta
+> Wait property detected
+Play Voice Line 37 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 53.261 -5.849 -26.828 
+> Rotation (XYZ): 6.034 -158.524 0.0 
+[Additional Camera Point]
+> Transition Time: 15.5 
+> Position (XYZ): 47.68 -8.566 -39.729 
+> Rotation (XYZ): 13.627 -160.616 0.0 
+Play Voice Line 38 for Majin Vegeta
+> Wait property detected
+Play Voice Line 39 for Background Character
+> Wait property detected
+Play Voice Line 40 for Background Character
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
 Condition: Wait 20 seconds
-> GSAC ID: 5
+> Scene ID: 5
+Condition: Immediate
+> Voice Line ID: 44
+Condition: Immediate
+> Voice Line ID: 45
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 43
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 42
+Condition: Perform Vanishing Attack
+> Voice Line ID: 9
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 42
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 5
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 49
+Condition: Perform Dash Smash (Opponent)
+> Voice Line ID: 50
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 51
+Condition: Wait 40 seconds
+> Voice Line ID: 52
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 53
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 26
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 27
+Condition: Perform Fully Charged Up Smash Attack (Opponent)
+> Voice Line ID: 53
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Battle Finish
 
 [Scene 5]
 
+===Cinematic Info===
+Change Position/Rotation for Majin Vegeta
+> Position (XYZ): 31.0 0.0 -23.5 
+> Rotation (XYZ): 0.0 -31.3 0.0 
+Change Position/Rotation for Majin Buu
+> Position (XYZ): -34.8 -0.7 84.8 
+> Rotation (XYZ): 0.0 148.7 0.0 
+Play Animation 1_GROUND_TIRED.canm for Majin Vegeta
+> Loop property detected
+Play Animation 0_GROUND.canm for Majin Buu
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -30.87 -44.591 133.056 
+> Rotation (XYZ): -31.14 167.714 0.0 
+[Additional Camera Point]
+> Transition Time: 5.8 
+> Position (XYZ): 24.165 -9.038 -10.526 
+> Rotation (XYZ): 5.284 147.501 0.0 
+Play Voice Line 47 for Majin Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
 [Changes to Player 1 detected.]
 > Z-Item #7: Go To Hell
 Event:     Trigger Ultimate Blast
 
 [Scene 6 - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 43
+Condition: Lose 1 Health Bar
+> Voice Line ID: 44
+Condition: Wait 20 seconds
+> Voice Line ID: 45
+Condition: Perform Vanishing Attack
+> Voice Line ID: 9
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 47
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 5
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 49
+Condition: Perform Dash Smash (Opponent)
+> Voice Line ID: 50
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 51
+Condition: Wait 40 seconds
+> Voice Line ID: 52
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 53
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 26
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 27
+Condition: Hit with Charged Ki Blast (Opponent)
+> Voice Line ID: 28
+Condition: Perform Throw
+> Voice Line ID: 32
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 30
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 31
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 32
 Event:     Battle Finish
 
 [Scene 3]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 4
+> Scene ID: 4
 [Changes to Player 1 detected.]
 > Add 100% more Health
 [Changes to Opponent detected.]
@@ -169,43 +441,238 @@ Character: SS1 Goten (GT)
 
 [Scene 4]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Majin Vegeta
+> Position (XYZ): 56.9 0.0 -66.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Babidi
+> Position (XYZ): -60.8 -0.7 127.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+[Initial Camera Point]
+> Position (XYZ): -38.343 -13.208 67.528 
+> Rotation (XYZ): -8.138 -19.604 0.0 
+[Additional Camera Point]
+> Transition Time: 8.5 
+> Position (XYZ): -56.742 -6.523 116.751 
+> Rotation (XYZ): -5.665 -20.719 0.0 
+Play Voice Line 56 for Babidi
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 47.251 -5.441 -61.244 
+> Rotation (XYZ): 26.32 105.95 0.0 
+Play Voice Line 57 for Majin Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 43
+> Scene ID: 43
+Condition: Immediate
+> Voice Line ID: 58
+Condition: Perform Aerial Clash
+> Voice Line ID: 59
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 60
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 61
+Condition: Perform Vanishing Attack
+> Voice Line ID: 62
+Condition: Win Beam Struggle
+> Voice Line ID: 63
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 64
+Condition: Win Beam Struggle (Opponent)
+> Voice Line ID: 65
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 66
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 67
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 68
+Condition: Perform Vanishing Attack
+> Voice Line ID: 63
 [Changes to Player 1 detected.]
 > Add 100% more Health
 Event:     Battle Finish
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Majin Vegeta
+> Position (XYZ): 56.9 0.0 -66.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Majin Buu
+> Position (XYZ): -60.8 -0.7 127.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 1_GROUND_TIRED.canm for Majin Vegeta
+> Loop property detected
+Play Animation 388_LOSE.canm for Majin Buu
+Disable Aura Charge for Majin Vegeta
+Disable Aura Charge for Majin Buu
+[Initial Camera Point]
+> Position (XYZ): 37.88 -4.043 -25.18 
+> Rotation (XYZ): 1.073 154.249 0.0 
+[Additional Camera Point]
+> Transition Time: 7.5 
+> Position (XYZ): 53.416 -6.178 -57.388 
+> Rotation (XYZ): 27.503 154.249 0.0 
+Play Voice Line 54 for Majin Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 71.727 -8.101 -74.397 
+> Rotation (XYZ): -4.575 -40.951 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 118.724 -71.585 -100.788 
+> Rotation (XYZ): -30.458 -46.569 0.0 
+Play Voice Line 55 for Majin Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 31 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for Majin Vegeta
+> Position (XYZ): 12.8 0.0 6.4 
+> Rotation (XYZ): 0.0 -31.3 0.0 
+Change Position/Rotation for Babidi
+> Position (XYZ): -16.7 -0.7 54.9 
+> Rotation (XYZ): 0.0 148.7 0.0 
+Disable Aura Charge for Majin Vegeta
+Disable Aura Charge for Babidi
+[Initial Camera Point]
+> Position (XYZ): -52.294 -22.995 70.126 
+> Rotation (XYZ): -20.935 124.03 0.0 
+[Additional Camera Point]
+> Transition Time: 5.5 
+> Position (XYZ): -6.834 -9.038 29.584 
+> Rotation (XYZ): -5.609 134.601 0.0 
+Play Animation 388_LOSE.canm for Babidi
+Play Animation 386_WIN_IN.canm for Majin Vegeta
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Majin Vegeta
+> Loop property detected
+Play Voice Line 84 for Majin Vegeta
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Majin Vegeta
+> Position (XYZ): 23.2 0.0 -10.7 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Majin Buu
+> Position (XYZ): -27.0 -0.7 72.0 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for Majin Vegeta
+Disable Aura Charge for Majin Buu
+[Initial Camera Point]
+> Position (XYZ): 40.671 -13.485 -9.387 
+> Rotation (XYZ): -12.035 -58.171 0.0 
+Play Animation 388_LOSE.canm for Majin Vegeta
+Play Animation 386_WIN_IN.canm for Majin Buu
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Majin Buu
+> Loop property detected
+Play Voice Line 27 for Majin Buu
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Majin Vegeta
+> Position (XYZ): 23.2 0.0 -10.7 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Majin Buu
+> Position (XYZ): -27.0 -0.7 72.0 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for Majin Vegeta
+Disable Aura Charge for Majin Buu
+[Initial Camera Point]
+> Position (XYZ): 40.671 -13.485 -9.387 
+> Rotation (XYZ): -12.035 -58.171 0.0 
+Play Animation 388_LOSE.canm for Majin Vegeta
+Play Animation 386_WIN_IN.canm for Majin Buu
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Majin Buu
+> Loop property detected
+Play Voice Line 27 for Majin Buu
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 42 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Majin Vegeta
+> Position (XYZ): 23.2 0.0 -10.7 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Majin Buu
+> Position (XYZ): -27.0 -0.7 72.0 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for Majin Vegeta
+Disable Aura Charge for Majin Buu
+[Initial Camera Point]
+> Position (XYZ): 40.671 -13.485 -9.387 
+> Rotation (XYZ): -12.035 -58.171 0.0 
+Play Animation 388_LOSE.canm for Majin Vegeta
+Play Animation 386_WIN_IN.canm for Majin Buu
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Majin Buu
+> Loop property detected
+Play Voice Line 27 for Majin Buu
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 43 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Majin Vegeta
+> Position (XYZ): 18.5 0.0 -3.0 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Babidi
+> Position (XYZ): -22.4 -0.7 64.3 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for Majin Vegeta
+Disable Aura Charge for Babidi
+[Initial Camera Point]
+> Position (XYZ): -18.725 -5.249 49.873 
+> Rotation (XYZ): -2.371 -11.268 0.0 
+Play Animation 388_LOSE.canm for Majin Vegeta
+Play Animation 386_WIN_IN.canm for Babidi
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Babidi
+> Loop property detected
+Play Voice Line 83 for Babidi
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat) - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory)]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

@@ -1,5 +1,5 @@
 [General Information]
-Name: Conclusion
+Name: Buu's Reincarnation
 Saga: Majin Buu Saga
 
 [Rewards]
@@ -20,13 +20,13 @@ SS3 Goku (End)
 SS2 Vegeta
 Kid Uub
 > Acquired Scenarios
-The Super Saiyan God
+Battle of Gods
 Immortal Monster
 null
 
 [Battle Settings]
 Map: World Tournament - Noon
-BGM: Rainbow in the Universe
+BGM: UNKNOWN (ID: 137)
 
 [Player 1 Team]
 > Teammate 1
@@ -66,72 +66,468 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
-[Scene 10 - UNUSED]
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 80.0 0.0 30.0 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Change Position/Rotation for Kid Uub
+> Position (XYZ): -20.0 0.0 -45.0 
+> Rotation (XYZ): 0.0 44.05 0.0 
+Play Animation 413_STAND_LOOP.canm for Goku (End)
+> Loop property detected
+Play Animation 0_GROUND.canm for Kid Uub
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 64.917 -34.246002 23.593 
+> Rotation (XYZ): -38.859 62.737 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 63.692 -22.991 22.961 
+> Rotation (XYZ): 19.56 62.737 0.0 
+Play Voice Line 0 for Goku (End)
+> Wait property detected
+Play Voice Line 1 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 73.332 -16.598999 11.419 
+> Rotation (XYZ): 19.809 15.043 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): 70.84 -20.543 25.36 
+> Rotation (XYZ): 31.038 56.993 0.0 
+Play Voice Line 2 for Goku (End)
+> Wait property detected
+Play Voice Line 3 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 1.249 -20.93 -38.13 
+> Rotation (XYZ): -13.953 -103.553 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -11.29 -18.95 -41.152 
+> Rotation (XYZ): -4.482 -103.553 0.0 
+Play Voice Line 4 for Kid Uub
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 54.872 -20.397999 8.13 
+> Rotation (XYZ): -4.309 46.085 0.0 
+[Additional Camera Point]
+> Transition Time: 2.5 
+> Position (XYZ): 54.872 -20.397999 8.13 
+> Rotation (XYZ): -4.309 46.085 0.0 
+Play Animation 0_GROUND.canm for Goku (End)
+> Loop property detected
+Play Voice Line 5 for Goku (End)
+> Wait property detected
+Play Voice Line 6 for Goku (End)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Wait 25 seconds
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Win via Ringout
-> GSAC ID: 51
+> Scene ID: 51
 Condition: Win via Ringout (Opponent)
-> GSAC ID: 50
+> Scene ID: 50
+Condition: Immediate
+> Voice Line ID: 7
+Condition: Immediate
+> Voice Line ID: 8
+Condition: Immediate
+> Voice Line ID: 9
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Immediate
+> Voice Line ID: 11
+Condition: Immediate
+> Voice Line ID: 12
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 0.0 0.0 -75.0 
+> Rotation (XYZ): 0.0 0.0 0.0 
+Change Position/Rotation for Kid Uub
+> Position (XYZ): 0.0 0.0 75.0 
+> Rotation (XYZ): 0.0 -180.0 0.0 
+Play Animation 413_STAND_LOOP.canm for Goku (End)
+> Loop property detected
+Play Animation 0_GROUND.canm for Kid Uub
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -0.853 -16.296 -48.92 
+> Rotation (XYZ): 6.727 178.097 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -0.28 -26.311 -66.17 
+> Rotation (XYZ): 12.753 178.097 0.0 
+Play Voice Line 13 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -0.093 -15.924 51.089 
+> Rotation (XYZ): 3.253 -1.925 0.0 
+[Additional Camera Point]
+> Transition Time: 2.2 
+> Position (XYZ): -0.592 -16.61 65.916 
+> Rotation (XYZ): 13.216 3.045 0.0 
+Play Voice Line 14 for Kid Uub
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -11.458 -21.946 -64.657 
+> Rotation (XYZ): 8.234 132.027 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -5.312 -26.488 -69.083 
+> Rotation (XYZ): -1.72 136.007 0.0 
+Play Voice Line 15 for Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 4 Health Bars (Opponent) [AUTO]
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Win via Ringout
-> GSAC ID: 51
+> Scene ID: 51
 Condition: Win via Ringout (Opponent)
-> GSAC ID: 50
+> Scene ID: 50
+Condition: Immediate
+> Voice Line ID: 16
+Condition: Immediate
+> Voice Line ID: 17
+Condition: Immediate
+> Voice Line ID: 18
+Condition: Immediate
+> Voice Line ID: 19
+Condition: Immediate
+> Voice Line ID: 20
+Condition: Immediate
+> Voice Line ID: 21
+Condition: Immediate
+> Voice Line ID: 22
+Condition: Immediate
+> Voice Line ID: 23
+Condition: Immediate
+> Voice Line ID: 24
 Event:     Normal Clash
 
 [Scene 2]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 0.0 0.0 55.0 
+> Rotation (XYZ): 0.0 -180.0 0.0 
+Change Position/Rotation for Kid Uub
+> Position (XYZ): 0.0 0.0 -55.0 
+> Rotation (XYZ): 0.0 0.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -6.334 -17.23 2.146 
+> Rotation (XYZ): -4.508 176.177 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -1.036 -14.842 -43.574 
+> Rotation (XYZ): 13.656 167.964 0.0 
+Play Animation 0_GROUND.canm for Goku (End)
+> Loop property detected
+Play Animation 52_CHARGE_IN.canm for Kid Uub
+> Wait property detected
+Play Animation 53_CHARGE_LOOP.canm for Kid Uub
+> Loop property detected
+Enable MPM Explosion for Kid Uub
+Shake Camera for 1.0 seconds
+Play Voice Line 25 for Kid Uub
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Hit with Ultimate Blast (Opponent)
-> GSAC ID: 3
+> Scene ID: 3
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Win via Ringout
-> GSAC ID: 51
+> Scene ID: 51
 Condition: Win via Ringout (Opponent)
-> GSAC ID: 50
+> Scene ID: 50
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 26
 Event:     Trigger Ultimate Blast (Opponent) [AUTO]
 
 [Scene 3]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 50.0 0.0 60.0 
+> Rotation (XYZ): -0.0 -140.2 -0.0 
+Change Position/Rotation for Kid Uub
+> Position (XYZ): -40.0 0.0 -60.0 
+> Rotation (XYZ): -0.0 33.6 -0.0 
+Play Animation 0_GROUND.canm for Goku (End)
+> Loop property detected
+Play Animation 0_GROUND.canm for Kid Uub
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -1.666 -27.882 -1.89 
+> Rotation (XYZ): -6.863 -148.451 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -35.673 -19.719 -49.898 
+> Rotation (XYZ): -10.782 -161.196 -0.0 
+Play Voice Line 27 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 18.456 -31.867 42.64 
+> Rotation (XYZ): -10.085 60.235 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 40.486 -22.719 55.239 
+> Rotation (XYZ): -7.645 62.616 -0.0 
+Enable Ki Charge for Goku (End)
+Play Animation 53_CHARGE_LOOP.canm for Goku (End)
+> Loop property detected
+Play Voice Line 28 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 28.236 -18.36 48.327 
+> Rotation (XYZ): 15.94 61.248 -0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 38.901 -27.263 54.179 
+> Rotation (XYZ): -4.353 61.248 -0.0 
+Enable MPM Explosion for Goku (End)
+Play Animation 413_STAND_LOOP.canm for Goku (End)
+> Loop property detected
+Play Voice Line 29 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 29.633 -26.091 66.03 
+> Rotation (XYZ): -7.999 117.293 -0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 39.802 -25.998001 56.457 
+> Rotation (XYZ): 7.393 81.76 -0.0 
+Play Animation 384_INTRO_IN.canm for Goku (End)
+Play Voice Line 30 for Goku (End)
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Goku (End)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -38.07 -15.7905 -45.958 
+> Rotation (XYZ): 19.041 -175.133 -0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -34.451 -14.946 -49.533 
+> Rotation (XYZ): 22.707 -155.409 -0.0 
+Play Voice Line 31 for Kid Uub
+> Wait property detected
+Play Voice Line 32 for Kid Uub
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -36.799 -15.7295 -53.877 
+> Rotation (XYZ): -22.899 -153.611 -0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -29.524 -31.951 -39.213 
+> Rotation (XYZ): -39.74 -153.611 -0.0 
+Play Animation 52_CHARGE_IN.canm for Kid Uub
+> Wait property detected
+Enable Ki Charge for Kid Uub
+Shake Camera for 1.0 seconds
+Play Animation 53_CHARGE_LOOP.canm for Kid Uub
+> Loop property detected
+Play Voice Line 33 for Kid Uub
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Win via Ringout
-> GSAC ID: 51
+> Scene ID: 51
 Condition: Win via Ringout (Opponent)
-> GSAC ID: 50
+> Scene ID: 50
 Event:     Assign Transformation (Opponent) [AUTO]
 
 [Scene 30 (Victory)]
+
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 51.4 -176.0 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Change Position/Rotation for Kid Uub
+> Position (XYZ): -51.4 -11.0 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 63.291 -14.735 22.797 
+> Rotation (XYZ): -11.364 65.928 0.0 
+Play Animation 38_FLY.canm for Goku (End)
+> Loop property detected
+Play Animation 406_SURPRISED.canm for Kid Uub
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 1.088 -16.154001 -4.561 
+> Rotation (XYZ): 7.25 -32.019 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): -44.151 -15.186001 52.283 
+> Rotation (XYZ): 24.933 -41.264 0.0 
+Play Voice Line 34 for Kid Uub
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -36.024 -192.0 33.582 
+> Rotation (XYZ): -1.696 139.365 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): 43.657 -187.774 -50.013 
+> Rotation (XYZ): 8.81 142.835 0.0 
+Play Animation 275_SKILL_003_IN_D.canm for Goku (End)
+> Wait property detected
+Enable Ki Charge for Goku (End)
+Play Animation 276_SKILL_003_CHARGE_D.canm for Goku (End)
+> Loop property detected
+Play Voice Line 35 for Goku (End)
+> Wait property detected
+Enable MPM Explosion for Goku (End)
+Play Animation 0_GROUND.canm for Goku (End)
+> Loop property detected
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 46.6 0.0 -49.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Kid Uub
+> Position (XYZ): 38.6 -11.0 -41.2 
+> Rotation (XYZ): 0.0 125.3 0.0 
+[Initial Camera Point]
+> Position (XYZ): 44.941 -17.568 -58.773 
+> Rotation (XYZ): -1.016 -8.674 0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): 44.486 -27.556 -55.792 
+> Rotation (XYZ): -6.568 -8.674 0.0 
+Play Voice Line 36 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 53.261 -20.848999 -26.828 
+> Rotation (XYZ): 6.034 -158.524 0.0 
+[Additional Camera Point]
+> Transition Time: 15.5 
+> Position (XYZ): 47.68 -23.566 -39.729 
+> Rotation (XYZ): 13.627 -160.616 0.0 
+Play Animation 413_STAND_LOOP.canm for Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Kid Uub
+> Loop property detected
+Play Voice Line 37 for Goku (End)
+> Wait property detected
+Play Voice Line 38 for Goku (End)
+> Wait property detected
+Play Voice Line 39 for Goku (End)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat)]
 
-===No Battle Info===
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===
+
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 51.4 -176.0 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Change Position/Rotation for Kid Uub
+> Position (XYZ): -51.4 -11.0 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 63.291 -14.735 22.797 
+> Rotation (XYZ): -11.364 65.928 0.0 
+Play Animation 38_FLY.canm for Goku (End)
+> Loop property detected
+Play Animation 406_SURPRISED.canm for Kid Uub
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 1.088 -16.154001 -4.561 
+> Rotation (XYZ): 7.25 -32.019 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): -44.151 -15.186001 52.283 
+> Rotation (XYZ): 24.933 -41.264 0.0 
+Play Voice Line 34 for Kid Uub
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -36.024 -192.0 33.582 
+> Rotation (XYZ): -1.696 139.365 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): 43.657 -187.774 -50.013 
+> Rotation (XYZ): 8.81 142.835 0.0 
+Play Animation 275_SKILL_003_IN_D.canm for Goku (End)
+> Wait property detected
+Enable Ki Charge for Goku (End)
+Play Animation 276_SKILL_003_CHARGE_D.canm for Goku (End)
+> Loop property detected
+Play Voice Line 35 for Goku (End)
+> Wait property detected
+Enable MPM Explosion for Goku (End)
+Play Animation 0_GROUND.canm for Goku (End)
+> Loop property detected
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 46.6 0.0 -49.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Kid Uub
+> Position (XYZ): 38.6 -11.0 -41.2 
+> Rotation (XYZ): 0.0 125.3 0.0 
+[Initial Camera Point]
+> Position (XYZ): 44.941 -17.568 -58.773 
+> Rotation (XYZ): -1.016 -8.674 0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): 44.486 -27.556 -55.792 
+> Rotation (XYZ): -6.568 -8.674 0.0 
+Play Voice Line 36 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 53.261 -20.848999 -26.828 
+> Rotation (XYZ): 6.034 -158.524 0.0 
+[Additional Camera Point]
+> Transition Time: 15.5 
+> Position (XYZ): 47.68 -23.566 -39.729 
+> Rotation (XYZ): 13.627 -160.616 0.0 
+Play Animation 413_STAND_LOOP.canm for Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Kid Uub
+> Loop property detected
+Play Voice Line 37 for Goku (End)
+> Wait property detected
+Play Voice Line 38 for Goku (End)
+> Wait property detected
+Play Voice Line 39 for Goku (End)
+> Wait property detected
+Disable ALL VFX
+
+===No Battle Info===
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

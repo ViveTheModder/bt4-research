@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: Mountain Road - Noon
-BGM: Dark Half
+BGM: UNKNOWN (ID: 7)
 
 [Player 1 Team]
 > Teammate 1
@@ -96,24 +96,117 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Vegeta (GT)
+> Position (XYZ): 41.4 0.0 -40.6 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Super 17
+> Position (XYZ): -45.2 -0.7 101.9 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 0_GROUND.canm for Vegeta (GT)
+> Loop property detected
+Disable Aura Charge for Vegeta (GT)
+[Initial Camera Point]
+> Position (XYZ): -38.566 -3.706 81.332 
+> Rotation (XYZ): 21.678 -21.074 0.0 
+[Additional Camera Point]
+> Transition Time: 22.0 
+> Position (XYZ): -41.046 -31.771 92.97 
+> Rotation (XYZ): -7.359 -20.578 0.0 
+Play Animation 384_INTRO_IN.canm for Super 17
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Super 17
+> Loop property detected
+Play Voice Line 63 for Super 17
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 30.841 -0.8 -11.757 
+> Rotation (XYZ): 9.755 160.164 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 32.612 -8.329 -27.453 
+> Rotation (XYZ): 9.419 144.007 0.0 
+Play Animation 0_GROUND.canm for Vegeta (GT)
+> Loop property detected
+Play Voice Line 58 for Vegeta (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 30 seconds
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O.
-> GSAC ID: 32
+> Scene ID: 32
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
+Condition: Immediate
+> Voice Line ID: 59
+Condition: Immediate
+> Voice Line ID: 60
+Condition: Immediate
+> Voice Line ID: 49
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Vegeta (GT)
+> Position (XYZ): 56.9 0.0 -66.2 
+> Rotation (XYZ): 0.0 -31.3 0.0 
+Change Position/Rotation for Super 17
+> Position (XYZ): -60.8 -0.7 127.5 
+> Rotation (XYZ): 0.0 148.7 0.0 
+[Initial Camera Point]
+> Position (XYZ): 58.04 -3.387 -53.977 
+> Rotation (XYZ): 19.004 -170.951 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 58.738 -1.858 -49.592 
+> Rotation (XYZ): 19.004 -170.951 0.0 
+Play Animation 52_CHARGE_IN.canm for Vegeta (GT)
+> Wait property detected
+Play Animation 53_CHARGE_LOOP.canm for Vegeta (GT)
+> Loop property detected
+Play Voice Line 17 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 5 Health Bars (Opponent) [AUTO]
-> GSAC ID: 6
+> Scene ID: 6
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
+Condition: Block 1st Blast 2
+> Voice Line ID: 14
+Condition: Win Normal Clash (Opponent)
+> Voice Line ID: 25
+Condition: Perform Emergency Blaster Wave (Opponent)
+> Voice Line ID: 30
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 32
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 33
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 36
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 37
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 38
+Condition: Perform Dash Smash (Opponent)
+> Voice Line ID: 39
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 40
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 41
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 37
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 39
+Condition: Immediate
+> Voice Line ID: 20
 [Changes to Player 1 detected.]
 > Add 100% more Health
 [Changes to Opponent detected.]
@@ -129,13 +222,34 @@ Character: SS4 Goku (GT)
 
 [Scene 2]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 60 seconds
-> GSAC ID: 3
+> Scene ID: 3
 Condition: Win via K.O.
-> GSAC ID: 32
+> Scene ID: 32
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
+Condition: Immediate
+> Voice Line ID: 64
+Condition: Immediate
+> Voice Line ID: 45
+Condition: Immediate
+> Voice Line ID: 46
+Condition: Immediate
+> Voice Line ID: 47
+Condition: Immediate
+> Voice Line ID: 50
+Condition: Immediate
+> Voice Line ID: 51
+Condition: Immediate
+> Voice Line ID: 52
+Condition: Immediate
+> Voice Line ID: 53
+Condition: Immediate
+> Voice Line ID: 54
 [Changes to Player 1 detected.]
 > Add 100% more Health
 Event:     Assign Transformation
@@ -143,103 +257,510 @@ Character: SS1 Vegeta (GT)
 
 [Scene 3]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 4
+> Scene ID: 4
 Event:     Switch with Teammate #2
 Character: Goku (GT)
 
 [Scene 4]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 41.4 0.0 -40.6 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Super 17
+> Position (XYZ): -45.2 -0.7 101.9 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 0_GROUND.canm for Goku (GT)
+> Loop property detected
+Play Animation 0_GROUND.canm for Super 17
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 40.789 -11.527 -51.45 
+> Rotation (XYZ): -6.639 -19.45 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 41.071 -13.759 -56.053 
+> Rotation (XYZ): -15.505 -16.767 0.0 
 Lower Current BG Music
-BG Music:  Flight in The Dark Side
+BG Music:  UNKNOWN (ID: 207)
+Play Voice Line 55 for Vegeta (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 35.586 -2.684 -31.64 
+> Rotation (XYZ): 8.032 147.448 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 35.586 -5.00625 -31.64 
+> Rotation (XYZ): 8.032 147.448 0.0 
+Play Voice Line 56 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 32.135 -12.52 -34.704 
+> Rotation (XYZ): -14.809 103.99 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 33.563 -7.50725 -35.06 
+> Rotation (XYZ): -6.477 103.99 0.0 
+Play Voice Line 62 for Vegeta (GT)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 5
+> Scene ID: 5
 Event:     Assign Transformation
 Character: SS1 Goku (GT)
 
 [Scene 5]
 
+===Cinematic Info===
+Change Position/Rotation for Vegeta (GT)
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Super 17
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 79.687 -5.748 2.482 
+> Rotation (XYZ): 20.479 107.216 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 69.027 -1.58 5.785 
+> Rotation (XYZ): 20.479 107.216 0.0 
+Enable Aura Charge for Vegeta (GT)
+Play Animation 330_SKILL_005_CHARGE.canm for Vegeta (GT)
+> Loop property detected
+Play Voice Line 0 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 1.434 -4.155 19.785 
+> Rotation (XYZ): 8.013 -112.026 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -37.717 -13.903 -0.38 
+> Rotation (XYZ): 10.281 -83.834 0.0 
+Play Animation 384_INTRO_IN.canm for Super 17
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Super 17
+> Loop property detected
+Play Voice Line 1 for Super 17
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Wait 60 seconds
-> GSAC ID: 1
+> Scene ID: 1
+Condition: Immediate
+> Voice Line ID: 2
+Condition: Immediate
+> Voice Line ID: 3
+Condition: Perform Dragon Homing
+> Voice Line ID: 4
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 5
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 6
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 8
+Condition: Perform Z-Counter (Opponent)
+> Voice Line ID: 9
+Condition: Block 2nd Blast 2 (Opponent)
+> Voice Line ID: 10
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 12
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 13
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 14
+Condition: Lose 2 Health Bars
+> Voice Line ID: 15
+Condition: Lose 3 Health Bars
+> Voice Line ID: 16
+Condition: Perform Vanishing Attack
+> Voice Line ID: 4
+Condition: Block 2nd Blast 2 (Opponent)
+> Voice Line ID: 5
+Condition: Hit with Charged Ki Blast
+> Voice Line ID: 6
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 12
 Event:     Battle Finish
 
 [Scene 6]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 7
+> Scene ID: 7
 Event:     Assign Transformation
 Character: Goku (GT)
 
 [Scene 7]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Vegeta (GT)
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Super 17
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 85.088 -4.007 -11.201 
+> Rotation (XYZ): 1.996 -3.864 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 73.374 -4.329 -2.987 
+> Rotation (XYZ): 1.996 72.284 0.0 
+Play Animation 1_GROUND_TIRED.canm for Vegeta (GT)
+> Loop property detected
+Play Voice Line 83 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 8
+> Scene ID: 8
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Switch with Teammate #3
 Character: Android #18
 
 [Scene 8]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Vegeta (GT)
+> Position (XYZ): 41.4 0.0 -40.6 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Super 17
+> Position (XYZ): -45.2 -0.7 101.9 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 1_GROUND_TIRED.canm for Vegeta (GT)
+> Loop property detected
+Play Animation 0_GROUND.canm for Super 17
+> Loop property detected
+Disable Aura Charge for Vegeta (GT)
+[Initial Camera Point]
+> Position (XYZ): -41.06 -1.473 90.846 
+> Rotation (XYZ): 45.298 -26.386 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): -39.047 -18.085 91.509 
+> Rotation (XYZ): 16.095 -31.519 0.0 
 Lower Current BG Music
-BG Music:  Lost Courage
+BG Music:  UNKNOWN (ID: 205)
+Play Voice Line 67 for Super 17
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 44.823 -7.907 -56.766 
+> Rotation (XYZ): -6.326 -27.831 0.0 
+[Additional Camera Point]
+> Transition Time: 22.0 
+> Position (XYZ): 43.995 -23.893 -55.199 
+> Rotation (XYZ): -22.214 -27.831 0.0 
+Play Voice Line 68 for Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 37.044 -4.826 -30.192 
+> Rotation (XYZ): 39.724 156.692 0.0 
+Play Voice Line 69 for Android #18
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 34.568 -11.875 -35.018 
+> Rotation (XYZ): -7.702 101.869 0.0 
+Play Voice Line 82 for Android #18
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Wait 60 seconds
-> GSAC ID: 9
+> Scene ID: 9
 Condition: Win via K.O.
-> GSAC ID: 33
+> Scene ID: 33
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
+Condition: Immediate
+> Voice Line ID: 70
+Condition: Immediate
+> Voice Line ID: 71
+Condition: Immediate
+> Voice Line ID: 72
+Condition: Immediate
+> Voice Line ID: 73
+Condition: Immediate
+> Voice Line ID: 74
+Condition: Immediate
+> Voice Line ID: 75
+Condition: Immediate
+> Voice Line ID: 76
+Condition: Immediate
+> Voice Line ID: 77
 Event:     Battle Finish
 
 [Scene 9]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 10
+> Scene ID: 10
 Event:     Switch with Teammate #2
 Character: Goku (GT)
 
 [Scene 10]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Vegeta (GT)
+> Position (XYZ): 56.9 0.0 -66.2 
+> Rotation (XYZ): 0.0 -31.3 0.0 
+Change Position/Rotation for Super 17
+> Position (XYZ): -60.8 -0.7 127.5 
+> Rotation (XYZ): 0.0 148.7 0.0 
+[Initial Camera Point]
+> Position (XYZ): 58.04 -3.387 -53.977 
+> Rotation (XYZ): 19.004 -170.951 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 58.738 -1.858 -49.592 
+> Rotation (XYZ): 19.004 -170.951 0.0 
+Play Animation 52_CHARGE_IN.canm for Vegeta (GT)
+> Wait property detected
+Play Animation 53_CHARGE_LOOP.canm for Vegeta (GT)
+> Loop property detected
+Play Voice Line 84 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 [Changes to Player 1 detected.]
 > Z-Item #7: Go To Hell
 Event:     Trigger 2nd Blast 2
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Super 17
+> Position (XYZ): -14.1 -0.7 50.6 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Change Position/Rotation for Vegeta (GT)
+> Position (XYZ): 10.2 0.0 10.7 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Disable Aura Charge for Vegeta (GT)
+Disable Aura Charge for Super 17
+[Initial Camera Point]
+> Position (XYZ): 4.585 -18.677 33.79 
+> Rotation (XYZ): -17.508 169.07 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 3.324 -5.299 20.518 
+> Rotation (XYZ): 9.17 148.757 0.0 
+Play Animation 388_LOSE.canm for Super 17
+Play Animation 386_WIN_IN.canm for Vegeta (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Vegeta (GT)
+> Loop property detected
+Play Voice Line 80 for Vegeta (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 31 (Victory)]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Super 17
+> Position (XYZ): -14.1 -0.7 50.6 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Change Position/Rotation for Vegeta (GT)
+> Position (XYZ): 10.2 0.0 10.7 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Disable Aura Charge for Vegeta (GT)
+Disable Aura Charge for Super 17
+[Initial Camera Point]
+> Position (XYZ): 34.72 -13.756 15.02 
+> Rotation (XYZ): -6.831 -74.414 0.0 
+Play Animation 388_LOSE.canm for Super 17
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 4.585 -18.677 33.79 
+> Rotation (XYZ): -17.508 169.07 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.603 -17.816 20.902 
+> Rotation (XYZ): -17.508 134.175 0.0 
+Play Animation 386_WIN_IN.canm for Vegeta (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Vegeta (GT)
+> Loop property detected
+Play Voice Line 44 for Goku (GT)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 32 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 10.2 0.0 10.7 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Super 17
+> Position (XYZ): -14.1 -0.7 50.6 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Super 17
+Play Animation 413_STAND_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Super 17
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -3.908 -13.957 63.838 
+> Rotation (XYZ): -7.601 176.777 0.0 
+Play Animation 388_LOSE.canm for Super 17
+> Wait property detected
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 3.574 -11.067 21.883 
+> Rotation (XYZ): -0.777 148.499 0.0 
+Play Voice Line 65 for Vegeta (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 3.956 -16.216 15.544 
+> Rotation (XYZ): -18.195 126.164 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -93.443 -55.869 86.736 
+> Rotation (XYZ): -18.195 126.164 0.0 
+Play Animation 386_WIN_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 66 for Vegeta (GT)
+> Wait property detected
+Wait 1.5 seconds
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 33 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (GT)
+> Position (XYZ): 10.2 0.0 10.7 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Super 17
+> Position (XYZ): -14.1 -0.7 50.6 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for Goku (GT)
+Disable Aura Charge for Super 17
+Play Animation 413_STAND_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Super 17
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -3.908 -13.957 63.838 
+> Rotation (XYZ): -7.601 176.777 0.0 
+Play Animation 388_LOSE.canm for Super 17
+> Wait property detected
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 3.574 -11.067 21.883 
+> Rotation (XYZ): -0.777 148.499 0.0 
+Play Voice Line 78 for Android #18
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 3.956 -16.216 15.544 
+> Rotation (XYZ): -18.195 126.164 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -93.443 -55.869 86.736 
+> Rotation (XYZ): -18.195 126.164 0.0 
+Play Animation 386_WIN_IN.canm for Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (GT)
+> Loop property detected
+Play Voice Line 81 for Goku (GT)
+> Wait property detected
+Wait 1.5 seconds
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Vegeta (GT)
+> Position (XYZ): 24.7 0.0 -13.3 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Super 17
+> Position (XYZ): -28.6 -0.7 74.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for Vegeta (GT)
+Disable Aura Charge for Super 17
+[Initial Camera Point]
+> Position (XYZ): 19.475 -5.199 -26.48 
+> Rotation (XYZ): 0.232 -13.774 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -23.195 -21.345 58.383 
+> Rotation (XYZ): -13.237 -13.502 0.0 
+Play Animation 388_LOSE.canm for Vegeta (GT)
+Play Animation 386_WIN_IN.canm for Super 17
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Super 17
+> Loop property detected
+Play Voice Line 19 for Super 17
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Vegeta (GT)
+> Position (XYZ): 24.7 0.0 -13.3 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Super 17
+> Position (XYZ): -28.6 -0.7 74.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for Vegeta (GT)
+Disable Aura Charge for Super 17
+[Initial Camera Point]
+> Position (XYZ): 19.475 -5.199 -26.48 
+> Rotation (XYZ): 0.232 -13.774 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -23.195 -21.345 58.383 
+> Rotation (XYZ): -13.237 -13.502 0.0 
+Play Animation 388_LOSE.canm for Vegeta (GT)
+Play Animation 386_WIN_IN.canm for Super 17
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Super 17
+> Loop property detected
+Play Voice Line 43 for Super 17
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===

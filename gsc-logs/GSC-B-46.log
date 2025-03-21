@@ -1,12 +1,12 @@
 [General Information]
-Name: Broly
+Name: Resisting against Despair
 Saga: Special Saga
 
 [Rewards]
 > Acquired Z-Points (from Easy to Hard)
+2000
 2500
 3000
-3500
 > Acquired Z-Items
 Draconic Aura
 null
@@ -16,28 +16,28 @@ null
 null
 null
 > Acquired Characters
-SS1 Broly (Super)
-LSS Broly (Super)
-SSG Vegeta
+Future Gohan
+SS1 Future Gohan
+SS1 Trunks (Sword)
 > Acquired Scenarios
 null
 null
 null
 
 [Battle Settings]
-Map: Ice Continent
-BGM: Caution!
+Map: City Ruins - Noon
+BGM: UNKNOWN (ID: 224)
 
 [Player 1 Team]
 > Teammate 1
-Character: SSG Vegeta
+Character: SS1 Future Gohan
 Costume: 1
 Damaged: false
 COM Difficulty Level: 0
 Strategy Z-Item: Goku Type
 Initial Health: 100%
-Z-Item #1: Whis Training
-Z-Item #2: Attack +8
+Z-Item #1: Super Up 3
+Z-Item #2: null
 Z-Item #3: null
 Z-Item #4: null
 Z-Item #5: null
@@ -45,59 +45,14 @@ Z-Item #6: null
 Z-Item #7: null
 
 > Teammate 2
-Character: Goku (End)
-Costume: 5
-Damaged: false
-COM Difficulty Level: 0
-Strategy Z-Item: Goku Type
-Initial Health: 100%
-Z-Item #1: Whis Training
-Z-Item #2: Attack +8
-Z-Item #3: null
-Z-Item #4: null
-Z-Item #5: null
-Z-Item #6: null
-Z-Item #7: null
-
-> Teammate 3
-Character: Vegeta
+Character: Trunks (Sword)
 Costume: 1
 Damaged: false
 COM Difficulty Level: 0
 Strategy Z-Item: Goku Type
 Initial Health: 100%
-Z-Item #1: Whis Training
-Z-Item #2: Attack +8
-Z-Item #3: null
-Z-Item #4: null
-Z-Item #5: null
-Z-Item #6: null
-Z-Item #7: null
-
-> Teammate 4
-Character: Frieza - Final Form
-Costume: 1
-Damaged: false
-COM Difficulty Level: 0
-Strategy Z-Item: Goku Type
-Initial Health: 100%
-Z-Item #1: Whis Training
-Z-Item #2: Attack +8
-Z-Item #3: null
-Z-Item #4: null
-Z-Item #5: null
-Z-Item #6: null
-Z-Item #7: null
-
-> Teammate 5
-Character: Gogeta
-Costume: 1
-Damaged: false
-COM Difficulty Level: 0
-Strategy Z-Item: Goku Type
-Initial Health: 100%
-Z-Item #1: Whis Training
-Z-Item #2: Attack +8
+Z-Item #1: Super Up 2
+Z-Item #2: Attack Up 1
 Z-Item #3: null
 Z-Item #4: null
 Z-Item #5: null
@@ -106,372 +61,513 @@ Z-Item #7: null
 
 [Opponent Team]
 > Teammate 1
-Character: Broly (Super)
+Character: Android #17
 Costume: 1
 Damaged: false
-COM Difficulty Level: 0
-Strategy Z-Item: Goku Type
+COM Difficulty Level: 10
+Strategy Z-Item: Majin Buu Type
 Initial Health: 100%
-Z-Item #1: Whis Training
-Z-Item #2: Attack +8
-Z-Item #3: null
-Z-Item #4: null
+Z-Item #1: Extreme Hand-to-Hand
+Z-Item #2: Master Roshi's Training
+Z-Item #3: Whis Training
+Z-Item #4: Attack +8
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 2
+Character: Android #18
+Costume: 1
+Damaged: false
+COM Difficulty Level: 10
+Strategy Z-Item: Majin Buu Type
+Initial Health: 100%
+Z-Item #1: Ultimate Body
+Z-Item #2: Master Roshi's Training
+Z-Item #3: Whis Training
+Z-Item #4: Attack +8
 Z-Item #5: null
 Z-Item #6: null
 Z-Item #7: null
 
 > Results
-Teammate Count (Player 1): 5
-Teammate Count (Opponent): 1
+Teammate Count (Player 1): 2
+Teammate Count (Opponent): 2
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for SS1 Future Gohan
+> Position (XYZ): -20.0 0.0 50.0 
+> Rotation (XYZ): 0.0 158.2 0.0 
+Change Position/Rotation for Android #17
+> Position (XYZ): 20.0 0.0 -50.0 
+> Rotation (XYZ): 0.0 -21.8 0.0 
+[Initial Camera Point]
+> Position (XYZ): -24.735 -2.908 -7.853 
+> Rotation (XYZ): -4.157 135.451 0.0 
+[Additional Camera Point]
+> Transition Time: 4.5 
+> Position (XYZ): 11.133 -11.35 -40.363 
+> Rotation (XYZ): 0.6 134.062 0.0 
+Play Animation 384_INTRO_IN.canm for Android #17
+Play Voice Line 0 for Android #17
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Android #17
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -21.944 -1.722 0.702 
+> Rotation (XYZ): 4.182 3.606 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): -19.6 -11.3525 37.9 
+> Rotation (XYZ): -9.495 3.606 0.0 
+Play Animation 384_INTRO_IN.canm for SS1 Future Gohan
+Play Voice Line 1 for Android #18
+> Wait property detected
+Play Voice Line 2 for SS1 Future Gohan
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for SS1 Future Gohan
+> Loop property detected
+Disable ALL VFX
+
 ===Battle Info===
-Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 1
+Condition: Wait 30 seconds
+> Scene ID: 1
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 3
+Condition: Immediate
+> Voice Line ID: 4
 [Changes to Opponent detected.]
-> Z-Item #7: Defense +50
+> Z-Item #3: Ultimate Body
 Event:     Battle Finish
 
 [Scene 1]
 
-===Battle Info===
-Condition: Immediate
-> GSAC ID: 2
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Switch with Teammate #2
-Character: Goku (End)
-
-[Scene 2]
-
-===Battle Info===
-Condition: Lose 1 Health Bar (Opponent) [AUTO]
-> GSAC ID: 3
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Opponent detected.]
-> Add 100% more Health
-Event:     Aerial Clash (Opponent)
-
-[Scene 3]
-
-===Battle Info===
-Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 4
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Assign Transformation
-Character: SS1 Goku (End)
-
-[Scene 4]
-
-===Battle Info===
-Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 5
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Assign Transformation
-Character: SSG Goku
-
-[Scene 5]
-
-===Battle Info===
-Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 24
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Opponent detected.]
-> Add 100% more Health
-Event:     Normal Clash (Opponent)
-
-[Scene 24]
-
-===Battle Info===
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 6
-[Changes to Opponent detected.]
-> Z-Item #7: Go To Hell
-Event:     Trigger 2nd Blast 2 (Opponent) [AUTO]
-
-[Scene 6]
-Lower Current BG Music
-BG Music:  Tensa Atmosphere
-
-===Battle Info===
-Condition: Lose 1 Health Bar (Opponent) [AUTO]
-> GSAC ID: 7
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Player 1 detected.]
-> Add 100% more Health
-[Changes to Opponent detected.]
-> Z-Item #7: null
-> Add 100% more Health
-Event:     Assign Transformation
-Character: SSB Goku
-
-[Scene 7]
-
-===Battle Info===
-Condition: Hit with Ultimate Blast (Opponent)
-> GSAC ID: 25
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Trigger Ultimate Blast (Opponent) [AUTO]
-
-[Scene 25]
-
-===Battle Info===
-Condition: Wait 20 seconds
-> GSAC ID: 8
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Map Destruction (Opponent)
-
-[Scene 8]
-
-===Battle Info===
-Condition: Wait 20 seconds
-> GSAC ID: 9
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Player 1 detected.]
-> Z-Item #7: Attack -25
-[Changes to Opponent detected.]
-> Add 100% more Health
-> Z-Item #7: Defense +50
-Event:     Assign Transformation (Opponent) [AUTO]
-Character: SS1 Broly (Super)
-
-[Scene 9]
-
-===Battle Info===
-Condition: Immediate
-> GSAC ID: 10
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Switch with Teammate #3
-Character: Vegeta
-
-[Scene 10]
-
-===Battle Info===
-Condition: Wait 20 seconds
-> GSAC ID: 11
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Player 1 detected.]
-> Z-Item #7: Attack -25
-Event:     Assign Transformation
-Character: SSB Vegeta
-
-[Scene 11]
-
-===Battle Info===
-Condition: Immediate
-> GSAC ID: 12
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Switch with Teammate #4
-Character: Frieza - Final Form
-
-[Scene 12]
-
-===Battle Info===
-Condition: Wait 55 seconds
-> GSAC ID: 13
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Opponent detected.]
-> Z-Item #7: Absolutely Invincible Body
-> Add 100% more Health
-Event:     Normal Clash (Opponent)
-
-[Scene 13]
-
-===Battle Info===
-Condition: Immediate
-> GSAC ID: 14
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Assign Transformation
-Character: Golden Frieza
-
-[Scene 14]
-
-===Battle Info===
-Condition: Wait 25 seconds
-> GSAC ID: 22
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Player 1 detected.]
-> Add 100% more Health
-> Z-Item #7: Attack -25
-[Changes to Opponent detected.]
-> Z-Item #7: Defense +50
-Event:     Normal Clash (Opponent)
-
-[Scene 22]
-
-===Battle Info===
-Condition: Wait 25 seconds
-> GSAC ID: 23
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Assign Transformation (Opponent) [AUTO]
-
-[Scene 23]
-
-===Battle Info===
-Condition: Wait 30 seconds
-> GSAC ID: 15
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Assign Transformation (Opponent) [AUTO]
-
-[Scene 15]
-
-===Battle Info===
-Condition: Immediate
-> GSAC ID: 16
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Switch with Teammate #5
-Character: Gogeta
-
-[Scene 16]
-Lower Current BG Music
-BG Music:  I Won't Stop Till the End!! 
-
-===Battle Info===
-Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 17
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Opponent detected.]
-> Add 100% more Health
-> Z-Item #7: null
-Event:     Aerial Clash (Opponent)
-
-[Scene 17]
-
-===Battle Info===
-Condition: Lose 6 Health Bars (Opponent) [AUTO]
-> GSAC ID: 18
-Condition: Win via K.O.
-> GSAC ID: 18
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Assign Transformation
-Character: Super Gogeta
-
-[Scene 18 - UNUSED]
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS1 Future Gohan
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Android #17
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 61.093 -1.747 4.197 
+> Rotation (XYZ): 22.579 96.705 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 76.666 -9.443 4.117 
+> Rotation (XYZ): 7.374 106.29 0.0 
+Play Animation 1_GROUND_TIRED.canm for SS1 Future Gohan
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Wait 10 seconds
-> GSAC ID: 19
+> Scene ID: 2
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Event:     Beam Struggle between Player 1's 1st Blast 2 and COM's 2nd Blast 2
+
+[Scene 2]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Trunks (Sword)
+> Position (XYZ): -51.4 0.0 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Android #17
+> Position (XYZ): 51.4 0.0 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -52.468 -6.25 24.251 
+> Rotation (XYZ): -2.674 1.575 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -52.883 -13.002 53.993 
+> Rotation (XYZ): -5.025 23.775 0.0 
+Play Animation 1_GROUND_TIRED.canm for SS1 Future Gohan
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Win via K.O.
+> Scene ID: 30
+Condition: Win via K.O. (Opponent)
+> Scene ID: 3
 [Changes to Opponent detected.]
-> Add 100% more Health
-Event:     Assign Transformation (Opponent) [AUTO]
-Character: LSS Broly (Super)
-
-[Scene 19]
-
-===Battle Info===
-Condition: Lose 6 Health Bars (Opponent) [AUTO]
-> GSAC ID: 20
-Condition: Win via K.O.
-> GSAC ID: 20
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Player 1 detected.]
-> Add 100% more Health
-Event:     Assign Transformation
-Character: SSB Gogeta
-
-[Scene 20]
-Lower Current BG Music
-BG Music:  Challengers
-
-===Battle Info===
-Condition: Lose 5 Health Bars (Opponent) [AUTO]
-> GSAC ID: 21
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Opponent detected.]
-> Add 100% more Health
-Event:     Trigger 2nd Blast 2
-
-[Scene 21]
-
-===Battle Info===
-Condition: Win via K.O.
-> GSAC ID: 30
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Player 1 detected.]
 > Z-Item #7: Go To Hell
-Event:     Trigger Ultimate Blast
+Event:     Trigger Ultimate Blast (Opponent) [AUTO]
+
+[Scene 3]
+
+===Cinematic Info===
+Disable ALL VFX
+
+===Battle Info===
+Condition: Immediate
+> Scene ID: 4
+Event:     Switch with Teammate #2
+Character: Trunks (Sword)
+
+[Scene 4]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS1 Future Gohan
+> Position (XYZ): -20.0 0.0 50.0 
+> Rotation (XYZ): 0.0 158.2 0.0 
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): 20.0 0.0 -50.0 
+> Rotation (XYZ): 0.0 -21.8 0.0 
+[Initial Camera Point]
+> Position (XYZ): 11.126 -15.002 16.629 
+> Rotation (XYZ): -17.147 -48.563 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -9.009 -8.635 34.403 
+> Rotation (XYZ): -6.753 -39.802 0.0 
+Play Animation 52_CHARGE_IN.canm for SS1 Future Gohan
+> Wait property detected
+Enable Ki Charge for SS1 Future Gohan
+Shake Camera for 1.2 seconds
+Play Animation 53_CHARGE_LOOP.canm for SS1 Future Gohan
+> Loop property detected
+Play Voice Line 5 for Trunks (Sword)
+> Wait property detected
+Enable MPM Explosion for SS1 Future Gohan
+Play Animation 54_CHARGE_MAX.canm for SS1 Future Gohan
+> Wait property detected
+Wait 1.5 seconds
+Disable ALL VFX
+
+===Battle Info===
+Condition: Immediate
+> Scene ID: 5
+[Changes to Opponent detected.]
+> Z-Item #7: null
+Event:     Assign Transformation
+Character: SS1 Trunks (Sword)
+
+[Scene 5]
+
+===Cinematic Info===
+Change Position/Rotation for SS1 Future Gohan
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Android #17
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 43.698 -0.497 -1.77 
+> Rotation (XYZ): 12.975 88.881 0.0 
+[Additional Camera Point]
+> Transition Time: 16.0 
+> Position (XYZ): 71.778 -191.968 -0.441 
+> Rotation (XYZ): 2.698 93.465 0.0 
+Enable Ki Charge for SS1 Future Gohan
+Play Animation 53_CHARGE_LOOP.canm for SS1 Future Gohan
+> Loop property detected
+> Loop property detected
+Play Voice Line 6 for Trunks (Sword)
+> Wait property detected
+Play Voice Line 7 for Background Character
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Immediate
+> Scene ID: 6
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: Android #18
+
+[Scene 6]
+
+===Cinematic Info===
+Change Position/Rotation for SS1 Future Gohan
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Android #17
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 0_GROUND.canm for Trunks (Sword)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 68.459 -3.617 -6.544 
+> Rotation (XYZ): 6.673 71.573 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 77.672 -9.0585 -2.474 
+> Rotation (XYZ): 10.739 71.573 0.0 
+Play Voice Line 8 for Trunks (Sword)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -31.297 -11.53 -13.556 
+> Rotation (XYZ): -1.996 -58.57 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): -43.728 -9.826 2.389 
+> Rotation (XYZ): 9.676 -107.861 0.0 
+Play Animation 384_INTRO_IN.canm for Android #17
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Android #17
+> Loop property detected
+Play Voice Line 9 for Android #18
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Wait 30 seconds
+> Scene ID: 7
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Immediate
+> Voice Line ID: 12
+Condition: Immediate
+> Voice Line ID: 13
+Condition: Immediate
+> Voice Line ID: 14
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Trigger 1st Blast 2
+
+[Scene 7]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Trunks (Sword)
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Android #17
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 1_GROUND_TIRED.canm for Trunks (Sword)
+> Loop property detected
+Play Animation 0_GROUND.canm for Android #17
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 73.165 -13.0215 18.223 
+> Rotation (XYZ): -31.015 140.176 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 64.114 -5.016 -10.045 
+> Rotation (XYZ): 11.938 59.631 0.0 
+Play Voice Line 15 for Android #18
+> Wait property detected
+Play Voice Line 16 for Android #17
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -43.676 -10.701 -7.044 
+> Rotation (XYZ): -22.957 -56.624 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -49.998 -13.6015 -6.437 
+> Rotation (XYZ): -11.091 -29.862 0.0 
+Play Voice Line 17 for Android #18
+> Wait property detected
+Play Voice Line 18 for Android #18
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Immediate
+> Scene ID: 10
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Switch with Teammate #1 (Opponent) [AUTO]
+Character: Android #17
+
+[Scene 10]
+
+===Cinematic Info===
+Disable ALL VFX
+
+===Battle Info===
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Scene ID: 8
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 19
+Condition: Immediate
+> Voice Line ID: 20
+Condition: Immediate
+> Voice Line ID: 21
+Condition: Immediate
+> Voice Line ID: 22
+[Changes to Opponent detected.]
+> Add 100% more Health
+> Z-Item #3: null
+Event:     Assign Transformation (Opponent) [AUTO]
+Character: Goku (Mid)
+
+[Scene 8]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS1 Future Gohan
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Android #17
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -27.422 -2.239 -0.285 
+> Rotation (XYZ): 17.226 -91.321 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): -40.064 -10.159 -1.801 
+> Rotation (XYZ): 1.7 -81.897 0.0 
+Play Animation 295_SKILL_004_IN.canm for Android #17
+> Loop property detected
+Play Animation 296_SKILL_004_CHARGE.canm for Android #17
+> Wait property detected
+Play Voice Line 23 for Android #17
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Immediate
+> Scene ID: 9
+Event:     Switch with Teammate #2 (Opponent) [AUTO]
+Character: Android #18
+
+[Scene 9]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS1 Future Gohan
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Android #17
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -27.422 -2.239 -0.285 
+> Rotation (XYZ): 17.226 -91.321 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): -40.064 -10.159 -1.801 
+> Rotation (XYZ): 1.7 -81.897 0.0 
+Play Animation 0_GROUND.canm for Android #17
+> Loop property detected
+Play Voice Line 24 for Android #18
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Win via K.O. (Opponent)
+> Scene ID: 31
+[Changes to Opponent detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
 
 [Scene 30 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for SS1 Future Gohan
+> Position (XYZ): -22.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Android #17
+> Position (XYZ): 55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for SS1 Future Gohan
+Disable Aura Charge for Android #17
+[Initial Camera Point]
+> Position (XYZ): 4.376 -16.27 5.148 
+> Rotation (XYZ): -9.019 -103.445 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -10.947 -13.894 0.173 
+> Rotation (XYZ): 4.51 -101.782 0.0 
+Play Animation 388_LOSE.canm for Android #17
+Play Animation 386_WIN_IN.canm for SS1 Future Gohan
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for SS1 Future Gohan
+> Loop property detected
+Play Voice Line 9 for SS1 Future Gohan
+> Wait property detected
+Disable ALL VFX
+
+===No Battle Info===
+
+[Scene 31 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for SS1 Future Gohan
+> Position (XYZ): 45.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Android #17
+> Position (XYZ): -12.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SS1 Future Gohan
+Disable Aura Charge for Android #17
+[Initial Camera Point]
+> Position (XYZ): 55.709 -13.844 -24.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.987 -14.099 0.47 
+> Rotation (XYZ): 2.58 -88.173 0.0 
+Play Animation 388_LOSE.canm for SS1 Future Gohan
+Play Animation 386_WIN_IN.canm for Android #17
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Android #17
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory)]
 
+===Cinematic Info===
+Disable ALL VFX
+
+===No Battle Info===
+
+[Scene 40 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for SS1 Future Gohan
+> Position (XYZ): 45.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Android #17
+> Position (XYZ): -12.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SS1 Future Gohan
+Disable Aura Charge for Android #17
+[Initial Camera Point]
+> Position (XYZ): 55.709 -13.844 -24.393 
+> Rotation (XYZ): -14.436 -52.816 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.987 -14.099 0.47 
+> Rotation (XYZ): 2.58 -88.173 0.0 
+Play Animation 388_LOSE.canm for SS1 Future Gohan
+Play Animation 386_WIN_IN.canm for Android #17
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Android #17
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat)]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

@@ -21,12 +21,12 @@ Frieza - Full Power
 null
 > Acquired Scenarios
 Enraged Android
-Strongest Vs. Strongest
-null
+The Strongest vs. The Strongest
+Resisting against Despair
 
 [Battle Settings]
 Map: Agonizing Planet Namek
-BGM: A Hero's Desperation
+BGM: UNKNOWN (ID: 159)
 
 [Player 1 Team]
 > Teammate 1
@@ -81,24 +81,142 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 50.0 -0.0 60.0 
+> Rotation (XYZ): -0.0 -140.2 -0.0 
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): -40.0 -0.0 -60.0 
+> Rotation (XYZ): -0.0 33.6 -0.0 
+Play Animation 0_GROUND.canm for Goku (Mid)
+> Loop property detected
+Play Animation 0_GROUND.canm for Frieza - Final Form
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -1.666 -21.514 -1.89 
+> Rotation (XYZ): -6.863 -148.451 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -35.673 -12.719 -49.898 
+> Rotation (XYZ): -10.782 -161.196 -0.0 
+Play Voice Line 0 for Frieza - Final Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 18.456 -16.867 42.64 
+> Rotation (XYZ): -10.085 60.235 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 40.486 -12.594 55.239 
+> Rotation (XYZ): -7.645 62.616 -0.0 
+Play Voice Line 1 for Goku (Mid)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 30 seconds
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
+Condition: Immediate
+> Voice Line ID: 6
+Condition: Immediate
+> Voice Line ID: 7
+Condition: Immediate
+> Voice Line ID: 8
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 9
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 23
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 41
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 41
+Condition: Perform Dragon Homing
+> Voice Line ID: 26
+Condition: Perform Vanishing Attack
+> Voice Line ID: 26
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 41
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 50.0 -0.0 60.0 
+> Rotation (XYZ): -0.0 -140.2 -0.0 
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): -40.0 -0.0 -60.0 
+> Rotation (XYZ): -0.0 33.6 -0.0 
+Disable Aura Charge for Goku (Mid)
+[Initial Camera Point]
+> Position (XYZ): 22.492 -30.094 28.292 
+> Rotation (XYZ): -29.881 38.175 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 38.428 -13.412 48.562 
+> Rotation (XYZ): -24.467 41.837 -0.0 
+Play Animation 0_GROUND.canm for Frieza - Final Form
+> Loop property detected
+Play Animation 52_CHARGE_IN.canm for Goku (Mid)
+> Wait property detected
+Enable Ki Charge for Goku (Mid)
+Play Animation 53_CHARGE_LOOP.canm for Goku (Mid)
+> Loop property detected
+Play Voice Line 13 for Goku (Mid)
+> Wait property detected
+Enable MPM Explosion for Goku (Mid)
+Shake Camera for 0.5 seconds
+Wait 0.5 seconds
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 4 Health Bars (Opponent) [AUTO]
-> GSAC ID: 6
+> Scene ID: 6
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Immediate
+> Voice Line ID: 11
+Condition: Immediate
+> Voice Line ID: 12
+Condition: Immediate
+> Voice Line ID: 14
+Condition: Immediate
+> Voice Line ID: 15
+Condition: Immediate
+> Voice Line ID: 16
+Condition: Immediate
+> Voice Line ID: 17
+Condition: Immediate
+> Voice Line ID: 18
+Condition: Immediate
+> Voice Line ID: 19
+Condition: Immediate
+> Voice Line ID: 20
+Condition: Immediate
+> Voice Line ID: 21
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 22
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 23
+Condition: Perform Hyper Smash
+> Voice Line ID: 27
+Condition: UNKNOWN(ID: 53)
+> Voice Line ID: 27
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 27
+Condition: Perform Dragon Homing
+> Voice Line ID: 26
+Condition: Perform Vanishing Attack
+> Voice Line ID: 25
+Condition: Lose 2 Health Bars
+> Voice Line ID: 28
 [Changes to Player 1 detected.]
 > Add 100% more Health
 > Z-Item #1: King Kai's Training
@@ -120,33 +238,108 @@ Character: SS1 Goku (Mid)
 
 [Scene 6]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 206.3 -60.0 268.4 
+> Rotation (XYZ): -0.0 -143.1 -0.0 
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): -196.3 -60.5 -268.4 
+> Rotation (XYZ): -0.0 36.9 -0.0 
+[Initial Camera Point]
+> Position (XYZ): -95.197 -56.25 -263.217 
+> Rotation (XYZ): 0.337 -89.559 -0.0 
+[Additional Camera Point]
+> Transition Time: 2.3 
+> Position (XYZ): -95.197 -56.25 -263.217 
+> Rotation (XYZ): 0.337 -89.559 -0.0 
+Play Animation 329_SKILL_005_IN.canm for Frieza - Final Form
+> Wait property detected
+Enable Ki Charge for Frieza - Final Form
+Play Animation 330_SKILL_005_CHARGE.canm for Frieza - Final Form
+> Loop property detected
+Shake Camera for 1.0 seconds
+Wait 1.0 seconds
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Hit with Ultimate Blast (Opponent)
-> GSAC ID: 7
+> Scene ID: 7
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Event:     Trigger Ultimate Blast (Opponent) [AUTO]
 
 [Scene 7]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 15 seconds
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
+Condition: Immediate
+> Voice Line ID: 80
+Condition: Immediate
+> Voice Line ID: 81
 Event:     Map Destruction
 
 [Scene 2]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 50.0 -0.0 60.0 
+> Rotation (XYZ): -0.0 -140.2 -0.0 
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): -40.0 -0.0 -60.0 
+> Rotation (XYZ): -0.0 33.6 -0.0 
+[Initial Camera Point]
+> Position (XYZ): 28.236 -3.36 48.327 
+> Rotation (XYZ): 15.94 61.248 -0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 38.901 -12.263 54.179 
+> Rotation (XYZ): -4.353 61.248 -0.0 
 Lower Current BG Music
-BG Music:  Flash Battle
+BG Music:  UNKNOWN (ID: 233)
+Play Voice Line 30 for Goku (Mid)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -15.878 -1.389 -9.726 
+> Rotation (XYZ): 8.316 -156.186 -0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -36.996 -6.333 -53.665 
+> Rotation (XYZ): 36.192 -153.525 -0.0 
+Play Voice Line 31 for Frieza - Final Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -36.799 -16.459 -53.877 
+> Rotation (XYZ): -22.899 -153.611 -0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -29.524 -30.152 -39.213 
+> Rotation (XYZ): -39.74 -153.611 -0.0 
+Play Animation 52_CHARGE_IN.canm for Frieza - Final Form
+> Wait property detected
+Enable Ki Charge for Frieza - Final Form
+Shake Camera for 1.0 seconds
+Play Animation 53_CHARGE_LOOP.canm for Frieza - Final Form
+> Loop property detected
+Play Voice Line 32 for Goku (Mid)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 3
+> Scene ID: 3
 [Changes to Opponent detected.]
 > Set COM Difficulty Level to 8
 > Add 100% more Health
@@ -161,35 +354,330 @@ Character: Frieza - Full Power
 
 [Scene 3]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 50.0 -0.0 60.0 
+> Rotation (XYZ): -0.0 -140.2 -0.0 
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): -40.0 -0.0 -60.0 
+> Rotation (XYZ): -0.0 33.6 -0.0 
+[Initial Camera Point]
+> Position (XYZ): -38.07 -2.581 -45.958 
+> Rotation (XYZ): 19.041 -175.133 -0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -34.451 -6.892 -49.533 
+> Rotation (XYZ): 22.707 -155.409 -0.0 
+Play Animation 0_GROUND.canm for Goku (Mid)
+> Loop property detected
+Play Animation 384_INTRO_IN.canm for Frieza - Final Form
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Frieza - Final Form
+> Loop property detected
+Play Voice Line 34 for Frieza - Final Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 29.633 -11.091 66.03 
+> Rotation (XYZ): -7.999 117.293 -0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 39.802 -10.998 56.457 
+> Rotation (XYZ): 7.393 81.76 -0.0 
+Play Voice Line 35 for Goku (Mid)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -34.203 -11.175 -47.694 
+> Rotation (XYZ): 1.374 -156.266 -0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -36.491 -12.553 -52.896 
+> Rotation (XYZ): -1.798 -156.266 -0.0 
+Play Voice Line 36 for Frieza - Final Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -38.084 -4.106 -51.202 
+> Rotation (XYZ): 45.212 178.953 -0.0 
+Play Voice Line 37 for Frieza - Final Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 33.227 -10.385 58.166 
+> Rotation (XYZ): 3.9 91.379 -0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 33.227 -10.385 58.166 
+> Rotation (XYZ): 3.9 91.379 -0.0 
+Play Voice Line 38 for Goku (Mid)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -24.446 -12.562 0.8 
+> Rotation (XYZ): -8.407 53.845 -0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 40.634 -8.792 51.982 
+> Rotation (XYZ): 12.212 50.089 -0.0 
+Play Animation 52_CHARGE_IN.canm for Goku (Mid)
+> Wait property detected
+Enable Ki Charge for Goku (Mid)
+Shake Camera for 1.0 seconds
+Play Animation 53_CHARGE_LOOP.canm for Goku (Mid)
+> Loop property detected
+Play Voice Line 39 for Goku (Mid)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 4
+> Scene ID: 4
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 43
+Condition: Perform Z-Counter
+> Voice Line ID: 45
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 15
+Condition: Perform Dragon Homing
+> Voice Line ID: 26
+Condition: Perform Hyper Smash
+> Voice Line ID: 40
+Condition: UNKNOWN(ID: 53)
+> Voice Line ID: 40
+Condition: Perform Rush Attack
+> Voice Line ID: 40
+Condition: Perform Vanishing Attack
+> Voice Line ID: 26
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 41
+Condition: Perform Vanishing Attack
+> Voice Line ID: 6
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 41
+Condition: Lose 2 Health Bars
+> Voice Line ID: 28
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 44
 [Changes to Opponent detected.]
 > Set COM Difficulty Level to 8
 Event:     Normal Clash
 
 [Scene 4]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 50.0 -0.0 60.0 
+> Rotation (XYZ): -0.0 -140.2 -0.0 
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): -40.0 -0.0 -60.0 
+> Rotation (XYZ): -0.0 33.6 -0.0 
+[Initial Camera Point]
+> Position (XYZ): 48.014 -5.451 43.071 
+> Rotation (XYZ): 2.955 16.363 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 50.223 -6.046 50.595 
+> Rotation (XYZ): 9.52 16.363 -0.0 
+Play Animation 386_WIN_IN.canm for Goku (Mid)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (Mid)
+> Loop property detected
+Play Voice Line 49 for Goku (Mid)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -28.006 -8.401 -57.442 
+> Rotation (XYZ): 9.128 -101.776 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -31.811 -13.92 -58.235 
+> Rotation (XYZ): -11.772 -101.776 -0.0 
+Play Voice Line 50 for Frieza - Final Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 47.019 -9.669 38.123 
+> Rotation (XYZ): -3.954 16.613 -0.0 
+[Additional Camera Point]
+> Transition Time: 13.5 
+> Position (XYZ): 53.001 -9.455 59.899 
+> Rotation (XYZ): 24.596 11.139 -0.0 
+Play Voice Line 51 for Goku (Mid)
+> Wait property detected
+Play Voice Line 52 for Goku (Mid)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 71.863 -16.442 82.901 
+> Rotation (XYZ): -5.333 -140.7 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): 64.268 -15.37 74.28 
+> Rotation (XYZ): -5.333 -135.155 -0.0 
+Play Voice Line 53 for Goku (Mid)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 54.089 -19.467 62.355 
+> Rotation (XYZ): -34.277 -5.765 -0.0 
+[Additional Camera Point]
+> Transition Time: 14.5 
+> Position (XYZ): 56.755 -10.742 60.816 
+> Rotation (XYZ): 21.672 -3.771 -0.0 
+Play Voice Line 54 for Goku (Mid)
+> Wait property detected
+Play Voice Line 55 for Goku (Mid)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -32.268 -15.109 -54.9 
+> Rotation (XYZ): -28.006 -124.919 -0.0 
+Play Voice Line 56 for Goku (Mid)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 41.065 -15.544 58.38 
+> Rotation (XYZ): -5.231 54.922 -0.0 
+[Additional Camera Point]
+> Transition Time: 4.5 
+> Position (XYZ): 51.684 -14.911 64.943 
+> Rotation (XYZ): 7.509 44.149 -0.0 
+Play Voice Line 57 for Goku (Mid)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -22.764 -16.773 -50.16 
+> Rotation (XYZ): -26.338 -118.532 -0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -33.154 -13.7 -55.809 
+> Rotation (XYZ): -6.584 -118.532 -0.0 
+Play Voice Line 58 for Frieza - Final Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 87.101 -18.14 86.517 
+> Rotation (XYZ): -8.284 -135.213 -0.0 
+[Additional Camera Point]
+> Transition Time: 1.5 
+> Position (XYZ): 87.101 -18.14 86.517 
+> Rotation (XYZ): -8.284 -135.213 -0.0 
+Play Animation 52_CHARGE_IN.canm for Frieza - Final Form
+> Wait property detected
+Enable Ki Charge for Frieza - Final Form
+Play Animation 53_CHARGE_LOOP.canm for Frieza - Final Form
+> Loop property detected
+Play Voice Line 59 for Frieza - Final Form
+> Wait property detected
+Enable MPM Explosion for Frieza - Final Form
+[Initial Camera Point]
+> Position (XYZ): -34.124 -3.039 -50.7 
+> Rotation (XYZ): 36.452 -142.64 -0.0 
+Play Animation 54_CHARGE_MAX.canm for Frieza - Final Form
+> Wait property detected
+Wait 1.0 seconds
+[Initial Camera Point]
+> Position (XYZ): 72.887 -3.921 80.742 
+> Rotation (XYZ): -10.386 -141.679 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 67.199 -17.705 71.308 
+> Rotation (XYZ): -10.386 -120.431 -0.0 
+Play Voice Line 60 for Goku (Mid)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
 Condition: Lose 5 Health Bars (Opponent) [AUTO]
-> GSAC ID: 5
+> Scene ID: 5
+Condition: Immediate
+> Voice Line ID: 61
+Condition: Immediate
+> Voice Line ID: 62
+Condition: Immediate
+> Voice Line ID: 63
+Condition: Immediate
+> Voice Line ID: 64
+Condition: Immediate
+> Voice Line ID: 65
+Condition: Immediate
+> Voice Line ID: 66
+Condition: Immediate
+> Voice Line ID: 67
+Condition: Immediate
+> Voice Line ID: 68
+Condition: Immediate
+> Voice Line ID: 69
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 71
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 23
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 70
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 70
+Condition: Perform Vanishing Attack
+> Voice Line ID: 6
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 72
+Condition: Perform Dragon Homing
+> Voice Line ID: 26
+Condition: Perform Vanishing Attack
+> Voice Line ID: 26
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 73
+Condition: Perform Hyper Smash
+> Voice Line ID: 74
+Condition: UNKNOWN(ID: 53)
+> Voice Line ID: 74
 Event:     Battle Finish
 
 [Scene 5]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 206.3 -60.0 268.4 
+> Rotation (XYZ): -0.0 -143.1 -0.0 
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): -196.3 -60.5 -268.4 
+> Rotation (XYZ): -0.0 36.9 -0.0 
+[Initial Camera Point]
+> Position (XYZ): -95.197 -56.25 -263.217 
+> Rotation (XYZ): 0.337 -89.559 -0.0 
+[Additional Camera Point]
+> Transition Time: 2.3 
+> Position (XYZ): -95.197 -56.25 -263.217 
+> Rotation (XYZ): 0.337 -89.559 -0.0 
+Play Animation 329_SKILL_005_IN.canm for Frieza - Final Form
+> Wait property detected
+Enable Ki Charge for Frieza - Final Form
+Play Animation 330_SKILL_005_CHARGE.canm for Frieza - Final Form
+> Loop property detected
+Shake Camera for 1.0 seconds
+Play Voice Line 70 for Frieza - Final Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 120.025 -61.867 229.458 
+> Rotation (XYZ): 2.804 67.961 -0.0 
+[Additional Camera Point]
+> Transition Time: 2.5 
+> Position (XYZ): 195.566 -74.872 260.508 
+> Rotation (XYZ): -0.292 53.861 -0.0 
+Play Animation 329_SKILL_005_IN.canm for Goku (Mid)
+> Wait property detected
+Enable Ki Charge for Goku (Mid)
+Play Animation 330_SKILL_005_CHARGE.canm for Goku (Mid)
+> Loop property detected
+Enable Ki Charge for Goku (Mid)
+Shake Camera for 1.0 seconds
+Play Voice Line 71 for Goku (Mid)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
 [Changes to Player 1 detected.]
 > Z-Item #7: Go To Hell
 [Changes to Opponent detected.]
@@ -202,28 +690,193 @@ Event:     Beam Struggle between Player 1 and the COM's Ultimate Blasts
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 26.0 -0.0 28.0 
+> Rotation (XYZ): -0.0 -140.2 -0.0 
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): -16.0 -0.0 -28.0 
+> Rotation (XYZ): -0.0 33.6 -0.0 
+Disable Aura Charge for Goku (Mid)
+Disable Aura Charge for Frieza - Final Form
+Play Animation 387_WIN_LOOP.canm for Goku (Mid)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -10.85 -14.583 -55.391 
+> Rotation (XYZ): -14.781 8.413 -0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -13.12 -33.998 -70.739 
+> Rotation (XYZ): -26.248 8.413 -0.0 
+Play Animation 1_GROUND_TIRED.canm for Frieza - Final Form
+> Loop property detected
+Play Voice Line 77 for Frieza - Final Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 5.353 -3.283 -4.304 
+> Rotation (XYZ): 13.727 -125.019 -0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): 7.924 -2.516 -2.502 
+> Rotation (XYZ): 13.727 -125.019 -0.0 
+Play Animation 388_LOSE.canm for Frieza - Final Form
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (Mid)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 24.132 -19.666 13.853 
+> Rotation (XYZ): -21.426 14.647 -0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 28.726 -14.749 28.718 
+> Rotation (XYZ): 3.466 17.175 -0.0 
+Play Voice Line 78 for Goku (Mid)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 31 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 26.0 -0.0 28.0 
+> Rotation (XYZ): -0.0 -140.2 -0.0 
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): -16.0 -0.0 -28.0 
+> Rotation (XYZ): -0.0 33.6 -0.0 
+Disable Aura Charge for Goku (Mid)
+Disable Aura Charge for Frieza - Final Form
+Play Animation 387_WIN_LOOP.canm for Goku (Mid)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -10.85 -14.583 -55.391 
+> Rotation (XYZ): -14.781 8.413 -0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -13.12 -33.998 -70.739 
+> Rotation (XYZ): -26.248 8.413 -0.0 
+Play Animation 1_GROUND_TIRED.canm for Frieza - Final Form
+> Loop property detected
+Play Voice Line 77 for Frieza - Final Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 23.102 -18.226 15.053 
+> Rotation (XYZ): -20.867 6.191 -0.0 
+Play Animation 388_LOSE.canm for Frieza - Final Form
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Goku (Mid)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 9.889 -21.229 1.324 
+> Rotation (XYZ): -15.806 27.457 -0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 22.819 -16.096 19.061 
+> Rotation (XYZ): -7.23 6.336 -0.0 
+Play Voice Line 78 for Goku (Mid)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 19.9 -0.0 19.9 
+> Rotation (XYZ): -0.0 -140.2 -0.0 
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): -9.9 -0.0 -19.9 
+> Rotation (XYZ): -0.0 33.6 -0.0 
+Disable Aura Charge for Goku (Mid)
+Disable Aura Charge for Frieza - Final Form
+[Initial Camera Point]
+> Position (XYZ): 31.123 -9.746 19.166 
+> Rotation (XYZ): -6.658 -127.978 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -1.375 -12.125 -11.898 
+> Rotation (XYZ): -8.713 -133.76 -0.0 
+Play Animation 388_LOSE.canm for Goku (Mid)
+Play Animation 386_WIN_IN.canm for Frieza - Final Form
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Frieza - Final Form
+> Loop property detected
+Play Voice Line 33 for Frieza - Final Form
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 19.9 -0.0 19.9 
+> Rotation (XYZ): -0.0 -140.2 -0.0 
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): -9.9 -0.0 -19.9 
+> Rotation (XYZ): -0.0 33.6 -0.0 
+Disable Aura Charge for Goku (Mid)
+Disable Aura Charge for Frieza - Final Form
+[Initial Camera Point]
+> Position (XYZ): 31.123 -9.746 19.166 
+> Rotation (XYZ): -6.658 -127.978 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 2.454 -13.6 -14.124 
+> Rotation (XYZ): -2.106 -116.505 -0.0 
+Play Animation 388_LOSE.canm for Goku (Mid)
+Play Animation 386_WIN_IN.canm for Frieza - Final Form
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Frieza - Final Form
+> Loop property detected
+Play Voice Line 48 for Frieza - Final Form
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 42 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 19.9 -0.0 19.9 
+> Rotation (XYZ): -0.0 -140.2 -0.0 
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): -9.9 -0.0 -19.9 
+> Rotation (XYZ): -0.0 33.6 -0.0 
+Disable Aura Charge for Goku (Mid)
+Disable Aura Charge for Frieza - Final Form
+[Initial Camera Point]
+> Position (XYZ): 31.123 -9.746 19.166 
+> Rotation (XYZ): -6.658 -127.978 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 2.454 -13.6 -14.124 
+> Rotation (XYZ): -2.106 -116.505 -0.0 
+Play Animation 388_LOSE.canm for Goku (Mid)
+Play Animation 386_WIN_IN.canm for Frieza - Final Form
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Frieza - Final Form
+> Loop property detected
+Play Voice Line 48 for Frieza - Final Form
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat) - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory)]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: Wasteland - Evening
-BGM: Evil Desires
+BGM: UNKNOWN (ID: 23)
 
 [Player 1 Team]
 > Teammate 1
@@ -66,30 +66,252 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Trunks
+> Position (XYZ): -56.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Cell - Imperfect
+> Position (XYZ): 89.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 413_STAND_LOOP.canm for Trunks
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Cell - Imperfect
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -69.831 -12.39 18.069 
+> Rotation (XYZ): -3.339 107.81 0.0 
+[Additional Camera Point]
+> Transition Time: 8.5 
+> Position (XYZ): -67.518 -12.39 -15.241 
+> Rotation (XYZ): -3.339 63.37 0.0 
+Play Voice Line 0 for Trunks
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -49.904 -16.735 -2.146 
+> Rotation (XYZ): -20.524 -68.351 0.0 
+Play Voice Line 1 for Trunks
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 78.71 -10.098 -4.232 
+> Rotation (XYZ): 31.703 61.69 0.0 
+Play Animation 385_INTRO_LOOP.canm for Cell - Imperfect
+> Loop property detected
+Play Voice Line 2 for Cell - Imperfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -35.256 -6.842 -2.87 
+> Rotation (XYZ): 5.297 -83.882 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -48.007 -10.242 -1.503 
+> Rotation (XYZ): 23.314 -83.882 0.0 
+Play Animation 0_GROUND.canm for Trunks
+> Loop property detected
+Play Voice Line 3 for Trunks
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Wait 60 seconds
-> GSAC ID: 1
+> Scene ID: 1
+Condition: Immediate
+> Voice Line ID: 4
+Condition: Immediate
+> Voice Line ID: 5
+Condition: Immediate
+> Voice Line ID: 6
+Condition: Immediate
+> Voice Line ID: 7
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 28
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 30
+Condition: Lose 1 Health Bar
+> Voice Line ID: 36
+Condition: Lose 2 Health Bars
+> Voice Line ID: 31
+Condition: Lose 3 Health Bars
+> Voice Line ID: 24
+Condition: Lose 4 Health Bars
+> Voice Line ID: 48
+Condition: Perform Normal Clash
+> Voice Line ID: 47
+Condition: Perform Aerial Clash
+> Voice Line ID: 47
+Condition: Perform Dragon Smash
+> Voice Line ID: 51
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 52
+Condition: Perform Teleport
+> Voice Line ID: 50
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 38
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 46
+Condition: Perform Vanishing Attack
+> Voice Line ID: 40
+Condition: Perform 2nd Blast 1
+> Voice Line ID: 42
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 44
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 44
+Condition: UNKNOWN(ID: 35)
+> Voice Line ID: 53
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 27
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 32
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 25
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 26
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 21
+Condition: Perform 1st Blast 1 (Opponent)
+> Voice Line ID: 35
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 9
+Condition: Wait 30 seconds
+> Voice Line ID: 13
 Event:     Battle Finish
 
 [Scene 1]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Trunks
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Cell - Imperfect
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 413_STAND_LOOP.canm for Trunks
+> Loop property detected
+Play Animation 0_GROUND.canm for Cell - Imperfect
+> Loop property detected
+Disable Aura Charge for Trunks
+Disable Aura Charge for Cell - Imperfect
+[Initial Camera Point]
+> Position (XYZ): -82.745 -25.886 -10.236 
+> Rotation (XYZ): -20.41 83.872 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -69.328 -11.139 -7.991 
+> Rotation (XYZ): -1.528 75.82 0.0 
+Play Voice Line 8 for Cell - Imperfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 74.84 -4.965 -14.283 
+> Rotation (XYZ): -7.155 42.468 0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): 77.509 -12.811 -3.381 
+> Rotation (XYZ): 17.799 59.715 0.0 
+Play Voice Line 10 for Cell - Imperfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -43.952 -3.571 -1.183 
+> Rotation (XYZ): -5.396 -83.338 0.0 
+[Additional Camera Point]
+> Transition Time: 4.5 
+> Position (XYZ): -44.975 -14.477 -1.063 
+> Rotation (XYZ): -5.396 -83.338 0.0 
+Play Voice Line 11 for Trunks
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 70.497 -11.295 -3.191 
+> Rotation (XYZ): 14.402 75.732 0.0 
+Play Animation 406_SURPRISED.canm for Cell - Imperfect
+> Loop property detected
+Shake Camera for 0.5 seconds
+Wait 1.0 seconds
+[Initial Camera Point]
+> Position (XYZ): 54.522 -32.04 -5.035 
+> Rotation (XYZ): -32.106 78.498 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 78.905 -19.927 -0.073 
+> Rotation (XYZ): -9.794 86.135 0.0 
+Play Voice Line 12 for Cell - Imperfect
+> Wait property detected
 Lower Current BG Music
-BG Music:  Gallant
+BG Music:  UNKNOWN (ID: 13)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Lose 5 Health Bars (Opponent) [AUTO]
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Wait 60 seconds
-> GSAC ID: 2
+> Scene ID: 2
+Condition: Immediate
+> Voice Line ID: 14
+Condition: Immediate
+> Voice Line ID: 15
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 28
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 30
+Condition: Lose 1 Health Bar
+> Voice Line ID: 36
+Condition: Lose 2 Health Bars
+> Voice Line ID: 31
+Condition: Lose 3 Health Bars
+> Voice Line ID: 24
+Condition: Lose 4 Health Bars
+> Voice Line ID: 48
+Condition: Perform Normal Clash
+> Voice Line ID: 47
+Condition: Perform Aerial Clash
+> Voice Line ID: 47
+Condition: Perform Dragon Smash
+> Voice Line ID: 51
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 52
+Condition: Perform Teleport
+> Voice Line ID: 50
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 38
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 46
+Condition: Perform Vanishing Attack
+> Voice Line ID: 40
+Condition: Perform 2nd Blast 1
+> Voice Line ID: 42
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 44
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 44
+Condition: UNKNOWN(ID: 35)
+> Voice Line ID: 53
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 27
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 32
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 25
+Condition: Taunt
+> Voice Line ID: 26
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 21
+Condition: Perform 1st Blast 1 (Opponent)
+> Voice Line ID: 35
+Condition: Perform Throw
+> Voice Line ID: 51
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 37
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 9
 [Changes to Player 1 detected.]
 > Add 100% more Ki
 > Add 1% more Ki
@@ -101,11 +323,111 @@ Character: SS1 Trunks
 
 [Scene 2]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Trunks
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Cell - Imperfect
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 0_GROUND.canm for Trunks
+> Loop property detected
+Play Animation 0_GROUND.canm for Cell - Imperfect
+> Loop property detected
+Disable Aura Charge for Trunks
+Disable Aura Charge for Cell - Imperfect
+[Initial Camera Point]
+> Position (XYZ): 0.408 -8.123 69.486 
+> Rotation (XYZ): 0.242 127.831 0.0 
+Shake Camera for 0.5 seconds
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): 70.711 -8.499 14.891 
+> Rotation (XYZ): 0.242 127.831 0.0 
+Enable Ki Charge for Cell - Imperfect
+Play Animation 262_SKILL_003_CHARGE.canm for Cell - Imperfect
+> Loop property detected
+Play Voice Line 16 for Cell - Imperfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -35.277 -3.138 4.004 
+> Rotation (XYZ): 20.983 -104.64 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 70.711 -8.499 14.891 
+> Rotation (XYZ): 0.242 127.831 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): -46.384 -9.113 1.102 
+> Rotation (XYZ): 32.641 -104.64 0.0 
+> Wait property detected
+Wait 1.5 seconds
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
+Condition: Perform Ultimate Blast
+> Voice Line ID: 17
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 18
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 28
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 30
+Condition: Lose 1 Health Bar
+> Voice Line ID: 36
+Condition: Lose 2 Health Bars
+> Voice Line ID: 31
+Condition: Lose 3 Health Bars
+> Voice Line ID: 24
+Condition: Lose 4 Health Bars
+> Voice Line ID: 48
+Condition: Perform Normal Clash
+> Voice Line ID: 47
+Condition: Perform Aerial Clash
+> Voice Line ID: 47
+Condition: Perform Dragon Smash
+> Voice Line ID: 51
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 52
+Condition: Perform Teleport
+> Voice Line ID: 50
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 38
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 46
+Condition: Perform Vanishing Attack
+> Voice Line ID: 40
+Condition: Perform 2nd Blast 1
+> Voice Line ID: 42
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 44
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 44
+Condition: UNKNOWN(ID: 35)
+> Voice Line ID: 53
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 27
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 32
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 25
+Condition: Taunt
+> Voice Line ID: 26
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 21
+Condition: Perform 1st Blast 1 (Opponent)
+> Voice Line ID: 35
+Condition: Perform Throw
+> Voice Line ID: 51
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 37
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 9
 [Changes to Player 1 detected.]
 > Add 100% more Ki
 > Add 1% more Ki
@@ -114,16 +436,114 @@ Event:     Trigger Ultimate Blast
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Trunks
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Cell - Imperfect
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Trunks
+Disable Aura Charge for Cell - Imperfect
+[Initial Camera Point]
+> Position (XYZ): -37.6 -2.001 -8.593 
+> Rotation (XYZ): 30.01 -60.674 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -47.51 -13.875 -1.868 
+> Rotation (XYZ): 3.06 -75.955 0.0 
+Play Animation 388_LOSE.canm for Cell - Imperfect
+Play Animation 386_WIN_IN.canm for Trunks
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Trunks
+> Loop property detected
+Play Voice Line 19 for Trunks
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 31 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for Trunks
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Cell - Imperfect
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Trunks
+Disable Aura Charge for Cell - Imperfect
+[Initial Camera Point]
+> Position (XYZ): -37.6 -2.001 -8.593 
+> Rotation (XYZ): 30.01 -60.674 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -47.51 -13.875 -1.868 
+> Rotation (XYZ): 3.06 -75.955 0.0 
+Play Animation 388_LOSE.canm for Cell - Imperfect
+Play Animation 386_WIN_IN.canm for Trunks
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Trunks
+> Loop property detected
+Play Voice Line 19 for Trunks
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Trunks
+> Position (XYZ): -7.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Cell - Imperfect
+> Position (XYZ): 40.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Trunks
+Disable Aura Charge for Cell - Imperfect
+[Initial Camera Point]
+> Position (XYZ): 48.555 -26.853 -8.208 
+> Rotation (XYZ): -34.904 -68.49 0.0 
+Play Animation 388_LOSE.canm for Trunks
+Play Animation 387_WIN_LOOP.canm for Cell - Imperfect
+> Loop property detected
+Play Voice Line 43 for Cell - Imperfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 29.945 -18.014 -2.086 
+> Rotation (XYZ): 3.387 69.896 0.0 
+Play Voice Line 20 for Cell - Imperfect
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Trunks
+> Position (XYZ): -7.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Cell - Imperfect
+> Position (XYZ): 40.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Trunks
+Disable Aura Charge for Cell - Imperfect
+[Initial Camera Point]
+> Position (XYZ): 48.555 -26.853 -8.208 
+> Rotation (XYZ): -34.904 -68.49 0.0 
+Play Animation 388_LOSE.canm for Trunks
+Play Animation 387_WIN_LOOP.canm for Cell - Imperfect
+> Loop property detected
+Play Voice Line 43 for Cell - Imperfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 29.945 -18.014 -2.086 
+> Rotation (XYZ): 3.387 69.896 0.0 
+Play Voice Line 20 for Cell - Imperfect
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===

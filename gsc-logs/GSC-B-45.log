@@ -1,12 +1,12 @@
 [General Information]
-Name: The History of Trunks
+Name: The Strongest vs. The Strongest
 Saga: Special Saga
 
 [Rewards]
 > Acquired Z-Points (from Easy to Hard)
+1000
+1500
 2000
-2500
-3000
 > Acquired Z-Items
 null
 null
@@ -16,216 +16,658 @@ null
 null
 null
 > Acquired Characters
-Future Gohan
-SS1 Future Gohan
-SS1 Trunks (Sword)
+Cooler - Final Form
+null
+null
 > Acquired Scenarios
 null
 null
 null
 
 [Battle Settings]
-Map: City Ruins - Noon
-BGM: Soldier's Sorrow
+Map: Wasteland - Evening
+BGM: UNKNOWN (ID: 116)
 
 [Player 1 Team]
 > Teammate 1
-Character: SS1 Future Gohan
-Costume: 1
-Damaged: false
+Character: Goku (Mid)
+Costume: 5
+Damaged: true
 COM Difficulty Level: 0
 Strategy Z-Item: Goku Type
 Initial Health: 100%
-Z-Item #1: Super Up 3
+Z-Item #1: Master Roshi's Training
 Z-Item #2: null
 Z-Item #3: null
 Z-Item #4: null
 Z-Item #5: null
-Z-Item #6: null
-Z-Item #7: null
-
-> Teammate 2
-Character: Trunks (Sword)
-Costume: 1
-Damaged: false
-COM Difficulty Level: 0
-Strategy Z-Item: Goku Type
-Initial Health: 100%
-Z-Item #1: Super Up 2
-Z-Item #2: Attack Up 1
-Z-Item #3: null
-Z-Item #4: null
-Z-Item #5: null
-Z-Item #6: null
-Z-Item #7: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
 
 [Opponent Team]
 > Teammate 1
-Character: Android #17
+Character: Cooler
 Costume: 1
 Damaged: false
-COM Difficulty Level: 10
-Strategy Z-Item: Majin Buu Type
+COM Difficulty Level: 8
+Strategy Z-Item: Goku Type
 Initial Health: 100%
-Z-Item #1: Extreme Hand-to-Hand
-Z-Item #2: Master Roshi's Training
-Z-Item #3: Whis Training
-Z-Item #4: Attack +8
+Z-Item #1: King Kai's Training
+Z-Item #2: Attack +5
+Z-Item #3: Defense +5
+Z-Item #4: null
 Z-Item #5: null
-Z-Item #6: null
-Z-Item #7: null
-
-> Teammate 2
-Character: Android #18
-Costume: 1
-Damaged: false
-COM Difficulty Level: 10
-Strategy Z-Item: Majin Buu Type
-Initial Health: 100%
-Z-Item #1: Ultimate Body
-Z-Item #2: Master Roshi's Training
-Z-Item #3: Whis Training
-Z-Item #4: Attack +8
-Z-Item #5: null
-Z-Item #6: null
-Z-Item #7: null
+Z-Item #6: Dragon Break
+Z-Item #7: Vanishing Break
 
 > Results
-Teammate Count (Player 1): 2
-Teammate Count (Opponent): 2
+Teammate Count (Player 1): 1
+Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): -20.0 0.0 -45.0 
+> Rotation (XYZ): 0.0 53.1 0.0 
+Change Position/Rotation for Cooler
+> Position (XYZ): 80.0 0.0 30.0 
+> Rotation (XYZ): 0.0 -126.9 0.0 
+[Initial Camera Point]
+> Position (XYZ): 2.657 -11.887 -29.437 
+> Rotation (XYZ): -17.796 -127.944 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -10.065 -8.96 -39.357 
+> Rotation (XYZ): 12.286 -114.178 0.0 
+Play Animation 0_GROUND.canm for Goku (Mid)
+> Loop property detected
+Play Voice Line 0 for Goku (Mid)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 59.683 -0.811 6.389 
+> Rotation (XYZ): 16.288 38.149 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 72.416 -9.213 21.264 
+> Rotation (XYZ): 20.854 45.739 0.0 
+Play Animation 384_INTRO_IN.canm for Cooler
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Cooler
+> Loop property detected
+Play Voice Line 1 for Cooler
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
-Condition: Wait 30 seconds
-> GSAC ID: 1
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Scene ID: 1
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Opponent detected.]
-> Z-Item #3: Ultimate Body
+> Scene ID: 40
+Condition: Perform Dragon Homing
+> Voice Line ID: 4
+Condition: Perform Vanishing Attack
+> Voice Line ID: 4
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 5
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 5
+Condition: Perform Hyper Smash
+> Voice Line ID: 6
+Condition: Perform Dash Smash
+> Voice Line ID: 6
+Condition: UNKNOWN(ID: 53)
+> Voice Line ID: 6
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 7
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 7
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 45
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 8
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 9
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 41
+Condition: Perform Ultimate Blast
+> Voice Line ID: 74
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 2
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): -20.0 0.0 -45.0 
+> Rotation (XYZ): 0.0 53.1 0.0 
+Change Position/Rotation for Cooler
+> Position (XYZ): 80.0 -30.0 30.0 
+> Rotation (XYZ): 0.0 -126.9 0.0 
+Disable Aura Charge for Cooler
+Play Animation 0_GROUND.canm for Goku (Mid)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -25.733 -8.784 -76.79 
+> Rotation (XYZ): -2.522 34.469 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -25.733 -8.784 -76.79 
+> Rotation (XYZ): -2.522 34.469 0.0 
+Play Animation 38_FLY.canm for Cooler
+> Loop property detected
+Play Voice Line 12 for Cooler
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 98.337 -47.32 30.863 
+> Rotation (XYZ): -14.52 -101.735 0.0 
+Play Animation 0_GROUND.canm for Cooler
+> Loop property detected
+Play Voice Line 14 for Cooler
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 62.953 -1.908 12.698 
+> Rotation (XYZ): 55.004 45.378 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 69.957 -37.068 22.451 
+> Rotation (XYZ): 11.893 49.222 0.0 
+Play Animation 375_TRANSFORMATION_IN.canm for Cooler
+> Wait property detected
+Play Animation 376_TRANSFORMATION_LOOP.canm for Cooler
+> Loop property detected
+Play Voice Line 15 for Cooler
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
-Condition: Wait 10 seconds
-> GSAC ID: 2
+Condition: Immediate
+> Scene ID: 2
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Beam Struggle between Player 1's 1st Blast 2 and COM's 2nd Blast 2
+> Scene ID: 49
+Event:     Assign Transformation (Opponent) [AUTO]
+Character: Cooler - Final Form
 
 [Scene 2]
 
-===Battle Info===
-Condition: Win via K.O.
-> GSAC ID: 30
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 3
-[Changes to Opponent detected.]
-> Z-Item #7: Go To Hell
-Event:     Trigger Ultimate Blast (Opponent) [AUTO]
-
-[Scene 3]
-
-===Battle Info===
-Condition: Immediate
-> GSAC ID: 4
-Event:     Switch with Teammate #2
-Character: Trunks (Sword)
-
-[Scene 4]
-
-===Battle Info===
-Condition: Immediate
-> GSAC ID: 5
-[Changes to Opponent detected.]
-> Z-Item #7: null
-Event:     Assign Transformation
-Character: SS1 Trunks (Sword)
-
-[Scene 5]
-
-===Battle Info===
-Condition: Immediate
-> GSAC ID: 6
-Event:     Switch with Teammate #2 (Opponent) [AUTO]
-Character: Android #18
-
-[Scene 6]
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): -20.0 0.0 -45.0 
+> Rotation (XYZ): 0.0 53.1 0.0 
+Change Position/Rotation for Cooler
+> Position (XYZ): 80.0 -30.0 30.0 
+> Rotation (XYZ): 0.0 -126.9 0.0 
+[Initial Camera Point]
+> Position (XYZ): -34.446 -3.891 -83.781 
+> Rotation (XYZ): -1.867 45.367 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -22.33 -5.291 -63.579 
+> Rotation (XYZ): 0.957 30.322 0.0 
+Enable Ki Charge for Cooler
+Play Animation 0_GROUND.canm for Goku (Mid)
+> Loop property detected
+Play Voice Line 18 for Goku (Mid)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 41.415 -17.262 -11.707 
+> Rotation (XYZ): 17.741 46.267 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 73.566 -42.992 21.744 
+> Rotation (XYZ): 29.629 35.688 0.0 
+Play Animation 384_INTRO_IN.canm for Cooler
+> Wait property detected
+Enable MPM Explosion for Cooler
+Shake Camera for 1.0 seconds
+Play Animation 385_INTRO_LOOP.canm for Cooler
+> Loop property detected
+Play Voice Line 19 for Cooler
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Wait 30 seconds
-> GSAC ID: 7
+> Scene ID: 3
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Scene ID: 5
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 41
+Condition: Hit with Charged Ki Blast
+> Voice Line ID: 28
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 22
+Condition: Immediate
+> Voice Line ID: 23
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 20
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 25
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 25
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 45
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 26
+Condition: Perform Hyper Smash (Opponent)
+> Voice Line ID: 27
+Condition: UNKNOWN(ID: 53) (Opponent)
+> Voice Line ID: 27
+Condition: Perform Vanishing Attack
+> Voice Line ID: 28
+Condition: Perform 1st Blast 2
+> Voice Line ID: 30
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 30
+Condition: Perform Ultimate Blast
+> Voice Line ID: 74
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 2
 [Changes to Opponent detected.]
+> Set COM Difficulty Level to 9
 > Add 100% more Health
-Event:     Trigger 1st Blast 2
+> Z-Item #1: King Kai's Training
+> Z-Item #2: Defense +10
+> Z-Item #3: Attack +10
+> Z-Item #4: Ultimate Body
+> Z-Item #5: null
+Event:     Normal Clash
 
-[Scene 7]
+[Scene 3]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 15.4 0.0 2.1 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Cooler
+> Position (XYZ): -19.2 -0.7 59.1 
+> Rotation (XYZ): 0.0 154.6 0.0 
+[Initial Camera Point]
+> Position (XYZ): 3.234 -8.03 34.904 
+> Rotation (XYZ): 14.766 -39.215 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -11.028 -16.16 47.626 
+> Rotation (XYZ): 14.766 -42.83 0.0 
+Play Animation 386_WIN_IN.canm for Cooler
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Cooler
+> Loop property detected
+Play Voice Line 32 for Cooler
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 13.371 -12.762 17.655 
+> Rotation (XYZ): -14.074 178.716 0.0 
+[Additional Camera Point]
+> Transition Time: 4.5 
+> Position (XYZ): 13.2 -14.672 25.269 
+> Rotation (XYZ): -14.074 178.716 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (Mid)
+> Loop property detected
+Play Voice Line 33 for Goku (Mid)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 9.452 -10.298 9.886 
+> Rotation (XYZ): 13.307 131.911 0.0 
+Play Voice Line 34 for Goku (Mid)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
+Condition: Wait 20 seconds
+> Scene ID: 4
+Condition: Win via K.O.
+> Scene ID: 31
+Condition: Win via K.O. (Opponent)
+> Scene ID: 41
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 22
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 23
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 20
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 25
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 25
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 45
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 26
+Condition: Perform Hyper Smash (Opponent)
+> Voice Line ID: 27
+Condition: UNKNOWN(ID: 53) (Opponent)
+> Voice Line ID: 27
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 2
+Condition: Perform 1st Blast 2
+> Voice Line ID: 30
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 30
+Condition: Perform Ultimate Blast
+> Voice Line ID: 74
+Event:     Battle Finish
+
+[Scene 4]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 15.4 0.0 2.1 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Cooler
+> Position (XYZ): -19.2 -0.7 59.1 
+> Rotation (XYZ): 0.0 154.6 0.0 
+[Initial Camera Point]
+> Position (XYZ): -18.634 -8.238 86.991 
+> Rotation (XYZ): -0.469 160.284 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): 11.955 -8.055 10.239 
+> Rotation (XYZ): 25.866 160.502 0.0 
+Play Animation 0_GROUND.canm for Goku (Mid)
+> Loop property detected
+Play Voice Line 38 for Goku (Mid)
+> Wait property detected
+Lower Current BG Music
+BG Music:  UNKNOWN (ID: 23)
+Disable ALL VFX
+
+===Battle Info===
+Condition: Win via K.O.
+> Scene ID: 30
+Condition: Win via K.O. (Opponent)
+> Scene ID: 41
 Condition: Immediate
-> GSAC ID: 10
+> Voice Line ID: 36
+Condition: Immediate
+> Voice Line ID: 37
+Condition: Immediate
+> Voice Line ID: 39
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 45
+Condition: Perform 1st Blast 2
+> Voice Line ID: 6
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 6
+Condition: Perform Ultimate Blast
+> Voice Line ID: 42
+Condition: Win Beam Struggle
+> Voice Line ID: 43
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 44
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 44
+Condition: Lose 1 Health Bar
+> Voice Line ID: 46
+Condition: Block Ultimate Blast
+> Voice Line ID: 47
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 48
+Condition: Perform Sonic Sway (Opponent)
+> Voice Line ID: 49
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 50
+Condition: UNKNOWN(ID: 53) (Opponent)
+> Voice Line ID: 50
+Condition: Lose 3 Health Bars
+> Voice Line ID: 51
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 74
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 75
+Condition: Perform Z-Counter
+> Voice Line ID: 76
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 41
+Condition: Block 1st Blast 2
+> Voice Line ID: 76
+Condition: Block 2nd Blast 2
+> Voice Line ID: 76
 [Changes to Player 1 detected.]
 > Add 100% more Health
-Event:     Switch with Teammate #1 (Opponent) [AUTO]
-Character: Android #17
-
-[Scene 10]
-
-===Battle Info===
-Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 8
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Opponent detected.]
-> Add 100% more Health
+> Z-Item #1: King Kai's Training
+> Z-Item #2: Ultimate Warrior 1
 > Z-Item #3: null
-Event:     Assign Transformation (Opponent) [AUTO]
-Character: Goku (Mid)
-
-[Scene 8]
-
-===Battle Info===
-Condition: Immediate
-> GSAC ID: 9
-Event:     Switch with Teammate #2 (Opponent) [AUTO]
-Character: Android #18
-
-[Scene 9]
-
-===Battle Info===
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 31
+> Z-Item #4: null
+> Z-Item #5: null
 [Changes to Opponent detected.]
-> Z-Item #7: Go To Hell
-Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
+> Set COM Difficulty Level to 7
+> Z-Item #1: King Kai's Training
+> Z-Item #2: null
+> Z-Item #3: null
+> Z-Item #4: null
+> Z-Item #5: null
+Event:     Assign Transformation
+Character: SS1 Goku (Mid)
+
+[Scene 5]
+
+===Cinematic Info===
+Disable ALL VFX
+
+===Battle Info===
+Condition: Win via K.O.
+> Scene ID: 31
+Condition: Win via K.O. (Opponent)
+> Scene ID: 42
+Condition: Perform Dragon Homing
+> Voice Line ID: 4
+Condition: Perform Vanishing Attack
+> Voice Line ID: 4
+Condition: Reach Full Ki Bars (Opponent)
+> Voice Line ID: 5
+Condition: Reach Max Amount of Blast Stocks (Opponent)
+> Voice Line ID: 5
+Condition: Perform Throw
+> Voice Line ID: 6
+Condition: UNKNOWN(ID: 53)
+> Voice Line ID: 6
+Condition: Perform Burst Meteo Finisher
+> Voice Line ID: 6
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 58
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 7
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 45
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 23
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 41
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 2
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 74
+Condition: Perform Hyper Smash (Opponent)
+> Voice Line ID: 44
+Condition: UNKNOWN(ID: 53) (Opponent)
+> Voice Line ID: 44
+Condition: Perform Sonic Sway (Opponent)
+> Voice Line ID: 49
+[Changes to Opponent detected.]
+> Z-Item #2: Attack +10
+> Z-Item #3: Defense +10
+> Z-Item #4: null
+> Z-Item #5: null
+> Z-Item #6: null
+> Z-Item #7: null
+Event:     Battle Finish
 
 [Scene 30 (Victory)]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): -22.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Cooler
+> Position (XYZ): 55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Cooler
+Disable Aura Charge for Goku (Mid)
+[Initial Camera Point]
+> Position (XYZ): 30.922 -18.556 -15.206 
+> Rotation (XYZ): -21.256 44.372 0.0 
+Play Animation 1_GROUND_TIRED.canm for Cooler
+> Loop property detected
+Play Voice Line 54 for Cooler
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 17.627 -0.921 -3.534 
+> Rotation (XYZ): 15.04 78.068 0.0 
+Play Animation 388_LOSE.canm for Cooler
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 1.143 -7.84 -17.218 
+> Rotation (XYZ): 2.449 -51.26 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -11.736 -10.579 -6.885 
+> Rotation (XYZ): 2.449 -51.26 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (Mid)
+> Loop property detected
+Play Voice Line 55 for Goku (Mid)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 31 (Victory)]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): -22.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Cooler
+> Position (XYZ): 55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for Cooler
+Disable Aura Charge for Goku (Mid)
+[Initial Camera Point]
+> Position (XYZ): 17.627 -0.921 -3.534 
+> Rotation (XYZ): 15.04 78.068 0.0 
+Play Animation 388_LOSE.canm for Cooler
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -11.736 -10.579 -6.885 
+> Rotation (XYZ): 2.449 -51.26 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (Mid)
+> Loop property detected
+Play Voice Line 55 for Goku (Mid)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory)]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 24.7 0.0 -13.3 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Cooler
+> Position (XYZ): -28.6 -0.7 74.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for Cooler
+Disable Aura Charge for Goku (Mid)
+[Initial Camera Point]
+> Position (XYZ): 19.475 -5.199 -26.48 
+> Rotation (XYZ): 0.232 -13.774 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -17.079 -14.223 60.816 
+> Rotation (XYZ): 12.038 -38.635 0.0 
+Play Animation 388_LOSE.canm for Goku (Mid)
+Play Animation 386_WIN_IN.canm for Cooler
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Cooler
+> Loop property detected
+Play Voice Line 16 for Cooler
+> Wait property detected
+Disable ALL VFX
+
+===No Battle Info===
+
+[Scene 41 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 24.7 0.0 -13.3 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Cooler
+> Position (XYZ): -28.6 -0.7 74.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for Cooler
+Disable Aura Charge for Goku (Mid)
+[Initial Camera Point]
+> Position (XYZ): 19.475 -5.199 -26.48 
+> Rotation (XYZ): 0.232 -13.774 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -17.079 -14.223 60.816 
+> Rotation (XYZ): 12.038 -38.635 0.0 
+Play Animation 388_LOSE.canm for Goku (Mid)
+Play Animation 386_WIN_IN.canm for Cooler
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Cooler
+> Loop property detected
+Play Voice Line 16 for Cooler
+> Wait property detected
+Disable ALL VFX
+
+===No Battle Info===
+
+[Scene 42 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (Mid)
+> Position (XYZ): 24.7 0.0 -13.3 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Cooler
+> Position (XYZ): -28.6 -0.7 74.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for Cooler
+Disable Aura Charge for Goku (Mid)
+[Initial Camera Point]
+> Position (XYZ): 19.475 -5.199 -26.48 
+> Rotation (XYZ): 0.232 -13.774 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -17.079 -14.223 60.816 
+> Rotation (XYZ): 12.038 -38.635 0.0 
+Play Animation 388_LOSE.canm for Goku (Mid)
+Play Animation 386_WIN_IN.canm for Cooler
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Cooler
+> Loop property detected
+Play Voice Line 16 for Cooler
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat)]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

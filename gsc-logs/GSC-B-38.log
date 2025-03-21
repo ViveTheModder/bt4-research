@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: City Ruins - Evening
-BGM: Dark Half
+BGM: UNKNOWN (ID: 7)
 
 [Player 1 Team]
 > Teammate 1
@@ -81,24 +81,188 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for SS4 Vegeta
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 79.14 -9.281 -4.16 
+> Rotation (XYZ): 19.591 59.42 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 68.495 -4.661 -10.45 
+> Rotation (XYZ): 12.901 59.42 0.0 
+Play Animation 385_INTRO_LOOP.canm for SS4 Vegeta
+> Loop property detected
+Play Voice Line 2 for SS4 Vegeta
+> Wait property detected
+Play Voice Line 3 for SS4 Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -58.571 -11.254 1.616 
+> Rotation (XYZ): 9.77 -92.983 0.0 
+Play Animation 384_INTRO_IN.canm for Omega Shenron
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Omega Shenron
+> Loop property detected
+Play Voice Line 1 for Omega Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 76.144 -15.89 -11.006 
+> Rotation (XYZ): -22.353 34.636 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 74.193 -10.118 -4.569 
+> Rotation (XYZ): 3.955 68.477 0.0 
+Play Animation 384_INTRO_IN.canm for SS4 Vegeta
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for SS4 Vegeta
+> Loop property detected
+Play Voice Line 0 for SS4 Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Wait 60 seconds
-> GSAC ID: 1
+> Scene ID: 1
+Condition: Immediate
+> Voice Line ID: 4
+Condition: Immediate
+> Voice Line ID: 5
+Condition: Immediate
+> Voice Line ID: 6
+Condition: Lose 1 Health Bar
+> Voice Line ID: 7
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 8
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 9
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 10
+Condition: Perform Ultimate Blast
+> Voice Line ID: 11
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 12
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 13
+Condition: UNKNOWN(ID: 35)
+> Voice Line ID: 14
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 15
+Condition: Perform 1st Blast 2
+> Voice Line ID: 11
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 11
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+[Initial Camera Point]
+> Position (XYZ): -44.971 -5.071 -5.944 
+> Rotation (XYZ): 19.407 -38.131 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -40.75 -2.662 -11.322 
+> Rotation (XYZ): 19.407 -38.131 0.0 
+Play Animation 1_GROUND_TIRED.canm for SS4 Vegeta
+> Loop property detected
+Play Voice Line 16 for SS4 Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -62.982 -5.061 -7.287 
+> Rotation (XYZ): 12.198 65.704 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -72.135 -2.89 -11.419 
+> Rotation (XYZ): 12.198 65.704 0.0 
+Play Voice Line 17 for SS4 Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 70.351 -14.099 0.301 
+> Rotation (XYZ): 19.776 94.204 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 74.863 -22.464 0.633 
+> Rotation (XYZ): -8.798 95.498 0.0 
+Play Animation 387_WIN_LOOP.canm for Omega Shenron
+> Loop property detected
+Play Voice Line 18 for Omega Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -70.507 -6.565 8.324 
+> Rotation (XYZ): 1.591 114.128 0.0 
+Play Animation 1_GROUND_TIRED.canm for SS4 Vegeta
+> Loop property detected
+Play Voice Line 21 for SS4 Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Wait 60 seconds
-> GSAC ID: 2
+> Scene ID: 2
+Condition: Immediate
+> Voice Line ID: 22
+Condition: Immediate
+> Voice Line ID: 23
+Condition: Immediate
+> Voice Line ID: 24
+Condition: Immediate
+> Voice Line ID: 25
+Condition: Immediate
+> Voice Line ID: 26
+Condition: Immediate
+> Voice Line ID: 29
+Condition: Immediate
+> Voice Line ID: 31
+Condition: Immediate
+> Voice Line ID: 32
+Condition: Immediate
+> Voice Line ID: 33
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 34
+Condition: Perform Z-Counter (Opponent)
+> Voice Line ID: 35
+Condition: Perform Vanishing Attack
+> Voice Line ID: 36
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 37
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 38
+Condition: Win Normal Clash (Opponent)
+> Voice Line ID: 39
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 40
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 41
+Condition: Hit with Charged Ki Blast (Opponent)
+> Voice Line ID: 42
+Condition: Perform Dragon Smash
+> Voice Line ID: 43
+Condition: Perform 1st Blast 1 (Opponent)
+> Voice Line ID: 44
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 45
+Condition: UNKNOWN(ID: 35)
+> Voice Line ID: 46
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 35
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 35
+Condition: Block 2nd Blast 2 (Opponent)
+> Voice Line ID: 35
 [Changes to Player 1 detected.]
 > Add 100% more Health
 > Apply changes to Teammate 2
@@ -106,12 +270,15 @@ Event:     Switch with Teammate #2
 Character: SS4 Goku (GT)
 
 [Scene 2]
+
+===Cinematic Info===
 Lower Current BG Music
-BG Music:  The Fight That Can't be Won
+BG Music:  UNKNOWN (ID: 237)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 3
+> Scene ID: 3
 [Changes to Player 1 detected.]
 > Add 100% more Health
 > Add 100% more Ki
@@ -120,11 +287,92 @@ Character: SS4 Gogeta
 
 [Scene 3]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS4 Goku (GT)
+> Position (XYZ): -23.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): 56.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 41.066 -20.514 14.419 
+> Rotation (XYZ): -4.214 148.099 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 46.572 -21.572 5.574 
+> Rotation (XYZ): -4.214 148.099 0.0 
+Play Animation 1_GROUND_TIRED.canm for Omega Shenron
+> Loop property detected
+Play Voice Line 60 for Omega Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 3.453 -16.674 5.936 
+> Rotation (XYZ): -8.798 -101.228 0.0 
+Play Animation 384_INTRO_IN.canm for SS4 Goku (GT)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 3.453 -16.674 5.936 
+> Rotation (XYZ): -8.798 -101.228 0.0 
+[Additional Camera Point]
+> Transition Time: 0.1 
+> Position (XYZ): -15.086 -17.33865 1.35 
+> Rotation (XYZ): -8.798 -101.228 0.0 
+Play Animation 385_INTRO_LOOP.canm for SS4 Goku (GT)
+> Loop property detected
+Play Voice Line 61 for SS4 Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 32
+> Scene ID: 32
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
+Condition: Immediate
+> Voice Line ID: 62
+Condition: Immediate
+> Voice Line ID: 63
+Condition: Immediate
+> Voice Line ID: 64
+Condition: Immediate
+> Voice Line ID: 65
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 66
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 68
+Condition: UNKNOWN(ID: 35) (Opponent)
+> Voice Line ID: 68
+Condition: Perform Vanishing Attack
+> Voice Line ID: 69
+Condition: Block 1st Blast 2
+> Voice Line ID: 71
+Condition: Block 2nd Blast 2 (Opponent)
+> Voice Line ID: 71
+Condition: Block Ultimate Blast
+> Voice Line ID: 74
+Condition: Win Normal Clash
+> Voice Line ID: 76
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 77
+Condition: Taunt
+> Voice Line ID: 78
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 79
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 79
+Condition: Perform Ultimate Blast
+> Voice Line ID: 80
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 82
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 83
+Condition: Perform Z-Counter (Opponent)
+> Voice Line ID: 84
+Condition: Perform Sonic Sway (Opponent)
+> Voice Line ID: 85
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 86
 [Changes to Player 1 detected.]
 > Add 100% more Health
 > Add 100% more Ki
@@ -140,24 +388,179 @@ Event:     Battle Finish
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): 43.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS4 Vegeta
+> Position (XYZ): -10.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SS4 Vegeta
+Disable Aura Charge for Omega Shenron
+[Initial Camera Point]
+> Position (XYZ): 51.422 -27.345 1.409 
+> Rotation (XYZ): -33.319 -91.095 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 2.491 -9.347 0.245 
+> Rotation (XYZ): 8.776 -92.219 0.0 
+Play Animation 388_LOSE.canm for Omega Shenron
+Play Animation 386_WIN_IN.canm for SS4 Vegeta
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for SS4 Vegeta
+> Loop property detected
+Play Voice Line 20 for SS4 Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 31 (Victory)]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): 43.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS4 Vegeta
+> Position (XYZ): -10.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SS4 Vegeta
+Disable Aura Charge for Omega Shenron
+[Initial Camera Point]
+> Position (XYZ): 51.422 -27.345 1.409 
+> Rotation (XYZ): -33.319 -91.095 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 2.491 -9.347 0.245 
+> Rotation (XYZ): 8.776 -92.219 0.0 
+Play Animation 388_LOSE.canm for Omega Shenron
+Play Animation 386_WIN_IN.canm for SS4 Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for SS4 Goku (GT)
+> Loop property detected
+Play Voice Line 59 for SS4 Goku (GT)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 32 (Victory)]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): 43.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS4 Goku (GT)
+> Position (XYZ): -10.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SS4 Goku (GT)
+Disable Aura Charge for Omega Shenron
+[Initial Camera Point]
+> Position (XYZ): -0.801 -4.336 -8.68 
+> Rotation (XYZ): 13.03 75.299 0.0 
+Play Animation 388_LOSE.canm for Omega Shenron
+Play Voice Line 87 for Omega Shenron
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 51.422 -27.345 1.409 
+> Rotation (XYZ): -33.319 -91.095 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): -0.044 -17.8872 0.933 
+> Rotation (XYZ): -14.874 -99.818 0.0 
+Play Animation 386_WIN_IN.canm for SS4 Goku (GT)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for SS4 Goku (GT)
+> Loop property detected
+Play Voice Line 69 for SS4 Goku (GT)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for SS4 Vegeta
+> Position (XYZ): -27.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): 60.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for SS4 Vegeta
+Disable Aura Charge for Omega Shenron
+[Initial Camera Point]
+> Position (XYZ): -49.383 -27.317 21.461 
+> Rotation (XYZ): -22.606 107.009 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 44.505 -17.322 1.726 
+> Rotation (XYZ): 13.233 98.521 0.0 
+Play Animation 388_LOSE.canm for SS4 Vegeta
+Play Animation 386_WIN_IN.canm for Omega Shenron
+Play Animation 387_WIN_LOOP.canm for Omega Shenron
+> Loop property detected
+Play Voice Line 19 for Omega Shenron
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for SS4 Goku (GT)
+> Position (XYZ): -27.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): 60.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for SS4 Goku (GT)
+Disable Aura Charge for Omega Shenron
+[Initial Camera Point]
+> Position (XYZ): -49.383 -27.317 21.461 
+> Rotation (XYZ): -22.606 107.009 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 44.505 -17.322 1.726 
+> Rotation (XYZ): 13.233 98.521 0.0 
+Play Animation 388_LOSE.canm for SS4 Goku (GT)
+Play Animation 386_WIN_IN.canm for Omega Shenron
+Play Animation 387_WIN_LOOP.canm for Omega Shenron
+> Loop property detected
+Play Voice Line 19 for Omega Shenron
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 42 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for SS4 Goku (GT)
+> Position (XYZ): -27.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Omega Shenron
+> Position (XYZ): 60.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Disable Aura Charge for SS4 Goku (GT)
+Disable Aura Charge for Omega Shenron
+[Initial Camera Point]
+> Position (XYZ): -49.383 -27.317 21.461 
+> Rotation (XYZ): -22.606 107.009 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 44.505 -17.322 1.726 
+> Rotation (XYZ): 13.233 98.521 0.0 
+Play Animation 388_LOSE.canm for SS4 Goku (GT)
+Play Animation 386_WIN_IN.canm for Omega Shenron
+Play Animation 387_WIN_LOOP.canm for Omega Shenron
+> Loop property detected
+Play Voice Line 19 for Omega Shenron
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===

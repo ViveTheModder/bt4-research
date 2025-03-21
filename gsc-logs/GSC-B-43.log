@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: King's Castle
-BGM: Evolution
+BGM: UNKNOWN (ID: 19)
 
 [Player 1 Team]
 > Teammate 1
@@ -111,24 +111,206 @@ Teammate Count (Opponent): 2
 
 [Scene 0]
 
+===Cinematic Info===
+[Initial Camera Point]
+> Position (XYZ): 30.679 -3.36 -27.214 
+> Rotation (XYZ): 8.756 149.941 0.0 
+[Additional Camera Point]
+> Transition Time: 5.5 
+> Position (XYZ): 38.993 -3.512 -35.06 
+> Rotation (XYZ): 14.358 148.314 0.0 
+Play Animation 384_INTRO_IN.canm for Kid Goku
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Kid Goku
+> Loop property detected
+Play Voice Line 0 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -13.789 -19.618 35.8 
+> Rotation (XYZ): -15.153 -74.192 0.0 
+[Additional Camera Point]
+> Transition Time: 8.5 
+> Position (XYZ): -29.037 -7.113 42.188 
+> Rotation (XYZ): 27.4 -86.384 0.0 
+Play Animation 384_INTRO_IN.canm for King Piccolo
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for King Piccolo
+> Loop property detected
+Play Voice Line 1 for King Piccolo
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Immediate
+> Voice Line ID: 11
+Condition: Immediate
+> Voice Line ID: 26
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 2
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 5
+Condition: Perform Vanishing Attack
+> Voice Line ID: 13
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 12
+Condition: Perform Rush Attack
+> Voice Line ID: 12
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 9
+Condition: Perform Teleport
+> Voice Line ID: 13
+Condition: Perform Throw
+> Voice Line ID: 14
+Condition: UNKNOWN(ID: 53)
+> Voice Line ID: 14
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 12
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 21
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 21
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 21
+Condition: Perform Z-Counter
+> Voice Line ID: 22
+Condition: Perform Guard Crush
+> Voice Line ID: 22
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Kid Goku
+> Position (XYZ): 45.0 0.0 -45.0 
+> Rotation (XYZ): 0.0 -45.0 0.0 
+Change Position/Rotation for King Piccolo
+> Position (XYZ): -45.0 0.0 45.0 
+> Rotation (XYZ): 0.0 135.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 29.436 -0.757 -31.709 
+> Rotation (XYZ): 5.466 131.639 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 38.624 -7.109 -39.657 
+> Rotation (XYZ): -1.099 126.841 0.0 
+[Initial Camera Point]
+> Position (XYZ): 35.534 -6.988 -43.955 
+> Rotation (XYZ): -3.951 85.433 0.0 
+Play Animation 0_GROUND.canm for Kid Goku
+> Loop property detected
+Play Voice Line 29 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -39.863 -1.744 22.147 
+> Rotation (XYZ): 20.021 -11.491 0.0 
+[Additional Camera Point]
+> Transition Time: 12.0 
+> Position (XYZ): -42.656 -10.074 35.889 
+> Rotation (XYZ): 48.906 -16.148 0.0 
+Play Animation 0_GROUND.canm for King Piccolo
+> Loop property detected
+Play Voice Line 30 for King Piccolo
+> Wait property detected
+Play Voice Line 31 for King Piccolo
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -40.185 -14.918 35.992 
+> Rotation (XYZ): 6.839 -31.527 0.0 
+Play Voice Line 32 for King Piccolo
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -16.885 -36.939 24.185 
+> Rotation (XYZ): -43.363 -53.968 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -33.583 -15.068 36.331 
+> Rotation (XYZ): -8.172 -53.968 0.0 
+Play Animation 384_INTRO_IN.canm for King Piccolo
+> Wait property detected
+Enable MPM Explosion for King Piccolo
+Shake Camera for 1.0 seconds
+Play Animation 385_INTRO_LOOP.canm for King Piccolo
+> Loop property detected
+Play Voice Line 34 for King Piccolo
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 37.723 -3.722 -41.973 
+> Rotation (XYZ): 24.874 107.063 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 40.775 -4.536 -39.413 
+> Rotation (XYZ): 24.874 138.321 0.0 
+Play Voice Line 35 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -36.727 -18.073 29.198 
+> Rotation (XYZ): -10.721 -29.004 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -40.697 -16.386 36.359 
+> Rotation (XYZ): -0.201 -24.139 0.0 
+Play Voice Line 36 for King Piccolo
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Wait 70 seconds
-> GSAC ID: 5
+> Scene ID: 5
+Condition: Immediate
+> Voice Line ID: 3
+Condition: Immediate
+> Voice Line ID: 4
+Condition: Immediate
+> Voice Line ID: 6
+Condition: Immediate
+> Voice Line ID: 7
+Condition: Wait 30 seconds
+> Voice Line ID: 46
+Condition: Perform Rush Attack
+> Voice Line ID: 14
+Condition: Perform Z-Counter
+> Voice Line ID: 22
+Condition: Perform Teleport
+> Voice Line ID: 22
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 16
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 16
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 17
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 17
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 20
+Condition: Perform Rush Attack
+> Voice Line ID: 14
+Condition: Perform Throw
+> Voice Line ID: 14
+Condition: Perform Vanishing Attack
+> Voice Line ID: 22
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 60
+Condition: Perform Dragon Homing
+> Voice Line ID: 60
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 21
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 27
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 27
 [Changes to Player 1 detected.]
 > Add 100% more Health
 [Changes to Opponent detected.]
@@ -144,9 +326,12 @@ Event:     Battle Finish
 
 [Scene 2]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 3
+> Scene ID: 3
 [Changes to Player 1 detected.]
 > Z-Item #6: Attack -10
 > Z-Item #7: Defense -10
@@ -157,77 +342,499 @@ Character: SS1 Kefla
 
 [Scene 3]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Kid Goku
+> Position (XYZ): 20.4 0.0 -20.4 
+> Rotation (XYZ): 0.0 -45.0 0.0 
+Change Position/Rotation for Tambourine
+> Position (XYZ): -20.4 0.0 20.4 
+> Rotation (XYZ): 0.0 135.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -3.039 -0.912 -2.508 
+> Rotation (XYZ): 23.067 -36.696 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -15.83 -14.947 15.597 
+> Rotation (XYZ): 18.813 -40.894 0.0 
+Play Animation 384_INTRO_IN.canm for Tambourine
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Tambourine
+> Loop property detected
+Play Voice Line 70 for Tambourine
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 9.031 -2.244 -10.539 
+> Rotation (XYZ): 13.466 126.459 0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): 14.661 -4.006 -14.699 
+> Rotation (XYZ): 27.468 125.173 0.0 
+Play Animation 1_GROUND_TIRED.canm for Kid Goku
+> Loop property detected
+Play Voice Line 71 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -5.728 -5.607 -1.687 
+> Rotation (XYZ): 4.963 -36.434 0.0 
+[Additional Camera Point]
+> Transition Time: 13.0 
+> Position (XYZ): -16.323 -8.644 12.522 
+> Rotation (XYZ): 22.141 -27.815 0.0 
+Play Animation 0_GROUND.canm for Tambourine
+> Loop property detected
+Play Voice Line 72 for Tambourine
+> Wait property detected
+Play Voice Line 73 for Tambourine
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 19.929 -13.636 -41.073 
+> Rotation (XYZ): -20.06 -11.315 0.0 
+[Additional Camera Point]
+> Transition Time: 8.5 
+> Position (XYZ): 19.525 -9.336 -29.027 
+> Rotation (XYZ): -10.561 -15.299 0.0 
+Play Voice Line 74 for Kid Goku
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 4
+> Scene ID: 4
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 2
 Event:     Switch with Teammate #2
 Character: Zamasu
 
 [Scene 4]
+
+===Cinematic Info===
+Add 1.2 s fade-out
 Lower Current BG Music
-BG Music:  The Maze Of The Mind
+BG Music:  UNKNOWN (ID: 66)
+Play Animation 0_GROUND.canm for Tambourine
+> Loop property detected
+Play Animation 0_GROUND.canm for Kid Chi-Chi
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 38.433 -1.053 -31.797 
+> Rotation (XYZ): 20.017 156.239 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 41.174 -4.167 -37.983 
+> Rotation (XYZ): 36.392 154.805 0.0 
+Play Voice Line 76 for Kid Chi-Chi
+> Wait property detected
+Play Voice Line 77 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -41.923 -8.299 37.037 
+> Rotation (XYZ): 24.78 -27.96 0.0 
+Play Voice Line 78 for Tambourine
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 41.473 -11.845 -30.235 
+> Rotation (XYZ): -25.152 167.015 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 36.253 -9.312 -38.831 
+> Rotation (XYZ): -6.938 121.879 0.0 
+Play Voice Line 79 for Kid Chi-Chi
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -31.544 -10.609 31.534 
+> Rotation (XYZ): 1.877 -50.113 0.0 
+[Additional Camera Point]
+> Transition Time: 5.5 
+> Position (XYZ): -38.421 -10.903 37.282 
+> Rotation (XYZ): 1.877 -50.113 0.0 
+Play Voice Line 80 for Tambourine
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -34.401 -22.986 26.987 
+> Rotation (XYZ): -36.113 -34.063 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -33.826 -2.447 30.785 
+> Rotation (XYZ): 31.151 -37.901 0.0 
+Play Animation 52_CHARGE_IN.canm for Tambourine
+> Wait property detected
+Enable Ki Charge for Tambourine
+Shake Camera for 1.0 seconds
+Play Animation 53_CHARGE_LOOP.canm for Tambourine
+> Loop property detected
+Play Voice Line 81 for Tambourine
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
+Condition: Immediate
+> Voice Line ID: 82
+Condition: Immediate
+> Voice Line ID: 83
+Condition: Immediate
+> Voice Line ID: 84
+Condition: Immediate
+> Voice Line ID: 87
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 86
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 85
+Condition: Perform Vanishing Attack
+> Voice Line ID: 88
+Condition: Perform Dragon Homing
+> Voice Line ID: 89
+Condition: Perform Rush Attack
+> Voice Line ID: 89
+Condition: Perform Z-Counter
+> Voice Line ID: 90
+Condition: Perform Teleport
+> Voice Line ID: 90
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 91
+Condition: Lose 2 Health Bars
+> Voice Line ID: 92
+Condition: Perform Throw
+> Voice Line ID: 93
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 94
+Condition: Perform Dash Smash (Opponent)
+> Voice Line ID: 94
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 95
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 97
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 97
+Condition: Hit with Ultimate Blast (Opponent)
+> Voice Line ID: 96
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 79
+Condition: Perform 1st Blast 2
+> Voice Line ID: 79
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 86
 Event:     Battle Finish
 
 [Scene 5]
 
+===Cinematic Info===
+Change Position/Rotation for Kid Goku
+> Position (XYZ): 45.0 0.0 -45.0 
+> Rotation (XYZ): 0.0 -45.0 0.0 
+Change Position/Rotation for King Piccolo
+> Position (XYZ): -45.0 0.0 45.0 
+> Rotation (XYZ): 0.0 135.0 0.0 
+Play Animation 0_GROUND.canm for Kid Goku
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 26.52 -2.319 -25.287 
+> Rotation (XYZ): 4.948 135.15 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): 39.634 -4.308 -38.47 
+> Rotation (XYZ): 20.976 135.15 0.0 
+Play Voice Line 50 for Kid Goku
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
+Condition: Perform Z-Counter
+> Voice Line ID: 22
+Condition: Perform Teleport
+> Voice Line ID: 22
+Condition: Perform Fully Charged Right Smash Attack (Opponent)
+> Voice Line ID: 33
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 27
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 33
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 33
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 16
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 16
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 17
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 21
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 20
+Condition: Hit with Charged Ki Blast
+> Voice Line ID: 15
+Condition: Perform Throw
+> Voice Line ID: 15
 [Changes to Player 1 detected.]
 > Z-Item #7: Go To Hell
 Event:     Trigger Ultimate Blast
 
 [Scene 6 - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
+Condition: Immediate
+> Voice Line ID: 15
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 14
+Condition: Perform Z-Counter
+> Voice Line ID: 22
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 16
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 16
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 17
+Condition: Reach Full Ki Bars (Opponent)
+> Voice Line ID: 20
+Condition: Hit with Charged Ki Blast (Opponent)
+> Voice Line ID: 21
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 21
+Condition: Perform Teleport
+> Voice Line ID: 22
+Condition: Perform Z-Counter (Opponent)
+> Voice Line ID: 24
+Condition: Perform Ultimate Blast
+> Voice Line ID: 25
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 24
+Condition: Block 2nd Blast 2 (Opponent)
+> Voice Line ID: 24
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 27
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 33
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 33
 Event:     Battle Finish
 
 [Scene 30 (Victory)]
+
+===Cinematic Info===
+Disable Aura Charge for King Piccolo
+Change Position/Rotation for Kid Goku
+> Position (XYZ): 23.6 0.0 -23.6 
+> Rotation (XYZ): 0.0 -45.0 0.0 
+Change Position/Rotation for King Piccolo
+> Position (XYZ): -23.6 0.0 23.6 
+> Rotation (XYZ): 0.0 135.0 0.0 
+Disable Aura Charge for Kid Goku
+Disable Aura Charge for King Piccolo
+Play Animation 1_GROUND_TIRED.canm for King Piccolo
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Kid Goku
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -6.331 -30.703 -7.482 
+> Rotation (XYZ): -33.058 118.446 0.0 
+[Additional Camera Point]
+> Transition Time: 5.5 
+> Position (XYZ): 13.799 -8.407 -18.239 
+> Rotation (XYZ): -8.994 116.997 0.0 
+Play Voice Line 62 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -1.397 -2.026 -7.541 
+> Rotation (XYZ): 1.147 -38.877 0.0 
+[Additional Camera Point]
+> Transition Time: 19.0 
+> Position (XYZ): -14.801 -7.645 10.299 
+> Rotation (XYZ): 26.535 -33.059 0.0 
+Play Voice Line 63 for King Piccolo
+> Wait property detected
+Play Voice Line 64 for King Piccolo
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -45.562 -4.996 26.238 
+> Rotation (XYZ): -2.758 122.429 0.0 
+[Additional Camera Point]
+> Transition Time: 12.0 
+> Position (XYZ): -35.83 -16.457 22.661 
+> Rotation (XYZ): -12.768 122.658 0.0 
+Play Voice Line 65 for King Piccolo
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 32.151 -8.249 -49.729 
+> Rotation (XYZ): -2.811 -29.702 0.0 
+[Additional Camera Point]
+> Transition Time: 14.0 
+> Position (XYZ): 25.256 -7.321 -31.916 
+> Rotation (XYZ): -2.811 -30.109 0.0 
+Play Animation 388_LOSE.canm for King Piccolo
+Play Voice Line 67 for King Piccolo
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 31 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Kid Chi-Chi
+> Position (XYZ): 16.2 0.0 -16.2 
+> Rotation (XYZ): 0.0 -45.0 0.0 
+Change Position/Rotation for Tambourine
+> Position (XYZ): -16.2 0.0 16.2 
+> Rotation (XYZ): 0.0 135.0 0.0 
+Disable Aura Charge for Kid Chi-Chi
+Disable Aura Charge for Tambourine
+Play Animation 388_LOSE.canm for Tambourine
+Play Animation 0_GROUND.canm for Kid Chi-Chi
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -6.637 -7.665 31.626 
+> Rotation (XYZ): -7.723 155.677 0.0 
+[Additional Camera Point]
+> Transition Time: 9.5 
+> Position (XYZ): 3.523 -6.961 9.341 
+> Rotation (XYZ): 1.763 154.975 0.0 
+Play Voice Line 99 for Kid Chi-Chi
+> Wait property detected
+Play Voice Line 100 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 16.504 -1.052 -1.411 
+> Rotation (XYZ): 19.437 -177.167 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 16.125 -3.483 -9.083 
+> Rotation (XYZ): 41.794 -171.771 0.0 
+Play Voice Line 101 for Kid Chi-Chi
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 32 (Victory) - UNUSED]
+
+===Cinematic Info===
+Disable Aura Charge for Kid Goku
+Disable Aura Charge for King Piccolo
+Play Voice Line 62 for Kid Goku
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Kid Goku
+> Position (XYZ): 27.3 0.0 -27.3 
+> Rotation (XYZ): 0.0 -45.0 0.0 
+Change Position/Rotation for King Piccolo
+> Position (XYZ): -27.3 0.0 27.3 
+> Rotation (XYZ): 0.0 135.0 0.0 
+Disable Aura Charge for Kid Goku
+Disable Aura Charge for King Piccolo
+[Initial Camera Point]
+> Position (XYZ): 25.156 -10.074 -50.495 
+> Rotation (XYZ): 0.303 -25.355 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -4.665 -13.396 -5.047 
+> Rotation (XYZ): -2.78 -34.293 0.0 
+Play Animation 388_LOSE.canm for Kid Goku
+Play Animation 386_WIN_IN.canm for King Piccolo
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for King Piccolo
+> Loop property detected
+Play Voice Line 28 for King Piccolo
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Kid Goku
+> Position (XYZ): 27.3 0.0 -27.3 
+> Rotation (XYZ): 0.0 -45.0 0.0 
+Change Position/Rotation for King Piccolo
+> Position (XYZ): -27.3 0.0 27.3 
+> Rotation (XYZ): 0.0 135.0 0.0 
+Disable Aura Charge for Kid Goku
+Disable Aura Charge for King Piccolo
+[Initial Camera Point]
+> Position (XYZ): 25.156 -10.074 -50.495 
+> Rotation (XYZ): 0.303 -25.355 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -4.665 -13.396 -5.047 
+> Rotation (XYZ): -2.78 -34.293 0.0 
+Play Animation 388_LOSE.canm for Kid Goku
+Play Animation 386_WIN_IN.canm for King Piccolo
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for King Piccolo
+> Loop property detected
+Play Voice Line 28 for King Piccolo
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 42 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Kid Chi-Chi
+> Position (XYZ): 27.3 0.0 -27.3 
+> Rotation (XYZ): 0.0 -45.0 0.0 
+Change Position/Rotation for Tambourine
+> Position (XYZ): -27.3 0.0 27.3 
+> Rotation (XYZ): 0.0 135.0 0.0 
+Disable Aura Charge for Kid Chi-Chi
+Disable Aura Charge for Tambourine
+[Initial Camera Point]
+> Position (XYZ): 26.142 -13.757 -45.56 
+> Rotation (XYZ): -17.51 -26.727 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 0.447 -13.001 -5.616 
+> Rotation (XYZ): -5.061 -40.427 0.0 
+Play Animation 388_LOSE.canm for Kid Chi-Chi
+Play Animation 386_WIN_IN.canm for Tambourine
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Tambourine
+> Loop property detected
+Play Voice Line 98 for Tambourine
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 43 (Defeat) - UNUSED]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat) - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory) - UNUSED]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

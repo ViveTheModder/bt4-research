@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: Planet Namek
-BGM: The Warrior
+BGM: UNKNOWN (ID: 10)
 
 [Player 1 Team]
 > Teammate 1
@@ -126,20 +126,155 @@ Teammate Count (Opponent): 4
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -21.2 0.0 -18.5 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): 21.2 0.0 18.5 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): 8.91 -0.795 3.804 
+> Rotation (XYZ): 18.916 37.433 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 14.256 -14.327 10.788 
+> Rotation (XYZ): -17.191 37.433 0.0 
+Play Animation 0_GROUND.canm for Frieza - 1st Form
+> Loop property detected
+Play Animation 0_GROUND.canm for Vegeta (Scouter)
+> Loop property detected
+Play Voice Line 0 for Vegeta (Scouter)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -1.004 -3.025 -7.45 
+> Rotation (XYZ): 2.616 -118.434 0.0 
+[Additional Camera Point]
+> Transition Time: 8.5 
+> Position (XYZ): -15.499 -10.927 -15.298 
+> Rotation (XYZ): -11.461 -120.43 0.0 
+Play Voice Line 1 for Frieza - 1st Form
+> Wait property detected
+Play Voice Line 2 for Frieza - 1st Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -28.292 -2.728 -38.496 
+> Rotation (XYZ): 2.982 26.648 0.0 
+Play Voice Line 4 for Frieza - 1st Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 42.431 -17.595 26.222 
+> Rotation (XYZ): -18.25 -122.815 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): 10.199 -11.204 3.363 
+> Rotation (XYZ): -13.12 -126.237 0.0 
+Play Animation 52_CHARGE_IN.canm for Frieza - 1st Form
+> Wait property detected
+Enable Ki Charge for Frieza - 1st Form
+Shake Camera for 1.0 seconds
+Play Animation 53_CHARGE_LOOP.canm for Frieza - 1st Form
+> Loop property detected
+Play Voice Line 5 for Frieza - 1st Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -9.258 -10.184 -12.314 
+> Rotation (XYZ): -15.299 -119.663 0.0 
+Play Animation 54_CHARGE_MAX.canm for Frieza - 1st Form
+Shake Camera for 0.5 seconds
+Enable MPM Explosion for Frieza - 1st Form
+Wait 1.0 seconds
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
+Condition: Immediate
+> Voice Line ID: 8
+Condition: Immediate
+> Voice Line ID: 9
+Condition: Immediate
+> Voice Line ID: 11
+Condition: Immediate
+> Voice Line ID: 12
+Condition: Immediate
+> Voice Line ID: 13
+Condition: Immediate
+> Voice Line ID: 14
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 165
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 6
+Condition: Lose 1 Health Bar
+> Voice Line ID: 7
+Condition: Perform Dragon Homing
+> Voice Line ID: 70
+Condition: Perform Vanishing Attack
+> Voice Line ID: 70
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 175
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 32
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 176
+Condition: Perform Ultimate Blast
+> Voice Line ID: 20
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 32
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 3
+Condition: Perform Throw
+> Voice Line ID: 32
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -21.2 0.0 -18.5 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): 21.2 0.0 18.5 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Play Animation 0_GROUND.canm for Frieza - 1st Form
+> Loop property detected
+Play Animation 0_GROUND.canm for Vegeta (Scouter)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -18.864 -8.165 -13.484 
+> Rotation (XYZ): 14.913 -164.765 0.0 
+Play Voice Line 17 for Frieza - 1st Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 3.457 -9.595 12.898 
+> Rotation (XYZ): 5.266 71.041 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 11.139 -10.549 14.319 
+> Rotation (XYZ): 5.754 71.157 0.0 
+Play Voice Line 18 for Vegeta (Scouter)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 15.744 -16.473 6.004 
+> Rotation (XYZ): -9.052 -122.253 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): -17.918 -7.815 -14.37 
+> Rotation (XYZ): 17.194 -145.957 0.0 
+Play Voice Line 19 for Frieza - 1st Form
+> Wait property detected
+Play Voice Line 24 for Frieza - 1st Form
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 2
+> Scene ID: 2
 [Changes to Player 1 detected.]
 > Add 100% more Health
 > Z-Item #1: King Kai's Training
@@ -148,13 +283,54 @@ Character: Frieza - 2nd Form
 
 [Scene 2]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 12
+> Scene ID: 12
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Wait 30 seconds
-> GSAC ID: 17
+> Scene ID: 17
+Condition: Immediate
+> Voice Line ID: 29
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Immediate
+> Voice Line ID: 30
+Condition: Immediate
+> Voice Line ID: 31
+Condition: Perform Vanishing Attack
+> Voice Line ID: 27
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 34
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 183
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 22
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 22
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 22
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 22
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 23
+Condition: Perform Vanishing Attack
+> Voice Line ID: 35
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 36
+Condition: Perform Teleport
+> Voice Line ID: 37
+Condition: Perform Dash Smash
+> Voice Line ID: 33
+Condition: Perform Sonic Sway
+> Voice Line ID: 37
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 27
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 23
 [Changes to Player 1 detected.]
 > Add 100% more Health
 [Changes to Opponent detected.]
@@ -164,22 +340,98 @@ Character: Krillin
 
 [Scene 17]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 3
+> Scene ID: 3
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
+Condition: Perform Vanishing Attack
+> Voice Line ID: 35
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 34
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 183
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 22
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 22
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 22
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 22
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 23
+Condition: Perform Vanishing Attack
+> Voice Line ID: 35
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 36
+Condition: Perform Teleport
+> Voice Line ID: 37
+Condition: Perform Dash Smash
+> Voice Line ID: 33
+Condition: Perform Sonic Sway
+> Voice Line ID: 37
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 27
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 23
 Event:     Battle Finish
 
 [Scene 3]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 4
+> Scene ID: 4
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
+Condition: Immediate
+> Voice Line ID: 41
+Condition: Immediate
+> Voice Line ID: 42
+Condition: Immediate
+> Voice Line ID: 43
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 44
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 57
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 45
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 46
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 46
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 47
+Condition: UNKNOWN(ID: 53)
+> Voice Line ID: 49
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 57
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 57
+Condition: Perform 1st Blast 2
+> Voice Line ID: 48
+Condition: Perform Fully Charged Down Smash Attack (Opponent)
+> Voice Line ID: 45
+Condition: Perform Ultimate Blast
+> Voice Line ID: 48
+Condition: Perform Vanishing Attack
+> Voice Line ID: 49
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 54
+Condition: Perform Teleport
+> Voice Line ID: 55
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 50
+Condition: Perform Dragon Homing
+> Voice Line ID: 51
 [Changes to Opponent detected.]
 > Apply changes to Teammate 3
 Event:     Switch with Teammate #3 (Opponent) [AUTO]
@@ -187,9 +439,39 @@ Character: Kid Gohan
 
 [Scene 4]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -16.9 0.0 -14.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Kid Gohan
+> Position (XYZ): 16.9 0.0 14.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): -47.25 -23.776 -19.551 
+> Rotation (XYZ): -14.625 67.276 0.0 
+[Additional Camera Point]
+> Transition Time: 13.0 
+> Position (XYZ): -30.478 -20.017 -10.477 
+> Rotation (XYZ): -8.762 81.278 0.0 
+Play Animation 1_GROUND_TIRED.canm for Kid Gohan
+> Loop property detected
+Play Animation 0_GROUND.canm for Frieza - 1st Form
+> Loop property detected
+Play Voice Line 58 for Frieza - 1st Form
+> Wait property detected
+Play Voice Line 59 for Vegeta (Scouter)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -3.057 -4.006 -10.105 
+> Rotation (XYZ): 32.346 -105.547 0.0 
+Play Voice Line 60 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 5
+> Scene ID: 5
 [Changes to Player 1 detected.]
 > Add 100% more Health
 [Changes to Opponent detected.]
@@ -199,43 +481,341 @@ Character: Piccolo (Early)
 
 [Scene 5]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -40.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Piccolo (Early)
+> Position (XYZ): 40.0 0.0 35.0 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): 32.908 -1.134 10.551 
+> Rotation (XYZ): 17.185 9.185 0.0 
+[Additional Camera Point]
+> Transition Time: 1.5 
+> Position (XYZ): 34.185 -4.011 18.443 
+> Rotation (XYZ): 19.795 9.185 0.0 
+Play Animation 0_GROUND.canm for Frieza - 1st Form
+> Loop property detected
+Play Animation 0_GROUND.canm for Piccolo (Early)
+> Loop property detected
+Play Voice Line 64 for Kid Gohan
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 27.254 -11.421 38.252 
+> Rotation (XYZ): 4.533 119.604 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 31.723 -14.122 29.255 
+> Rotation (XYZ): -4.931 54.651 0.0 
+Play Voice Line 65 for Piccolo (Early)
+> Wait property detected
+Play Voice Line 66 for Kid Gohan
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 48.874 -22.201 58.111 
+> Rotation (XYZ): -22.992 -143.445 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 41.554 -15.345 44.409 
+> Rotation (XYZ): -7.615 -136.03 0.0 
+Play Voice Line 67 for Piccolo (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 30.684 -13.147 13.182 
+> Rotation (XYZ): -11.091 22.668 0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): 19.698 -10.851 29.414 
+> Rotation (XYZ): -7.172 79.401 0.0 
+Play Voice Line 68 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 6
+> Scene ID: 6
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 43
+> Scene ID: 43
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
+Condition: Immediate
+> Voice Line ID: 78
+Condition: Immediate
+> Voice Line ID: 79
+Condition: Immediate
+> Voice Line ID: 80
+Condition: Immediate
+> Voice Line ID: 81
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 82
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 73
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 84
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 85
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 85
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 87
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 183
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 89
+Condition: Lose 2 Health Bars
+> Voice Line ID: 90
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 183
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 76
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 87
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 83
+Condition: Block 2nd Blast 2 (Opponent)
+> Voice Line ID: 83
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 77
 [Changes to Player 1 detected.]
 > Add 100% more Health
 Event:     Battle Finish
 
 [Scene 6]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -40.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Piccolo (Early)
+> Position (XYZ): 40.0 0.0 35.0 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): -26.334 -21.439 -7.016 
+> Rotation (XYZ): -20.444 -157.887 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -30.624 -22.061 -26.238 
+> Rotation (XYZ): -18.945 -138.657 0.0 
+Play Animation 0_GROUND.canm for Frieza - 1st Form
+> Loop property detected
+Play Animation 0_GROUND.canm for Piccolo (Early)
+> Loop property detected
+Play Voice Line 92 for Frieza - 1st Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -41.444 -22.574 -15.881 
+> Rotation (XYZ): -14.376 167.153 0.0 
+[Additional Camera Point]
+> Transition Time: 12.0 
+> Position (XYZ): -38.987 -21.594 -26.655 
+> Rotation (XYZ): -5.868 167.153 0.0 
+Play Voice Line 93 for Frieza - 1st Form
+> Wait property detected
+Play Voice Line 94 for Frieza - 1st Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 7.066 -1.991 16.703 
+> Rotation (XYZ): 13.564 61.89 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 22.25 -7.768 25.36 
+> Rotation (XYZ): 20.95 59.724 0.0 
+Play Animation 384_INTRO_IN.canm for Piccolo (Early)
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Piccolo (Early)
+> Loop property detected
+Play Voice Line 97 for Piccolo (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -30.271 -17.249 -25.623 
+> Rotation (XYZ): 3.612 -134.232 0.0 
+Play Voice Line 98 for Frieza - 1st Form
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 44
+> Scene ID: 44
 Condition: Lose 4 Health Bars (Opponent) [AUTO]
-> GSAC ID: 7
+> Scene ID: 7
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
+Condition: Immediate
+> Voice Line ID: 99
+Condition: Immediate
+> Voice Line ID: 100
+Condition: Immediate
+> Voice Line ID: 101
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 103
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 186
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 104
+Condition: Hit with Charged Ki Blast (Opponent)
+> Voice Line ID: 186
+Condition: Perform Hyper Smash (Opponent)
+> Voice Line ID: 186
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 104
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 107
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 107
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 95
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 95
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 108
+Condition: Perform Dash Smash
+> Voice Line ID: 82
+Condition: Perform Hyper Smash
+> Voice Line ID: 82
+Condition: Perform Vanishing Attack
+> Voice Line ID: 96
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 96
+Condition: Lose 2 Health Bars
+> Voice Line ID: 90
 Event:     Normal Clash
 
 [Scene 7]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+[Initial Camera Point]
+> Position (XYZ): -49.208 -0.825 -55.779 
+> Rotation (XYZ): 18.969 34.674 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -44.671 -27.062 -47.262 
+> Rotation (XYZ): -27.495 38.232 0.0 
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -40.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Piccolo (Early)
+> Position (XYZ): 40.0 0.0 35.0 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Play Animation 0_GROUND.canm for Frieza - 1st Form
+> Loop property detected
+Play Animation 0_GROUND.canm for Piccolo (Early)
+> Loop property detected
+Play Voice Line 109 for Frieza - 1st Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -29.062 -9.187 -36.675 
+> Rotation (XYZ): 34.095 -75.303 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -31.154 -15.712 -35.306 
+> Rotation (XYZ): 24.484 -74.341 0.0 
+Play Voice Line 110 for Frieza - 1st Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -32.066 -30.282 -37.087 
+> Rotation (XYZ): -53.433 -71.554 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -25.598 -9.634 -39.245 
+> Rotation (XYZ): 31.365 -71.554 0.0 
+Play Voice Line 111 for Frieza - 1st Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 32.085 -10.977 17.615 
+> Rotation (XYZ): 4.149 19.894 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): 32.085 -10.977 17.615 
+> Rotation (XYZ): 4.149 19.894 0.0 
+Play Voice Line 112 for Piccolo (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 76.595 -45.321 39.119 
+> Rotation (XYZ): -30.497 -117.146 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 69.146 -26.276 35.97 
+> Rotation (XYZ): -22.498 -116.325 0.0 
+Play Voice Line 114 for Kid Gohan
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 20.631 -3.173 -1.065 
+> Rotation (XYZ): 5.557 -123.024 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -32.117 -17.526 -32.373 
+> Rotation (XYZ): 18.998 -114.211 0.0 
+Play Voice Line 115 for Frieza - 1st Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -25.024 -4.11 -31.633 
+> Rotation (XYZ): 34.844 -94.816 0.0 
+[Additional Camera Point]
+> Transition Time: 5.5 
+> Position (XYZ): -25.024 -4.11 -31.633 
+> Rotation (XYZ): 34.844 -94.816 0.0 
+Play Voice Line 120 for Frieza - 1st Form
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 8
+> Scene ID: 8
 Event:     Assign Transformation
 Character: Frieza - 3rd Form
 
 [Scene 8]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 9
+> Scene ID: 9
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 45
+> Scene ID: 45
+Condition: Immediate
+> Voice Line ID: 116
+Condition: Immediate
+> Voice Line ID: 117
+Condition: Immediate
+> Voice Line ID: 121
+Condition: Immediate
+> Voice Line ID: 122
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 126
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 126
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 123
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 123
+Condition: Perform Dragon Homing
+> Voice Line ID: 125
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 124
+Condition: Perform Throw
+> Voice Line ID: 123
+Condition: Perform Vanishing Attack
+> Voice Line ID: 126
+Condition: Perform Guard Crush
+> Voice Line ID: 123
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 190
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 125
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 124
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 141
+Condition: Hit with Charged Ki Blast
+> Voice Line ID: 125
+Condition: Perform Fully Charged Neutral Smash Attack
+> Voice Line ID: 125
 [Changes to Player 1 detected.]
 > Add 100% more Health
 > Z-Item #2: Ultimate Body
@@ -253,9 +833,12 @@ Event:     Battle Finish
 
 [Scene 9]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 16
+> Scene ID: 16
 [Changes to Opponent detected.]
 > Add 100% more Health
 > Z-Item #1: null
@@ -271,13 +854,67 @@ Character: Kid Gohan
 
 [Scene 16]
 
+===Cinematic Info===
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -40.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Kid Gohan
+> Position (XYZ): 40.0 0.0 35.0 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): 7.917 -12.567 6.403 
+> Rotation (XYZ): -16.237 48.933 0.0 
+[Additional Camera Point]
+> Transition Time: 2.5 
+> Position (XYZ): 26.663 -3.517 22.738 
+> Rotation (XYZ): 2.948 48.933 0.0 
+Play Animation 52_CHARGE_IN.canm for Kid Gohan
+> Wait property detected
+Play Animation 53_CHARGE_LOOP.canm for Kid Gohan
+> Loop property detected
+Enable Ki Charge for Kid Gohan
+Shake Camera for 1.0 seconds
+Play Voice Line 41 for Kid Gohan
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 46
+> Scene ID: 46
 Condition: Wait 40 seconds
-> GSAC ID: 10
+> Scene ID: 10
 Condition: Win via K.O.
-> GSAC ID: 14
+> Scene ID: 14
+Condition: Wait 10 seconds
+> Voice Line ID: 132
+Condition: Wait 20 seconds
+> Voice Line ID: 133
+Condition: Wait 30 seconds
+> Voice Line ID: 134
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 190
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 7
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 7
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 70
+Condition: Perform Teleport
+> Voice Line ID: 55
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 50
+Condition: Perform Dragon Homing
+> Voice Line ID: 51
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 70
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 20
+Condition: Perform Rush Attack
+> Voice Line ID: 50
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 50
+Condition: Perform Fully Charged Neutral Smash Attack
+> Voice Line ID: 50
 [Changes to Opponent detected.]
 > Z-Item #1: null
 > Z-Item #2: null
@@ -289,12 +926,81 @@ Condition: Win via K.O.
 Event:     Trigger Ultimate Blast (Opponent) [AUTO]
 
 [Scene 10]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -19.9 0.0 -17.4 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Kid Gohan
+> Position (XYZ): 19.9 0.0 17.4 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Play Animation 1_GROUND_TIRED.canm for Kid Gohan
+> Loop property detected
+Play Animation 0_GROUND.canm for Frieza - 1st Form
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -52.059 -18.314 -19.628 
+> Rotation (XYZ): -7.292 69.419 0.0 
+[Additional Camera Point]
+> Transition Time: 12.0 
+> Position (XYZ): -30.867 -15.406 -11.471 
+> Rotation (XYZ): -9.606 64.488 0.0 
+Play Voice Line 135 for Piccolo (Early)
+> Wait property detected
+Play Voice Line 136 for Piccolo (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 11.053 -4.596 17.104 
+> Rotation (XYZ): 15.406 91.245 0.0 
+Play Voice Line 137 for Kid Gohan
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 21.473 -8.933 24.422 
+> Rotation (XYZ): -5.467 -141.274 0.0 
+Play Voice Line 138 for Kid Gohan
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -1.967 -2.774 2.157 
+> Rotation (XYZ): 15.94 -136.286 0.0 
+[Additional Camera Point]
+> Transition Time: 15.0 
+> Position (XYZ): -11.841 -13.495 -8.517 
+> Rotation (XYZ): 22.973 -144.812 0.0 
+Play Voice Line 143 for Frieza - 1st Form
+> Wait property detected
+Play Voice Line 144 for Frieza - 1st Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -46.105 -36.837 -20.637 
+> Rotation (XYZ): -35.462 71.305 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -35.093 -29.111 -16.76 
+> Rotation (XYZ): -31.935 69.035 0.0 
+Play Voice Line 145 for Frieza - 1st Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 21.087 -3.383 35.209 
+> Rotation (XYZ): 7.054 -156.476 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 21.087 -3.383 35.209 
+> Rotation (XYZ): 7.054 -156.476 0.0 
+Play Animation 52_CHARGE_IN.canm for Frieza - 1st Form
+> Wait property detected
+Enable Ki Charge for Frieza - 1st Form
+Play Animation 53_CHARGE_LOOP.canm for Frieza - 1st Form
+> Loop property detected
+Play Voice Line 147 for Frieza - 1st Form
+> Wait property detected
 Lower Current BG Music
-BG Music:  Tensa Atmosphere
+BG Music:  UNKNOWN (ID: 11)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 11
+> Scene ID: 11
 [Changes to Player 1 detected.]
 > Add 100% more Health
 Event:     Assign Transformation
@@ -302,11 +1008,112 @@ Character: Frieza - Final Form
 
 [Scene 11]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -20.3 0.0 -17.7 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Kid Gohan
+> Position (XYZ): 20.3 0.0 17.7 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): 35.754 -5.567 22.819 
+> Rotation (XYZ): -2.111 -120.605 0.0 
+[Additional Camera Point]
+> Transition Time: 4.5 
+> Position (XYZ): 27.663 -7.783 18.272 
+> Rotation (XYZ): -6.362 -123.481 0.0 
+Play Animation 0_GROUND.canm for Frieza - 1st Form
+> Loop property detected
+Play Animation 0_GROUND.canm for Kid Gohan
+> Loop property detected
+Play Voice Line 148 for Krillin
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -7.725 -2.196 -14.185 
+> Rotation (XYZ): 27.689 -106.293 0.0 
+[Additional Camera Point]
+> Transition Time: 13.5 
+> Position (XYZ): -13.789 -11.428 -13.218 
+> Rotation (XYZ): 2.478 -122.585 0.0 
+Play Voice Line 149 for Piccolo (Early)
+> Wait property detected
+Play Voice Line 153 for Krillin
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -12.742 -14.695 -21.316 
+> Rotation (XYZ): -23.433 -65.329 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 10.359 -15.261 -1.579 
+> Rotation (XYZ): -12.459 -119.356 0.0 
+Play Voice Line 154 for Piccolo (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 10.359 -15.261 -1.579 
+> Rotation (XYZ): -12.459 -119.356 0.0 
+[Additional Camera Point]
+> Transition Time: 0.2 
+> Position (XYZ): -14.301 -12.211 -15.227 
+> Rotation (XYZ): 2.022 -107.697 0.0 
+Wait 1.5 seconds
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 47
+> Scene ID: 47
+Condition: Immediate
+> Voice Line ID: 152
+Condition: Immediate
+> Voice Line ID: 156
+Condition: Immediate
+> Voice Line ID: 157
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 159
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 160
+Condition: Perform Teleport
+> Voice Line ID: 161
+Condition: Wait 20 seconds
+> Voice Line ID: 162
+Condition: Perform Vanishing Attack
+> Voice Line ID: 163
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 164
+Condition: Perform Throw
+> Voice Line ID: 165
+Condition: Perform Z-Counter (Opponent)
+> Voice Line ID: 166
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 167
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 169
+Condition: Perform Hyper Smash (Opponent)
+> Voice Line ID: 169
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 150
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 170
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 171
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 173
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 155
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 174
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 176
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 159
+Condition: Perform Hyper Smash
+> Voice Line ID: 155
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 155
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 155
 [Changes to Player 1 detected.]
 > Add 100% more Health
 [Changes to Opponent detected.]
@@ -323,9 +1130,12 @@ Character: Vegeta (Scouter)
 
 [Scene 12]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 13
+> Scene ID: 13
 [Changes to Opponent detected.]
 > Apply changes to Teammate 1
 Event:     Switch with Teammate #1 (Opponent) [AUTO]
@@ -333,20 +1143,81 @@ Character: Vegeta (Scouter)
 
 [Scene 13]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -40.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): 40.0 0.0 35.0 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): -2.701 -13.846 -13.636 
+> Rotation (XYZ): -3.66 -123.608 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -26.989 -15.067 -28.45 
+> Rotation (XYZ): 7.208 -115.668 0.0 
+Play Animation 0_GROUND.canm for Frieza - 1st Form
+> Loop property detected
+Play Voice Line 183 for Frieza - 1st Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 10.069 -22.847 5.62 
+> Rotation (XYZ): -15.582 45.092 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 31.795 -12.64 27.277 
+> Rotation (XYZ): -4.892 45.092 0.0 
+Play Animation 0_GROUND.canm for Vegeta (Scouter)
+> Loop property detected
+Play Voice Line 184 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 48
+> Scene ID: 48
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 181
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 181
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 180
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 180
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 185
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 150
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 182
+Condition: Lose 1 Health Bar
+> Voice Line ID: 186
+Condition: Perform Teleport
+> Voice Line ID: 188
+Condition: Perform Z-Counter
+> Voice Line ID: 188
+Condition: Block 1st Blast 2
+> Voice Line ID: 188
+Condition: Block 2nd Blast 2
+> Voice Line ID: 188
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 176
 [Changes to Player 1 detected.]
 > Add 100% more Health
 Event:     Battle Finish
 
 [Scene 14]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 15
+> Scene ID: 15
 [Changes to Opponent detected.]
 > Apply changes to Teammate 1
 Event:     Switch with Teammate #1 (Opponent) [AUTO]
@@ -354,67 +1225,474 @@ Character: Vegeta (Scouter)
 
 [Scene 15]
 
+===Cinematic Info===
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -40.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): 40.0 0.0 35.0 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): -11.026 -15.916 -3.449 
+> Rotation (XYZ): -7.552 -138.688 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -25.443 -15.622 -19.011 
+> Rotation (XYZ): -8.656 -132.764 0.0 
+Play Animation 384_INTRO_IN.canm for Frieza - 1st Form
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Frieza - 1st Form
+> Loop property detected
+Play Voice Line 183 for Frieza - 1st Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 10.069 -22.847 5.62 
+> Rotation (XYZ): -15.582 45.092 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 31.795 -12.64 27.277 
+> Rotation (XYZ): -4.892 45.092 0.0 
+Play Animation 0_GROUND.canm for Vegeta (Scouter)
+> Loop property detected
+Play Voice Line 184 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 32
+> Scene ID: 32
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 181
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 181
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 180
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 180
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 190
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 182
+Condition: Lose 2 Health Bars
+> Voice Line ID: 191
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 192
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 150
+Condition: Lose 2 Health Bars
+> Voice Line ID: 193
 [Changes to Player 1 detected.]
 > Add 100% more Health
 Event:     Battle Finish
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -17.4 0.0 -15.2 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): 17.4 0.0 15.2 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Disable Aura Charge for Frieza - 1st Form
+Disable Aura Charge for Vegeta (Scouter)
+[Initial Camera Point]
+> Position (XYZ): 12.714 -8.736 21.794 
+> Rotation (XYZ): -9.235 -152.409 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -13.929 -13.234 -6.819 
+> Rotation (XYZ): -6.555 -158.827 0.0 
+Play Animation 388_LOSE.canm for Vegeta (Scouter)
+Play Animation 386_WIN_IN.canm for Frieza - 1st Form
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Frieza - 1st Form
+> Loop property detected
+Play Voice Line 177 for Frieza - 1st Form
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 31 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -24.9 0.0 -21.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): 24.9 0.0 21.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Disable Aura Charge for Frieza - 1st Form
+Disable Aura Charge for Vegeta (Scouter)
+[Initial Camera Point]
+> Position (XYZ): 36.902 -9.328 12.555 
+> Rotation (XYZ): -6.709 -94.878 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -10.037 -13.773 -21.726 
+> Rotation (XYZ): 20.975 -84.335 0.0 
+Play Animation 388_LOSE.canm for Vegeta (Scouter)
+Play Animation 386_WIN_IN.canm for Frieza - 1st Form
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Frieza - 1st Form
+> Loop property detected
+Play Voice Line 189 for Frieza - 1st Form
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 32 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -24.9 0.0 -21.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): 24.9 0.0 21.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Disable Aura Charge for Frieza - 1st Form
+Disable Aura Charge for Vegeta (Scouter)
+[Initial Camera Point]
+> Position (XYZ): 36.902 -9.328 12.555 
+> Rotation (XYZ): -6.709 -94.878 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -12.075 -22.068 -20.194 
+> Rotation (XYZ): -5.758 -100.657 0.0 
+Play Animation 388_LOSE.canm for Vegeta (Scouter)
+Play Animation 386_WIN_IN.canm for Frieza - 1st Form
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Frieza - 1st Form
+> Loop property detected
+Play Voice Line 190 for Frieza - 1st Form
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -24.9 0.0 -21.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): 24.9 0.0 21.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Disable Aura Charge for Frieza - 1st Form
+Disable Aura Charge for Vegeta (Scouter)
+[Initial Camera Point]
+> Position (XYZ): -23.494 -20.54 -38.974 
+> Rotation (XYZ): -25.501 30.931 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): 19.197 -15.391 13.282 
+> Rotation (XYZ): -25.521 32.072 0.0 
+Play Animation 388_LOSE.canm for Frieza - 1st Form
+Play Animation 386_WIN_IN.canm for Vegeta (Scouter)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Vegeta (Scouter)
+> Loop property detected
+Play Voice Line 178 for Vegeta (Scouter)
+> Wait property detected
+Play Voice Line 179 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -24.9 0.0 -21.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Krillin
+> Position (XYZ): 24.9 0.0 21.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Disable Aura Charge for Frieza - 1st Form
+Disable Aura Charge for Krillin
+[Initial Camera Point]
+> Position (XYZ): -23.494 -20.54 -38.974 
+> Rotation (XYZ): -25.501 30.931 0.0 
+[Additional Camera Point]
+> Transition Time: 13.0 
+> Position (XYZ): 19.197 -15.391 13.282 
+> Rotation (XYZ): -25.521 32.072 0.0 
+Play Animation 388_LOSE.canm for Frieza - 1st Form
+Play Animation 387_WIN_LOOP.canm for Krillin
+> Loop property detected
+Play Voice Line 38 for Krillin
+> Wait property detected
+Play Voice Line 39 for Vegeta (Scouter)
+> Wait property detected
+Play Voice Line 40 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 42 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -24.9 0.0 -21.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Kid Gohan
+> Position (XYZ): 24.9 0.0 21.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Disable Aura Charge for Frieza - 1st Form
+Disable Aura Charge for Kid Gohan
+[Initial Camera Point]
+> Position (XYZ): -23.494 -20.54 -38.974 
+> Rotation (XYZ): -25.501 30.931 0.0 
+[Additional Camera Point]
+> Transition Time: 12.0 
+> Position (XYZ): 19.197 -15.391 13.282 
+> Rotation (XYZ): -25.521 32.072 0.0 
+Play Animation 388_LOSE.canm for Frieza - 1st Form
+Play Animation 386_WIN_IN.canm for Kid Gohan
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Kid Gohan
+> Loop property detected
+Play Voice Line 61 for Kid Gohan
+> Wait property detected
+Play Voice Line 62 for Vegeta (Scouter)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 20.442 -5.262 14.954 
+> Rotation (XYZ): 21.297 25.273 0.0 
+Play Voice Line 63 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 43 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -24.9 0.0 -21.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Piccolo (Early)
+> Position (XYZ): 24.9 0.0 21.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Disable Aura Charge for Frieza - 1st Form
+Disable Aura Charge for Piccolo (Early)
+[Initial Camera Point]
+> Position (XYZ): -12.707 -43.303 -41.18 
+> Rotation (XYZ): -44.788 13.507 0.0 
+[Additional Camera Point]
+> Transition Time: 12.0 
+> Position (XYZ): 20.767 -19.344 14.785 
+> Rotation (XYZ): -17.819 27.667 0.0 
+Play Animation 388_LOSE.canm for Frieza - 1st Form
+Play Animation 386_WIN_IN.canm for Piccolo (Early)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Piccolo (Early)
+> Loop property detected
+Play Voice Line 140 for Piccolo (Early)
+> Wait property detected
+Play Voice Line 142 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 44 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -24.9 0.0 -21.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Piccolo (Early)
+> Position (XYZ): 24.9 0.0 21.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Disable Aura Charge for Frieza - 1st Form
+Disable Aura Charge for Piccolo (Early)
+[Initial Camera Point]
+> Position (XYZ): -12.707 -43.303 -41.18 
+> Rotation (XYZ): -44.788 13.507 0.0 
+[Additional Camera Point]
+> Transition Time: 12.0 
+> Position (XYZ): 20.767 -19.344 14.785 
+> Rotation (XYZ): -17.819 27.667 0.0 
+Play Animation 388_LOSE.canm for Frieza - 1st Form
+Play Animation 386_WIN_IN.canm for Piccolo (Early)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Piccolo (Early)
+> Loop property detected
+Play Voice Line 140 for Piccolo (Early)
+> Wait property detected
+Play Voice Line 142 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 45 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -24.9 0.0 -21.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Piccolo (Early)
+> Position (XYZ): 24.9 0.0 21.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Disable Aura Charge for Frieza - 1st Form
+Disable Aura Charge for Piccolo (Early)
+[Initial Camera Point]
+> Position (XYZ): -12.707 -43.303 -41.18 
+> Rotation (XYZ): -44.788 13.507 0.0 
+Play Animation 388_LOSE.canm for Frieza - 1st Form
+Play Animation 386_WIN_IN.canm for Piccolo (Early)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Piccolo (Early)
+> Loop property detected
+Play Voice Line 127 for Piccolo (Early)
+> Wait property detected
+Play Voice Line 128 for Piccolo (Early)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 46 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -24.9 0.0 -21.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Kid Gohan
+> Position (XYZ): 24.9 0.0 21.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Disable Aura Charge for Frieza - 1st Form
+Disable Aura Charge for Kid Gohan
+[Initial Camera Point]
+> Position (XYZ): -23.494 -20.54 -38.974 
+> Rotation (XYZ): -25.501 30.931 0.0 
+[Additional Camera Point]
+> Transition Time: 12.0 
+> Position (XYZ): 19.197 -15.391 13.282 
+> Rotation (XYZ): -25.521 32.072 0.0 
+Play Animation 388_LOSE.canm for Frieza - 1st Form
+Play Animation 386_WIN_IN.canm for Kid Gohan
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Kid Gohan
+> Loop property detected
+Play Voice Line 61 for Kid Gohan
+> Wait property detected
+Play Voice Line 62 for Vegeta (Scouter)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 20.442 -5.262 14.954 
+> Rotation (XYZ): 21.297 25.273 0.0 
+Play Voice Line 63 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 47 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -24.9 0.0 -21.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): 24.9 0.0 21.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Disable Aura Charge for Frieza - 1st Form
+Disable Aura Charge for Vegeta (Scouter)
+[Initial Camera Point]
+> Position (XYZ): -23.494 -20.54 -38.974 
+> Rotation (XYZ): -25.501 30.931 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 19.197 -15.391 13.282 
+> Rotation (XYZ): -25.521 32.072 0.0 
+Play Animation 388_LOSE.canm for Frieza - 1st Form
+Play Animation 386_WIN_IN.canm for Vegeta (Scouter)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Vegeta (Scouter)
+> Loop property detected
+Play Voice Line 178 for Vegeta (Scouter)
+> Wait property detected
+Play Voice Line 179 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 48 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -24.9 0.0 -21.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): 24.9 0.0 21.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Disable Aura Charge for Frieza - 1st Form
+Disable Aura Charge for Vegeta (Scouter)
+[Initial Camera Point]
+> Position (XYZ): -23.494 -20.54 -38.974 
+> Rotation (XYZ): -25.501 30.931 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 19.197 -15.391 13.282 
+> Rotation (XYZ): -25.521 32.072 0.0 
+Play Animation 388_LOSE.canm for Frieza - 1st Form
+Play Animation 386_WIN_IN.canm for Vegeta (Scouter)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Vegeta (Scouter)
+> Loop property detected
+Play Voice Line 178 for Vegeta (Scouter)
+> Wait property detected
+Play Voice Line 179 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Frieza - 1st Form
+> Position (XYZ): -24.9 0.0 -21.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): 24.9 0.0 21.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Disable Aura Charge for Frieza - 1st Form
+Disable Aura Charge for Vegeta (Scouter)
+[Initial Camera Point]
+> Position (XYZ): -23.494 -20.54 -38.974 
+> Rotation (XYZ): -25.501 30.931 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 19.197 -15.391 13.282 
+> Rotation (XYZ): -25.521 32.072 0.0 
+Play Animation 388_LOSE.canm for Frieza - 1st Form
+Play Animation 386_WIN_IN.canm for Vegeta (Scouter)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Vegeta (Scouter)
+> Loop property detected
+Play Voice Line 178 for Vegeta (Scouter)
+> Wait property detected
+Play Voice Line 179 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory)]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

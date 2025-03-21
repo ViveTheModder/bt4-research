@@ -1,5 +1,5 @@
 [General Information]
-Name: Dream Match: Goku Vs. Arale
+Name: Goku vs. Arale
 Saga: Dragon Ball Saga
 
 [Rewards]
@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: Wasteland - Evening
-BGM: Evolution
+BGM: UNKNOWN (ID: 19)
 
 [Player 1 Team]
 > Teammate 1
@@ -66,22 +66,141 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Kid Goku
+> Position (XYZ): -20.0 0.0 -45.0 
+> Rotation (XYZ): 0.0 23.4 0.0 
+Change Position/Rotation for Tao Pai Pai
+> Position (XYZ): 80.0 0.0 30.0 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Play Animation 0_GROUND.canm for Kid Goku
+> Loop property detected
+Disable Aura Charge for Tao Pai Pai
+[Initial Camera Point]
+> Position (XYZ): 43.475 -3.283 -11.069 
+> Rotation (XYZ): 11.719 41.325 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 73.304 -18.436 22.855 
+> Rotation (XYZ): 23.777 41.325 0.0 
+Play Animation 384_INTRO_IN.canm for Tao Pai Pai
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Tao Pai Pai
+> Loop property detected
+Play Voice Line 0 for Tao Pai Pai
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 18.789 -15.489 2.886 
+> Rotation (XYZ): -9.777 -141.067 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -14.544 -6.154 -38.377 
+> Rotation (XYZ): 7.441 -141.067 0.0 
+Play Voice Line 1 for Kid Goku
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
+Condition: Immediate
+> Voice Line ID: 2
+Condition: Immediate
+> Voice Line ID: 3
+Condition: Immediate
+> Voice Line ID: 4
+Condition: Immediate
+> Voice Line ID: 5
+Condition: Immediate
+> Voice Line ID: 6
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 7
+Condition: Perform Vanishing Attack
+> Voice Line ID: 8
+Condition: Perform Dragon Homing
+> Voice Line ID: 9
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 10
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 53
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 28
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 12
+Condition: Perform Hyper Smash
+> Voice Line ID: 13
+Condition: Perform Dragon Homing
+> Voice Line ID: 14
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 15
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 29
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 53
+Condition: Hit with Charged Ki Blast (Opponent)
+> Voice Line ID: 31
+Condition: Perform Rush Attack
+> Voice Line ID: 35
+Condition: Perform Throw
+> Voice Line ID: 35
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 7
+Condition: Hit with Charged Ki Blast
+> Voice Line ID: 67
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 67
 Event:     Battle Finish
 
 [Scene 1 - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
+Condition: Immediate
+> Voice Line ID: 20
+Condition: Immediate
+> Voice Line ID: 21
+Condition: Immediate
+> Voice Line ID: 22
+Condition: Immediate
+> Voice Line ID: 23
+Condition: Immediate
+> Voice Line ID: 24
+Condition: Immediate
+> Voice Line ID: 25
+Condition: Immediate
+> Voice Line ID: 26
+Condition: Immediate
+> Voice Line ID: 27
+Condition: Perform Dragon Homing
+> Voice Line ID: 9
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 29
+Condition: Perform Throw
+> Voice Line ID: 30
+Condition: Perform Rush Attack
+> Voice Line ID: 30
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 31
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 33
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 34
+Condition: Perform Rush Attack
+> Voice Line ID: 35
+Condition: Perform Vanishing Attack
+> Voice Line ID: 35
+Condition: Perform Throw
+> Voice Line ID: 36
 [Changes to Player 1 detected.]
 > Set current Health to 100%
 > Add 100% more Health
@@ -89,13 +208,139 @@ Event:     Battle Finish
 
 [Scene 2]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Kid Goku
+> Position (XYZ): -20.0 0.0 -45.0 
+> Rotation (XYZ): 0.0 23.4 0.0 
+Change Position/Rotation for Tao Pai Pai
+> Position (XYZ): 80.0 0.0 30.0 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Play Animation 0_GROUND.canm for Kid Goku
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Tao Pai Pai
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 64.917 -19.246 23.593 
+> Rotation (XYZ): -38.859 62.737 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 63.692 -1.991 22.961 
+> Rotation (XYZ): 19.56 62.737 0.0 
+Play Voice Line 18 for Tao Pai Pai
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 1.249 -9.93 -38.13 
+> Rotation (XYZ): -13.953 -103.553 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -11.29 -7.95 -41.152 
+> Rotation (XYZ): -4.482 -103.553 0.0 
+Play Voice Line 20 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 73.332 -1.599 11.419 
+> Rotation (XYZ): 19.809 15.043 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): 70.84 -5.543 25.36 
+> Rotation (XYZ): 31.038 56.993 0.0 
+Play Voice Line 22 for Tao Pai Pai
+> Wait property detected
+Play Voice Line 23 for Tao Pai Pai
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -12.78 -3.839 -38.757 
+> Rotation (XYZ): 17.39 -120.243 0.0 
+Play Voice Line 24 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 74.044 -10.916 21.362 
+> Rotation (XYZ): -6.869 3.953 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 75.348 -10.531 25.426 
+> Rotation (XYZ): 14.989 8.326 0.0 
+Play Voice Line 26 for Tao Pai Pai
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 53.3 -40.208 9.321 
+> Rotation (XYZ): -39.201 49.001 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 68.39 -14.769 23.204 
+> Rotation (XYZ): -24.847 51.08 0.0 
+Play Animation 52_CHARGE_IN.canm for Tao Pai Pai
+> Wait property detected
+Enable Ki Charge for Tao Pai Pai
+Shake Camera for 1.0 seconds
+Play Animation 53_CHARGE_LOOP.canm for Tao Pai Pai
+> Loop property detected
+Play Voice Line 27 for Tao Pai Pai
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 3
+> Scene ID: 3
+Condition: Wait 15 seconds
+> Voice Line ID: 66
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 15
+Condition: Perform Throw
+> Voice Line ID: 55
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 58
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 58
+Condition: Perform Rush Attack
+> Voice Line ID: 55
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 56
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 57
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 59
+Condition: Perform Dash Smash (Opponent)
+> Voice Line ID: 58
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 58
+Condition: Hit with Charged Ki Blast (Opponent)
+> Voice Line ID: 59
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 60
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 60
+Condition: Perform Rush Attack
+> Voice Line ID: 67
+Condition: Hit with Charged Ki Blast
+> Voice Line ID: 62
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 63
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 53
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 53
+Condition: UNKNOWN(ID: 53) (Opponent)
+> Voice Line ID: 64
+Condition: Perform Hyper Smash (Opponent)
+> Voice Line ID: 64
+Condition: Perform Z-Counter
+> Voice Line ID: 65
+Condition: Perform Teleport
+> Voice Line ID: 65
+Condition: Perform Hyper Smash
+> Voice Line ID: 7
+Condition: Perform Dragon Homing
+> Voice Line ID: 67
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 67
+Condition: Perform Vanishing Attack
+> Voice Line ID: 54
 [Changes to Player 1 detected.]
 > Add 100% more Health
 [Changes to Opponent detected.]
@@ -104,11 +349,80 @@ Event:     Normal Clash
 
 [Scene 3]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Kid Goku
+> Position (XYZ): -16.0 0.0 -42.0 
+> Rotation (XYZ): 0.0 53.1 0.0 
+Change Position/Rotation for Tao Pai Pai
+> Position (XYZ): 76.0 0.0 27.0 
+> Rotation (XYZ): 0.0 -126.9 0.0 
+Play Animation 0_GROUND.canm for Kid Goku
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Tao Pai Pai
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 54.872 -5.398 8.13 
+> Rotation (XYZ): -4.309 46.085 0.0 
+[Additional Camera Point]
+> Transition Time: 2.5 
+> Position (XYZ): 54.872 -5.398 8.13 
+> Rotation (XYZ): -4.309 46.085 0.0 
+Play Voice Line 47 for Tao Pai Pai
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 51
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 15
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 58
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 58
+Condition: Perform Rush Attack
+> Voice Line ID: 55
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 56
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 59
+Condition: Perform Dash Smash (Opponent)
+> Voice Line ID: 58
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 58
+Condition: Hit with Charged Ki Blast (Opponent)
+> Voice Line ID: 59
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 60
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 60
+Condition: Perform Rush Attack
+> Voice Line ID: 67
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 53
+Condition: Perform 2nd Blast 2 (Opponent)
+> Voice Line ID: 53
+Condition: UNKNOWN(ID: 53) (Opponent)
+> Voice Line ID: 64
+Condition: Perform Hyper Smash (Opponent)
+> Voice Line ID: 64
+Condition: Perform Z-Counter
+> Voice Line ID: 65
+Condition: Perform Teleport
+> Voice Line ID: 65
+Condition: Perform Hyper Smash
+> Voice Line ID: 7
+Condition: Perform Dragon Homing
+> Voice Line ID: 67
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 67
+Condition: Perform Vanishing Attack
+> Voice Line ID: 54
 [Changes to Opponent detected.]
 > Z-Item #2: Defense -20
 > Z-Item #3: Attack -24
@@ -120,24 +434,136 @@ Event:     Trigger Ultimate Blast (Opponent) [AUTO]
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Kid Goku
+> Position (XYZ): -0.8 0.0 -30.6 
+> Rotation (XYZ): 0.0 23.4 0.0 
+Change Position/Rotation for Tao Pai Pai
+> Position (XYZ): 60.8 0.0 15.6 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Disable Aura Charge for Kid Goku
+Disable Aura Charge for Tao Pai Pai
+Play Animation 1_GROUND_TIRED.canm for Kid Goku
+> Loop property detected
+Play Animation 388_LOSE.canm for Tao Pai Pai
+[Initial Camera Point]
+> Position (XYZ): 14.987 -5.824 -4.658 
+> Rotation (XYZ): 0.125 63.053 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): 30.456 -5.5 3.206 
+> Rotation (XYZ): -6.484 63.053 0.0 
+Play Voice Line 68 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -14.055 -18.422 -25.239 
+> Rotation (XYZ): -32.407 84.606 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -36.672 -52.202 -27.68 
+> Rotation (XYZ): -42.099 79.365 0.0 
+Play Voice Line 69 for Background Character
+> Wait property detected
+Play Voice Line 70 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 8.527 -8.189 -26.989 
+> Rotation (XYZ): -6.436 -115.54 0.0 
+[Additional Camera Point]
+> Transition Time: 8.5 
+> Position (XYZ): 0.212 -7.599 -20.981 
+> Rotation (XYZ): -2.356 -169.354 0.0 
+Play Voice Line 71 for Kid Goku
+> Wait property detected
+Play Voice Line 72 for Background Character
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Kid Goku
+> Position (XYZ): -0.8 0.0 -30.6 
+> Rotation (XYZ): 0.0 23.4 0.0 
+Change Position/Rotation for Tao Pai Pai
+> Position (XYZ): 60.8 0.0 15.6 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Disable Aura Charge for Kid Goku
+Disable Aura Charge for Tao Pai Pai
+[Initial Camera Point]
+> Position (XYZ): -1.783 -12.297 -39.956 
+> Rotation (XYZ): -13.351 38.255 0.0 
+Play Animation 388_LOSE.canm for Kid Goku
+Play Animation 386_WIN_IN.canm for Tao Pai Pai
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Tao Pai Pai
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 38.13 -2.057 4.81 
+> Rotation (XYZ): 18.163 60.173 0.0 
+Play Voice Line 16 for Tao Pai Pai
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 53.689 -17.157 9.237 
+> Rotation (XYZ): -10.83 43.44 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 56.629 -17.63 10.872 
+> Rotation (XYZ): -14.524 43.644 0.0 
+Play Voice Line 17 for Tao Pai Pai
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Kid Goku
+> Position (XYZ): -0.8 0.0 -30.6 
+> Rotation (XYZ): 0.0 23.4 0.0 
+Change Position/Rotation for Tao Pai Pai
+> Position (XYZ): 60.8 0.0 15.6 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Disable Aura Charge for Kid Goku
+Disable Aura Charge for Tao Pai Pai
+[Initial Camera Point]
+> Position (XYZ): -10.255 -7.735 -42.005 
+> Rotation (XYZ): 0.286 47.961 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 38.827 -9.788 1.284 
+> Rotation (XYZ): 4.781 50.334 0.0 
+Play Animation 388_LOSE.canm for Kid Goku
+Play Animation 386_WIN_IN.canm for Tao Pai Pai
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Tao Pai Pai
+> Loop property detected
+Play Voice Line 73 for Tao Pai Pai
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 42 (Defeat) - UNUSED]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat) - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory) - UNUSED]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

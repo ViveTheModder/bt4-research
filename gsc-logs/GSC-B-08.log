@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: Islands
-BGM: Fate Scrapes
+BGM: UNKNOWN (ID: 29)
 
 [Player 1 Team]
 > Teammate 1
@@ -126,22 +126,120 @@ Teammate Count (Opponent): 4
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Cell - Semiperfect
+> Position (XYZ): 70.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Android #16
+> Position (XYZ): -70.0 0.9 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 0_GROUND.canm for Cell - Semiperfect
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Android #16
+> Loop property detected
+Disable Aura Charge for Android #16
+[Initial Camera Point]
+> Position (XYZ): 47.797 -8.643 -45.106 
+> Rotation (XYZ): -21.275 57.718 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 55.406 -12.42 -40.299 
+> Rotation (XYZ): 20.385 57.718 0.0 
+Play Voice Line 0 for Cell - Semiperfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 106.604 -49.824 -68.794 
+> Rotation (XYZ): -23.397 -64.265 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -52.532 -17.843 -36.088 
+> Rotation (XYZ): 3.277 -89.083 0.0 
+> Wait property detected
+Play Voice Line 1 for Android #16
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
+Condition: Immediate
+> Voice Line ID: 2
+Condition: Immediate
+> Voice Line ID: 3
+Condition: Immediate
+> Voice Line ID: 4
+Condition: Lose 2 Health Bars
+> Voice Line ID: 58
+Condition: Lose 3 Health Bars
+> Voice Line ID: 85
+Condition: Perform Ultimate Blast
+> Voice Line ID: 99
+Condition: Perform 1st Blast 2
+> Voice Line ID: 121
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 111
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 75
+Condition: Perform Throw
+> Voice Line ID: 105
+Condition: Perform 1st Blast 1
+> Voice Line ID: 105
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 81
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 82
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 122
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 93
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 59
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 117
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 71
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 14
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 75
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 83
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 6
+> Scene ID: 6
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Wait 15 seconds
-> GSAC ID: 2
+> Scene ID: 2
+Condition: Immediate
+> Voice Line ID: 5
+Condition: Lose 2 Health Bars
+> Voice Line ID: 58
+Condition: Lose 3 Health Bars
+> Voice Line ID: 96
+Condition: Perform 1st Blast 1
+> Voice Line ID: 105
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 61
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 59
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 117
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 73
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 71
+Condition: Perform Dragon Smash (Opponent)
+> Voice Line ID: 96
 [Changes to Opponent detected.]
 > Apply changes to Teammate 2
 Event:     Switch with Teammate #2 (Opponent) [AUTO]
@@ -149,9 +247,12 @@ Character: SS1 Trunks
 
 [Scene 2]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 8
+> Scene ID: 8
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 2
 Event:     Switch with Teammate #2
@@ -159,31 +260,188 @@ Character: Super Vegeta
 
 [Scene 8]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Super Vegeta
+> Position (XYZ): 60.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS1 Trunks
+> Position (XYZ): -60.0 0.9 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 42.655 -7.781 -33.263 
+> Rotation (XYZ): -29.366 99.908 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 49.608 -9.864 -34.435 
+> Rotation (XYZ): 13.876 95.31 0.0 
+Play Animation 0_GROUND.canm for Super Vegeta
+> Loop property detected
+Play Animation 0_GROUND.canm for SS1 Trunks
+> Loop property detected
+Play Voice Line 12 for Super Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 4
+> Scene ID: 4
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
 Condition: Fall into ground/water (Opponent) [AUTO]
-> GSAC ID: 3
+> Scene ID: 3
+Condition: Immediate
+> Voice Line ID: 7
+Condition: Immediate
+> Voice Line ID: 8
+Condition: Lose 2 Health Bars
+> Voice Line ID: 62
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 28
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 22
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 24
+Condition: Perform Fully Charged Neutral Smash Attack
+> Voice Line ID: 25
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 25
+Condition: Perform Dragon Smash
+> Voice Line ID: 9
+Condition: Perform Vanishing Attack
+> Voice Line ID: 11
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 10
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 11
+Condition: Perform Fully Charged Right Smash Attack (Opponent)
+> Voice Line ID: 26
+Condition: Perform Fully Charged Up Smash Attack (Opponent)
+> Voice Line ID: 26
+Condition: Perform Dragon Smash (Opponent)
+> Voice Line ID: 28
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 28
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 27
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 28
+Condition: Perform 1st Blast 1 (Opponent)
+> Voice Line ID: 23
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 26
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 23
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 9
 Event:     Battle Finish
 
 [Scene 3]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Super Vegeta
+> Position (XYZ): 70.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS1 Trunks
+> Position (XYZ): -70.0 0.9 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 0_GROUND.canm for Super Vegeta
+> Loop property detected
+Play Animation 0_GROUND.canm for SS1 Trunks
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 84.906 -8.996 -44.733 
+> Rotation (XYZ): 1.632 -75.158 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -60.592 -11.546 -36.321 
+> Rotation (XYZ): -2.323 -83.527 0.0 
+Play Voice Line 16 for SS1 Trunks
+> Wait property detected
+Play Voice Line 17 for SS1 Trunks
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 60.879 -6.506 -34.033 
+> Rotation (XYZ): 45.51 98.473 0.0 
+Play Voice Line 18 for Super Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -53.776 -11.947 -26.626 
+> Rotation (XYZ): -4.255 -123.215 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -61.823 -11.551 -31.883 
+> Rotation (XYZ): 2.051 -125.87 0.0 
+Play Voice Line 19 for SS1 Trunks
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 4
+> Scene ID: 4
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
+Condition: Immediate
+> Voice Line ID: 20
+Condition: Immediate
+> Voice Line ID: 21
+Condition: Wait 40 seconds
+> Voice Line ID: 12
+Condition: Wait 45 seconds
+> Voice Line ID: 13
+Condition: Lose 2 Health Bars
+> Voice Line ID: 62
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 28
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 22
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 24
+Condition: Perform Fully Charged Neutral Smash Attack
+> Voice Line ID: 25
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 25
+Condition: Perform Dragon Smash
+> Voice Line ID: 9
+Condition: Perform Vanishing Attack
+> Voice Line ID: 11
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 10
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 11
+Condition: Perform Fully Charged Right Smash Attack (Opponent)
+> Voice Line ID: 26
+Condition: Perform Fully Charged Up Smash Attack (Opponent)
+> Voice Line ID: 26
+Condition: Perform Dragon Smash (Opponent)
+> Voice Line ID: 28
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 28
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 27
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 28
+Condition: Perform 1st Blast 1 (Opponent)
+> Voice Line ID: 23
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 26
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 23
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 9
 Event:     Battle Finish
 
 [Scene 4]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 5
+> Scene ID: 5
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 5
+> Scene ID: 5
 [Changes to Opponent detected.]
 > Apply changes to Teammate 3
 Event:     Switch with Teammate #3 (Opponent) [AUTO]
@@ -191,13 +449,96 @@ Character: Android #18
 
 [Scene 5]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Super Vegeta
+> Position (XYZ): 70.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Android #18
+> Position (XYZ): -70.0 0.9 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 413_STAND_LOOP.canm for Super Vegeta
+> Loop property detected
+Play Animation 0_GROUND.canm for Android #18
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 60.12 -12.859 -36.199 
+> Rotation (XYZ): -8.649 74.504 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 43.186 -15.532 -40.893 
+> Rotation (XYZ): -8.649 74.504 0.0 
+Play Voice Line 29 for Super Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 9
+> Scene ID: 9
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 43
+> Scene ID: 43
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
+Condition: Immediate
+> Voice Line ID: 30
+Condition: Immediate
+> Voice Line ID: 31
+Condition: Wait 40 seconds
+> Voice Line ID: 12
+Condition: Wait 45 seconds
+> Voice Line ID: 13
+Condition: Lose 1 Health Bar
+> Voice Line ID: 37
+Condition: Lose 2 Health Bars
+> Voice Line ID: 58
+Condition: Lose 3 Health Bars
+> Voice Line ID: 59
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 35
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 56
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 35
+Condition: Perform Throw
+> Voice Line ID: 34
+Condition: Perform Vanishing Attack
+> Voice Line ID: 32
+Condition: Perform Dragon Smash
+> Voice Line ID: 41
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 49
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 45
+Condition: Perform Fully Charged Neutral Smash Attack
+> Voice Line ID: 52
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 48
+Condition: Perform Burst Meteo Finisher
+> Voice Line ID: 49
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 43
+Condition: Win Normal Clash
+> Voice Line ID: 48
+Condition: Perform Teleport
+> Voice Line ID: 84
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 40
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 42
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 44
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 46
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 36
+Condition: Perform 1st Blast 1 (Opponent)
+> Voice Line ID: 39
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 38
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 33
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 61
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 1
 Event:     Switch with Teammate #1
@@ -205,13 +546,74 @@ Character: Cell - Semiperfect
 
 [Scene 6]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 9
+> Scene ID: 9
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 43
+> Scene ID: 43
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
+Condition: Immediate
+> Voice Line ID: 30
+Condition: Immediate
+> Voice Line ID: 31
+Condition: Wait 30 seconds
+> Voice Line ID: 12
+Condition: Wait 35 seconds
+> Voice Line ID: 13
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 37
+Condition: Lose 3 Health Bars
+> Voice Line ID: 59
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 35
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 56
+Condition: Hit with Ultimate Blast
+> Voice Line ID: 35
+Condition: Perform Throw
+> Voice Line ID: 34
+Condition: Perform Vanishing Attack
+> Voice Line ID: 32
+Condition: Perform Dragon Smash
+> Voice Line ID: 41
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 49
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 45
+Condition: Perform Fully Charged Neutral Smash Attack
+> Voice Line ID: 52
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 48
+Condition: Perform Burst Meteo Finisher
+> Voice Line ID: 49
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 43
+Condition: Win Normal Clash
+> Voice Line ID: 48
+Condition: Perform Teleport
+> Voice Line ID: 84
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 40
+Condition: Lose 2 Health Bars
+> Voice Line ID: 42
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 44
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 46
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 36
+Condition: Perform 1st Blast 1 (Opponent)
+> Voice Line ID: 39
+Condition: Perform 1st Blast 2 (Opponent)
+> Voice Line ID: 38
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 33
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 61
 [Changes to Opponent detected.]
 > Apply changes to Teammate 3
 Event:     Switch with Teammate #3 (Opponent) [AUTO]
@@ -219,13 +621,40 @@ Character: Android #18
 
 [Scene 9]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 10
+> Scene ID: 10
 Condition: Win via K.O.
-> GSAC ID: 32
+> Scene ID: 32
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 44
+> Scene ID: 44
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 44
+Condition: Lose 4 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 46
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 41
+Condition: Perform Vanishing Attack
+> Voice Line ID: 52
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 43
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 36
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 61
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 125
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 116
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 41
+Condition: Perform Fully Charged Down Smash Attack
+> Voice Line ID: 52
+Condition: Perform Fully Charged Neutral Smash Attack
+> Voice Line ID: 52
 [Changes to Opponent detected.]
 > Set current Health to -30%
 > Apply changes to Teammate 4
@@ -233,14 +662,39 @@ Event:     Switch with Teammate #4 (Opponent) [AUTO]
 Character: Krillin
 
 [Scene 10]
+
+===Cinematic Info===
 Lower Current BG Music
-BG Music:  High And Scream
+BG Music:  UNKNOWN (ID: 190)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 44
+> Scene ID: 44
+Condition: Perform First Attack!
+> Voice Line ID: 126
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 44
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 46
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 130
+Condition: Perform Vanishing Attack
+> Voice Line ID: 52
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 128
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 125
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 116
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 130
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 52
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 52
 [Changes to Player 1 detected.]
 > Add 100% more Health
 > Z-Item #1: Attack +50
@@ -262,32 +716,294 @@ Character: Cell - Perfect
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Cell - Semiperfect
+> Position (XYZ): 30.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Android #18
+> Position (XYZ): -30.0 0.9 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Android #18
+Disable Aura Charge for Cell - Semiperfect
+Play Animation 0_GROUND.canm for Cell - Semiperfect
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Android #18
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 3.269 -1.554 -32.865 
+> Rotation (XYZ): 15.224 -95.303 0.0 
+Play Animation 388_LOSE.canm for Android #18
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -37.333 -5.797 -26.364 
+> Rotation (XYZ): 0.848 101.813 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 15.923 -16.619 -34.944 
+> Rotation (XYZ): -2.278 91.654 0.0 
+Play Voice Line 47 for Cell - Semiperfect
+> Wait property detected
+Add 2.0 s fade-in
+> Wait property detected
+> Change fade-out color to white
+Make Android #18 Invisible
+Play Animation 377_TRANSFORMATION_OUT.canm for Cell - Semiperfect
+Enable Ki Charge for Cell - Semiperfect
+[Initial Camera Point]
+> Position (XYZ): -3.761 -14.021 -31.328 
+> Rotation (XYZ): 6.189 95.952 0.0 
+Add 1.0 s fade-out
+> Wait property detected
+> Change fade-out color to white
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 13.91 -16.358 -33.17 
+> Rotation (XYZ): 8.821 95.952 0.0 
+Shake Camera for 1.0 seconds
+Play Voice Line 54 for Super Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 31 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for Cell - Semiperfect
+> Position (XYZ): 70.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Krillin
+> Position (XYZ): -70.0 0.9 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 388_LOSE.canm for Krillin
+Play Animation 413_STAND_LOOP.canm for Cell - Semiperfect
+[Initial Camera Point]
+> Position (XYZ): -0.934 -0.382 -19.464 
+> Rotation (XYZ): -2.906 102.803 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 61.987 -19.212 -33.699 
+> Rotation (XYZ): -3.588 95.027 0.0 
+Wait 0.5 seconds
+Enable Ki Charge for Cell - Semiperfect
+Shake Camera for 1.0 seconds
+Play Voice Line 127 for Cell - Semiperfect
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 32 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Cell - Semiperfect
+> Position (XYZ): 30.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Krillin
+> Position (XYZ): -30.0 0.9 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Krillin
+Disable Aura Charge for Cell - Semiperfect
+Play Animation 0_GROUND.canm for Cell - Semiperfect
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Krillin
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 3.269 -1.554 -32.865 
+> Rotation (XYZ): 15.224 -95.303 0.0 
+Play Animation 388_LOSE.canm for Krillin
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -37.333 -5.797 -26.364 
+> Rotation (XYZ): 0.848 101.813 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 15.923 -16.619 -34.944 
+> Rotation (XYZ): -2.278 91.654 0.0 
+Play Voice Line 47 for Cell - Semiperfect
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Cell - Semiperfect
+> Position (XYZ): 30.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Android #16
+> Position (XYZ): -30.0 0.9 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Android #16
+Disable Aura Charge for Cell - Semiperfect
+Play Animation 1_GROUND_TIRED.canm for Cell - Semiperfect
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Android #16
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 51.413 -9.85 -32.106 
+> Rotation (XYZ): 4.857 -92.043 0.0 
+Shake Camera for 0.5 seconds
+Play Animation 388_LOSE.canm for Cell - Semiperfect
+Play Voice Line 60 for Cell - Semiperfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -11.23 -5.755 -35.213 
+> Rotation (XYZ): -2.894 -91.027 0.0 
+[Additional Camera Point]
+> Transition Time: 2.5 
+> Position (XYZ): -11.23 -5.755 -35.213 
+> Rotation (XYZ): 42.757 -91.027 0.0 
+Play Voice Line 15 for Android #16
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 9.072 -46.388 -33.291 
+> Rotation (XYZ): -89.954 167.917 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 8.992 -180.181 -33.241 
+> Rotation (XYZ): -89.954 80.687 0.0 
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Cell - Semiperfect
+> Position (XYZ): 30.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS1 Trunks
+> Position (XYZ): -30.0 0.9 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SS1 Trunks
+Disable Aura Charge for Cell - Semiperfect
+Play Animation 1_GROUND_TIRED.canm for Cell - Semiperfect
+> Loop property detected
+Play Animation 387_WIN_LOOP.canm for SS1 Trunks
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 51.413 -9.85 -32.106 
+> Rotation (XYZ): 4.857 -92.043 0.0 
+Shake Camera for 0.5 seconds
+Play Animation 388_LOSE.canm for Cell - Semiperfect
+Play Voice Line 60 for Cell - Semiperfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 22.817 -17.358 16.821 
+> Rotation (XYZ): -3.376 -154.654 0.0 
+Play Voice Line 69 for Super Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 9.072 -46.388 -33.291 
+> Rotation (XYZ): -89.954 167.917 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 8.992 -180.181 -33.241 
+> Rotation (XYZ): -89.954 80.687 0.0 
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 42 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Super Vegeta
+> Position (XYZ): 30.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS1 Trunks
+> Position (XYZ): -30.0 0.9 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Super Vegeta
+Disable Aura Charge for SS1 Trunks
+Play Animation 1_GROUND_TIRED.canm for Super Vegeta
+> Loop property detected
+Play Animation 387_WIN_LOOP.canm for SS1 Trunks
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 29.608 -15.372 -7.447 
+> Rotation (XYZ): -10.905 -131.701 0.0 
+Shake Camera for 0.5 seconds
+Play Animation 388_LOSE.canm for Super Vegeta
+Play Voice Line 63 for Cell - Semiperfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 9.072 -46.388 -33.291 
+> Rotation (XYZ): -89.954 167.917 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 8.992 -180.181 -33.241 
+> Rotation (XYZ): -89.954 80.687 0.0 
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 43 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Cell - Semiperfect
+> Position (XYZ): 30.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Android #18
+> Position (XYZ): -30.0 0.9 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Cell - Semiperfect
+Disable Aura Charge for Android #18
+Play Animation 1_GROUND_TIRED.canm for Cell - Semiperfect
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Android #18
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 51.413 -9.85 -32.106 
+> Rotation (XYZ): 4.857 -92.043 0.0 
+Shake Camera for 0.5 seconds
+Play Animation 388_LOSE.canm for Cell - Semiperfect
+Play Voice Line 60 for Cell - Semiperfect
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -15.54 -3.296 -35.302 
+> Rotation (XYZ): -3.624 -91.493 0.0 
+[Additional Camera Point]
+> Transition Time: 2.5 
+> Position (XYZ): -15.54 -3.296 -35.302 
+> Rotation (XYZ): 32.69 -91.493 0.0 
+Play Voice Line 55 for Android #18
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 9.072 -46.388 -33.291 
+> Rotation (XYZ): -89.954 167.917 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 8.992 -180.181 -33.241 
+> Rotation (XYZ): -89.954 80.687 0.0 
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 44 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Cell - Semiperfect
+> Position (XYZ): 45.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Krillin
+> Position (XYZ): -45.0 0.9 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 54.944 -23.883 -49.01 
+> Rotation (XYZ): -29.273 -72.524 0.0 
+Play Animation 388_LOSE.canm for Cell - Semiperfect
+Play Animation 386_WIN_IN.canm for Krillin
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Krillin
+> Loop property detected
+Play Voice Line 117 for Krillin
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===

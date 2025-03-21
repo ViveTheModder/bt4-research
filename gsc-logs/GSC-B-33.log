@@ -21,12 +21,12 @@ Top - Destroyer
 SSBE Vegeta
 > Acquired Scenarios
 The Ultimate Survival Battle
-Broly
+Resisting against Despair
 null
 
 [Battle Settings]
 Map: Tournament of Power - Climax
-BGM: Force Of Justice
+BGM: UNKNOWN (ID: 20)
 
 [Player 1 Team]
 > Teammate 1
@@ -126,64 +126,271 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Android #17
+> Position (XYZ): 56.9 0.0 -66.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): -60.8 -0.7 127.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+[Initial Camera Point]
+> Position (XYZ): -40.56 -1.707 68.401 
+> Rotation (XYZ): 21.366 -19.313 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): -56.77 -15.488 114.656 
+> Rotation (XYZ): 21.366 -19.313 0.0 
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
+Wait 4.0 seconds
+[Initial Camera Point]
+> Position (XYZ): 39.387 -3.611 -70.195 
+> Rotation (XYZ): 14.342 77.055 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 51.23 -8.3675 -56.067 
+> Rotation (XYZ): 14.342 151.946 0.0 
+Play Animation 0_GROUND.canm for Android #17
+> Loop property detected
+Play Voice Line 0 for Android #17
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 1
+Condition: Immediate
+> Voice Line ID: 2
+Condition: Immediate
+> Voice Line ID: 3
+Condition: Immediate
+> Voice Line ID: 4
+Condition: Immediate
+> Voice Line ID: 5
+Condition: Immediate
+> Voice Line ID: 6
+Condition: Immediate
+> Voice Line ID: 7
+Condition: Immediate
+> Voice Line ID: 8
+Condition: Immediate
+> Voice Line ID: 9
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Immediate
+> Voice Line ID: 11
+Condition: Immediate
+> Voice Line ID: 12
 [Changes to Opponent detected.]
 > Z-Item #7: Defense +50
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Android #17
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 124.389 -110.511 66.105 
+> Rotation (XYZ): -45.332 -132.591 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 97.646 -67.494 41.337 
+> Rotation (XYZ): -43.225 -131.267 0.0 
+Play Animation 1_GROUND_TIRED.canm for Android #17
+> Loop property detected
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
+Play Voice Line 13 for Top
+> Wait property detected
+Play Voice Line 14 for Golden Frieza
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Switch with Teammate #2
 Character: Golden Frieza
 
 [Scene 2]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Android #17
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 58.222 -3.226 -2.044 
+> Rotation (XYZ): 4.174 85.855 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 78.172 -6.082 -0.598 
+> Rotation (XYZ): 22.96 85.855 0.0 
+Play Animation 0_GROUND.canm for Golden Frieza
+> Loop property detected
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
+Play Voice Line 15 for Golden Frieza
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 96.499 -5.304 14.445 
+> Rotation (XYZ): 10.698 -122.91 0.0 
+Play Voice Line 16 for Golden Frieza
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 6 Health Bars (Opponent) [AUTO]
-> GSAC ID: 3
+> Scene ID: 3
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 17
+Condition: Immediate
+> Voice Line ID: 18
+Condition: Immediate
+> Voice Line ID: 19
 [Changes to Opponent detected.]
 > Z-Item #7: null
 Event:     Battle Finish
 
 [Scene 3]
 
+===Cinematic Info===
+Change Position/Rotation for Android #17
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 118.909 -28.968 22.413 
+> Rotation (XYZ): -20.97 -103.913 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 98.149 -11.827 16.103 
+> Rotation (XYZ): -3.955 -121.337 0.0 
+Play Animation 0_GROUND.canm for Golden Frieza
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Top
+> Loop property detected
+Play Voice Line 20 for Golden Frieza
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 57.89 -16.184 22.172 
+> Rotation (XYZ): -12.148 126.123 0.0 
+[Additional Camera Point]
+> Transition Time: 3.6 
+> Position (XYZ): 73.454 -8.986 2.464 
+> Rotation (XYZ): 7.763 101.745 0.0 
+Play Voice Line 21 for Golden Frieza
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 4
+> Scene ID: 4
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 [Changes to Player 1 detected.]
 > Z-Item #7: Go To Hell
 Event:     Trigger 1st Blast 2
 
 [Scene 4]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): 23.2 0.0 -10.7 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): -27.0 -0.7 72.0 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 1_GROUND_TIRED.canm for Top
+> Loop property detected
+Play Animation 0_GROUND.canm for Golden Frieza
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 45.375 -10.549 -26.993 
+> Rotation (XYZ): -7.272 -36.205 0.0 
+[Additional Camera Point]
+> Transition Time: 18.625 
+> Position (XYZ): 32.157 -12.762 -13.546 
+> Rotation (XYZ): -5.548 -39.546 0.0 
+Play Voice Line 26 for Top
+> Wait property detected
+Play Voice Line 27 for Golden Frieza
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 27.674 -1.687 1.907 
+> Rotation (XYZ): 32.244 -151.936 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 24.109 -10.3445 -2.439 
+> Rotation (XYZ): 11.0785 -169.515 0.0 
+Play Voice Line 28 for Golden Frieza
+> Wait property detected
+Play Voice Line 29 for Golden Frieza
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -26.144 -32.463 90.156 
+> Rotation (XYZ): -32.815 162.544 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -23.681 -27.781 82.323 
+> Rotation (XYZ): -24.608 162.544 0.0 
+Play Voice Line 30 for Golden Frieza
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -20.786 -8.388 40.462 
+> Rotation (XYZ): 8.0455 -15.867 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -20.786 -8.388 40.462 
+> Rotation (XYZ): 16.0615 -15.867 0.0 
 Lower Current BG Music
-BG Music:  Fate Scrapes
+BG Music:  UNKNOWN (ID: 29)
+Play Voice Line 31 for Top
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -20.786 -8.388 40.462 
+> Rotation (XYZ): 16.0615 -15.867 0.0 
+[Additional Camera Point]
+> Transition Time: 0.2 
+> Position (XYZ): -23.09 -13.3345 52.569 
+> Rotation (XYZ): 16.0615 -15.867 0.0 
+Play Voice Line 32 for Top
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 5
+> Scene ID: 5
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 [Changes to Player 1 detected.]
 > Z-Item #7: null
 [Changes to Opponent detected.]
@@ -193,24 +400,136 @@ Character: Top - Destroyer
 
 [Scene 5]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for Frieza - Final Form
+Play Animation 0_GROUND.canm for Golden Frieza
+> Loop property detected
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -69.67 -19.449 0.773 
+> Rotation (XYZ): 8.158 -92.676 0.0 
+Play Voice Line 35 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 88.328 -230.015 65.224 
+> Rotation (XYZ): -68.391 -134.661 0.0 
+[Additional Camera Point]
+> Transition Time: 12.3125 
+> Position (XYZ): 71.469 -171.475 48.563 
+> Rotation (XYZ): -66.595 -134.661 0.0 
+Play Voice Line 36 for Background Character
+> Wait property detected
+Play Voice Line 37 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 81.065 -10.0275 6.032 
+> Rotation (XYZ): 14.5045 135.9 0.0 
+Play Voice Line 38 for Golden Frieza
+> Wait property detected
+Play Voice Line 39 for Golden Frieza
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 71.469 -171.475 48.563 
+> Rotation (XYZ): -66.595 -134.661 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 47.538 -126.445 44.186 
+> Rotation (XYZ): -65.752 -142.349 0.0 
+Play Voice Line 40 for Android #17
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 102.565 -6.655 8.657 
+> Rotation (XYZ): 3.382 -100.505 0.0 
+Play Voice Line 41 for Golden Frieza
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 1 Health Bar (Opponent) [AUTO]
-> GSAC ID: 6
+> Scene ID: 6
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 42
+Condition: Immediate
+> Voice Line ID: 43
+Condition: Immediate
+> Voice Line ID: 44
+Condition: Immediate
+> Voice Line ID: 45
+Condition: Immediate
+> Voice Line ID: 46
+Condition: Immediate
+> Voice Line ID: 47
+Condition: Immediate
+> Voice Line ID: 48
 Event:     Battle Finish
 
 [Scene 6]
+
+===Cinematic Info===
+Change Position/Rotation for Golden Frieza
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 0_GROUND.canm for Golden Frieza
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -54.6085 -25.406 5.284 
+> Rotation (XYZ): -34.081 -96.406 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): -54.6085 -25.406 5.284 
+> Rotation (XYZ): -12.007 -96.406 0.0 
+Enable Ki Charge for Top
+Play Animation 263_SKILL_003_FIRE1.canm for Top
+> Wait property detected
+Play Voice Line 49 for Golden Frieza
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -34.329 -9.962 4.407 
+> Rotation (XYZ): 3.169 -94.774 0.0 
+[Additional Camera Point]
+> Transition Time: 1.2 
+> Position (XYZ): -64.729 -20.973 7.976 
+> Rotation (XYZ): 0.755 -128.354 0.0 
+Shake Camera for 0.6 seconds
+Play Voice Line 50 for Top
+> Wait property detected
 Lower Current BG Music
-BG Music:  Katharsis
+BG Music:  UNKNOWN (ID: 181)
+[Initial Camera Point]
+> Position (XYZ): 66.315 -21.502 21.36 
+> Rotation (XYZ): -16.237 133.788 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 75.092 -7.00725 1.077 
+> Rotation (XYZ): 17.503 96.548 0.0 
+Play Voice Line 51 for Golden Frieza
+> Wait property detected
+Play Voice Line 52 for Golden Frieza
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 7
+> Scene ID: 7
+Condition: Immediate
+> Voice Line ID: 53
 [Changes to Opponent detected.]
 > Add 100% more Health
 > Z-Item #7: Go To Hell
@@ -218,40 +537,145 @@ Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
 
 [Scene 7]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 1 Health Bar
-> GSAC ID: 8
+> Scene ID: 8
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 8
+> Scene ID: 8
+Condition: Immediate
+> Voice Line ID: 54
 Event:     Map Destruction
 
 [Scene 8]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Golden Frieza
+> Position (XYZ): 0.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): 33.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -13.889 -18.197 9.12 
+> Rotation (XYZ): -6.687 110.313 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -18.433 -9.943909 10.802 
+> Rotation (XYZ): -2.066 110.313 0.0 
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
+Play Animation 214_DAMAGE_LYING_TIRED_OUT.canm for Golden Frieza
+> Loop property detected
+Play Voice Line 55 for Top
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 9
+> Scene ID: 9
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 [Changes to Opponent detected.]
 > Z-Item #7: null
 Event:     Switch with Teammate #1
 Character: Android #17
 
 [Scene 9]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Android #17
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 413_STAND_LOOP.canm for Android #17
+> Loop property detected
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -43.838 -5.045 -12.117 
+> Rotation (XYZ): 18.917 -36.014 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -47.189 -6.998 -7.506 
+> Rotation (XYZ): 18.917 -36.014 0.0 
+Play Voice Line 56 for Android #17
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -13.889 -18.197 9.12 
+> Rotation (XYZ): -6.687 110.313 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 52.116 -13.943909 10.802 
+> Rotation (XYZ): -2.066 110.313 0.0 
+Play Voice Line 57 for Top
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -45.477 -11.682 0.758 
+> Rotation (XYZ): -5.326 -95.549 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): -35.981 -11.886 1.815 
+> Rotation (XYZ): -13.007 -94.019 0.0 
+Play Voice Line 58 for Android #17
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -66.683 -12.9755 -8.038 
+> Rotation (XYZ): -10.875 76.15 0.0 
+Play Voice Line 59 for Top
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -36.633 -9.931 4.335 
+> Rotation (XYZ): -7.395 -113.211 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -38.725 -9.638 -4.475 
+> Rotation (XYZ): -4.726 -67.781 0.0 
+Play Voice Line 60 for Android #17
+> Wait property detected
 Lower Current BG Music
-BG Music:  Crisis
+BG Music:  UNKNOWN (ID: 192)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Wait 60 seconds
-> GSAC ID: 10
+> Scene ID: 10
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 61
+Condition: Immediate
+> Voice Line ID: 62
+Condition: Immediate
+> Voice Line ID: 63
+Condition: Immediate
+> Voice Line ID: 64
+Condition: Immediate
+> Voice Line ID: 65
+Condition: Immediate
+> Voice Line ID: 66
+Condition: Immediate
+> Voice Line ID: 68
+Condition: Immediate
+> Voice Line ID: 69
+Condition: Immediate
+> Voice Line ID: 70
+Condition: Immediate
+> Voice Line ID: 71
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 67
 [Changes to Player 1 detected.]
 > Add 100% more Health
 [Changes to Opponent detected.]
@@ -259,75 +683,254 @@ Condition: Win via K.O. (Opponent)
 Event:     Battle Finish
 
 [Scene 10]
+
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Android #17
+> Position (XYZ): -51.4 -0.4 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): 51.4 -1.3 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Enable Aura Charge for Top
 Lower Current BG Music
-BG Music:  Survive
+BG Music:  UNKNOWN (ID: 206)
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Android #17
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 54.889 -23.122 -41.731 
+> Rotation (XYZ): -16.765 -158.472 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 50.83 -25.516 -49.218 
+> Rotation (XYZ): -3.241 -176.19 0.0 
+Play Voice Line 72 for Top
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 33.103 -24.546 -42.796 
+> Rotation (XYZ): -7.462 143.548 0.0 
+[Additional Camera Point]
+> Transition Time: 1.5 
+> Position (XYZ): 33.103 -24.546 -42.796 
+> Rotation (XYZ): -7.462 143.548 0.0 
+Enable Ki Charge for Top
+Play Animation 263_SKILL_003_FIRE1.canm for Top
+> Wait property detected
+Play Voice Line 74 for Top
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Wait 25 seconds
-> GSAC ID: 11
+> Scene ID: 11
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 75
+Condition: Immediate
+> Voice Line ID: 76
+Condition: Immediate
+> Voice Line ID: 77
+Condition: Immediate
+> Voice Line ID: 78
+Condition: Immediate
+> Voice Line ID: 79
+Condition: Immediate
+> Voice Line ID: 80
 Event:     Switch with Teammate #3
 Character: Frieza - Final Form
 
 [Scene 11]
 
+===Cinematic Info===
+Change Position/Rotation for Android #17
+> Position (XYZ): 26.8 0.0 27.5 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): -26.8 0.0 -27.5 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 68.248 -46.788 115.622 
+> Rotation (XYZ): -12.038 -146.719 0.0 
+[Additional Camera Point]
+> Transition Time: 5.5 
+> Position (XYZ): 33.741 -19.664 56.75 
+> Rotation (XYZ): -17.938 -147.0 0.0 
+Enable Ki Charge for Frieza - Final Form
+Play Animation 329_SKILL_005_IN.canm for Frieza - Final Form
+> Wait property detected
+Play Animation 330_SKILL_005_CHARGE.canm for Frieza - Final Form
+> Loop property detected
+Play Voice Line 81 for Frieza - Final Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -49.172 -30.076 -38.793 
+> Rotation (XYZ): 0.001 52.071 0.0 
+[Additional Camera Point]
+> Transition Time: 4.5 
+> Position (XYZ): 18.943 -11.6595 25.179 
+> Rotation (XYZ): 9.187 81.9 0.0 
+Play Voice Line 82 for Frieza - Final Form
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Hit with Ultimate Blast
-> GSAC ID: 12
+> Scene ID: 12
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Trigger Ultimate Blast
 
 [Scene 12]
 
+===Cinematic Info===
+Change Position/Rotation for Android #17
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -58.473 -20.281 -21.243 
+> Rotation (XYZ): -10.191 -51.45 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -73.091 -22.739 -2.989 
+> Rotation (XYZ): -0.913 -79.47 0.0 
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
+Play Animation 0_GROUND.canm for Frieza - Final Form
+> Loop property detected
+Play Voice Line 83 for Top
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 13
+> Scene ID: 13
+Condition: Immediate
+> Voice Line ID: 84
 [Changes to Opponent detected.]
 > Z-Item #7: Go To Hell
 Event:     Trigger 2nd Blast 2 (Opponent) [AUTO]
 
 [Scene 13]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 14
+> Scene ID: 14
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Switch with Teammate #1
 Character: Android #17
 
 [Scene 14]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Android #17
+> Position (XYZ): -160.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): 160.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 413_STAND_LOOP.canm for Android #17
+> Loop property detected
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
 Lower Current BG Music
-BG Music:  Caution!
+BG Music:  UNKNOWN (ID: 194)
+[Initial Camera Point]
+> Position (XYZ): 138.987 -9.609001 8.329 
+> Rotation (XYZ): 0.962 169.895 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): 154.342 -21.510002 -15.221 
+> Rotation (XYZ): -0.975 169.895 0.0 
+Play Voice Line 86 for Top
+> Wait property detected
+Play Voice Line 87 for Top
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -111.997 -25.442001 -35.128 
+> Rotation (XYZ): -0.19 -90.724 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): -143.666 -8.394001 -35.359 
+> Rotation (XYZ): 2.797 -90.007 0.0 
+Play Voice Line 88 for Android #17
+> Wait property detected
+Enable Ki Charge for Android #17
+[Initial Camera Point]
+> Position (XYZ): 138.987 -9.609001 8.329 
+> Rotation (XYZ): 0.962 169.895 0.0 
+[Additional Camera Point]
+> Transition Time: 1.2 
+> Position (XYZ): 154.342 -21.510002 -15.221 
+> Rotation (XYZ): -0.975 169.895 0.0 
+Play Voice Line 89 for Top
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -111.997 -25.442001 -35.128 
+> Rotation (XYZ): -0.19 -90.724 0.0 
+[Additional Camera Point]
+> Transition Time: 0.5 
+> Position (XYZ): -143.666 -8.394001 -35.359 
+> Rotation (XYZ): 2.797 -90.007 0.0 
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 128.584 -31.412003 -33.39 
+> Rotation (XYZ): -21.88 109.551 0.0 
+Enable Ki Charge for Top
+Play Animation 263_SKILL_003_FIRE1.canm for Top
+> Wait property detected
+Shake Camera for 1.2 seconds
+Play Voice Line 91 for Top
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Lose 1 Health Bar (Opponent) [AUTO]
-> GSAC ID: 15
+> Scene ID: 15
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Beam Struggle between Player 1's 2nd Blast 2 and COM's 1st Blast 2
 
 [Scene 15]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 10 seconds
-> GSAC ID: 16
+> Scene ID: 16
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 92
+Condition: Immediate
+> Voice Line ID: 93
+Condition: Immediate
+> Voice Line ID: 94
 [Changes to Opponent detected.]
 > Z-Item #6: Absolutely Invincible Body
 > Z-Item #7: null
@@ -335,40 +938,157 @@ Event:     Battle Finish
 
 [Scene 16]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SSBE Vegeta
+> Position (XYZ): -20.0 0.0 -45.0 
+> Rotation (XYZ): 0.0 23.4 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): 80.0 0.0 30.0 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Android #17
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 65.732 -31.387 24.131 
+> Rotation (XYZ): -2.143 62.685 0.0 
+[Additional Camera Point]
+> Transition Time: 5.5 
+> Position (XYZ): 70.771 -24.675 26.738 
+> Rotation (XYZ): -2.143 62.404 0.0 
+Play Voice Line 96 for Top
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 98.701 -29.039 37.647 
+> Rotation (XYZ): -29.799 -116.538 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 93.011 -27.858 31.192 
+> Rotation (XYZ): -16.405 -119.724 0.0 
+Enable Ki Charge for Top
+Play Voice Line 97 for Top
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 17
+> Scene ID: 17
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Switch with Teammate #4
 Character: Frieza - Final Form
 
 [Scene 17]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SSBE Vegeta
+> Position (XYZ): -20.0 0.0 -45.0 
+> Rotation (XYZ): 0.0 23.4 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): 80.0 0.0 30.0 
+> Rotation (XYZ): 0.0 -110.4 0.0 
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
+Play Animation 0_GROUND.canm for Frieza - Final Form
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -6.696 -6.867 -27.759 
+> Rotation (XYZ): 10.501 -138.289 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -15.4055 -5.0265 -35.141 
+> Rotation (XYZ): 37.867 -152.876 0.0 
+Play Voice Line 98 for Frieza - Final Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 6.676 -25.406 -12.979 
+> Rotation (XYZ): -14.866 -136.468 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -11.796 -5.256 -32.987 
+> Rotation (XYZ): 20.248 -141.835 0.0 
+Shake Camera for 1.0 seconds
+Play Voice Line 99 for Frieza - Final Form
+> Wait property detected
 Lower Current BG Music
-BG Music:  Flight in The Dark Side
+BG Music:  UNKNOWN (ID: 207)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Wait 10 seconds
-> GSAC ID: 18
+> Scene ID: 18
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 100
+Condition: Immediate
+> Voice Line ID: 101
 Event:     Trigger 2nd Blast 2
 
 [Scene 18]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Top
+> Position (XYZ): -35.4 0.0 42.1 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): 35.4 0.0 -42.1 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Play Animation 1_GROUND_TIRED.canm for Frieza - Final Form
+> Loop property detected
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -38.73 -5.117 20.118 
+> Rotation (XYZ): 28.034 17.268 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -19.693 -5.034 30.794 
+> Rotation (XYZ): 30.902 -50.519 0.0 
+Play Voice Line 102 for Top
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -18.922 -10.682 21.809 
+> Rotation (XYZ): 20.175 -40.8 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -26.327 -16.625 30.388 
+> Rotation (XYZ): 24.899 -40.8 0.0 
+Play Voice Line 103 for Top
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -30.392 -24.039 58.977 
+> Rotation (XYZ): -16.098 164.882 0.0 
+Play Voice Line 104 for Top
+> Wait property detected
 Lower Current BG Music
-BG Music:  High And Scream
+BG Music:  UNKNOWN (ID: 190)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Lose 1 Health Bar (Opponent) [AUTO]
-> GSAC ID: 19
+> Scene ID: 19
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 105
+Condition: Immediate
+> Voice Line ID: 106
+Condition: Immediate
+> Voice Line ID: 107
+Condition: Immediate
+> Voice Line ID: 108
+Condition: Immediate
+> Voice Line ID: 109
 [Changes to Opponent detected.]
 > Add 100% more Health
 > Z-Item #6: null
@@ -378,28 +1098,181 @@ Character: SSBE Vegeta
 
 [Scene 19]
 
+===Cinematic Info===
+Change Position/Rotation for SSBE Vegeta
+> Position (XYZ): -56.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): 89.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -35.256 -6.842 -2.02625 
+> Rotation (XYZ): 5.297 -83.882 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -37.257 -14.242 -1.503 
+> Rotation (XYZ): -8.657 -83.882 0.0 
+Play Animation 261_SKILL_003_IN.canm for SSBE Vegeta
+> Wait property detected
+Play Animation 262_SKILL_003_CHARGE.canm for SSBE Vegeta
+> Loop property detected
+Shake Camera for 1.0 seconds
+Enable Ki Charge for SSBE Vegeta
+Play Voice Line 110 for SSBE Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 63.355 -14.098 -5.232 
+> Rotation (XYZ): 31.703 61.69 0.0 
+Play Animation 262_SKILL_003_CHARGE.canm for Top
+> Wait property detected
+Shake Camera for 1.0 seconds
+Enable Ki Charge for Top
+Play Voice Line 111 for Top
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 20
+> Scene ID: 20
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 112
+Condition: Immediate
+> Voice Line ID: 113
+Condition: Immediate
+> Voice Line ID: 114
+Condition: Immediate
+> Voice Line ID: 115
+Condition: Immediate
+> Voice Line ID: 116
+Condition: Immediate
+> Voice Line ID: 117
+Condition: Immediate
+> Voice Line ID: 118
+Condition: Immediate
+> Voice Line ID: 119
+Condition: Immediate
+> Voice Line ID: 120
 Event:     Beam Struggle between Player 1's 1st Blast 2 and COM's 1st Blast 2
 
 [Scene 20]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+[Initial Camera Point]
+> Position (XYZ): -49.208 -13.2 -55.779 
+> Rotation (XYZ): 18.969 34.674 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -44.671 -31.062 -47.262 
+> Rotation (XYZ): -27.495 38.232 0.0 
+Change Position/Rotation for Top
+> Position (XYZ): -40.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for SSBE Vegeta
+> Position (XYZ): 40.0 0.0 35.0 
+> Rotation (XYZ): 0.0 -131.2 0.0 
 Lower Current BG Music
-BG Music:  Dark Half
+BG Music:  UNKNOWN (ID: 7)
+Play Animation 1_GROUND_TIRED.canm for SSBE Vegeta
+> Loop property detected
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
+Play Voice Line 121 for Top
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -29.062 -20.374 -36.675 
+> Rotation (XYZ): 34.095 -75.303 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -27.154 -19.424 -35.306 
+> Rotation (XYZ): 24.484 -74.341 0.0 
+Play Voice Line 122 for Top
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -32.066 -33.314 -37.087 
+> Rotation (XYZ): -53.433 -71.554 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -25.598 -17.268 -39.245 
+> Rotation (XYZ): 31.365 -71.554 0.0 
+Play Voice Line 123 for Top
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 76.595 -45.321 39.119 
+> Rotation (XYZ): -30.497 -117.146 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 69.146 -26.276 35.97 
+> Rotation (XYZ): -22.498 -116.325 0.0 
+Enable Ki Charge for Top
+Play Animation 329_SKILL_005_IN.canm for Top
+> Wait property detected
+Play Animation 330_SKILL_005_CHARGE.canm for Top
+> Wait property detected
+Play Voice Line 124 for Top
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 32.908 -1.134 10.551 
+> Rotation (XYZ): 17.185 9.185 0.0 
+[Additional Camera Point]
+> Transition Time: 1.5 
+> Position (XYZ): 34.185 -2.03675 18.443 
+> Rotation (XYZ): 19.795 9.185 0.0 
+Play Voice Line 125 for SSBE Vegeta
+> Wait property detected
 Lower Current BG Music
-BG Music:  Lost Courage
+BG Music:  UNKNOWN (ID: 205)
+[Initial Camera Point]
+> Position (XYZ): 27.254 -8.421 38.252 
+> Rotation (XYZ): 4.533 119.604 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 29.723 -12.622 27.255 
+> Rotation (XYZ): -4.931 54.651 0.0 
+Play Voice Line 126 for SSBE Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 32.085 -6.051 17.615 
+> Rotation (XYZ): 4.149 19.894 0.0 
+[Additional Camera Point]
+> Transition Time: 2.078125 
+> Position (XYZ): 32.085 -6.051 17.615 
+> Rotation (XYZ): 4.149 19.894 0.0 
+Play Voice Line 127 for SSBE Vegeta
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Lose 5 Health Bars (Opponent) [AUTO]
-> GSAC ID: 21
+> Scene ID: 21
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 128
+Condition: Immediate
+> Voice Line ID: 129
+Condition: Immediate
+> Voice Line ID: 130
+Condition: Immediate
+> Voice Line ID: 131
+Condition: Immediate
+> Voice Line ID: 132
+Condition: Immediate
+> Voice Line ID: 133
+Condition: Immediate
+> Voice Line ID: 134
+Condition: Immediate
+> Voice Line ID: 136
+Condition: Immediate
+> Voice Line ID: 137
 [Changes to Player 1 detected.]
 > Add 100% more Health
 > Add 100% more Ki
@@ -411,23 +1284,102 @@ Event:     Trigger 2nd Blast 2
 
 [Scene 21]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Top
+> Position (XYZ): 58.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SSBE Vegeta
+> Position (XYZ): -25.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -12.04 -11.739 -10.708 
+> Rotation (XYZ): 8.763 -47.733 0.0 
+[Additional Camera Point]
+> Transition Time: 2.75 
+> Position (XYZ): -10.657 -9.324 4.274 
+> Rotation (XYZ): 8.763 -106.5 0.0 
+Play Animation 329_SKILL_005_IN.canm for SSBE Vegeta
+Play Voice Line 138 for SSBE Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -14.571 -13.4815 0.898 
+> Rotation (XYZ): -2.619 -98.183 0.0 
+Enable Ki Charge for SSBE Vegeta
+Play Voice Line 140 for Background Character
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 [Changes to Player 1 detected.]
 > Z-Item #7: Go To Hell
 Event:     Trigger Ultimate Blast
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Top
+> Position (XYZ): 58.0 1600.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SSBE Vegeta
+> Position (XYZ): -25.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 0_GROUND.canm for Top
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for SSBE Vegeta
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -51.827 -208.8 -12.855 
+> Rotation (XYZ): -20.038 70.94 0.0 
+[Additional Camera Point]
+> Transition Time: 7.5 
+> Position (XYZ): -38.422 -72.232 -8.223 
+> Rotation (XYZ): -11.418 70.94 0.0 
+Play Voice Line 141 for Background Character
+> Wait property detected
+Play Voice Line 142 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -16.188 -7.49425 -1.09 
+> Rotation (XYZ): -3.28 -80.06 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -13.533 -14.178 -2.259625 
+> Rotation (XYZ): -3.28 -80.06 0.0 
+Play Voice Line 143 for SSBE Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 64.417 -67.214 -56.724 
+> Rotation (XYZ): -36.944 -36.691 0.0 
+[Additional Camera Point]
+> Transition Time: 24.0 
+> Position (XYZ): 3.495 -11.103 0.857 
+> Rotation (XYZ): -2.056 -89.915 0.0 
+Play Voice Line 144 for Background Character
+> Wait property detected
+Play Voice Line 145 for Background Character
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory)]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat)]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

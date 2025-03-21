@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: Champa's Ring
-BGM: Impulse to Victory
+BGM: UNKNOWN (ID: 216)
 
 [Player 1 Team]
 > Teammate 1
@@ -66,134 +66,756 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 26.8 -0.4 27.5 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Hit
+> Position (XYZ): -26.8 -0.4 -27.5 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Play Animation 383_SEARCH_SCOUTER.canm for Hit
+> Loop property detected
+Play Animation 383_SEARCH_SCOUTER.canm for Goku (End)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 68.248 -34.12853 115.622 
+> Rotation (XYZ): -12.038 -146.719 0.0 
+[Additional Camera Point]
+> Transition Time: 5.5 
+> Position (XYZ): 33.741 -19.00453 56.75 
+> Rotation (XYZ): -17.938 -147.0 0.0 
+Play Voice Line 0 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 8.034033 -7.2845917 25.17897 
+> Rotation (XYZ): 9.186893 81.90012 0.0 
+[Additional Camera Point]
+> Transition Time: 4.500023 
+> Position (XYZ): 18.942963 -15.40947 25.178782 
+> Rotation (XYZ): 9.18692 81.899994 0.0 
+Play Voice Line 1 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -22.671 -23.366531 -20.134 
+> Rotation (XYZ): 23.923 -158.132 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -15.569 0.6384697 -2.439 
+> Rotation (XYZ): 16.463 -158.598 0.0 
+Play Voice Line 2 for Hit
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -49.172 -13.916531 -38.793 
+> Rotation (XYZ): 0.001 52.071 0.0 
+[Additional Camera Point]
+> Transition Time: 4.5 
+> Position (XYZ): 18.943 -15.409531 25.179 
+> Rotation (XYZ): 9.187 81.9 0.0 
+Play Voice Line 3 for Goku (End)
+> Wait property detected
+Play Voice Line 4 for Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Wait 40 seconds
-> GSAC ID: 1
+> Scene ID: 1
+Condition: Immediate
+> Voice Line ID: 5
+Condition: Immediate
+> Voice Line ID: 6
+Condition: Immediate
+> Voice Line ID: 7
+Condition: Immediate
+> Voice Line ID: 8
+Condition: Immediate
+> Voice Line ID: 9
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Immediate
+> Voice Line ID: 11
+Condition: Immediate
+> Voice Line ID: 12
+Condition: Immediate
+> Voice Line ID: 13
 [Changes to Opponent detected.]
 > Z-Item #6: Absolutely Invincible Body
 Event:     Battle Finish
 
 [Scene 1]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 50.0 -0.4 60.0 
+> Rotation (XYZ): -0.0 -140.2 -0.0 
+Change Position/Rotation for Hit
+> Position (XYZ): -40.0 -0.4 -60.0 
+> Rotation (XYZ): -0.0 33.6 -0.0 
+Play Animation 383_SEARCH_SCOUTER.canm for Goku (End)
+> Loop property detected
+Play Animation 383_SEARCH_SCOUTER.canm for Hit
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -1.666 -8.85453 -1.89 
+> Rotation (XYZ): -6.863 -148.451 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -35.673 -18.77853 -49.898 
+> Rotation (XYZ): -10.782 -161.196 -0.0 
+Play Voice Line 14 for Hit
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -15.878 -18.689531 -9.726 
+> Rotation (XYZ): 8.316 -156.186 -0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -36.996 -4.672531 -53.665 
+> Rotation (XYZ): 36.192 -153.525 -0.0 
+Play Voice Line 15 for Hit
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -38.07 -3.738531 -45.958 
+> Rotation (XYZ): 19.041 -175.133 -0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -34.451 -9.408531 -49.533 
+> Rotation (XYZ): 22.707 -155.409 -0.0 
+Play Voice Line 16 for Hit
+> Wait property detected
+Play Voice Line 17 for Hit
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 18.456 -4.207531 42.64 
+> Rotation (XYZ): -10.085 60.235 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 40.486 -16.52853 55.239 
+> Rotation (XYZ): -7.645 62.616 -0.0 
+Play Voice Line 18 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 28.236 -6.2205296 48.327 
+> Rotation (XYZ): 15.94 61.248 -0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 38.901 -13.866529 54.179 
+> Rotation (XYZ): -4.353 61.248 -0.0 
+Play Voice Line 19 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -36.799 -20.75853 -53.877 
+> Rotation (XYZ): -22.899 -153.611 -0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -29.524 -23.394531 -39.213 
+> Rotation (XYZ): -39.74 -153.611 -0.0 
+Play Voice Line 20 for Hit
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -24.446 -8.464531 0.8 
+> Rotation (XYZ): -8.407 53.845 -0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 40.634 -12.92453 51.982 
+> Rotation (XYZ): 12.212 50.089 -0.0 
+Play Voice Line 21 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -38.084 -9.38953 -51.202 
+> Rotation (XYZ): 45.212 178.953 -0.0 
+Play Voice Line 22 for Hit
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 33.227 -11.360531 58.166 
+> Rotation (XYZ): 3.9 91.379 -0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 33.227 -11.360531 58.166 
+> Rotation (XYZ): 3.9 91.379 -0.0 
+Play Voice Line 23 for Goku (End)
+> Wait property detected
 Lower Current BG Music
-BG Music:  Rivals
+BG Music:  UNKNOWN (ID: 215)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 2
+> Scene ID: 2
+Condition: Immediate
+> Voice Line ID: 24
+Condition: Immediate
+> Voice Line ID: 25
+Condition: Immediate
+> Voice Line ID: 26
+Condition: Immediate
+> Voice Line ID: 27
+Condition: Immediate
+> Voice Line ID: 28
+Condition: Immediate
+> Voice Line ID: 29
+Condition: Immediate
+> Voice Line ID: 30
+Condition: Immediate
+> Voice Line ID: 31
 [Changes to Opponent detected.]
 > Z-Item #6: null
 Event:     Assign Transformation (Opponent) [AUTO]
 
 [Scene 2]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (End)
+> Position (XYZ): -56.0 -0.4 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Hit
+> Position (XYZ): 89.0 -0.4 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 413_STAND_LOOP.canm for Goku (End)
+> Loop property detected
+Play Animation 383_SEARCH_SCOUTER.canm for Hit
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -69.831 -18.120531 18.069 
+> Rotation (XYZ): -3.339 107.81 0.0 
+[Additional Camera Point]
+> Transition Time: 8.5 
+> Position (XYZ): -67.518 -18.120531 -15.241 
+> Rotation (XYZ): -3.339 63.37 0.0 
+Play Voice Line 32 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -49.904 -19.325531 -2.146 
+> Rotation (XYZ): -20.524 -68.351 0.0 
+Play Voice Line 33 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 78.71 -11.53653 -4.232 
+> Rotation (XYZ): 31.703 61.69 0.0 
+Play Animation 413_STAND_LOOP.canm for Hit
+> Loop property detected
+Play Voice Line 34 for Hit
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -82.745 -13.22653 -10.236 
+> Rotation (XYZ): -20.41 83.872 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -69.328 -17.61853 -7.991 
+> Rotation (XYZ): -1.528 75.82 0.0 
+Play Voice Line 35 for Goku (End)
+> Wait property detected
+Play Voice Line 36 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -35.256 -14.70853 -2.87 
+> Rotation (XYZ): 5.297 -83.882 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -48.007 -13.82453 -1.503 
+> Rotation (XYZ): 23.314 -83.882 0.0 
+Play Animation 287_SKILL_003_EVENT_4.canm for Goku (End)
+> Wait property detected
+Play Voice Line 37 for Goku (End)
+> Wait property detected
 Lower Current BG Music
-BG Music:  Strive to Revive
+BG Music:  UNKNOWN (ID: 214)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 3
+> Scene ID: 3
 Event:     Assign Transformation
 Character: SSB Goku
 
 [Scene 3]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 56.9 -0.4 -66.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Hit
+> Position (XYZ): -60.8 -0.4 127.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 0_GROUND.canm for Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Hit
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 50.77 -5.3665295 -37.495 
+> Rotation (XYZ): 11.121 168.219 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 54.733 -11.44253 -56.499 
+> Rotation (XYZ): 12.001 168.219 0.0 
+Play Voice Line 38 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -14.881 -12.81653 86.897 
+> Rotation (XYZ): 4.644 -45.905 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -46.721 -13.88253 115.474 
+> Rotation (XYZ): 9.383 -50.178 0.0 
+Play Voice Line 39 for Hit
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 44.989 -4.7205296 -37.976 
+> Rotation (XYZ): 28.947 179.238 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 48.995 -13.006531 -46.425 
+> Rotation (XYZ): 5.969 179.238 0.0 
+Play Animation 384_INTRO_IN.canm for Goku (End)
+Play Voice Line 40 for Goku (End)
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Goku (End)
+> Loop property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Lose 5 Health Bars (Opponent) [AUTO]
-> GSAC ID: 4
+> Scene ID: 4
+Condition: Immediate
+> Voice Line ID: 41
+Condition: Immediate
+> Voice Line ID: 42
+Condition: Immediate
+> Voice Line ID: 43
+Condition: Immediate
+> Voice Line ID: 44
+Condition: Immediate
+> Voice Line ID: 45
+Condition: Immediate
+> Voice Line ID: 46
+Condition: Immediate
+> Voice Line ID: 47
+Condition: Immediate
+> Voice Line ID: 48
+Condition: Immediate
+> Voice Line ID: 49
+Condition: Immediate
+> Voice Line ID: 50
+Condition: Immediate
+> Voice Line ID: 51
+Condition: Immediate
+> Voice Line ID: 52
 Event:     Normal Clash
 
 [Scene 4]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (End)
+> Position (XYZ): -21.2 -0.4 -18.5 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Hit
+> Position (XYZ): 21.2 -0.4 18.5 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Play Animation 413_STAND_LOOP.canm for Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Hit
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -18.864 -16.67053 -13.484 
+> Rotation (XYZ): 14.913 -164.765 0.0 
+Play Voice Line 53 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 3.457 -10.530531 12.898 
+> Rotation (XYZ): 5.266 71.041 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 11.139 -12.43853 14.319 
+> Rotation (XYZ): 5.754 71.157 0.0 
+Enable Ki Charge for Hit
 Lower Current BG Music
-BG Music:  Wild Soul
+BG Music:  UNKNOWN (ID: 191)
+Play Animation 52_CHARGE_IN.canm for Hit
+> Wait property detected
+Play Animation 53_CHARGE_LOOP.canm for Hit
+> Loop property detected
+Play Voice Line 54 for Hit
+> Wait property detected
+Enable MPM Explosion for Hit
+[Initial Camera Point]
+> Position (XYZ): 15.744 -19.31353 6.004 
+> Rotation (XYZ): -23.354 -122.253 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): -17.918 -11.975531 -14.37 
+> Rotation (XYZ): 17.194 -145.957 0.0 
+Play Animation 406_SURPRISED.canm for Goku (End)
+> Loop property detected
+Play Voice Line 55 for Goku (End)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Lose 6 Health Bars (Opponent) [AUTO]
-> GSAC ID: 5
+> Scene ID: 5
+Condition: Immediate
+> Voice Line ID: 56
+Condition: Immediate
+> Voice Line ID: 57
+Condition: Immediate
+> Voice Line ID: 58
 Event:     Assign Transformation
 Character: Frieza - 2nd Form
 
 [Scene 5]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Hit
+> Position (XYZ): 0.0 -0.4 -55.0 
+> Rotation (XYZ): 0.0 0.0 0.0 
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 0.0 -0.4 55.0 
+> Rotation (XYZ): 0.0 -180.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -6.334 -4.57053 2.146 
+> Rotation (XYZ): -4.508 176.177 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -1.036 -13.02453 -43.574 
+> Rotation (XYZ): 13.656 167.964 0.0 
 Lower Current BG Music
-BG Music:  Impulse to Victory
+BG Music:  UNKNOWN (ID: 216)
+Play Animation 413_STAND_LOOP.canm for Hit
+> Loop property detected
+Play Animation 0_GROUND.canm for Goku (End)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 6
+> Scene ID: 6
 Condition: Lose 1 Health Bar
-> GSAC ID: 6
+> Scene ID: 6
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Trigger Ultimate Blast (Opponent) [AUTO]
 
 [Scene 6]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 0.0 -0.4 75.0 
+> Rotation (XYZ): 0.0 -180.0 0.0 
+Change Position/Rotation for Hit
+> Position (XYZ): 0.0 -0.4 -75.0 
+> Rotation (XYZ): 0.0 0.0 0.0 
+Play Animation 388_LOSE.canm for Goku (End)
+[Initial Camera Point]
+> Position (XYZ): -0.853 -3.63653 -48.92 
+> Rotation (XYZ): 6.727 178.097 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -0.28 -13.651531 -66.17 
+> Rotation (XYZ): 12.753 178.097 0.0 
+Play Animation 413_STAND_LOOP.canm for Hit
+> Loop property detected
+> Wait property detected
+Play Voice Line 59 for Hit
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -0.444 -11.1685295 44.535 
+> Rotation (XYZ): -54.69 0.682 0.0 
+[Additional Camera Point]
+> Transition Time: 19.0 
+> Position (XYZ): -0.281 -52.00653 56.279 
+> Rotation (XYZ): -89.954 0.387 0.0 
+Play Voice Line 60 for Background Character
+> Wait property detected
+Play Voice Line 61 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -5.488 -4.0155296 -86.126 
+> Rotation (XYZ): 0.782 8.8 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -5.526 -22.316532 -86.373 
+> Rotation (XYZ): -21.375 8.8 0.0 
+Play Voice Line 62 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -3.407 -16.44853 29.421 
+> Rotation (XYZ): 44.501 5.104 0.0 
+[Additional Camera Point]
+> Transition Time: 2.5 
+> Position (XYZ): -0.171 -12.916531 43.862 
+> Rotation (XYZ): -4.996 -0.499 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (End)
+> Loop property detected
+Play Voice Line 63 for Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Wait 40 seconds
-> GSAC ID: 7
+> Scene ID: 7
+Condition: Immediate
+> Voice Line ID: 64
+Condition: Immediate
+> Voice Line ID: 65
+Condition: Immediate
+> Voice Line ID: 66
+Condition: Immediate
+> Voice Line ID: 67
+Condition: Immediate
+> Voice Line ID: 68
+Condition: Immediate
+> Voice Line ID: 69
+Condition: Immediate
+> Voice Line ID: 70
+Condition: Immediate
+> Voice Line ID: 71
+Condition: Immediate
+> Voice Line ID: 72
 [Changes to Player 1 detected.]
 > Add 100% more Health
 Event:     Assign Transformation (Opponent) [AUTO]
 
 [Scene 7]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 0.0 -0.4 75.0 
+> Rotation (XYZ): 0.0 -180.0 0.0 
+Change Position/Rotation for Hit
+> Position (XYZ): 0.0 -0.4 -75.0 
+> Rotation (XYZ): 0.0 0.0 0.0 
+Play Animation 38_FLY.canm for Hit
+> Loop property detected
+Play Animation 0_GROUND.canm for Goku (End)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -0.95 -10.32053 -8.778 
+> Rotation (XYZ): -1.511 -179.882 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 0.199 -17.48053 -64.717 
+> Rotation (XYZ): -11.165 -174.667 0.0 
 Lower Current BG Music
-BG Music:  Hot Feeling
+BG Music:  UNKNOWN (ID: 27)
+Play Voice Line 73 for Hit
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -0.093 -3.2645302 51.089 
+> Rotation (XYZ): 3.253 -1.925 0.0 
+[Additional Camera Point]
+> Transition Time: 2.2 
+> Position (XYZ): -3.368 -11.950531 65.916 
+> Rotation (XYZ): 13.216 3.045 0.0 
+Play Voice Line 74 for Goku (End)
+> Wait property detected
+Play Voice Line 75 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -10.656 -12.72953 61.77 
+> Rotation (XYZ): -14.353 41.967 0.0 
+Play Voice Line 76 for Goku (End)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 8
+> Scene ID: 8
+Condition: Immediate
+> Voice Line ID: 77
+Condition: Immediate
+> Voice Line ID: 78
+Condition: Immediate
+> Voice Line ID: 79
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Battle Finish
 
 [Scene 8]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Hit
+> Position (XYZ): 0.0 -0.4 -55.0 
+> Rotation (XYZ): 0.0 0.0 0.0 
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 0.0 -0.4 55.0 
+> Rotation (XYZ): 0.0 -180.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -6.334 -4.57053 2.146 
+> Rotation (XYZ): -4.508 176.177 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -1.036 -13.02453 -43.574 
+> Rotation (XYZ): 13.656 167.964 0.0 
 Lower Current BG Music
-BG Music:  Hot Feeling
+BG Music:  UNKNOWN (ID: 27)
+Play Animation 413_STAND_LOOP.canm for Hit
+> Loop property detected
+Play Animation 0_GROUND.canm for Goku (End)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 9
+> Scene ID: 9
+Condition: Immediate
+> Voice Line ID: 80
 [Changes to Opponent detected.]
 > Z-Item #7: Go To Hell
 Event:     Trigger 2nd Blast 2 (Opponent) [AUTO]
 
 [Scene 9]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 56.9 -0.4 -66.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Hit
+> Position (XYZ): -60.8 -0.4 127.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+[Initial Camera Point]
+> Position (XYZ): -55.579 -53.623528 97.609 
+> Rotation (XYZ): -61.243 -8.904 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -58.24 -21.614529 114.772 
+> Rotation (XYZ): -24.655 -9.156 0.0 
+Play Animation 413_STAND_LOOP.canm for Hit
+> Loop property detected
+Play Voice Line 81 for Hit
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 53.921 -7.728531 -45.951 
+> Rotation (XYZ): 8.785 168.759 0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): 32.694 -7.728531 -54.374 
+> Rotation (XYZ): 8.785 113.947 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (End)
+> Loop property detected
+Play Voice Line 82 for Goku (End)
+> Wait property detected
+Play Voice Line 86 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 43.245 -18.540531 -2.864 
+> Rotation (XYZ): 4.182 -162.351 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 57.808 -11.67853 -52.15 
+> Rotation (XYZ): -4.056 -164.192 0.0 
+Play Voice Line 87 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 33.905 -23.496529 -9.9775 
+> Rotation (XYZ): -40.217 167.312 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 50.439 -8.53253 -44.166 
+> Rotation (XYZ): 9.888 172.624 0.0 
+Play Voice Line 88 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 51.162 -13.440531 -40.14 
+> Rotation (XYZ): 2.094 167.286 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 51.482 -7.2605305 -47.285 
+> Rotation (XYZ): 30.638 170.095 0.0 
 Lower Current BG Music
-BG Music:  Awake
+BG Music:  UNKNOWN (ID: 26)
+Enable Ki Charge for Goku (End)
+Play Animation 375_TRANSFORMATION_IN.canm for Goku (End)
+> Wait property detected
+Play Animation 376_TRANSFORMATION_LOOP.canm for Goku (End)
+> Loop property detected
+Play Voice Line 89 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 56.484 -5.58053 -50.895 
+> Rotation (XYZ): 24.246 -176.521 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 56.3 -9.832531 -53.922 
+> Rotation (XYZ): 23.374 -176.521 0.0 
+Play Voice Line 90 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 84.989 -2.6045303 -78.39 
+> Rotation (XYZ): -10.307 -41.576 0.0 
+[Additional Camera Point]
+> Transition Time: 13.0 
+> Position (XYZ): 122.427 -67.85653 -72.053 
+> Rotation (XYZ): -38.08 -66.266 0.0 
+Play Voice Line 91 for Hit
+> Wait property detected
+Play Voice Line 92 for Hit
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 25.895 -12.02853 -22.56 
+> Rotation (XYZ): 4.569 143.97 0.0 
+[Additional Camera Point]
+> Transition Time: 13.0 
+> Position (XYZ): 52.443 -9.18853 -59.524 
+> Rotation (XYZ): 22.467 148.812 0.0 
+Enable MPM Explosion for Goku (End)
+Play Animation 376_TRANSFORMATION_LOOP.canm for Goku (End)
+> Wait property detected
+Play Voice Line 93 for Goku (End)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Wait 10 seconds
-> GSAC ID: 11
+> Scene ID: 11
+Condition: Immediate
+> Voice Line ID: 94
+Condition: Immediate
+> Voice Line ID: 95
+Condition: Immediate
+> Voice Line ID: 96
+Condition: Immediate
+> Voice Line ID: 97
+Condition: Immediate
+> Voice Line ID: 98
+Condition: Immediate
+> Voice Line ID: 99
+Condition: Immediate
+> Voice Line ID: 100
 [Changes to Player 1 detected.]
 > Add 100% more Health
 [Changes to Opponent detected.]
@@ -201,50 +823,219 @@ Condition: Wait 10 seconds
 Event:     Trigger 2nd Blast 1
 
 [Scene 11]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 56.9 -0.4 -66.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Hit
+> Position (XYZ): -60.8 -0.4 127.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Enable Ki Charge for Goku (End)
+[Initial Camera Point]
+> Position (XYZ): -25.326 -5.4135303 93.99 
+> Rotation (XYZ): 18.276 -48.789 0.0 
+[Additional Camera Point]
+> Transition Time: 12.0 
+> Position (XYZ): -54.08 -8.398531 119.172 
+> Rotation (XYZ): 6.063 -48.789 0.0 
+Play Animation 406_SURPRISED.canm for Hit
+> Loop property detected
+Play Voice Line 101 for Hit
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 42.092 -38.71853 -42.64 
+> Rotation (XYZ): -50.889 149.203 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 50.346 -10.9185295 -56.489 
+> Rotation (XYZ): 12.44 149.203 0.0 
+Play Animation 53_CHARGE_LOOP.canm for Goku (End)
+> Loop property detected
+Play Voice Line 102 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -64.534 -17.40753 176.264 
+> Rotation (XYZ): -16.142 146.284 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -79.734 -27.586529 160.278 
+> Rotation (XYZ): -13.443 146.284 0.0 
+Shake Camera for 1.0 seconds
+Play Voice Line 103 for Hit
+> Wait property detected
+Play Voice Line 104 for Goku (End)
+> Wait property detected
 Lower Current BG Music
-BG Music:  Progression
+BG Music:  UNKNOWN (ID: 244)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Wait 20 seconds
-> GSAC ID: 12
+> Scene ID: 12
+Condition: Immediate
+> Voice Line ID: 105
+Condition: Immediate
+> Voice Line ID: 106
+Condition: Immediate
+> Voice Line ID: 107
 Event:     Trigger 2nd Blast 1
 
 [Scene 12]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (End)
+> Position (XYZ): -99.5 -30.0 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for SS1 Vegeta
+> Position (XYZ): 99.5 -87.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Enable Ki Charge for Goku (End)
+Enable Ki Charge for Hit
+Play Animation 0_GROUND.canm for Hit
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 37.737 -85.213 -34.135 
+> Rotation (XYZ): -30.123 -91.084 0.0 
+[Additional Camera Point]
+> Transition Time: 11.0 
+> Position (XYZ): -86.845 -41.095 -48.756 
+> Rotation (XYZ): 0.973 -55.9885 0.0 
+Play Animation 38_FLY.canm for Goku (End)
+> Loop property detected
+Play Voice Line 108 for Goku (End)
+> Wait property detected
+Play Voice Line 109 for Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 13
+> Scene ID: 13
 Condition: Lose 2 Health Bars
-> GSAC ID: 13
+> Scene ID: 13
 Condition: Wait 10 seconds
-> GSAC ID: 13
+> Scene ID: 13
 Event:     Trigger 2nd Blast 2
 
 [Scene 13]
 
+===Cinematic Info===
+Change Position/Rotation for Vegeta
+> Position (XYZ): 0.0 -30.0 -50.0 
+> Rotation (XYZ): 0.0 0.0 0.0 
+Change Position/Rotation for Hit
+> Position (XYZ): 0.0 -30.0 50.0 
+> Rotation (XYZ): 0.0 -180.0 0.0 
+Play Animation 413_STAND_LOOP.canm for Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Hit
+> Loop property detected
+Disable Aura Charge for Vegeta
+Disable Aura Charge for Hit
+[Initial Camera Point]
+> Position (XYZ): -7.784 -49.793 -70.435 
+> Rotation (XYZ): -27.135 3.216 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -2.596 -28.798 21.885 
+> Rotation (XYZ): 18.332 3.216 0.0 
+Play Voice Line 113 for Hit
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 1.774 -48.585 40.094 
+> Rotation (XYZ): -21.264 -24.956 0.0 
+Play Voice Line 114 for Hit
+> Wait property detected
+Play Voice Line 115 for Hit
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -0.205 -42.316 -38.232 
+> Rotation (XYZ): 0.994 177.897 0.0 
+Play Voice Line 116 for Goku (End)
+> Wait property detected
+Play Voice Line 117 for Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 118
+Condition: Immediate
+> Voice Line ID: 119
+Condition: Immediate
+> Voice Line ID: 120
+Condition: Immediate
+> Voice Line ID: 121
 Event:     Assign Transformation (Opponent) [AUTO]
 
 [Scene 30 (Victory)]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Vegeta
+> Position (XYZ): 0.0 -15.0 -50.0 
+> Rotation (XYZ): 0.0 0.0 0.0 
+Change Position/Rotation for Hit
+> Position (XYZ): 0.0 -15.5 50.0 
+> Rotation (XYZ): 0.0 -180.0 0.0 
+Play Animation 413_STAND_LOOP.canm for Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Hit
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 12.401 -25.06 -37.982 
+> Rotation (XYZ): 28.429 -133.891 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 5.274 -26.413 -44.838 
+> Rotation (XYZ): 28.429 -133.891 0.0 
+Play Voice Line 122 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -0.156 -28.081 -36.744 
+> Rotation (XYZ): -12.085 177.119 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 0.136 -31.879 -42.542 
+> Rotation (XYZ): -10.769 177.119 0.0 
+Play Voice Line 123 for Goku (End)
+> Wait property detected
+Play Voice Line 124 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 0.84 -24.294 -38.839 
+> Rotation (XYZ): 35.654 -174.994 0.0 
+Play Voice Line 125 for Goku (End)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory) - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat)]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

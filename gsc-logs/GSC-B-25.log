@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: City Ruins - Future
-BGM: Power Scale
+BGM: UNKNOWN (ID: 185)
 
 [Player 1 Team]
 > Teammate 1
@@ -126,58 +126,335 @@ Teammate Count (Opponent): 2
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Goku Black
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 0_GROUND.canm for SSB Vegeta
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 57.89 -16.184 22.172 
+> Rotation (XYZ): -12.148 126.123 0.0 
+[Additional Camera Point]
+> Transition Time: 9.525 
+> Position (XYZ): 73.454 -8.986 2.464 
+> Rotation (XYZ): 7.763 101.745 0.0 
+Play Animation 384_INTRO_IN.canm for SSB Vegeta
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for SSB Vegeta
+> Loop property detected
+Play Voice Line 0 for SSB Vegeta
+> Wait property detected
+Enable Ki Charge for SSB Vegeta
+Play Voice Line 1 for SSB Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -39.872 -11.86 0.923 
+> Rotation (XYZ): 3.386 -91.143 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -69.49 -9.523 -6.474 
+> Rotation (XYZ): 14.749 -73.541 0.0 
+Play Animation 0_GROUND.canm for Goku Black
+> Loop property detected
+Play Voice Line 2 for Goku Black
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -77.724 -12.8735 -3.193 
+> Rotation (XYZ): 6.778 -75.189 0.0 
+Play Voice Line 3 for Goku Black
+> Wait property detected
+Change Position/Rotation for Goku Black
+> Position (XYZ): 77.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 82.8 -3.707 -87.796 
+> Rotation (XYZ): 5.043 -0.672 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): 78.944 -7.235 -54.9265 
+> Rotation (XYZ): 2.522 -0.162 0.0 
+Play Animation 406_SURPRISED.canm for SSB Vegeta
+> Loop property detected
+Play Animation 296_SKILL_004_CHARGE.canm for Goku Black
+> Loop property detected
+Enable MPM Explosion for SSB Vegeta
+Play Voice Line 4 for Goku Black
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 118.909 -28.968 22.413 
+> Rotation (XYZ): -20.97 -103.913 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 98.149 -11.827 16.103 
+> Rotation (XYZ): -3.955 -121.337 0.0 
+Play Voice Line 5 for Goku Black
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 6
+Condition: Immediate
+> Voice Line ID: 7
+Condition: Immediate
+> Voice Line ID: 8
+Condition: Immediate
+> Voice Line ID: 9
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Immediate
+> Voice Line ID: 11
+Condition: Immediate
+> Voice Line ID: 12
+Condition: Immediate
+> Voice Line ID: 13
 Event:     Battle Finish
 
 [Scene 1]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku Black
+> Position (XYZ): 58.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): -25.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 31.186 -9.512 3.11 
+> Rotation (XYZ): -2.093 99.452 0.0 
+Play Animation 0_GROUND.canm for SSB Vegeta
+> Loop property detected
+Play Animation 0_GROUND.canm for Goku Black
+> Loop property detected
+Play Voice Line 14 for Goku Black
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 31.186 -9.512 3.11 
+> Rotation (XYZ): -2.093 99.452 0.0 
+[Additional Camera Point]
+> Transition Time: 0.2 
+> Position (XYZ): 46.943 -12.14 2.226 
+> Rotation (XYZ): 4.657 101.966 0.0 
+Enable Ki Charge for Goku Black
+Play Animation 52_CHARGE_IN.canm for Goku Black
+> Wait property detected
+Play Animation 53_CHARGE_LOOP.canm for Goku Black
+> Loop property detected
+Play Voice Line 15 for Goku Black
+> Wait property detected
 Lower Current BG Music
-BG Music:  Crisis
+BG Music:  UNKNOWN (ID: 192)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 2
+> Scene ID: 2
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Assign Transformation (Opponent) [AUTO]
 Character: SSR Goku Black
 
 [Scene 2]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): -40.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for SS1 Trunks (Sword)
+> Position (XYZ): 40.0 0.0 35.0 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): 27.254 -11.421 38.252 
+> Rotation (XYZ): 4.533 119.604 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 31.723 -15.372 29.255 
+> Rotation (XYZ): -4.931 54.651 0.0 
+Enable Ki Charge for Goku Black
+Play Animation 0_GROUND.canm for SSB Vegeta
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Goku Black
+> Loop property detected
+Play Voice Line 16 for Goku Black
+> Wait property detected
+Play Voice Line 17 for Goku Black
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 30.684 -13.147 13.182 
+> Rotation (XYZ): -11.091 22.668 0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): 19.698 -12.851 29.414 
+> Rotation (XYZ): -7.172 79.401 0.0 
+Play Voice Line 18 for Goku Black
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 48.874 -22.201 58.111 
+> Rotation (XYZ): -22.992 -143.445 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 41.554 -15.345 44.409 
+> Rotation (XYZ): -7.615 -136.03 0.0 
+Play Voice Line 19 for Goku Black
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 32.908 -12.0095 10.551 
+> Rotation (XYZ): 17.185 9.185 0.0 
+[Additional Camera Point]
+> Transition Time: 1.5 
+> Position (XYZ): 34.185 -9.022 18.443 
+> Rotation (XYZ): 19.795 9.185 0.0 
+Play Voice Line 20 for Goku Black
+> Wait property detected
 Lower Current BG Music
-BG Music:  Pathos
+BG Music:  UNKNOWN (ID: 184)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 3
+> Scene ID: 3
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 21
+Condition: Immediate
+> Voice Line ID: 22
+Condition: Immediate
+> Voice Line ID: 23
+Condition: Immediate
+> Voice Line ID: 24
+Condition: Immediate
+> Voice Line ID: 25
+Condition: Immediate
+> Voice Line ID: 26
 Event:     Battle Finish
 
 [Scene 3]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): -20.0 0.0 -45.0 
+> Rotation (XYZ): 0.0 53.1 0.0 
+Change Position/Rotation for Goku Black
+> Position (XYZ): 80.0 -30.0 30.0 
+> Rotation (XYZ): 0.0 -126.9 0.0 
+Disable Aura Charge for Goku Black
+Play Animation 0_GROUND.canm for SSB Vegeta
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -25.733 -8.784 -76.79 
+> Rotation (XYZ): -2.522 34.469 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -25.733 -8.784 -76.79 
+> Rotation (XYZ): -2.522 34.469 0.0 
+Enable Ki Charge for Goku Black
+Play Animation 413_STAND_LOOP.canm for Goku Black
+> Loop property detected
+Play Voice Line 27 for SSB Vegeta
+> Wait property detected
+Play Voice Line 28 for Goku Black
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 98.337 -47.32 30.863 
+> Rotation (XYZ): -14.52 -101.735 0.0 
+Play Voice Line 29 for SSB Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 62.953 -32.056 12.698 
+> Rotation (XYZ): 55.004 45.378 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 69.957 -40.318 22.451 
+> Rotation (XYZ): 11.893 49.222 0.0 
+Play Voice Line 30 for Goku Black
+> Wait property detected
 Lower Current BG Music
-BG Music:  Fate Scrapes
+BG Music:  UNKNOWN (ID: 29)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 4
+> Scene ID: 4
 [Changes to Opponent detected.]
 > Z-Item #7: Go To Hell
 Event:     Trigger 2nd Blast 2 (Opponent) [AUTO]
 
 [Scene 4]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): 58.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Goku Black
+> Position (XYZ): -25.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 0_GROUND.canm for SSB Vegeta
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -12.04 -11.739 -10.708 
+> Rotation (XYZ): 8.763 -47.733 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -10.657 -10.324 4.274 
+> Rotation (XYZ): 8.763 -106.5 0.0 
+Play Animation 413_STAND_LOOP.canm for Goku Black
+> Loop property detected
+Play Voice Line 32 for Goku Black
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -17.142 -15.544 0.898 
+> Rotation (XYZ): -2.619 -98.183 0.0 
+Play Voice Line 33 for Goku Black
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 64.417 -67.214 -56.724 
+> Rotation (XYZ): -36.944 -36.691 0.0 
+[Additional Camera Point]
+> Transition Time: 24.0 
+> Position (XYZ): 3.495 -11.103 0.857 
+> Rotation (XYZ): -2.056 -89.915 0.0 
+Play Animation 388_LOSE.canm for SSB Vegeta
+Play Voice Line 34 for SSB Vegeta
+> Wait property detected
+Play Voice Line 35 for Background Character
+> Wait property detected
+Play Voice Line 36 for Goku Black
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -51.827 -22.35 -12.855 
+> Rotation (XYZ): -20.038 70.94 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -38.422 -18.058 -8.223 
+> Rotation (XYZ): -11.418 70.94 0.0 
+Play Voice Line 37 for Background Character
+> Wait property detected
+Play Voice Line 38 for Background Character
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 5
+> Scene ID: 5
 [Changes to Opponent detected.]
 > Z-Item #7: null
 Event:     Switch with Teammate #2
@@ -185,191 +462,823 @@ Character: Goku (End)
 
 [Scene 5]
 
+===Cinematic Info===
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): 56.9 0.0 -66.2 
+> Rotation (XYZ): 0.0 -31.3 0.0 
+Change Position/Rotation for Goku Black
+> Position (XYZ): -60.8 -176.0 127.5 
+> Rotation (XYZ): 0.0 148.7 0.0 
+[Initial Camera Point]
+> Position (XYZ): 47.629 -1.535 -30.325 
+> Rotation (XYZ): 17.229 156.356 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 55.186 -8.602 -50.238 
+> Rotation (XYZ): 12.435 169.232 0.0 
+Play Animation 413_STAND_LOOP.canm for Goku (End)
+> Loop property detected
+Play Voice Line 39 for Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 6
+> Scene ID: 6
 Event:     Assign Transformation
 Character: SSB Goku
 
 [Scene 6]
 
+===Cinematic Info===
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): 56.9 -176.0 -66.2 
+> Rotation (XYZ): 0.0 -31.3 0.0 
+Change Position/Rotation for Goku Black
+> Position (XYZ): -60.8 -176.0 127.5 
+> Rotation (XYZ): 0.0 148.7 0.0 
+[Initial Camera Point]
+> Position (XYZ): 47.629 -177.535 -30.325 
+> Rotation (XYZ): 17.229 156.356 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 55.186 -184.602 -50.238 
+> Rotation (XYZ): 12.435 169.232 0.0 
+Enable Ki Charge for Goku (End)
+Play Animation 413_STAND_LOOP.canm for Goku (End)
+> Loop property detected
+Play Animation 38_FLY.canm for Goku Black
+> Loop property detected
+Play Voice Line 40 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -43.549 -178.262 100.694 
+> Rotation (XYZ): 15.499 -30.731 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): -54.735 -189.441 118.834 
+> Rotation (XYZ): 10.191 -35.107 0.0 
+Play Voice Line 41 for Goku Black
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 54.315 -194.055 -58.932 
+> Rotation (XYZ): -23.558 157.089 0.0 
+Play Voice Line 42 for Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 10 seconds
-> GSAC ID: 7
+> Scene ID: 7
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 43
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Aerial Clash (Opponent)
 
 [Scene 7]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku Black
+> Position (XYZ): -40.0 -30.0 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): 40.0 -30.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 39_FLY_TIRED.canm for SSB Vegeta
+> Loop property detected
+Play Animation 262_SKILL_003_CHARGE.canm for Goku Black
+> Loop property detected
+Disable Aura Charge for SSB Vegeta
+[Initial Camera Point]
+> Position (XYZ): -28.846 -36.957 -34.544 
+> Rotation (XYZ): -12.862 -91.46 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -29.933 -41.718 -34.572 
+> Rotation (XYZ): -12.862 -91.46 0.0 
+Play Voice Line 44 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 55.923 -258.263 -171.522 
+> Rotation (XYZ): -51.19 -34.279 0.0 
 Lower Current BG Music
-BG Music:  Yin-Yang
+BG Music:  UNKNOWN (ID: 212)
+> Wait property detected
+> Change fade-out color to white
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): 55.923 -258.263 -171.522 
+> Rotation (XYZ): -51.19 -34.279 0.0 
+Play Voice Line 45 for Background Character
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 8
+> Scene ID: 8
 Event:     Switch with Teammate #2 (Opponent) [AUTO]
 Character: Zamasu
 
 [Scene 8]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 50.0 -0.0 60.0 
+> Rotation (XYZ): -0.0 -140.2 -0.0 
+Change Position/Rotation for Zamasu
+> Position (XYZ): -40.0 -0.0 -60.0 
+> Rotation (XYZ): -0.0 33.6 -0.0 
+Play Animation 413_STAND_LOOP.canm for Goku (End)
+> Loop property detected
+Play Animation 0_GROUND.canm for Zamasu
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -1.666 -21.514 -1.89 
+> Rotation (XYZ): -6.863 -148.451 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -35.673 -15.4065 -49.898 
+> Rotation (XYZ): -10.782 -161.196 -0.0 
+Play Voice Line 46 for Zamasu
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 18.456 -16.867 42.64 
+> Rotation (XYZ): -10.085 60.235 -0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 40.486 -12.594 55.239 
+> Rotation (XYZ): -7.645 62.616 -0.0 
+Play Voice Line 47 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -15.878 -9.0495 -9.726 
+> Rotation (XYZ): 8.316 -156.186 -0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -36.996 -6.333 -53.665 
+> Rotation (XYZ): 36.192 -153.525 -0.0 
+Play Voice Line 48 for Zamasu
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 28.236 -3.36 48.327 
+> Rotation (XYZ): 15.94 61.248 -0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 38.901 -13.263 54.179 
+> Rotation (XYZ): -4.353 61.248 -0.0 
+Play Voice Line 49 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -36.799 -17.334 -53.877 
+> Rotation (XYZ): -22.899 -153.611 -0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -29.524 -20.152 -39.213 
+> Rotation (XYZ): -39.74 -153.611 -0.0 
+Play Voice Line 50 for Zamasu
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 29.633 -11.091 66.03 
+> Rotation (XYZ): -7.999 117.293 -0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 39.802 -9.998 56.457 
+> Rotation (XYZ): 7.393 81.76 -0.0 
+Play Animation 0_GROUND.canm for Goku (End)
+> Loop property detected
+Play Voice Line 51 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -38.07 -2.581 -45.958 
+> Rotation (XYZ): 19.041 -175.133 -0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -34.451 -6.892 -49.533 
+> Rotation (XYZ): 22.707 -155.409 -0.0 
+Play Voice Line 52 for Zamasu
+> Wait property detected
+Play Voice Line 53 for Zamasu
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 33.227 -7.505 58.166 
+> Rotation (XYZ): 3.9 91.379 -0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 33.227 -7.505 58.166 
+> Rotation (XYZ): 3.9 91.379 -0.0 
+Play Voice Line 54 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -34.203 -11.175 -47.694 
+> Rotation (XYZ): 1.374 -156.266 -0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -36.491 -13.7405 -52.896 
+> Rotation (XYZ): -1.798 -156.266 -0.0 
+Play Voice Line 55 for Zamasu
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -24.446 -12.562 0.8 
+> Rotation (XYZ): -8.407 53.845 -0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 40.634 -8.792 51.982 
+> Rotation (XYZ): 12.212 50.089 -0.0 
+Play Animation 52_CHARGE_IN.canm for SSB Vegeta
+> Wait property detected
+Enable Ki Charge for SSB Vegeta
+Shake Camera for 1.0 seconds
+Play Animation 53_CHARGE_LOOP.canm for SSB Vegeta
+> Loop property detected
+Play Voice Line 56 for Goku (End)
+> Wait property detected
 Lower Current BG Music
-BG Music:  Stand After Confusion
+BG Music:  UNKNOWN (ID: 9)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 9
+> Scene ID: 9
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 57
+Condition: Immediate
+> Voice Line ID: 58
+Condition: Immediate
+> Voice Line ID: 59
+Condition: Immediate
+> Voice Line ID: 60
+Condition: Immediate
+> Voice Line ID: 61
 Event:     Normal Clash (Opponent)
 
 [Scene 9]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 10
+> Scene ID: 10
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Switch with Teammate #1 (Opponent) [AUTO]
 Character: Goku Black
 
 [Scene 10]
+
+===Cinematic Info===
+Change Position/Rotation for Goku Black
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 45.192 -7.498 -10.589 
+> Rotation (XYZ): 11.274 76.023 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 66.526 -9.163 -4.784 
+> Rotation (XYZ): 11.274 76.023 0.0 
+Play Animation 413_STAND_LOOP.canm for SSB Vegeta
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Goku Black
+> Loop property detected
+Play Voice Line 63 for Zamasu
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 58.161 -10.891 6.42 
+> Rotation (XYZ): 6.26 112.673 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 56.684 -10.891 -7.772 
+> Rotation (XYZ): 6.26 75.043 0.0 
+Play Voice Line 64 for Goku Black
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -69.106 -0.472 8.807 
+> Rotation (XYZ): 20.558 -110.307 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -74.978 -9.0215 4.413 
+> Rotation (XYZ): 9.944 -96.639 0.0 
+Play Voice Line 65 for Zamasu
+> Wait property detected
 Lower Current BG Music
-BG Music:  Flight in The Dark Side
+BG Music:  UNKNOWN (ID: 207)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Wait 10 seconds
-> GSAC ID: 11
+> Scene ID: 11
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 66
+Condition: Immediate
+> Voice Line ID: 67
 Event:     Battle Finish
 
 [Scene 11]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 30 seconds
-> GSAC ID: 12
+> Scene ID: 12
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 68
+Condition: Immediate
+> Voice Line ID: 69
+Condition: Immediate
+> Voice Line ID: 70
+Condition: Immediate
+> Voice Line ID: 71
+Condition: Immediate
+> Voice Line ID: 72
 Event:     Switch with Teammate #3
 Character: SS2 Trunks (Sword)
 
 [Scene 12]
+
+===Cinematic Info===
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): -20.0 0.0 -45.0 
+> Rotation (XYZ): 0.0 53.1 0.0 
+Change Position/Rotation for Goku Black
+> Position (XYZ): 80.0 0.0 30.0 
+> Rotation (XYZ): 0.0 -126.9 0.0 
+[Initial Camera Point]
+> Position (XYZ): 59.683 -0.811 6.389 
+> Rotation (XYZ): 16.288 38.149 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 72.416 -9.213 21.264 
+> Rotation (XYZ): 20.854 45.739 0.0 
+Play Animation 0_GROUND.canm for SSB Vegeta
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Goku Black
+> Loop property detected
+Play Voice Line 73 for Goku Black
+> Wait property detected
+Play Voice Line 74 for Goku Black
+> Wait property detected
 Lower Current BG Music
-BG Music:  Awake
+BG Music:  UNKNOWN (ID: 26)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Lose 1 Health Bar (Opponent) [AUTO]
-> GSAC ID: 13
+> Scene ID: 13
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Switch with Teammate #2 (Opponent) [AUTO]
 Character: Zamasu
 
 [Scene 13]
 
+===Cinematic Info===
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): -51.4 -0.4 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Goku Black
+> Position (XYZ): 51.4 -1.3 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 40.042 -3.239 -34.508 
+> Rotation (XYZ): 21.168 156.84 0.0 
+[Additional Camera Point]
+> Transition Time: 7.3 
+> Position (XYZ): 44.298 -15.154 -50.956 
+> Rotation (XYZ): 6.234 139.446 0.0 
+Play Animation 0_GROUND.canm for Zamasu
+> Loop property detected
+Play Voice Line 75 for Zamasu
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -19.147 -1.969 19.29 
+> Rotation (XYZ): 3.815 -37.254 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -42.5 -6.018 49.996 
+> Rotation (XYZ): 25.846 -37.254 0.0 
+Play Animation 406_SURPRISED.canm for SSB Vegeta
+> Loop property detected
+Play Voice Line 76 for SS2 Trunks (Sword)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 14
+> Scene ID: 14
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 77
+Condition: Immediate
+> Voice Line ID: 78
+Condition: Immediate
+> Voice Line ID: 79
+Condition: Immediate
+> Voice Line ID: 80
+Condition: Immediate
+> Voice Line ID: 81
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Assign Transformation (Opponent) [AUTO]
 
 [Scene 14]
 
+===Cinematic Info===
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Goku Black
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 79.14 -9.281 -4.16 
+> Rotation (XYZ): 19.591 59.42 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 68.495 -4.661 -10.45 
+> Rotation (XYZ): 12.901 59.42 0.0 
+Enable Ki Charge for SS2 Trunks (Sword)
+Play Animation 52_CHARGE_IN.canm for SSB Vegeta
+> Wait property detected
+Play Animation 53_CHARGE_LOOP.canm for SSB Vegeta
+> Loop property detected
+Play Voice Line 82 for SS2 Trunks (Sword)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 76.144 -15.89 -11.006 
+> Rotation (XYZ): -22.353 34.636 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 74.193 -10.118 -4.569 
+> Rotation (XYZ): 3.955 68.477 0.0 
+Play Animation 329_SKILL_005_IN.canm for SS2 Trunks (Sword)
+> Wait property detected
+Play Animation 330_SKILL_005_CHARGE.canm for SS2 Trunks (Sword)
+> Loop property detected
+Play Voice Line 83 for SS2 Trunks (Sword)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Hit with Ultimate Blast
-> GSAC ID: 15
+> Scene ID: 15
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 [Changes to Opponent detected.]
 > Add 100% more Health
 > Z-Item #7: Absolutely Invincible Body
 Event:     Trigger Ultimate Blast
 
 [Scene 15]
+
+===Cinematic Info===
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Goku Black
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 66.315 -21.502 21.36 
+> Rotation (XYZ): -16.237 133.788 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 75.092 -8.702 1.077 
+> Rotation (XYZ): 17.503 96.548 0.0 
+Play Animation 406_SURPRISED.canm for SSB Vegeta
+> Loop property detected
+Play Voice Line 84 for SS2 Trunks (Sword)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -69.217 -5.00775 2.142 
+> Rotation (XYZ): -34.081 -96.406 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): -69.217 -5.00775 2.142 
+> Rotation (XYZ): 21.514 -96.406 0.0 
 Lower Current BG Music
-BG Music:  Dark Half
+BG Music:  UNKNOWN (ID: 7)
+Play Animation 0_GROUND.canm for Goku Black
+> Loop property detected
+Play Voice Line 85 for Zamasu
+> Wait property detected
+Play Voice Line 86 for Zamasu
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Wait 40 seconds
-> GSAC ID: 16
+> Scene ID: 16
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 87
+Condition: Immediate
+> Voice Line ID: 88
+Condition: Immediate
+> Voice Line ID: 89
+Condition: Immediate
+> Voice Line ID: 90
+Condition: Immediate
+> Voice Line ID: 91
+Condition: Immediate
+> Voice Line ID: 92
+Condition: Immediate
+> Voice Line ID: 93
 Event:     Assign Transformation (Opponent) [AUTO]
 
 [Scene 16]
 
+===Cinematic Info===
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): 61.7 0.0 63.3 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Goku Black
+> Position (XYZ): -61.7 0.0 -63.3 
+> Rotation (XYZ): 0.0 44.3 0.0 
+[Initial Camera Point]
+> Position (XYZ): 59.744 -13.793 50.016 
+> Rotation (XYZ): 0.739 9.106 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 52.384 -14.041 57.833 
+> Rotation (XYZ): 0.413 67.54 0.0 
+Play Animation 413_STAND_LOOP.canm for SSB Vegeta
+> Loop property detected
+Play Voice Line 94 for SS2 Trunks (Sword)
+> Wait property detected
+Play Voice Line 95 for SS2 Trunks (Sword)
+> Wait property detected
+Play Voice Line 96 for SS2 Trunks (Sword)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 17
+> Scene ID: 17
 Event:     Switch with Teammate #2
 Character: Goku (End)
 
 [Scene 17]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku Black
+> Position (XYZ): -40.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): 40.0 0.0 35.0 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): 32.085 -10.977 17.615 
+> Rotation (XYZ): 4.149 19.894 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): 32.085 -10.977 17.615 
+> Rotation (XYZ): 4.149 19.894 0.0 
+Play Animation 0_GROUND.canm for Goku Black
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Goku (End)
+> Loop property detected
+Play Voice Line 97 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 76.595 -45.321 39.119 
+> Rotation (XYZ): -30.497 -117.146 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 69.146 -26.276 35.97 
+> Rotation (XYZ): -22.498 -116.325 0.0 
+Play Voice Line 98 for SS2 Trunks (Sword)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 20.631 -3.173 -1.065 
+> Rotation (XYZ): 5.557 -123.024 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -32.117 -11.763 -32.373 
+> Rotation (XYZ): 18.998 -114.211 0.0 
+Play Voice Line 99 for Zamasu
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -29.062 -9.187 -36.675 
+> Rotation (XYZ): 34.095 -75.303 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -31.154 -11.712 -35.306 
+> Rotation (XYZ): 24.484 -74.341 0.0 
+Play Voice Line 100 for Zamasu
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -32.066 -22.282 -37.087 
+> Rotation (XYZ): -53.433 -71.554 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -25.598 -9.634 -39.245 
+> Rotation (XYZ): 31.365 -71.554 0.0 
+Play Voice Line 101 for Zamasu
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 18
+> Scene ID: 18
 Event:     Switch with Teammate #1 (Opponent) [AUTO]
 Character: Goku Black
 
 [Scene 18]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Goku Black
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 0_GROUND.canm for SSB Vegeta
+> Loop property detected
+Play Animation 0_GROUND.canm for Goku Black
+> Loop property detected
+Disable Aura Charge for SSB Vegeta
+Disable Aura Charge for Goku Black
+[Initial Camera Point]
+> Position (XYZ): 0.408 -8.123 69.486 
+> Rotation (XYZ): 0.242 127.831 0.0 
+Shake Camera for 0.5 seconds
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): 70.711 -8.499 14.891 
+> Rotation (XYZ): 0.242 127.831 0.0 
+Enable Ki Charge for Goku Black
+Play Animation 262_SKILL_003_CHARGE.canm for Goku Black
+> Loop property detected
+Play Voice Line 102 for Goku Black
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 19
+> Scene ID: 19
+Condition: Immediate
+> Voice Line ID: 103
 [Changes to Opponent detected.]
 > Z-Item #7: Go To Hell
 Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
 
 [Scene 19]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): -46.4 0.0 -46.4 
+> Rotation (XYZ): 0.0 45.0 0.0 
+Change Position/Rotation for Goku Black
+> Position (XYZ): 46.4 -50.0 46.4 
+> Rotation (XYZ): 0.0 -135.0 0.0 
+Disable Aura Charge for SSB Vegeta
+[Initial Camera Point]
+> Position (XYZ): 46.713 -89.596 96.14 
+> Rotation (XYZ): -32.781 -150.304 0.0 
+[Additional Camera Point]
+> Transition Time: 13.0 
+> Position (XYZ): -35.995 -16.677 -32.161 
+> Rotation (XYZ): -34.398 -139.533 0.0 
+Play Animation 413_STAND_LOOP.canm for Goku Black
+> Loop property detected
+Play Animation 213_DAMAGE_LYING_TIRED_LOOP.canm for Goku (End)
+> Wait property detected
+Play Voice Line 105 for Goku (End)
+> Wait property detected
+Play Voice Line 106 for Zamasu
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -71.823 -2.057 -38.674 
+> Rotation (XYZ): 17.177 83.582 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -64.202 -0.661 -51.853 
+> Rotation (XYZ): 14.094 68.826 0.0 
 Lower Current BG Music
-BG Music:  Random
+BG Music:  UNKNOWN (ID: 24)
+Play Animation 330_SKILL_005_CHARGE.canm for Goku Black
+> Loop property detected
+Enable Ki Charge for Goku Black
+Play Voice Line 107 for Goku Black
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -92.045 -48.485 -76.465 
+> Rotation (XYZ): 1.965 51.571 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): 34.212 -57.333 36.109 
+> Rotation (XYZ): 19.023 53.112 0.0 
+Wait 2.3 seconds
+[Initial Camera Point]
+> Position (XYZ): 34.212 -57.333 36.109 
+> Rotation (XYZ): 19.023 53.112 0.0 
+[Additional Camera Point]
+> Transition Time: 0.5 
+> Position (XYZ): 14.611 -71.92 20.714 
+> Rotation (XYZ): -23.373 52.951 0.0 
+Shake Camera for 1.0 seconds
+Play Voice Line 108 for Zamasu
+> Wait property detected
+Play Voice Line 109 for Goku Black
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 20
+> Scene ID: 20
 Event:     Switch with Teammate #4
 Character: Super Vegeta
 
 [Scene 20]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Trigger Ultimate Blast
 
 [Scene 30 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for Goku Black
+> Position (XYZ): -25.7 -0.4 30.6 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for SSB Vegeta
+> Position (XYZ): 25.7 0.2 -30.6 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Play Animation 413_STAND_LOOP.canm for Goku Black
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for SSB Vegeta
+> Loop property detected
+Disable Aura Charge for Goku Black
+Disable Aura Charge for Goku (End)
+[Initial Camera Point]
+> Position (XYZ): 8.411 -13.281 -8.001 
+> Rotation (XYZ): -19.619 143.092 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -52.219 -17.408 38.912 
+> Rotation (XYZ): -15.808 130.807 0.0 
+Play Animation 388_LOSE.canm for SSB Vegeta
+> Wait property detected
+Play Voice Line 110 for Goku Black
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory)]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat)]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

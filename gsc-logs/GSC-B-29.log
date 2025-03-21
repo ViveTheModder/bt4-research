@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: Tournament of Power
-BGM: Nose To Tail
+BGM: UNKNOWN (ID: 186)
 
 [Player 1 Team]
 > Teammate 1
@@ -96,148 +96,656 @@ Teammate Count (Opponent): 2
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): 70.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS1 Caulifla
+> Position (XYZ): -70.0 0.9 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 413_STAND_LOOP.canm for SS2 Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for SS1 Caulifla
+> Loop property detected
+Disable Aura Charge for SS1 Caulifla
+[Initial Camera Point]
+> Position (XYZ): 106.604 -49.824 -68.794 
+> Rotation (XYZ): -23.397 -64.265 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -52.532 -8.0465 -36.088 
+> Rotation (XYZ): 3.277 -89.083 0.0 
+> Wait property detected
+Play Voice Line 0 for SS1 Caulifla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 47.797 -13.643 -45.106 
+> Rotation (XYZ): -21.275 57.718 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 55.406 -8.045 -40.299 
+> Rotation (XYZ): 20.385 57.718 0.0 
+Play Voice Line 1 for SS2 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 84.906 -8.996 -44.733 
+> Rotation (XYZ): 1.632 -75.158 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -60.592 -12.546 -36.321 
+> Rotation (XYZ): -2.323 -83.527 0.0 
+Play Voice Line 2 for SS1 Caulifla
+> Wait property detected
+Play Voice Line 3 for SS1 Caulifla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 42.655 -15.062 -33.263 
+> Rotation (XYZ): -29.366 99.908 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 49.608 -8.0515 -34.435 
+> Rotation (XYZ): 13.876 95.31 0.0 
+Play Voice Line 4 for SS2 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -53.776 -11.947 -26.626 
+> Rotation (XYZ): -4.255 -123.215 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -61.823 -12.301 -31.883 
+> Rotation (XYZ): 2.051 -125.87 0.0 
+Play Voice Line 5 for SS1 Caulifla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 60.879 -11.5745 -34.033 
+> Rotation (XYZ): 11.3775 98.473 0.0 
+Play Voice Line 6 for SS2 Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 7
+Condition: Immediate
+> Voice Line ID: 8
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): 15.4 0.0 2.1 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for SS1 Caulifla
+> Position (XYZ): -19.2 -0.7 59.1 
+> Rotation (XYZ): 0.0 154.6 0.0 
+[Initial Camera Point]
+> Position (XYZ): -17.228 -6.712 44.518 
+> Rotation (XYZ): 12.562 -1.121 0.0 
+Play Animation 413_STAND_LOOP.canm for SS2 Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for SS1 Caulifla
+> Loop property detected
+Play Voice Line 9 for SS1 Caulifla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -17.228 -6.712 44.518 
+> Rotation (XYZ): 12.562 -1.121 0.0 
+[Additional Camera Point]
+> Transition Time: 0.2 
+> Position (XYZ): -18.371 -6.6855 49.105 
+> Rotation (XYZ): 16.517 -1.121 0.0 
+Enable Ki Charge for SS1 Caulifla
+Play Animation 52_CHARGE_IN.canm for SS1 Caulifla
+> Wait property detected
+Play Animation 53_CHARGE_LOOP.canm for SS1 Caulifla
+> Loop property detected
+Play Voice Line 10 for SS1 Caulifla
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Assign Transformation (Opponent) [AUTO]
 Character: SS2 Caulifla
 
 [Scene 2]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): 15.4 0.0 2.1 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for SS1 Caulifla
+> Position (XYZ): -19.2 -0.7 59.1 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 413_STAND_LOOP.canm for SS2 Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for SS1 Caulifla
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 3.542 -15.054 45.633 
+> Rotation (XYZ): -19.895 -61.139 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -15.5 -10.429 49.241 
+> Rotation (XYZ): 4.121 -12.275 0.0 
+Play Voice Line 11 for SS1 Caulifla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 2.056 -10.154 18.68 
+> Rotation (XYZ): -3.607 146.869 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 10.065 -12.599 10.148 
+> Rotation (XYZ): 5.118 147.923 0.0 
+Play Voice Line 12 for SS2 Goku (End)
+> Wait property detected
+Play Voice Line 13 for SS2 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -10.585 -11.341 47.391 
+> Rotation (XYZ): -5.305 -32.731 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 30.478 -15.331 -3.251 
+> Rotation (XYZ): -12.254 -54.097 0.0 
+Play Animation 406_SURPRISED.canm for SS1 Caulifla
+> Loop property detected
+Play Voice Line 14 for SS1 Caulifla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -1.676 -12.121 20.655 
+> Rotation (XYZ): -9.348 137.119 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 6.719 -12.609 11.616 
+> Rotation (XYZ): -1.556 137.119 0.0 
+Play Voice Line 15 for SS2 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 12.028 -10.789 10.541 
+> Rotation (XYZ): -11.069 172.453 0.0 
+Play Animation 0_GROUND.canm for SS2 Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for SS1 Caulifla
+> Loop property detected
+Play Voice Line 16 for SS2 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 27.318 -10.671 -4.702 
+> Rotation (XYZ): 5.262 -36.056 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 27.318 -10.671 -4.702 
+> Rotation (XYZ): 5.262 -36.056 0.0 
+Play Animation 0_GROUND.canm for SS1 Caulifla
+> Loop property detected
+Play Voice Line 17 for SS1 Caulifla
+> Wait property detected
+Wait 1.0 seconds
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 3
+> Scene ID: 3
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 18
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Normal Clash (Opponent)
 
 [Scene 3]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for SS1 Caulifla
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Disable Aura Charge for SS2 Goku (End)
+Play Animation 0_GROUND.canm for SS2 Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for SS1 Caulifla
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 121.983 -70.572 -46.574 
+> Rotation (XYZ): -37.082 -57.507 0.0 
+[Additional Camera Point]
+> Transition Time: 5.5 
+> Position (XYZ): 102.766 -53.124 -33.396 
+> Rotation (XYZ): -36.446 -56.472 0.0 
+Play Voice Line 19 for Kale
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 73.086 -17.716 -1.469 
+> Rotation (XYZ): -37.358 80.337 0.0 
+[Additional Camera Point]
+> Transition Time: 13.0 
+> Position (XYZ): 78.696 -9.0005 -0.514 
+> Rotation (XYZ): 10.245 76.219 0.0 
+Play Voice Line 20 for SS1 Caulifla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -71.051 -9.2265 -4.925 
+> Rotation (XYZ): -17.981 -71.414 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -79.857 -13.719 -1.964 
+> Rotation (XYZ): -17.981 -71.414 0.0 
+Play Voice Line 21 for SS2 Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 4
+> Scene ID: 4
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Normal Clash (Opponent)
 
 [Scene 4]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 5
+> Scene ID: 5
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Switch with Teammate #2 (Opponent) [AUTO]
 Character: Kale
 
 [Scene 5]
 
+===Cinematic Info===
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Kale
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 0_GROUND.canm for SS2 Goku (End)
+> Loop property detected
+Play Animation 0_GROUND.canm for Kale
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -75.975 -18.192 27.547 
+> Rotation (XYZ): -14.379 -156.601 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -79.182 -12.383 4.454 
+> Rotation (XYZ): -14.564 -116.088 0.0 
+Play Voice Line 22 for Kale
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Hit with 1st Blast 2 (Opponent)
-> GSAC ID: 6
+> Scene ID: 6
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
 
 [Scene 6]
+
+===Cinematic Info===
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Kale
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 413_STAND_LOOP.canm for SS2 Goku (End)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 60.996 -7.522 2.903 
+> Rotation (XYZ): 2.306 94.867 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 76.121 -11.3245 0.369 
+> Rotation (XYZ): 4.996 82.17 0.0 
+Play Voice Line 23 for SS2 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -78.82 -14.869 0.556 
+> Rotation (XYZ): -32.05 -94.849 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -81.708 -14.3375 0.311 
+> Rotation (XYZ): -18.903 -94.849 0.0 
+Play Animation 0_GROUND.canm for Kale
+> Loop property detected
+Play Voice Line 24 for Kale
+> Wait property detected
 Lower Current BG Music
-BG Music:  Crisis
+BG Music:  UNKNOWN (ID: 192)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Lose 5 Health Bars (Opponent) [AUTO]
-> GSAC ID: 7
+> Scene ID: 7
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 25
+Condition: Immediate
+> Voice Line ID: 26
 Event:     Switch with Teammate #1 (Opponent) [AUTO]
 Character: SS1 Caulifla
 
 [Scene 7]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 8
+> Scene ID: 8
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Switch with Teammate #2 (Opponent) [AUTO]
 Character: Kale
 
 [Scene 8]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Kale
+> Position (XYZ): -40.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): 40.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 413_STAND_LOOP.canm for SS2 Goku (End)
+> Loop property detected
+Play Animation 0_GROUND.canm for Kale
+> Loop property detected
+Disable Aura Charge for SS2 Goku (End)
+[Initial Camera Point]
+> Position (XYZ): -32.96 -9.000999 -28.581 
+> Rotation (XYZ): 3.008 -148.646 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -28.99 -9.153 -36.043 
+> Rotation (XYZ): 3.008 -84.874 0.0 
+Play Voice Line 27 for Kale
+> Wait property detected
+Play Voice Line 28 for Kale
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -47.207 -9.619999 -30.194 
+> Rotation (XYZ): 2.284 104.289 0.0 
+[Additional Camera Point]
+> Transition Time: 2.5 
+> Position (XYZ): -58.133 -11.078999 -21.549 
+> Rotation (XYZ): -8.213 112.188 0.0 
+Enable Ki Charge for Kale
+Play Animation 52_CHARGE_IN.canm for SS1 Caulifla
+> Wait property detected
+Play Animation 53_CHARGE_LOOP.canm for SS1 Caulifla
+> Loop property detected
+Play Voice Line 29 for Kale
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -47.706 -20.673 -18.5 
+> Rotation (XYZ): -32.024 148.954 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -42.183 -13.973999 -27.676 
+> Rotation (XYZ): -32.024 148.954 0.0 
+Play Voice Line 30 for Kale
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -28.34 -3.6590004 -31.859 
+> Rotation (XYZ): 24.514 -107.32 0.0 
+Play Voice Line 31 for Kale
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 9
+> Scene ID: 9
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Assign Transformation (Opponent) [AUTO]
 Character: LSS Kale
 
 [Scene 9]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): -25.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Kale
+> Position (XYZ): 58.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 413_STAND_LOOP.canm for SS2 Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Kale
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 49.336 -4.046 9.849 
+> Rotation (XYZ): 3.753 137.879 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 50.126 -18.08 8.975 
+> Rotation (XYZ): 3.753 137.879 0.0 
+Play Voice Line 32 for Kale
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -38.31 -10.5 9.208 
+> Rotation (XYZ): 7.537 112.883 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -32.058 -13.3585 6.569 
+> Rotation (XYZ): 7.537 112.883 0.0 
+Play Voice Line 33 for SS2 Goku (End)
+> Wait property detected
+Play Voice Line 34 for SS1 Caulifla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 42.358 -18.727 20.579 
+> Rotation (XYZ): -13.194 148.095 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 45.324 -19.452 3.759 
+> Rotation (XYZ): -6.666 109.689 0.0 
+Enable Ki Charge for Kale
+Play Voice Line 35 for Kale
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -1.714 -13.736 2.456 
+> Rotation (XYZ): -7.796 -102.459 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -11.444 -13.054 0.306 
+> Rotation (XYZ): -5.926 -102.459 0.0 
+Play Voice Line 36 for SS2 Goku (End)
+> Wait property detected
+Change Position/Rotation for Kale
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 79.006 -14.038 2.318 
+> Rotation (XYZ): 35.331 119.25 0.0 
+Enable MPM Explosion for Kale
+Play Voice Line 37 for Kale
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 124.389 -110.511 66.105 
+> Rotation (XYZ): -45.332 -132.591 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 97.646 -67.494 41.337 
+> Rotation (XYZ): -43.225 -131.267 0.0 
+Play Voice Line 38 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 58.222 -3.226 -2.044 
+> Rotation (XYZ): 4.174 85.855 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 78.172 -17.453 -0.598 
+> Rotation (XYZ): 8.0425 85.855 0.0 
+Play Voice Line 39 for Kale
+> Wait property detected
+Play Voice Line 40 for Kale
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 15 seconds
-> GSAC ID: 10
+> Scene ID: 10
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 41
+Condition: Immediate
+> Voice Line ID: 42
 Event:     Battle Finish
 
 [Scene 10]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Vegeta
+> Position (XYZ): 23.2 0.0 -10.7 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for SS1 Caulifla
+> Position (XYZ): -27.0 -0.7 72.0 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 0_GROUND.canm for Kale
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 27.674002 -11.0585 1.9070001 
+> Rotation (XYZ): 8.061001 -151.93602 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 24.109 -14.032 -2.6890001 
+> Rotation (XYZ): 11.078501 -169.51501 0.0 
 Lower Current BG Music
-BG Music:  Wild Soul
+BG Music:  UNKNOWN (ID: 191)
+Enable Ki Charge for SS2 Goku (End)
+Play Animation 52_CHARGE_IN.canm for SS2 Goku (End)
+> Wait property detected
+Play Animation 53_CHARGE_LOOP.canm for SS2 Goku (End)
+> Loop property detected
+Play Voice Line 43 for SS2 Goku (End)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 11
+> Scene ID: 11
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Assign Transformation
 Character: SSB Goku
 
 [Scene 11]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Vegeta
+> Position (XYZ): 23.2 0.0 -10.7 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for SS1 Caulifla
+> Position (XYZ): -27.0 -0.7 72.0 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 0_GROUND.canm for SS2 Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Kale
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 27.674 -1.687 1.907 
+> Rotation (XYZ): 32.244 -151.936 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 22.109 -6.016 -2.689 
+> Rotation (XYZ): 44.314 -169.515 0.0 
+Play Voice Line 44 for SS2 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -26.144 -32.463 90.156 
+> Rotation (XYZ): -32.815 162.544 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -23.681 -27.781 82.323 
+> Rotation (XYZ): -24.608 162.544 0.0 
+Play Voice Line 45 for SS2 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -20.786 -8.388 52.462 
+> Rotation (XYZ): 32.873 -15.867 0.0 
+[Additional Camera Point]
+> Transition Time: 0.2 
+> Position (XYZ): -23.09 -13.5845 60.569 
+> Rotation (XYZ): 32.873 -15.867 0.0 
+Play Voice Line 46 for Kale
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 45.375 -10.549 -26.993 
+> Rotation (XYZ): -7.272 -36.205 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 32.157 -12.762 -13.546 
+> Rotation (XYZ): -5.548 -39.546 0.0 
+Enable Ki Charge for SS2 Goku (End)
+Play Animation 330_SKILL_005_CHARGE.canm for SS2 Goku (End)
+> Loop property detected
+Play Voice Line 47 for SS2 Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Hit with Ultimate Blast
-> GSAC ID: 12
+> Scene ID: 12
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 [Changes to Player 1 detected.]
 > Add 100% more Health
 [Changes to Opponent detected.]
@@ -247,53 +755,140 @@ Event:     Trigger Ultimate Blast
 Character: Goku (Mid)
 
 [Scene 12]
+
+===Cinematic Info===
 Lower Current BG Music
-BG Music:  Caution!
+BG Music:  UNKNOWN (ID: 194)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 13
+> Scene ID: 13
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 48
+Condition: Immediate
+> Voice Line ID: 49
+Condition: Immediate
+> Voice Line ID: 50
+Condition: Immediate
+> Voice Line ID: 51
+Condition: Immediate
+> Voice Line ID: 52
+Condition: Immediate
+> Voice Line ID: 53
+Condition: Immediate
+> Voice Line ID: 54
+Condition: Immediate
+> Voice Line ID: 55
+Condition: Immediate
+> Voice Line ID: 56
 [Changes to Opponent detected.]
 > Z-Item #7: null
 Event:     Assign Transformation (Opponent) [AUTO]
 Character: Goku (Mid)
 
 [Scene 13]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): -51.4 0.0 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for SS1 Caulifla
+> Position (XYZ): 51.4 0.0 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Play Animation 53_CHARGE_LOOP.canm for SS1 Caulifla
+> Loop property detected
+Play Animation 0_GROUND.canm for SS2 Goku (End)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -55.472 -32.899 88.014 
+> Rotation (XYZ): -17.18 142.362 0.0 
+[Additional Camera Point]
+> Transition Time: 15.0 
+> Position (XYZ): -77.813 -32.899 70.786 
+> Rotation (XYZ): -17.18 138.954 0.0 
 Lower Current BG Music
-BG Music:  Tensa Atmosphere
+BG Music:  UNKNOWN (ID: 11)
+Enable Ki Charge for Kale
+Play Voice Line 57 for SS1 Caulifla
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 9.231 -2.326 -22.118 
+> Rotation (XYZ): 12.74 134.489 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 41.663 -12.572 -53.073 
+> Rotation (XYZ): 23.646 128.637 0.0 
+Play Voice Line 58 for SS1 Caulifla
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 14
+> Scene ID: 14
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Switch with Teammate #2
 Character: Jiren
 
 [Scene 14]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Trigger 1st Blast 2
 Character: Goku (Mid)
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+[Initial Camera Point]
+> Position (XYZ): 10.827 -8.799 28.162 
+> Rotation (XYZ): -8.173 -158.672 0.0 
+Change Position/Rotation for SS2 Goku (End)
+> Position (XYZ): -22.6 0.0 -19.8 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Sorbet
+> Position (XYZ): 22.6 0.0 19.8 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+[Initial Camera Point]
+> Position (XYZ): 37.54 -31.412 10.322 
+> Rotation (XYZ): -34.143 -104.473 0.0 
+[Additional Camera Point]
+> Transition Time: 9.0 
+> Position (XYZ): -9.373 -15.274 -12.676 
+> Rotation (XYZ): -2.149 -118.215 0.0 
+Play Animation 388_LOSE.canm for Kale
+Play Animation 387_WIN_LOOP.canm for Jiren
+> Loop property detected
+Play Voice Line 59 for Jiren
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory)]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat)]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

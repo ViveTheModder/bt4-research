@@ -20,13 +20,13 @@ SS1 Gotenks
 SS3 Gotenks
 null
 > Acquired Scenarios
-Conclusion
+Buu's Reincarnation
 Fusion Reborn! Goku and Vegeta
 null
 
 [Battle Settings]
 Map: Supreme Kai's World
-BGM: I'm Gonna Get Over
+BGM: UNKNOWN (ID: 178)
 
 [Player 1 Team]
 > Teammate 1
@@ -111,53 +111,308 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for SS3 Goku (End)
+> Position (XYZ): 61.7 0.0 63.3 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -61.7 0.0 -63.3 
+> Rotation (XYZ): 0.0 44.3 0.0 
+[Initial Camera Point]
+> Position (XYZ): 59.744 -13.793 50.016 
+> Rotation (XYZ): 0.739 9.106 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 52.384 -14.041 57.833 
+> Rotation (XYZ): 0.413 67.54 0.0 
+Play Animation 384_INTRO_IN.canm for SS3 Goku (End)
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for SS3 Goku (End)
+> Loop property detected
+Play Voice Line 100 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -62.05 -10.857 -52.383 
+> Rotation (XYZ): -7.816 -175.063 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -53.55 -11.068 -63.569 
+> Rotation (XYZ): -3.983 -95.895 0.0 
+Play Animation 384_INTRO_IN.canm for Kid Buu
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Kid Buu
+> Loop property detected
+Play Voice Line 99 for Kid Buu
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 12
+> Scene ID: 12
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 45
+> Scene ID: 45
 Condition: Wait 120 seconds
-> GSAC ID: 11
+> Scene ID: 11
+Condition: Immediate
+> Voice Line ID: 108
+Condition: Immediate
+> Voice Line ID: 109
+Condition: Immediate
+> Voice Line ID: 110
+Condition: Immediate
+> Voice Line ID: 111
+Condition: Immediate
+> Voice Line ID: 112
+Condition: Immediate
+> Voice Line ID: 113
+Condition: Immediate
+> Voice Line ID: 114
+Condition: Immediate
+> Voice Line ID: 115
+Condition: Immediate
+> Voice Line ID: 116
+Condition: Immediate
+> Voice Line ID: 117
+Condition: Immediate
+> Voice Line ID: 118
+Condition: Immediate
+> Voice Line ID: 119
+Condition: Immediate
+> Voice Line ID: 120
+Condition: Immediate
+> Voice Line ID: 121
+Condition: Immediate
+> Voice Line ID: 122
+Condition: Immediate
+> Voice Line ID: 123
+Condition: Immediate
+> Voice Line ID: 124
+Condition: Perform Fully Charged Up Smash Attack (Opponent)
+> Voice Line ID: 99
+Condition: Perform Vanishing Attack
+> Voice Line ID: 126
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 127
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 128
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 129
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 105
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 131
+Condition: UNKNOWN(ID: 53) (Opponent)
+> Voice Line ID: 132
+Condition: Perform Guard Crush (Opponent)
+> Voice Line ID: 129
+Condition: Perform Fully Charged Right Smash Attack (Opponent)
+> Voice Line ID: 99
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 99
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 136
+Condition: Perform Dragon Smash (Opponent)
+> Voice Line ID: 137
 [Changes to Player 1 detected.]
 > Z-Item #7: Attack +20
 Event:     Battle Finish
 
 [Scene 11]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS3 Goku (End)
+> Position (XYZ): 109.1 -75.0 111.9 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -109.1 -30.0 -111.9 
+> Rotation (XYZ): 0.0 44.3 0.0 
+[Initial Camera Point]
+> Position (XYZ): -66.331 -0.185 -70.943 
+> Rotation (XYZ): 34.628 -134.929 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -100.611 -33.139 -104.149 
+> Rotation (XYZ): 34.628 -134.205 0.0 
+Play Animation 38_FLY.canm for SS3 Goku (End)
+> Loop property detected
+Play Animation 52_CHARGE_IN.canm for Kid Buu
+> Wait property detected
+Shake Camera for 1.0 seconds
+Enable Ki Charge for Kid Buu
+Play Animation 53_CHARGE_LOOP.canm for Kid Buu
+> Loop property detected
+Play Voice Line 99 for Kid Buu
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 10 seconds
-> GSAC ID: 12
+> Scene ID: 12
 Condition: Win via K.O.
-> GSAC ID: 12
+> Scene ID: 12
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 45
+> Scene ID: 45
+Condition: Win Beam Struggle
+> Voice Line ID: 125
+Condition: Perform Fully Charged Right Smash Attack
+> Voice Line ID: 126
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 105
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 130
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 126
+Condition: Perform First Attack! (Opponent)
+> Voice Line ID: 132
+Condition: Perform Fully Charged Neutral Smash Attack (Opponent)
+> Voice Line ID: 99
+Condition: Perform Vanishing Attack
+> Voice Line ID: 126
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 127
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 128
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 99
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 105
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 131
+Condition: UNKNOWN(ID: 53) (Opponent)
+> Voice Line ID: 132
+Condition: Perform Guard Crush (Opponent)
+> Voice Line ID: 129
+Condition: Perform Fully Charged Down Smash Attack (Opponent)
+> Voice Line ID: 99
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 99
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 136
+Condition: Perform Dragon Smash (Opponent)
+> Voice Line ID: 137
 Event:     Beam Struggle between Player 1's 1st Blast 2 and COM's 1st Blast 2
 
 [Scene 12]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 10
+> Scene ID: 10
 Condition: Win via K.O.
-> GSAC ID: 35
+> Scene ID: 35
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 44
+> Scene ID: 44
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Assign Transformation
 Character: Goku (End)
 
 [Scene 10]
+
+===Cinematic Info===
+Change Position/Rotation for SS3 Goku (End)
+> Position (XYZ): 26.8 0.0 27.5 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -26.8 0.0 -27.5 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Play Animation 0_GROUND.canm for Kid Buu
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for SS3 Goku (End)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 68.248 -46.788 115.622 
+> Rotation (XYZ): -12.038 -146.719 0.0 
+[Additional Camera Point]
+> Transition Time: 5.5 
+> Position (XYZ): 33.741 -19.664 56.75 
+> Rotation (XYZ): -17.938 -147.0 0.0 
 Lower Current BG Music
-BG Music:  Run Run Run!
+BG Music:  UNKNOWN (ID: 236)
+Play Voice Line 0 for Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 19.129 -10.458 29.33 
+> Rotation (XYZ): 17.379 129.067 0.0 
+Play Voice Line 1 for SS3 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 16.071 -3.916 27.114 
+> Rotation (XYZ): 39.409 90.615 0.0 
+Play Voice Line 2 for SS3 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -22.671 -7.722 -20.134 
+> Rotation (XYZ): 23.923 -158.132 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): -15.569 -0.403 -2.439 
+> Rotation (XYZ): 16.463 -158.598 0.0 
+Play Voice Line 3 for SS3 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 34.594 -13.314 26.314 
+> Rotation (XYZ): -15.234 -119.739 0.0 
+[Additional Camera Point]
+> Transition Time: 12.0 
+> Position (XYZ): 25.97 -13.314 40.103 
+> Rotation (XYZ): -15.234 -146.272 0.0 
+Play Voice Line 4 for Vegeta
+> Wait property detected
+Play Voice Line 5 for Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 9.506 -1.017 29.782 
+> Rotation (XYZ): 20.681 106.881 0.0 
+Play Voice Line 6 for Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -49.172 -6.644 -38.793 
+> Rotation (XYZ): 0.001 52.071 0.0 
+[Additional Camera Point]
+> Transition Time: 4.5 
+> Position (XYZ): 18.943 -10.972 25.179 
+> Rotation (XYZ): 9.187 81.9 0.0 
+Play Voice Line 7 for SS3 Goku (End)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Wait 50 seconds
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O.
-> GSAC ID: 35
+> Scene ID: 35
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 44
+> Scene ID: 44
+Condition: Immediate
+> Voice Line ID: 11
+Condition: Immediate
+> Voice Line ID: 12
+Condition: Immediate
+> Voice Line ID: 13
+Condition: Immediate
+> Voice Line ID: 16
+Condition: Immediate
+> Voice Line ID: 17
+Condition: Immediate
+> Voice Line ID: 18
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 87
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 87
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 34
+Condition: Perform Rush Attack
+> Voice Line ID: 72
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 73
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 87
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 8
 [Changes to Player 1 detected.]
 > Z-Item #7: null
 > Add 100% more Health
@@ -166,13 +421,56 @@ Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 40 seconds
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
+Condition: Immediate
+> Voice Line ID: 8
+Condition: Immediate
+> Voice Line ID: 9
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Perform Fully Charged Up Smash Attack
+> Voice Line ID: 21
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 21
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 20
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 19
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 20
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 21
+Condition: Perform Vanishing Attack
+> Voice Line ID: 22
+Condition: Perform 1st Blast 2
+> Voice Line ID: 23
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 24
+Condition: Wait 20 seconds
+> Voice Line ID: 25
+Condition: Perform Ultimate Blast
+> Voice Line ID: 23
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 34
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 28
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 28
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 87
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 8
+Condition: Perform Fully Charged Up Smash Attack (Opponent)
+> Voice Line ID: 20
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 2
 Event:     Switch with Teammate #2
@@ -180,9 +478,12 @@ Character: Majin Buu
 
 [Scene 2]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 3
+> Scene ID: 3
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 3
 Event:     Switch with Teammate #3
@@ -190,20 +491,60 @@ Character: Mr. Satan
 
 [Scene 3]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 40 seconds
-> GSAC ID: 4
+> Scene ID: 4
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
+Condition: Immediate
+> Voice Line ID: 27
+Condition: Immediate
+> Voice Line ID: 29
+Condition: Immediate
+> Voice Line ID: 30
+Condition: Immediate
+> Voice Line ID: 31
+Condition: Immediate
+> Voice Line ID: 32
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 33
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 34
+Condition: Wait 20 seconds
+> Voice Line ID: 35
+Condition: Perform Dash Smash
+> Voice Line ID: 36
+Condition: Perform Rush Attack
+> Voice Line ID: 37
+Condition: Perform Guard Crush (Opponent)
+> Voice Line ID: 38
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 39
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 71
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 71
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 71
+Condition: Perform Fully Charged Down Smash Attack (Opponent)
+> Voice Line ID: 8
+Condition: Perform Fully Charged Neutral Smash Attack (Opponent)
+> Voice Line ID: 8
 Event:     Battle Finish
 
 [Scene 4]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 5
+> Scene ID: 5
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 4
 [Changes to Opponent detected.]
@@ -213,20 +554,106 @@ Character: SSR Goku Black
 
 [Scene 5]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Vegeta
+> Position (XYZ): 26.8 0.0 27.5 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -26.8 0.0 -27.5 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Play Animation 0_GROUND.canm for Kid Buu
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Vegeta
+> Loop property detected
+Disable Aura Charge for Vegeta
+[Initial Camera Point]
+> Position (XYZ): 12.6 -4.261 22.785 
+> Rotation (XYZ): 24.69 74.119 0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): 17.85 -7.12 24.279 
+> Rotation (XYZ): 32.889 74.119 0.0 
+Play Voice Line 46 for Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 26.64 -1.126 36.975 
+> Rotation (XYZ): 1.467 -146.26 0.0 
+[Additional Camera Point]
+> Transition Time: 12.5 
+> Position (XYZ): 26.634 -18.345 36.966 
+> Rotation (XYZ): -25.295 -146.26 0.0 
+Play Voice Line 47 for SS3 Goku (End)
+> Wait property detected
+Play Voice Line 49 for SS3 Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 32
+> Scene ID: 32
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
 Condition: Wait 80 seconds
-> GSAC ID: 6
+> Scene ID: 6
+Condition: Immediate
+> Voice Line ID: 50
+Condition: Immediate
+> Voice Line ID: 51
+Condition: Immediate
+> Voice Line ID: 52
+Condition: Immediate
+> Voice Line ID: 53
+Condition: Immediate
+> Voice Line ID: 55
+Condition: Immediate
+> Voice Line ID: 56
+Condition: Immediate
+> Voice Line ID: 58
+Condition: Immediate
+> Voice Line ID: 60
+Condition: Immediate
+> Voice Line ID: 61
+Condition: Immediate
+> Voice Line ID: 62
+Condition: Immediate
+> Voice Line ID: 63
+Condition: Immediate
+> Voice Line ID: 64
+Condition: Immediate
+> Voice Line ID: 65
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 8
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 68
+Condition: Perform Dash Smash (Opponent)
+> Voice Line ID: 69
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 70
+Condition: Perform Fully Charged Left Smash Attack
+> Voice Line ID: 8
+Condition: Perform Dash Smash
+> Voice Line ID: 72
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 73
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 74
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 75
+Condition: Lose 3 Health Bars
+> Voice Line ID: 76
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 48
 Event:     Battle Finish
 
 [Scene 6]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 7
+> Scene ID: 7
 [Changes to Player 1 detected.]
 > Apply changes to Teammate 1
 [Changes to Opponent detected.]
@@ -235,88 +662,583 @@ Event:     Switch with Teammate #1
 Character: Goku (End)
 
 [Scene 7]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SS3 Goku (End)
+> Position (XYZ): 26.8 0.0 27.5 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -26.8 0.0 -27.5 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Play Animation 0_GROUND.canm for Kid Buu
+> Loop property detected
+Play Animation 0_GROUND.canm for SS3 Goku (End)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -48.982 -9.604 -40.511 
+> Rotation (XYZ): -0.879 50.413 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): 20.562 -12.089 22.887 
+> Rotation (XYZ): 3.985 54.331 0.0 
 Lower Current BG Music
-BG Music:  Light a Fire in your Heart!! 
+BG Music:  UNKNOWN (ID: 240)
+Play Voice Line 79 for SS3 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 35.449 -28.909 54.938 
+> Rotation (XYZ): -31.952 -146.917 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 28.268 -12.955 41.445 
+> Rotation (XYZ): -18.874 -146.599 0.0 
+Play Voice Line 80 for SS3 Goku (End)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 34
+> Scene ID: 34
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 43
+> Scene ID: 43
 Condition: Wait 20 seconds
-> GSAC ID: 9
+> Scene ID: 9
+Condition: Immediate
+> Voice Line ID: 81
+Condition: Immediate
+> Voice Line ID: 82
+Condition: Go in MAX POWER Mode
+> Voice Line ID: 86
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 87
+Condition: Perform 1st Blast 2
+> Voice Line ID: 88
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 89
+Condition: Lose 2 Health Bars
+> Voice Line ID: 90
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 8
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 87
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 87
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 34
+Condition: Perform Rush Attack
+> Voice Line ID: 72
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 73
 [Changes to Opponent detected.]
 > Add 100% more Health
 Event:     Battle Finish
 
 [Scene 8 - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 34
+> Scene ID: 34
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 43
+> Scene ID: 43
+Condition: Perform 1st Blast 2
+> Voice Line ID: 86
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 87
+Condition: Perform Rush Attack
+> Voice Line ID: 88
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 89
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 90
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 86
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 87
+Condition: Perform Dash Smash (Opponent)
+> Voice Line ID: 87
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 34
+Condition: Perform Dash Smash
+> Voice Line ID: 72
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 73
+Condition: Perform Vanishing Attack
+> Voice Line ID: 72
+Condition: Hit with Charged Ki Blast (Opponent)
+> Voice Line ID: 73
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 90
 Event:     Battle Finish
 
 [Scene 9]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for SS3 Goku (End)
+> Position (XYZ): 61.7 -40.0 63.3 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -61.7 0.0 -63.3 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Play Animation 0_GROUND.canm for Kid Buu
+> Loop property detected
+Play Animation 344_SKILL_005_CHARGE_D.canm for SS3 Goku (End)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 42.142 -31.702 47.506 
+> Rotation (XYZ): 35.09 59.337 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 52.406 -52.676 57.428 
+> Rotation (XYZ): 17.051 55.286 0.0 
+Play Voice Line 83 for SS3 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -45.687 -8.811 -44.22 
+> Rotation (XYZ): -4.179 -140.951 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -52.604 -10.524 -54.184 
+> Rotation (XYZ): -7.028 -139.326 0.0 
+Play Voice Line 84 for SS3 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 40.808 -46.673 59.259 
+> Rotation (XYZ): 19.818 86.051 0.0 
+[Additional Camera Point]
+> Transition Time: 7.5 
+> Position (XYZ): 53.073 -51.3 56.605 
+> Rotation (XYZ): 21.274 51.053 0.0 
+Play Voice Line 85 for SS3 Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 43
+> Scene ID: 43
 Condition: Win via K.O.
-> GSAC ID: 33
+> Scene ID: 33
 [Changes to Player 1 detected.]
 > Z-Item #7: Go To Hell
 Event:     Trigger Ultimate Blast
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Majin Buu
+> Position (XYZ): 26.8 0.0 27.5 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -26.8 0.0 -27.5 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Disable Aura Charge for Majin Buu
+Disable Aura Charge for Kid Buu
+[Initial Camera Point]
+> Position (XYZ): -40.472 -16.776 -25.536 
+> Rotation (XYZ): -20.681 56.929 0.0 
+Play Animation 388_LOSE.canm for Kid Buu
+Play Animation 386_WIN_IN.canm for Majin Buu
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Majin Buu
+> Loop property detected
+Play Voice Line 23 for Majin Buu
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 31 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for Mr. Satan
+> Position (XYZ): 26.8 0.0 27.5 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -26.8 0.0 -27.5 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Disable Aura Charge for Mr. Satan
+Disable Aura Charge for Kid Buu
+Play Animation 388_LOSE.canm for Kid Buu
+Play Animation 386_WIN_IN.canm for Mr. Satan
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Mr. Satan
+> Loop property detected
+Play Voice Line 42 for Mr. Satan
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 12.457 -8.945 22.202 
+> Rotation (XYZ): 17.916 68.203 0.0 
+[Additional Camera Point]
+> Transition Time: 12.0 
+> Position (XYZ): 28.821 -9.5 13.882 
+> Rotation (XYZ): 16.474 -11.428 0.0 
+Play Voice Line 43 for Vegeta
+> Wait property detected
+Play Voice Line 44 for SS3 Goku (End)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 32 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Vegeta
+> Position (XYZ): 26.8 0.0 27.5 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -26.8 0.0 -27.5 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Disable Aura Charge for Vegeta
+Disable Aura Charge for Kid Buu
+[Initial Camera Point]
+> Position (XYZ): 25.184 -15.404 16.809 
+> Rotation (XYZ): -10.677 -0.275 0.0 
+Play Animation 388_LOSE.canm for Kid Buu
+Play Animation 386_WIN_IN.canm for Vegeta
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Vegeta
+> Loop property detected
+Play Voice Line 77 for Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 33 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for SS3 Goku (End)
+> Position (XYZ): 40.8 0.0 41.9 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -40.8 0.0 -41.9 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Disable Aura Charge for SS3 Goku (End)
+Disable Aura Charge for Kid Buu
+[Initial Camera Point]
+> Position (XYZ): -26.769 -1.547 -16.086 
+> Rotation (XYZ): 9.153 -174.253 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -18.697 -10.137 -4.8 
+> Rotation (XYZ): -22.96 -159.411 0.0 
+Play Animation 388_LOSE.canm for Kid Buu
+Play Voice Line 92 for SS3 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 39.683 -13.536 53.709 
+> Rotation (XYZ): -20.008 -155.926 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 43.807 -16.553 58.227 
+> Rotation (XYZ): -30.617 -146.652 0.0 
+Play Animation 1_GROUND_TIRED.canm for SS3 Goku (End)
+> Loop property detected
+Play Voice Line 93 for Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 27.697 -9.587 46.425 
+> Rotation (XYZ): -1.992 123.536 0.0 
+[Additional Camera Point]
+> Transition Time: 15.0 
+> Position (XYZ): 37.281 -9.869 28.606 
+> Rotation (XYZ): 1.102 8.416 0.0 
+Play Voice Line 94 for Vegeta
+> Wait property detected
+Play Voice Line 95 for Vegeta
+> Wait property detected
+Play Voice Line 96 for Vegeta
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 34 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for SS3 Goku (End)
+> Position (XYZ): 40.8 0.0 41.9 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -40.8 0.0 -41.9 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Disable Aura Charge for SS3 Goku (End)
+Disable Aura Charge for Kid Buu
+[Initial Camera Point]
+> Position (XYZ): -26.769 -1.547 -16.086 
+> Rotation (XYZ): 9.153 -174.253 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -18.697 -10.137 -4.8 
+> Rotation (XYZ): -22.96 -159.411 0.0 
+Play Animation 388_LOSE.canm for Kid Buu
+Play Voice Line 92 for SS3 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 39.683 -13.536 53.709 
+> Rotation (XYZ): -20.008 -155.926 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 43.807 -16.553 58.227 
+> Rotation (XYZ): -30.617 -146.652 0.0 
+Play Animation 1_GROUND_TIRED.canm for SS3 Goku (End)
+> Loop property detected
+Play Voice Line 93 for Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 27.697 -9.587 46.425 
+> Rotation (XYZ): -1.992 123.536 0.0 
+[Additional Camera Point]
+> Transition Time: 15.0 
+> Position (XYZ): 37.281 -9.869 28.606 
+> Rotation (XYZ): 1.102 8.416 0.0 
+Play Voice Line 94 for Vegeta
+> Wait property detected
+Play Voice Line 95 for Vegeta
+> Wait property detected
+Play Voice Line 96 for Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 35 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for SS3 Goku (End)
+> Position (XYZ): 40.8 0.0 41.9 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -40.8 0.0 -41.9 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Disable Aura Charge for SS3 Goku (End)
+Disable Aura Charge for Kid Buu
+[Initial Camera Point]
+> Position (XYZ): 34.064 -1.595 28.719 
+> Rotation (XYZ): 26.536 22.592 0.0 
+Play Animation 388_LOSE.canm for Kid Buu
+Play Animation 1_GROUND_TIRED.canm for SS3 Goku (End)
+> Loop property detected
+Play Voice Line 92 for SS3 Goku (End)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 36 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for SS3 Goku (End)
+> Position (XYZ): 16.4 0.0 16.8 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -16.4 0.0 -16.8 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Disable Aura Charge for SS3 Goku (End)
+Disable Aura Charge for Kid Buu
+[Initial Camera Point]
+> Position (XYZ): -10.434 -3.874 -23.773 
+> Rotation (XYZ): 3.488 20.799 0.0 
+Play Animation 388_LOSE.canm for Kid Buu
+Play Animation 0_GROUND.canm for SS3 Goku (End)
+> Loop property detected
+Play Voice Line 144 for SS3 Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Majin Buu
+> Position (XYZ): 61.7 0.0 63.3 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -61.7 0.0 -63.3 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Disable Aura Charge for Majin Buu
+Disable Aura Charge for Kid Buu
+[Initial Camera Point]
+> Position (XYZ): 31.606 -1.658 38.472 
+> Rotation (XYZ): 11.076 55.761 0.0 
+Play Animation 388_LOSE.canm for Majin Buu
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -18.732 -15.982 -25.501 
+> Rotation (XYZ): -11.366 -131.203 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -57.186 -11.442 -60.501 
+> Rotation (XYZ): -4.711 -125.172 0.0 
+Play Animation 386_WIN_IN.canm for Kid Buu
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Kid Buu
+> Loop property detected
+Play Voice Line 45 for Kid Buu
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Mr. Satan
+> Position (XYZ): 61.7 0.0 63.3 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -61.7 0.0 -63.3 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Disable Aura Charge for Mr. Satan
+Disable Aura Charge for Kid Buu
+[Initial Camera Point]
+> Position (XYZ): 31.606 -1.658 38.472 
+> Rotation (XYZ): 11.076 55.761 0.0 
+Play Animation 388_LOSE.canm for Mr. Satan
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -18.732 -15.982 -25.501 
+> Rotation (XYZ): -11.366 -131.203 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -57.186 -11.442 -60.501 
+> Rotation (XYZ): -4.711 -125.172 0.0 
+Play Animation 386_WIN_IN.canm for Kid Buu
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Kid Buu
+> Loop property detected
+Play Voice Line 45 for Kid Buu
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 42 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Vegeta
+> Position (XYZ): 61.7 0.0 63.3 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -61.7 0.0 -63.3 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Disable Aura Charge for Vegeta
+Disable Aura Charge for Kid Buu
+[Initial Camera Point]
+> Position (XYZ): 31.606 -1.658 38.472 
+> Rotation (XYZ): 11.076 55.761 0.0 
+Play Animation 388_LOSE.canm for Vegeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -18.732 -15.982 -25.501 
+> Rotation (XYZ): -11.366 -131.203 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -57.186 -11.442 -60.501 
+> Rotation (XYZ): -4.711 -125.172 0.0 
+Play Animation 386_WIN_IN.canm for Kid Buu
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Kid Buu
+> Loop property detected
+Play Voice Line 45 for Kid Buu
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 43 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for SS3 Goku (End)
+> Position (XYZ): 61.7 0.0 63.3 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -61.7 0.0 -63.3 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Disable Aura Charge for SS3 Goku (End)
+Disable Aura Charge for Kid Buu
+[Initial Camera Point]
+> Position (XYZ): 31.606 -1.658 38.472 
+> Rotation (XYZ): 11.076 55.761 0.0 
+Play Animation 388_LOSE.canm for SS3 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -18.732 -15.982 -25.501 
+> Rotation (XYZ): -11.366 -131.203 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -57.186 -11.442 -60.501 
+> Rotation (XYZ): -4.711 -125.172 0.0 
+Play Animation 386_WIN_IN.canm for Kid Buu
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Kid Buu
+> Loop property detected
+Play Voice Line 45 for Kid Buu
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 44 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for SS3 Goku (End)
+> Position (XYZ): 61.7 0.0 63.3 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -61.7 0.0 -63.3 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Disable Aura Charge for SS3 Goku (End)
+Disable Aura Charge for Kid Buu
+[Initial Camera Point]
+> Position (XYZ): 31.606 -1.658 38.472 
+> Rotation (XYZ): 11.076 55.761 0.0 
+Play Animation 388_LOSE.canm for SS3 Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -18.732 -15.982 -25.501 
+> Rotation (XYZ): -11.366 -131.203 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -57.186 -11.442 -60.501 
+> Rotation (XYZ): -4.711 -125.172 0.0 
+Play Animation 386_WIN_IN.canm for Kid Buu
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Kid Buu
+> Loop property detected
+Play Voice Line 45 for Kid Buu
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 45 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for SS3 Goku (End)
+> Position (XYZ): 16.4 0.0 16.8 
+> Rotation (XYZ): 0.0 -135.7 0.0 
+Change Position/Rotation for Kid Buu
+> Position (XYZ): -16.4 0.0 -16.8 
+> Rotation (XYZ): 0.0 44.3 0.0 
+Disable Aura Charge for SS3 Goku (End)
+Disable Aura Charge for Kid Buu
+[Initial Camera Point]
+> Position (XYZ): 11.164 -7.417 27.801 
+> Rotation (XYZ): -6.419 -161.489 0.0 
+Play Animation 388_LOSE.canm for SS3 Goku (End)
+Play Animation 386_WIN_IN.canm for Kid Buu
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Kid Buu
+> Loop property detected
+Play Voice Line 145 for Kid Buu
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===

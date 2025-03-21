@@ -1,12 +1,12 @@
 [General Information]
-Name: The Battle of Gods
+Name: Broly
 Saga: Dragon Ball Super Saga
 
 [Rewards]
 > Acquired Z-Points (from Easy to Hard)
-1000
-1500
-2000
+2500
+3000
+3500
 > Acquired Z-Items
 null
 null
@@ -16,28 +16,88 @@ null
 null
 null
 > Acquired Characters
-Beerus
-null
-null
+SS1 Broly (Super)
+LSS Broly (Super)
+SSB Gogeta
 > Acquired Scenarios
-Resurrection F
+null
 null
 null
 
 [Battle Settings]
-Map: Outer Space - Earth
-BGM: The Battle with All My Force
+Map: Ice Continent
+BGM: UNKNOWN (ID: 194)
 
 [Player 1 Team]
 > Teammate 1
-Character: SSG Goku
-Costume: 4
+Character: SSG Vegeta
+Costume: 5
 Damaged: false
 COM Difficulty Level: 0
 Strategy Z-Item: Goku Type
 Initial Health: 100%
 Z-Item #1: Whis Training
-Z-Item #2: Attack +4
+Z-Item #2: Attack +8
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 2
+Character: Goku (End)
+Costume: 5
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +8
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 3
+Character: Vegeta
+Costume: 5
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +8
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 4
+Character: Frieza - Final Form
+Costume: 2
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +8
+Z-Item #3: null
+Z-Item #4: null
+Z-Item #5: null
+Z-Item #6: null
+Z-Item #7: null
+
+> Teammate 5
+Character: Gogeta
+Costume: 1
+Damaged: false
+COM Difficulty Level: 0
+Strategy Z-Item: Goku Type
+Initial Health: 100%
+Z-Item #1: Whis Training
+Z-Item #2: Attack +8
 Z-Item #3: null
 Z-Item #4: null
 Z-Item #5: null
@@ -46,14 +106,14 @@ Z-Item #7: null
 
 [Opponent Team]
 > Teammate 1
-Character: Beerus
+Character: Broly (Super)
 Costume: 1
 Damaged: false
 COM Difficulty Level: 0
 Strategy Z-Item: Goku Type
 Initial Health: 100%
 Z-Item #1: Whis Training
-Z-Item #2: Attack +4
+Z-Item #2: Attack +8
 Z-Item #3: null
 Z-Item #4: null
 Z-Item #5: null
@@ -61,254 +121,1131 @@ Z-Item #6: null
 Z-Item #7: null
 
 > Results
-Teammate Count (Player 1): 1
+Teammate Count (Player 1): 5
 Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Broly (Super)
+> Position (XYZ): 130.9 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for SSG Vegeta
+> Position (XYZ): -130.9 -79.1 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 38_FLY.canm for SSG Vegeta
+> Loop property detected
+Play Animation 53_CHARGE_LOOP.canm for Broly (Super)
+> Loop property detected
+Enable Ki Charge for Broly (Super)
+[Initial Camera Point]
+> Position (XYZ): -176.977 -86.907 -36.877 
+> Rotation (XYZ): -11.875 91.147 0.0 
+[Additional Camera Point]
+> Transition Time: 2.5 
+> Position (XYZ): -176.977 -86.907 -36.877 
+> Rotation (XYZ): -11.875 91.147 0.0 
+Play Voice Line 0 for Broly (Super)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -101.061 -84.534 -16.791 
+> Rotation (XYZ): 9.053 -121.339 0.0 
+Play Voice Line 1 for SSG Vegeta
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
-Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 1
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Scene ID: 1
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Aerial Clash
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 2
+Condition: Immediate
+> Voice Line ID: 3
+Condition: Immediate
+> Voice Line ID: 4
+Condition: Immediate
+> Voice Line ID: 5
+Condition: Immediate
+> Voice Line ID: 6
+Condition: Immediate
+> Voice Line ID: 7
+Condition: Immediate
+> Voice Line ID: 8
+[Changes to Opponent detected.]
+> Z-Item #7: Defense +50
+Event:     Battle Finish
 
 [Scene 1]
-Lower Current BG Music
-BG Music:  Rivals
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===Battle Info===
-Condition: Win Normal Clash
-> GSAC ID: 2
-Condition: Win Normal Clash (Opponent)
-> GSAC ID: 2
+Condition: Immediate
+> Scene ID: 2
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Normal Clash (Opponent)
+> Scene ID: 49
+Event:     Switch with Teammate #2
+Character: Goku (End)
 
 [Scene 2]
-Lower Current BG Music
-BG Music:  Strive to Revive
 
-===Battle Info===
-Condition: Win Normal Clash
-> GSAC ID: 3
-Condition: Win Normal Clash (Opponent)
-> GSAC ID: 49
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Opponent detected.]
-> Add 100% more Health
-Event:     Normal Clash (Opponent)
-
-[Scene 3]
-
-===Battle Info===
-Condition: Lose 5 Health Bars (Opponent) [AUTO]
-> GSAC ID: 4
-Condition: Win via K.O.
-> GSAC ID: 30
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
-Event:     Assign Transformation (Opponent) [AUTO]
-
-[Scene 4]
-Lower Current BG Music
-BG Music:  The Athem of Lives
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SSG Vegeta
+> Position (XYZ): 70.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Broly (Super)
+> Position (XYZ): -70.0 0.9 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 285_SKILL_003_EVENT_2.canm for Goku (End)
+> Loop property detected
+Play Animation 53_CHARGE_LOOP.canm for Broly (Super)
+> Loop property detected
+Enable Ki Charge for Broly (Super)
+[Initial Camera Point]
+> Position (XYZ): -51.602 -5.762 -33.158 
+> Rotation (XYZ): 3.141 -99.112 0.0 
+[Additional Camera Point]
+> Transition Time: 1.5 
+> Position (XYZ): 94.884 -8.497 -21.344 
+> Rotation (XYZ): 4.597 -104.694 0.0 
+Play Voice Line 9 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 45.093 -3.816 -18.871 
+> Rotation (XYZ): 16.379 131.461 0.0 
+[Additional Camera Point]
+> Transition Time: 2.25 
+> Position (XYZ): 59.242 -12.327 -29.731 
+> Rotation (XYZ): 12.298 122.59 0.0 
+Play Voice Line 10 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -45.916 -25.64 -31.17 
+> Rotation (XYZ): -24.681 -99.36 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -61.101 -21.808 -35.139 
+> Rotation (XYZ): 0.067 -97.641 0.0 
+Play Voice Line 11 for Broly (Super)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Lose 1 Health Bar (Opponent) [AUTO]
-> GSAC ID: 5
-Condition: Lose 1 Health Bar
-> GSAC ID: 5
+> Scene ID: 3
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 12
 [Changes to Opponent detected.]
 > Add 100% more Health
-Event:     Beam Struggle between Player 1's 1st Blast 2 and COM's 1st Blast 2 (Opponent)
+Event:     Aerial Clash (Opponent)
 
-[Scene 5]
+[Scene 3]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SSG Vegeta
+> Position (XYZ): 44.0 0.0 -44.9 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Broly (Super)
+> Position (XYZ): -47.8 -0.7 106.1 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 1_GROUND_TIRED.canm for SSG Vegeta
+> Loop property detected
+Play Animation 0_GROUND.canm for Broly (Super)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -64.534 -26.067 120.132 
+> Rotation (XYZ): -16.142 146.284 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -59.867 -23.498 113.139 
+> Rotation (XYZ): -13.443 146.284 0.0 
+Play Animation 52_CHARGE_IN.canm for SSG Vegeta
+> Wait property detected
+Enable Ki Charge for Goku (End)
+Shake Camera for 1.0 seconds
+Play Animation 53_CHARGE_LOOP.canm for SSG Vegeta
+> Loop property detected
+Play Voice Line 13 for Goku (End)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
-Condition: Lose 4 Health Bars (Opponent) [AUTO]
-> GSAC ID: 6
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Scene ID: 4
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Assign Transformation (Opponent) [AUTO]
-
-[Scene 6]
-Lower Current BG Music
-BG Music:  Greatest Tactics in the Universe
-
-===Battle Info===
-Condition: Wait 20 seconds
-> GSAC ID: 7
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Player 1 detected.]
-> Add 100% more Health
-[Changes to Opponent detected.]
-> Add 100% more Health
-Event:     Assign Transformation (Opponent) [AUTO]
-
-[Scene 7]
-Lower Current BG Music
-BG Music:  Stand After Confusion
-
-===Battle Info===
-Condition: Lose 4 Health Bars (Opponent) [AUTO]
-> GSAC ID: 8
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 14
 Event:     Assign Transformation
 Character: SS1 Goku (End)
 
-[Scene 8]
-Lower Current BG Music
-BG Music:  Perseverance
+[Scene 4]
 
-===Battle Info===
-Condition: Wait 10 seconds
-> GSAC ID: 9
-Condition: Win via K.O.
-> GSAC ID: 11
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Aerial Clash (Opponent)
-
-[Scene 9]
-Lower Current BG Music
-BG Music:  Rampaging Metalhead
-
-===Battle Info===
-Condition: Hit with 1st Blast 2
-> GSAC ID: 10
-Condition: Win via K.O.
-> GSAC ID: 11
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Opponent detected.]
-> Z-Item #7: Absolutely Invincible Body
-Event:     Trigger 1st Blast 2
-
-[Scene 10]
-Lower Current BG Music
-BG Music:  Fly High
-
-===Battle Info===
-Condition: Win via K.O.
-> GSAC ID: 11
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Opponent detected.]
-> Z-Item #7: null
-Event:     Normal Clash (Opponent)
-
-[Scene 11]
-
-===Battle Info===
-Condition: Immediate
-> GSAC ID: 12
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-Event:     Assign Transformation
-Character: Goku (End)
-
-[Scene 12]
-
-===Battle Info===
-Condition: Wait 10 seconds
-> GSAC ID: 16
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 13
-[Changes to Opponent detected.]
-> Z-Item #6: Absolutely Invincible Body
-> Z-Item #7: Go To Hell
-> Z-Item #5: Attack +50
-> Add 100% more Health
-Event:     Aerial Clash
-
-[Scene 16]
-
-===Battle Info===
-Condition: Win via K.O.
-> GSAC ID: 39
-Condition: Win via K.O. (Opponent)
-> GSAC ID: 13
-Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
-
-[Scene 13]
-Lower Current BG Music
-Lower Current BG Music
-BG Music:  Gatebreaker
+===Cinematic Info===
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Lose 3 Health Bars (Opponent) [AUTO]
-> GSAC ID: 14
+> Scene ID: 5
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 15
+Condition: Immediate
+> Voice Line ID: 16
+Condition: Immediate
+> Voice Line ID: 17
+Event:     Assign Transformation
+Character: SSG Goku
+
+[Scene 5]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Broly (Super)
+> Position (XYZ): -40.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 40.0 0.0 35.0 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Enable Ki Charge for Broly (Super)
+[Initial Camera Point]
+> Position (XYZ): 32.908 -1.134 10.551 
+> Rotation (XYZ): 17.185 9.185 0.0 
+[Additional Camera Point]
+> Transition Time: 1.5 
+> Position (XYZ): 34.185 -7.511 18.443 
+> Rotation (XYZ): 8.0225 9.185 0.0 
+Play Animation 0_GROUND.canm for Goku (End)
+> Loop property detected
+Play Animation 53_CHARGE_LOOP.canm for Broly (Super)
+> Loop property detected
+Play Voice Line 18 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 48.874 -22.201 58.111 
+> Rotation (XYZ): -22.992 -143.445 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 41.554 -15.345 44.409 
+> Rotation (XYZ): -7.615 -136.03 0.0 
+Play Voice Line 19 for Broly (Super)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 7.066 -9.3655 16.703 
+> Rotation (XYZ): 13.564 61.89 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 22.25 -5.268 25.36 
+> Rotation (XYZ): 20.95 59.724 0.0 
+Play Voice Line 20 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -26.334 -21.439 -7.016 
+> Rotation (XYZ): -20.444 -157.887 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -30.624 -24.061 -26.238 
+> Rotation (XYZ): -18.945 -138.657 0.0 
+Play Voice Line 21 for Broly (Super)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 27.254 -11.421 38.252 
+> Rotation (XYZ): 4.533 119.604 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 31.723 -14.122 29.255 
+> Rotation (XYZ): -4.931 54.651 0.0 
+Play Voice Line 22 for Goku (End)
+> Wait property detected
+Play Voice Line 23 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 30.684 -13.147 13.182 
+> Rotation (XYZ): -11.091 22.668 0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): 19.698 -10.851 29.414 
+> Rotation (XYZ): -7.172 79.401 0.0 
+Play Voice Line 24 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -41.444 -22.574 -15.881 
+> Rotation (XYZ): -14.376 167.153 0.0 
+[Additional Camera Point]
+> Transition Time: 12.0 
+> Position (XYZ): -38.987 -21.594 -26.655 
+> Rotation (XYZ): -5.868 167.153 0.0 
+Play Voice Line 25 for Broly (Super)
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Lose 3 Health Bars (Opponent) [AUTO]
+> Scene ID: 24
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 26
+Condition: Immediate
+> Voice Line ID: 27
+Condition: Immediate
+> Voice Line ID: 28
+Condition: Immediate
+> Voice Line ID: 29
+Condition: Immediate
+> Voice Line ID: 30
+Condition: Immediate
+> Voice Line ID: 31
+Condition: Immediate
+> Voice Line ID: 32
+Condition: Immediate
+> Voice Line ID: 33
+Condition: Immediate
+> Voice Line ID: 34
+Condition: Immediate
+> Voice Line ID: 35
+Condition: Immediate
+> Voice Line ID: 36
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Normal Clash (Opponent)
+
+[Scene 24]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Broly (Super)
+> Position (XYZ): -40.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 48.8 0.0 
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 40.0 0.0 35.0 
+> Rotation (XYZ): 0.0 -131.2 0.0 
+Enable Ki Charge for Broly (Super)
+Play Animation 53_CHARGE_LOOP.canm for Broly (Super)
+> Loop property detected
+Play Animation 0_GROUND.canm for Goku (End)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 48.874 -22.201 58.111 
+> Rotation (XYZ): -22.992 -143.445 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): 41.554 -15.345 44.409 
+> Rotation (XYZ): -7.615 -136.03 0.0 
+Wait 1.5 seconds
+Disable ALL VFX
+
+===Battle Info===
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 6
+[Changes to Opponent detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger 2nd Blast 2 (Opponent) [AUTO]
+
+[Scene 6]
+
+===Cinematic Info===
+Change Position/Rotation for SSG Vegeta
+> Position (XYZ): -20.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Broly (Super)
+> Position (XYZ): 53.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 29.417 -12.0555 -3.084 
+> Rotation (XYZ): 11.108 80.923 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): 40.427 -14.552 -1.325 
+> Rotation (XYZ): 24.12 80.923 0.0 
+Play Animation 213_DAMAGE_LYING_TIRED_LOOP.canm for Goku (End)
+> Loop property detected
+Play Animation 53_CHARGE_LOOP.canm for Broly (Super)
+> Loop property detected
+Enable Aura Charge for Broly (Super)
+Play Voice Line 37 for Broly (Super)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 0.6486094 -6.89 8.204 
+> Rotation (XYZ): -4.084 -118.317 0.0 
+[Additional Camera Point]
+> Transition Time: 11.0 
+> Position (XYZ): 0.5233125 -23.986 6.171 
+> Rotation (XYZ): -57.18 -110.85 0.0 
+Lower Current BG Music
+BG Music:  UNKNOWN (ID: 11)
+Play Animation 0_GROUND.canm for Broly (Super)
+> Loop property detected
+Play Animation 213_DAMAGE_LYING_TIRED_LOOP.canm for Goku (End)
+> Wait property detected
+Play Voice Line 38 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 0.50231254 -12.701 -7.044 
+> Rotation (XYZ): -22.957 -56.624 0.0 
+[Additional Camera Point]
+> Transition Time: 14.0 
+> Position (XYZ): 0.50006247 -12.6015 -25.748 
+> Rotation (XYZ): -11.091 -29.862 0.0 
+Play Voice Line 39 for Goku (End)
+> Wait property detected
+Play Voice Line 40 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -9.603 -1.368 -2.416 
+> Rotation (XYZ): 41.724 -83.299 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -11.24 -18.69 0.802 
+> Rotation (XYZ): -22.743 -93.243 0.0 
+Play Animation 284_SKILL_003_EVENT_1.canm for Goku (End)
+> Wait property detected
+Wait 2.25 seconds
+Play Animation 285_SKILL_003_EVENT_2.canm for Goku (End)
+> Loop property detected
+Play Voice Line 41 for Goku (End)
+> Wait property detected
+Play Voice Line 42 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 61.51101 -27.560007 8.204002 
+> Rotation (XYZ): -4.084001 -118.31702 0.0 
+[Additional Camera Point]
+> Transition Time: 11.0625 
+> Position (XYZ): 61.49206 -21.98601 6.171002 
+> Rotation (XYZ): -10.295002 -110.85001 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (End)
+> Loop property detected
+Play Voice Line 43 for Background Character
+> Wait property detected
+Play Voice Line 44 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 3.702999 -11.53 -13.556 
+> Rotation (XYZ): -1.996 -58.57 0.0 
+[Additional Camera Point]
+> Transition Time: 14.0 
+> Position (XYZ): -8.728001 -8.201 2.389 
+> Rotation (XYZ): 9.676 -107.861 0.0 
+Enable Ki Charge for Goku (End)
+Play Animation 52_CHARGE_IN.canm for Goku (End)
+> Wait property detected
+Play Animation 53_CHARGE_LOOP.canm for Goku (End)
+> Loop property detected
+Play Voice Line 45 for Goku (End)
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Scene ID: 7
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
 [Changes to Player 1 detected.]
 > Add 100% more Health
 [Changes to Opponent detected.]
-> Z-Item #6: null
 > Z-Item #7: null
-> Z-Item #5: null
+> Add 100% more Health
 Event:     Assign Transformation
-Character: SS1 Goku (End)
+Character: SSB Goku
 
-[Scene 14]
+[Scene 7]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for SSG Vegeta
+> Position (XYZ): -46.4 0.0 -46.4 
+> Rotation (XYZ): 0.0 45.0 0.0 
+Change Position/Rotation for Broly (Super)
+> Position (XYZ): 46.4 -50.0 46.4 
+> Rotation (XYZ): 0.0 -135.0 0.0 
+Disable Aura Charge for SSG Vegeta
+[Initial Camera Point]
+> Position (XYZ): -71.823 -2.057 -38.674 
+> Rotation (XYZ): 17.177 83.582 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -64.202 -0.661 -51.853 
+> Rotation (XYZ): 14.094 68.826 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (End)
+> Loop property detected
+Play Animation 329_SKILL_005_IN.canm for Broly (Super)
+> Wait property detected
+Play Animation 330_SKILL_005_CHARGE.canm for Broly (Super)
+> Loop property detected
+Enable Ki Charge for Broly (Super)
+Wait 2.3 seconds
+Disable ALL VFX
 
 ===Battle Info===
+Condition: Hit with Ultimate Blast (Opponent)
+> Scene ID: 25
 Condition: Win via K.O.
-> GSAC ID: 15
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
-[Changes to Player 1 detected.]
-> Z-Item #7: Go To Hell
-[Changes to Opponent detected.]
-> Z-Item #7: Go To Hell
-Event:     Unknown (ID: 30)
+> Scene ID: 49
+Event:     Trigger Ultimate Blast (Opponent) [AUTO]
 
-[Scene 15]
+[Scene 25]
+
+===Cinematic Info===
+Disable ALL VFX
+
+===Battle Info===
+Condition: Wait 20 seconds
+> Scene ID: 8
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 46
+Condition: Immediate
+> Voice Line ID: 47
+Condition: Immediate
+> Voice Line ID: 48
+Condition: Immediate
+> Voice Line ID: 49
+Event:     Map Destruction (Opponent)
+
+[Scene 8]
+
+===Cinematic Info===
+Change Position/Rotation for Broly (Super)
+> Position (XYZ): -51.4 0.0 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for SSG Vegeta
+> Position (XYZ): 51.4 0.0 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Play Animation 0_GROUND.canm for Goku (End)
+> Loop property detected
+Play Animation 0_GROUND.canm for Broly (Super)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -55.472 -32.899 88.014 
+> Rotation (XYZ): -17.18 142.362 0.0 
+[Additional Camera Point]
+> Transition Time: 15.0 
+> Position (XYZ): -77.813 -32.899 70.786 
+> Rotation (XYZ): -17.18 138.954 0.0 
+Play Voice Line 50 for Background Character
+> Wait property detected
+Play Voice Line 51 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -21.278 -11.682 24.517 
+> Rotation (XYZ): -0.529 -35.153 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -40.919 -36.13 36.107 
+> Rotation (XYZ): -42.192 -16.313 0.0 
+Enable Ki Charge for Broly (Super)
+Play Animation 375_TRANSFORMATION_IN.canm for Broly (Super)
+> Wait property detected
+Play Animation 376_TRANSFORMATION_LOOP.canm for Broly (Super)
+> Loop property detected
+Play Voice Line 52 for Broly (Super)
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Wait 20 seconds
+> Scene ID: 9
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 53
+Condition: Immediate
+> Voice Line ID: 54
+[Changes to Player 1 detected.]
+> Z-Item #7: Attack -25
+[Changes to Opponent detected.]
+> Add 100% more Health
+> Z-Item #7: Defense +50
+Event:     Assign Transformation (Opponent) [AUTO]
+Character: SS1 Broly (Super)
+
+[Scene 9]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 30
+> Scene ID: 10
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Event:     Switch with Teammate #3
+Character: Vegeta
+
+[Scene 10]
+
+===Cinematic Info===
+Change Position/Rotation for SSG Vegeta
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Broly (Super)
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 76.144 -15.89 -11.006 
+> Rotation (XYZ): -22.353 34.636 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 74.193 -10.118 -4.569 
+> Rotation (XYZ): 3.955 68.477 0.0 
+Play Animation 384_INTRO_IN.canm for Vegeta
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Vegeta
+> Loop property detected
+Play Voice Line 55 for Vegeta
+> Wait property detected
+Play Voice Line 56 for Vegeta
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Wait 20 seconds
+> Scene ID: 11
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 57
+[Changes to Player 1 detected.]
+> Z-Item #7: Attack -25
 Event:     Assign Transformation
-Character: Goku (End)
+Character: SSB Vegeta
+
+[Scene 11]
+
+===Cinematic Info===
+Disable ALL VFX
+
+===Battle Info===
+Condition: Immediate
+> Scene ID: 12
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Event:     Switch with Teammate #4
+Character: Frieza - Final Form
+
+[Scene 12]
+
+===Cinematic Info===
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Broly (Super)
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 57.814 -6.887 4.272 
+> Rotation (XYZ): 7.06 98.159 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): 75.109 -10.0395 0.662 
+> Rotation (XYZ): -3.807 98.159 0.0 
+Play Animation 0_GROUND.canm for Broly (Super)
+> Loop property detected
+Play Animation 406_SURPRISED.canm for Frieza - Final Form
+> Loop property detected
+Play Voice Line 58 for Frieza - Final Form
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Wait 55 seconds
+> Scene ID: 13
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 59
+Condition: Immediate
+> Voice Line ID: 60
+Condition: Immediate
+> Voice Line ID: 61
+Condition: Immediate
+> Voice Line ID: 62
+Condition: Immediate
+> Voice Line ID: 63
+Condition: Immediate
+> Voice Line ID: 64
+Condition: Immediate
+> Voice Line ID: 65
+Condition: Immediate
+> Voice Line ID: 66
+Condition: Immediate
+> Voice Line ID: 67
+Condition: Immediate
+> Voice Line ID: 68
+Condition: Immediate
+> Voice Line ID: 69
+Condition: Immediate
+> Voice Line ID: 70
+Condition: Immediate
+> Voice Line ID: 71
+[Changes to Opponent detected.]
+> Z-Item #7: Absolutely Invincible Body
+> Add 100% more Health
+Event:     Normal Clash (Opponent)
+
+[Scene 13]
+
+===Cinematic Info===
+Disable ALL VFX
+
+===Battle Info===
+Condition: Immediate
+> Scene ID: 14
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Event:     Assign Transformation
+Character: Golden Frieza
+
+[Scene 14]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Frieza - Final Form
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Broly (Super)
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 76.719 -3.333 0.949 
+> Rotation (XYZ): 37.649 94.719 0.0 
+Play Animation 0_GROUND.canm for Frieza - Final Form
+> Loop property detected
+Play Animation 0_GROUND.canm for Broly (Super)
+> Loop property detected
+Play Voice Line 72 for Frieza - Final Form
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 58.222 -3.226 -2.044 
+> Rotation (XYZ): 4.174 85.855 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 70.172 -6.082 -0.598 
+> Rotation (XYZ): 22.96 85.855 0.0 
+Play Animation 384_INTRO_IN.canm for Frieza - Final Form
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Frieza - Final Form
+> Loop property detected
+Play Voice Line 73 for Frieza - Final Form
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Wait 25 seconds
+> Scene ID: 22
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 74
+Condition: Immediate
+> Voice Line ID: 75
+Condition: Immediate
+> Voice Line ID: 76
+[Changes to Player 1 detected.]
+> Add 100% more Health
+> Z-Item #7: Attack -25
+[Changes to Opponent detected.]
+> Z-Item #7: Defense +50
+Event:     Normal Clash (Opponent)
+
+[Scene 22]
+
+===Cinematic Info===
+Disable ALL VFX
+
+===Battle Info===
+Condition: Wait 25 seconds
+> Scene ID: 23
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 77
+Condition: Immediate
+> Voice Line ID: 78
+Condition: Immediate
+> Voice Line ID: 79
+Condition: Immediate
+> Voice Line ID: 80
+Event:     Assign Transformation (Opponent) [AUTO]
+
+[Scene 23]
+
+===Cinematic Info===
+Disable ALL VFX
+
+===Battle Info===
+Condition: Wait 30 seconds
+> Scene ID: 15
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 81
+Condition: Immediate
+> Voice Line ID: 83
+Condition: Immediate
+> Voice Line ID: 84
+Condition: Immediate
+> Voice Line ID: 85
+Condition: Immediate
+> Voice Line ID: 86
+Condition: Immediate
+> Voice Line ID: 87
+Event:     Assign Transformation (Opponent) [AUTO]
+
+[Scene 15]
+
+===Cinematic Info===
+Disable ALL VFX
+
+===Battle Info===
+Condition: Immediate
+> Scene ID: 16
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Event:     Switch with Teammate #5
+Character: Gogeta
+
+[Scene 16]
+
+===Cinematic Info===
+Change Position/Rotation for Broly (Super)
+> Position (XYZ): -51.4 0.0 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Gogeta
+> Position (XYZ): 51.4 0.0 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Play Animation 0_GROUND.canm for Broly (Super)
+> Loop property detected
+Play Animation 383_SEARCH_SCOUTER.canm for Gogeta
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 74.396996 -13.967 -69.682 
+> Rotation (XYZ): -3.119 -73.429 0.0 
+[Additional Camera Point]
+> Transition Time: 9.5 
+> Position (XYZ): 48.175 -17.827 -82.243004 
+> Rotation (XYZ): -3.119 20.905 0.0 
+Play Voice Line 88 for Frieza - Final Form
+> Wait property detected
+Wait 1.5 seconds
+[Initial Camera Point]
+> Position (XYZ): 36.924 -9.304001 -44.236 
+> Rotation (XYZ): 12.74 134.489 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 45.663 -12.1345 -57.073 
+> Rotation (XYZ): 23.646 128.637 0.0 
+Play Voice Line 89 for Gogeta
+> Wait property detected
+Play Voice Line 90 for Gogeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 23.637 -34.167 -26.097 
+> Rotation (XYZ): -35.882 144.381 0.0 
+[Additional Camera Point]
+> Transition Time: 8.0 
+> Position (XYZ): 27.939 -12.763 -32.102 
+> Rotation (XYZ): 2.36325 144.381 0.0 
+Play Voice Line 91 for Background Character
+> Wait property detected
+Play Voice Line 92 for Gogeta
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -21.278 -11.682 24.517 
+> Rotation (XYZ): -0.529 -35.153 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -40.919 -36.13 36.107 
+> Rotation (XYZ): -42.192 -16.313 0.0 
+Play Voice Line 93 for Broly (Super)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 36.924 -2.326 -44.236 
+> Rotation (XYZ): 12.74 134.489 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 45.663 -12.1345 -57.073 
+> Rotation (XYZ): 23.646 128.637 0.0 
+Play Animation 0_GROUND.canm for Gogeta
+> Loop property detected
+Play Voice Line 94 for Gogeta
+> Wait property detected
+Lower Current BG Music
+BG Music:  UNKNOWN (ID: 241)
+Disable ALL VFX
+
+===Battle Info===
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Scene ID: 17
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+[Changes to Opponent detected.]
+> Add 100% more Health
+> Z-Item #7: null
+Event:     Aerial Clash (Opponent)
+
+[Scene 17]
+
+===Cinematic Info===
+Change Position/Rotation for Gogeta
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Broly (Super)
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 0_GROUND.canm for Broly (Super)
+> Loop property detected
+Play Animation 383_SEARCH_SCOUTER.canm for Gogeta
+> Loop property detected
+Enable Ki Charge for Gogeta
+[Initial Camera Point]
+> Position (XYZ): -69.05 -13.229 8.038 
+> Rotation (XYZ): -6.622 95.592 0.0 
+[Additional Camera Point]
+> Transition Time: 1.0 
+> Position (XYZ): 78.925 -12.147 0.758 
+> Rotation (XYZ): 12.309 95.461 0.0 
+Shake Camera for 1.0 seconds
+Play Voice Line 95 for Gogeta
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Lose 6 Health Bars (Opponent) [AUTO]
+> Scene ID: 18
+Condition: Win via K.O.
+> Scene ID: 18
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Event:     Assign Transformation
+Character: Super Gogeta
+
+[Scene 18 - UNUSED]
+
+===Cinematic Info===
+Disable ALL VFX
+
+===Battle Info===
+Condition: Wait 10 seconds
+> Scene ID: 19
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 96
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Assign Transformation (Opponent) [AUTO]
+Character: LSS Broly (Super)
+
+[Scene 19]
+
+===Cinematic Info===
+Disable ALL VFX
+
+===Battle Info===
+Condition: Lose 6 Health Bars (Opponent) [AUTO]
+> Scene ID: 20
+Condition: Win via K.O.
+> Scene ID: 20
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 97
+Condition: Immediate
+> Voice Line ID: 98
+Condition: Immediate
+> Voice Line ID: 99
+Condition: Immediate
+> Voice Line ID: 100
+[Changes to Player 1 detected.]
+> Add 100% more Health
+Event:     Assign Transformation
+Character: SSB Gogeta
+
+[Scene 20]
+
+===Cinematic Info===
+Change Position/Rotation for SSG Vegeta
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Broly (Super)
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -39.872 -11.86 0.923 
+> Rotation (XYZ): 3.386 -91.143 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -69.49 -15.523 -6.474 
+> Rotation (XYZ): 14.749 -73.541 0.0 
+Enable Ki Charge for Broly (Super)
+Play Animation 53_CHARGE_LOOP.canm for Broly (Super)
+> Loop property detected
+Play Voice Line 101 for Broly (Super)
+> Wait property detected
+Lower Current BG Music
+BG Music:  UNKNOWN (ID: 21)
+Disable ALL VFX
+
+===Battle Info===
+Condition: Lose 5 Health Bars (Opponent) [AUTO]
+> Scene ID: 21
+Condition: Win via K.O.
+> Scene ID: 39
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+[Changes to Opponent detected.]
+> Add 100% more Health
+Event:     Trigger 2nd Blast 2
+
+[Scene 21]
+
+===Cinematic Info===
+Change Position/Rotation for SSG Vegeta
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Broly (Super)
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 118.909 -28.968 22.413 
+> Rotation (XYZ): -20.97 -103.913 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 98.149 -13.827 16.103 
+> Rotation (XYZ): -3.955 -121.337 0.0 
+Play Animation 1_GROUND_TIRED.canm for Broly (Super)
+> Loop property detected
+Play Animation 0_GROUND.canm for Gogeta
+> Loop property detected
+Play Voice Line 102 for Background Character
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 57.89 -16.184 22.172 
+> Rotation (XYZ): -12.148 126.123 0.0 
+[Additional Camera Point]
+> Transition Time: 9.025 
+> Position (XYZ): 73.454 -8.986 2.464 
+> Rotation (XYZ): 7.763 101.745 0.0 
+Enable Ki Charge for Gogeta
+Play Animation 330_SKILL_005_CHARGE.canm for Gogeta
+> Loop property detected
+Play Voice Line 103 for Gogeta
+> Wait property detected
+Disable ALL VFX
+
+===Battle Info===
+Condition: Win via K.O.
+> Scene ID: 30
+Condition: Win via K.O. (Opponent)
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 105
+[Changes to Player 1 detected.]
+> Z-Item #7: Go To Hell
+Event:     Trigger Ultimate Blast
 
 [Scene 30 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for Gogeta
+> Position (XYZ): 20.0 0.0 -35.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Broly (Super)
+> Position (XYZ): -20.0 -79.1 -35.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Play Animation 413_STAND_LOOP.canm for SSG Vegeta
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for SS1 Teen Gohan
+> Loop property detected
+Disable Aura Charge for SSG Vegeta
+Disable Aura Charge for SS1 Teen Gohan
+[Initial Camera Point]
+> Position (XYZ): -2.935 -8.954 -36.601 
+> Rotation (XYZ): -13.68 -85.993 0.0 
+Wait 1.5 seconds
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): 32.369 -23.039 -43.041 
+> Rotation (XYZ): -22.085 -70.225 0.0 
+Wait 2.75 seconds
+[Initial Camera Point]
+> Position (XYZ): 12.811 -16.685 -29.162 
+> Rotation (XYZ): -5.482 137.759 0.0 
+Play Animation 388_LOSE.canm for SS1 Teen Gohan
+Play Animation 413_STAND_LOOP.canm for SSG Vegeta
+> Loop property detected
+Play Voice Line 106 for Gogeta
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory)]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat)]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

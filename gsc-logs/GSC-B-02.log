@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: Rocky Area - Noon
-BGM: The Battle with All My Force
+BGM: UNKNOWN (ID: 218)
 
 [Player 1 Team]
 > Teammate 1
@@ -66,45 +66,328 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): 56.9 0.0 -66.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): -60.8 -0.7 127.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+[Initial Camera Point]
+> Position (XYZ): 47.702 -7.243 -62.809 
+> Rotation (XYZ): 32.612 130.751 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 44.76 -0.784 -58.392 
+> Rotation (XYZ): 20.237 131.158 0.0 
+Play Animation 384_INTRO_IN.canm for Goku (Early)
+Play Voice Line 0 for Goku (Early)
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Goku (Early)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -43.885 -3.454 90.295 
+> Rotation (XYZ): 5.329 -25.553 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): -52.848 -10.951 116.04 
+> Rotation (XYZ): -3.525 -34.84 0.0 
+Play Animation 384_INTRO_IN.canm for Vegeta (Scouter)
+Play Voice Line 2 for Vegeta (Scouter)
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Vegeta (Scouter)
+> Loop property detected
+Play Voice Line 3 for Vegeta (Scouter)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -67.036 -15.535 130.137 
+> Rotation (XYZ): -24.647 147.748 0.0 
+[Additional Camera Point]
+> Transition Time: 10.5 
+> Position (XYZ): -58.917 -15.535 134.737 
+> Rotation (XYZ): -24.647 162.246 0.0 
+Play Voice Line 4 for Vegeta (Scouter)
+> Wait property detected
+Play Voice Line 5 for Vegeta (Scouter)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 53.916 -2.676 -55.091 
+> Rotation (XYZ): -2.003 175.641 0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): 51.03 -8.979 -61.331 
+> Rotation (XYZ): 5.886 158.275 0.0 
+Play Voice Line 6 for Goku (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 48.848 -10.327 -62.878 
+> Rotation (XYZ): -9.828 135.833 0.0 
+[Additional Camera Point]
+> Transition Time: 10.0 
+> Position (XYZ): 34.117 -14.437 -47.712 
+> Rotation (XYZ): -14.397 135.833 0.0 
+Play Voice Line 7 for Goku (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -49.565 -4.319 117.079 
+> Rotation (XYZ): 16.776 -53.238 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -54.404 -6.552 120.705 
+> Rotation (XYZ): 32.464 -54.266 0.0 
+Play Voice Line 8 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 2 Health Bars (Opponent) [AUTO]
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 40
+> Scene ID: 40
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
+Condition: Immediate
+> Voice Line ID: 9
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Immediate
+> Voice Line ID: 11
+Condition: Perform Sonic Sway (Opponent)
+> Voice Line ID: 12
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 13
+Condition: Lose 1 Health Bar
+> Voice Line ID: 14
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 15
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 16
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 17
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 18
+Condition: Wait 30 seconds
+> Voice Line ID: 25
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 21
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 21
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 22
+Condition: Perform Fully Charged Down Smash Attack (Opponent)
+> Voice Line ID: 13
+Condition: Hit with Charged Ki Blast (Opponent)
+> Voice Line ID: 28
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 12
+Condition: Perform Z-Counter (Opponent)
+> Voice Line ID: 12
+Condition: Perform Teleport
+> Voice Line ID: 19
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 23
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 24
+Condition: Perform Ultimate Blast (Opponent)
+> Voice Line ID: 32
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): 145.9 0.0 -312.9 
+> Rotation (XYZ): 0.0 -23.3 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): -149.7 -110.7 374.1 
+> Rotation (XYZ): 0.0 156.7 0.0 
+[Initial Camera Point]
+> Position (XYZ): -140.233 -101.364 349.121 
+> Rotation (XYZ): 25.867 -22.961 0.0 
+[Additional Camera Point]
+> Transition Time: 9.5 
+> Position (XYZ): -145.805 -120.619 365.563 
+> Rotation (XYZ): 6.955 -22.436 0.0 
+Play Animation 39_FLY_TIRED.canm for Vegeta (Scouter)
+> Loop property detected
+Play Voice Line 29 for Vegeta (Scouter)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -127.826 -106.223 359.092 
+> Rotation (XYZ): 16.537 -56.991 0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): -146.319 -115.434 362.776 
+> Rotation (XYZ): 16.929 -19.567 0.0 
+Play Animation 52_CHARGE_IN.canm for Vegeta (Scouter)
+> Wait property detected
+Shake Camera for 1.0 seconds
+Enable Ki Charge for Vegeta (Scouter)
+Play Animation 53_CHARGE_LOOP.canm for Vegeta (Scouter)
+> Loop property detected
+Play Voice Line 30 for Vegeta (Scouter)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -141.07 -147.665 348.011 
+> Rotation (XYZ): -43.162 -19.567 0.0 
+[Additional Camera Point]
+> Transition Time: 8.5 
+> Position (XYZ): -140.166 -79.365 309.942 
+> Rotation (XYZ): 25.157 -9.527 0.0 
+Play Voice Line 31 for Vegeta (Scouter)
+> Wait property detected
+[Additional Camera Point]
+> Transition Time: 2.5 
+> Position (XYZ): 171.114 -15.009 -333.228 
+> Rotation (XYZ): 1.98 -29.862 0.0 
+Play Voice Line 32 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 4 Health Bars (Opponent) [AUTO]
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 41
+> Scene ID: 41
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
+Condition: Perform Normal Clash
+> Voice Line ID: 57
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 13
+Condition: Perform Fully Charged Neutral Smash Attack (Opponent)
+> Voice Line ID: 17
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 16
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 17
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 18
+Condition: Perform Teleport
+> Voice Line ID: 19
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 20
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 21
+Condition: Block 1st Blast 2 (Opponent)
+> Voice Line ID: 22
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 23
+Condition: Perform Fully Charged Left Smash Attack (Opponent)
+> Voice Line ID: 37
+Condition: Perform Fully Charged Right Smash Attack (Opponent)
+> Voice Line ID: 37
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 30
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 27
+Condition: Perform Hyper Smash (Opponent)
+> Voice Line ID: 28
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 12
+Condition: Perform Fully Charged Down Smash Attack (Opponent)
+> Voice Line ID: 17
+Condition: Perform Rush Attack (Opponent)
+> Voice Line ID: 17
+Condition: Block 2nd Blast 2 (Opponent)
+> Voice Line ID: 22
+Condition: Perform 2nd Blast 2
+> Voice Line ID: 24
 Event:     Beam Struggle between Player 1's 1st Blast 2 and COM's 1st Blast 2
 
 [Scene 2]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 3
+> Scene ID: 3
 Event:     Assign Transformation (Opponent) [AUTO]
 Character: Great Ape Vegeta
 
 [Scene 3]
+
+===Cinematic Info===
 Lower Current BG Music
-BG Music:  Final Disturbance
+BG Music:  UNKNOWN (ID: 223)
+Add 0.8 s fade-out
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): 46.6 0.0 -49.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): -50.4 -0.7 110.4 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 413_STAND_LOOP.canm for Goku (Early)
+Disable Aura Charge for Vegeta (Scouter)
+[Initial Camera Point]
+> Position (XYZ): -20.356 -3.124 75.704 
+> Rotation (XYZ): 31.361 -41.591 0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): -30.409 -30.412 93.242 
+> Rotation (XYZ): 17.063 -47.323 0.0 
+Play Animation 384_INTRO_IN.canm for Vegeta (Scouter)
+> Wait property detected
+Shake Camera for 0.7 seconds
+Play Animation 385_INTRO_LOOP.canm for Vegeta (Scouter)
+> Loop property detected
+Play Voice Line 38 for Vegeta (Scouter)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 42.342 -3.027 -33.231 
+> Rotation (XYZ): 34.522 166.925 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 44.799 -11.109 -43.642 
+> Rotation (XYZ): 39.926 164.537 0.0 
+Play Voice Line 39 for Goku (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 67.962 -13.223 -60.429 
+> Rotation (XYZ): -6.413 -39.155 0.0 
+[Additional Camera Point]
+> Transition Time: 4.8 
+> Position (XYZ): 67.962 -13.223 -60.429 
+> Rotation (XYZ): -6.413 -39.155 0.0 
+Play Voice Line 40 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
 Condition: Wait 35 seconds
-> GSAC ID: 4
+> Scene ID: 4
+Condition: Immediate
+> Voice Line ID: 41
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 42
+Condition: Perform Ultimate Blast
+> Voice Line ID: 44
+Condition: Fall into ground/water [AUTO]
+> Voice Line ID: 54
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 46
+Condition: Lose 2 Health Bars (Opponent) [AUTO]
+> Voice Line ID: 48
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 49
+Condition: Hit with 2nd Blast 2 (Opponent)
+> Voice Line ID: 49
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 51
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 52
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 53
+Condition: Block 1st Blast 2
+> Voice Line ID: 47
+Condition: Block 2nd Blast 2
+> Voice Line ID: 47
 [Changes to Player 1 detected.]
 > Add 20% more Health
 > Z-Item #4: Serious!
@@ -122,37 +405,234 @@ Event:     Battle Finish
 
 [Scene 4]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): 56.9 0.0 -66.2 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): -60.8 -0.7 127.5 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Enable Aura Charge for Vegeta (Scouter)
+[Initial Camera Point]
+> Position (XYZ): -28.666 -13.469 39.591 
+> Rotation (XYZ): -2.75 -21.552 0.0 
+[Additional Camera Point]
+> Transition Time: 4.5 
+> Position (XYZ): -51.326 -24.168 96.962 
+> Rotation (XYZ): 19.791 -21.552 0.0 
+Play Animation 52_CHARGE_IN.canm for Vegeta (Scouter)
+> Wait property detected
+Shake Camera for 1.0 seconds
+Enable Ki Charge for Vegeta (Scouter)
+Play Animation 53_CHARGE_LOOP.canm for Vegeta (Scouter)
+> Loop property detected
+Play Voice Line 45 for Vegeta (Scouter)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -51.326 -24.168 96.962 
+> Rotation (XYZ): 19.791 -21.552 0.0 
+[Additional Camera Point]
+> Transition Time: 0.5 
+> Position (XYZ): 82.162 -7.023 -76.855 
+> Rotation (XYZ): 5.536 -40.154 0.0 
+Enable MPM Explosion for Vegeta (Scouter)
+Play Animation 54_CHARGE_MAX.canm for Vegeta (Scouter)
+> Wait property detected
+Wait 0.5 seconds
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 42
+> Scene ID: 42
 Condition: Win via K.O.
-> GSAC ID: 31
+> Scene ID: 31
+Condition: Wait 20 seconds
+> Voice Line ID: 50
+Condition: Win Normal Clash
+> Voice Line ID: 53
+Condition: Perform Vanishing Attack (Opponent)
+> Voice Line ID: 42
+Condition: Perform Ultimate Blast
+> Voice Line ID: 44
+Condition: Perform Dragon Homing (Opponent)
+> Voice Line ID: 13
+Condition: Perform Throw (Opponent)
+> Voice Line ID: 46
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 48
+Condition: Hit with 1st Blast 2 (Opponent)
+> Voice Line ID: 49
+Condition: Perform Fully Charged Right Smash Attack (Opponent)
+> Voice Line ID: 13
+Condition: Go in MAX POWER Mode (Opponent)
+> Voice Line ID: 51
+Condition: Hit with 1st Blast 2
+> Voice Line ID: 52
+Condition: Fall into ground/water (Opponent) [AUTO]
+> Voice Line ID: 53
+Condition: Lose 4 Health Bars
+> Voice Line ID: 54
+Condition: Block 1st Blast 2
+> Voice Line ID: 47
+Condition: Block 2nd Blast 2
+> Voice Line ID: 47
+Condition: Hit with 2nd Blast 2
+> Voice Line ID: 48
+Condition: Perform Teleport (Opponent)
+> Voice Line ID: 47
+Condition: Perform Z-Counter
+> Voice Line ID: 47
+Condition: Perform Hyper Smash (Opponent)
+> Voice Line ID: 13
+Condition: Perform Fully Charged Up Smash Attack (Opponent)
+> Voice Line ID: 13
 Event:     Aerial Clash
 
 [Scene 30 (Victory)]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): 10.7 0.0 9.9 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): -14.5 -0.7 51.4 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for Goku (Early)
+Disable Aura Charge for Vegeta (Scouter)
+[Initial Camera Point]
+> Position (XYZ): -19.451 -11.628 40.216 
+> Rotation (XYZ): -10.337 135.369 0.0 
+Play Animation 387_WIN_LOOP.canm for Goku (Early)
+> Loop property detected
+Play Animation 388_LOSE.canm for Vegeta (Scouter)
+Play Voice Line 56 for Goku (Early)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 31 (Victory)]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): 23.0 0.0 -10.4 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): -26.9 -0.7 71.7 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for Goku (Early)
+Disable Aura Charge for Vegeta (Scouter)
+[Initial Camera Point]
+> Position (XYZ): 46.376 -3.572 -16.518 
+> Rotation (XYZ): 8.639 -50.488 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (Early)
+> Loop property detected
+Play Animation 388_LOSE.canm for Vegeta (Scouter)
+Play Voice Line 35 for Goku (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -14.271 -38.749 91.448 
+> Rotation (XYZ): -36.248 160.957 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 15.272 -11.034 7.958 
+> Rotation (XYZ): -9.87 158.014 0.0 
+Play Voice Line 36 for Goku (Early)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 40 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): 10.7 0.0 9.9 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): -14.5 -0.7 51.4 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for Goku (Early)
+Disable Aura Charge for Vegeta (Scouter)
+[Initial Camera Point]
+> Position (XYZ): 4.848 -15.395 0.713 
+> Rotation (XYZ): -20.043 -15.144 0.0 
+Play Animation 388_LOSE.canm for Goku (Early)
+Play Animation 386_WIN_IN.canm for Vegeta (Scouter)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Vegeta (Scouter)
+> Loop property detected
+Play Voice Line 37 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 41 (Defeat)]
 
+===Cinematic Info===
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): 10.7 0.0 9.9 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): -14.5 -0.7 51.4 
+> Rotation (XYZ): 0.0 154.6 0.0 
+[Initial Camera Point]
+> Position (XYZ): 4.848 -15.395 0.713 
+> Rotation (XYZ): -20.043 -15.144 0.0 
+Play Animation 388_LOSE.canm for Goku (Early)
+Play Animation 386_WIN_IN.canm for Vegeta (Scouter)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Vegeta (Scouter)
+> Loop property detected
+Play Voice Line 37 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 42 (Defeat)]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): 23.0 0.0 -10.4 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Vegeta (Scouter)
+> Position (XYZ): -26.9 -0.7 71.7 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Disable Aura Charge for Goku (Early)
+Disable Aura Charge for Vegeta (Scouter)
+[Initial Camera Point]
+> Position (XYZ): 28.404 -10.268 -21.513 
+> Rotation (XYZ): -4.764 -30.847 0.0 
+Play Animation 0_GROUND.canm for Vegeta (Scouter)
+> Loop property detected
+Play Animation 388_LOSE.canm for Goku (Early)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -6.897 -9.118 26.601 
+> Rotation (XYZ): 27.547 -26.043 0.0 
+Play Animation 386_WIN_IN.canm for Vegeta (Scouter)
+> Wait property detected
+Play Animation 387_WIN_LOOP.canm for Vegeta (Scouter)
+> Loop property detected
+Play Voice Line 55 for Vegeta (Scouter)
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat) - UNUSED]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory) - UNUSED]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

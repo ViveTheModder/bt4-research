@@ -26,7 +26,7 @@ null
 
 [Battle Settings]
 Map: Tournament of Power
-BGM: Survive
+BGM: UNKNOWN (ID: 206)
 
 [Player 1 Team]
 > Teammate 1
@@ -81,67 +81,156 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
-[Scene 10]
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 58.0 -0.0 72.0 
+> Rotation (XYZ): -0.0 -140.2 -0.0 
+Change Position/Rotation for Jiren
+> Position (XYZ): -40.0 -0.0 -60.0 
+> Rotation (XYZ): -0.0 33.6 -0.0 
+Play Animation 413_STAND_LOOP.canm for Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Jiren
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 41.065 -15.544 58.38 
+> Rotation (XYZ): -5.231 54.922 -0.0 
+[Additional Camera Point]
+> Transition Time: 4.5 
+> Position (XYZ): 51.684 -14.911 64.943 
+> Rotation (XYZ): 7.509 44.149 -0.0 
+Play Voice Line 0 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 87.101 -18.14 86.517 
+> Rotation (XYZ): -8.284 -135.213 -0.0 
+[Additional Camera Point]
+> Transition Time: 1.5 
+> Position (XYZ): 87.101 -18.14 86.517 
+> Rotation (XYZ): -8.284 -135.213 -0.0 
+Enable Ki Charge for Jiren
+Wait 3.5 seconds
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Wait 20 seconds
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 1
+Condition: Immediate
+> Voice Line ID: 2
+Condition: Immediate
+> Voice Line ID: 3
+Condition: Immediate
+> Voice Line ID: 4
 [Changes to Opponent detected.]
 > Z-Item #7: Absolutely Invincible Body
 Event:     Battle Finish
 
 [Scene 1]
 
-[Scene 10]
+===Cinematic Info===
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 50.0 -0.0 60.0 
+> Rotation (XYZ): -0.0 -140.2 -0.0 
+Change Position/Rotation for Jiren
+> Position (XYZ): -40.0 -0.0 -60.0 
+> Rotation (XYZ): -0.0 33.6 -0.0 
+Play Animation 0_GROUND.canm for Jiren
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 18.456 -16.867 42.64 
+> Rotation (XYZ): -10.085 60.235 -0.0 
+[Additional Camera Point]
+> Transition Time: 0.875 
+> Position (XYZ): 40.486 -10.594 55.239 
+> Rotation (XYZ): -7.645 62.616 -0.0 
+Enable Ki Charge for Goku (End)
+Play Animation 261_SKILL_003_IN.canm for Goku (End)
+> Wait property detected
+Play Animation 262_SKILL_003_CHARGE.canm for Goku (End)
+> Loop property detected
+Wait 1.125 seconds
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Wait 15 seconds
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 5
+Condition: Immediate
+> Voice Line ID: 6
+Condition: Immediate
+> Voice Line ID: 7
 Event:     Trigger 1st Blast 2
 
 [Scene 2]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 10 seconds
-> GSAC ID: 3
+> Scene ID: 3
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Event:     Assign Transformation
 Character: SS1 Goku (End)
 
 [Scene 3]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 30 seconds
-> GSAC ID: 4
+> Scene ID: 4
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
+Condition: Immediate
+> Voice Line ID: 8
+Condition: Immediate
+> Voice Line ID: 9
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Immediate
+> Voice Line ID: 11
+Condition: Immediate
+> Voice Line ID: 12
 Event:     Assign Transformation
 Character: SS2 Goku (End)
 
 [Scene 4]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 1 Health Bar (Opponent) [AUTO]
-> GSAC ID: 5
+> Scene ID: 5
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 13
+Condition: Lose 1 Health Bar (Opponent) [AUTO]
+> Voice Line ID: 14
 [Changes to Opponent detected.]
 > Z-Item #7: Defense +15
 Event:     Assign Transformation
@@ -149,27 +238,91 @@ Character: SSG Goku
 
 [Scene 5]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (End)
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Jiren
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -24.508 -11.435 0.346 
+> Rotation (XYZ): 0.177 -87.715 0.0 
+[Additional Camera Point]
+> Transition Time: 3.5 
+> Position (XYZ): -35.062 -11.468 0.338 
+> Rotation (XYZ): 0.177 -87.715 0.0 
+Play Animation 0_GROUND.canm for Goku (End)
+> Loop property detected
+Play Voice Line 15 for Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 6
+> Scene ID: 6
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Event:     Assign Transformation
 Character: Goku (End)
 
 [Scene 6]
+
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (End)
+> Position (XYZ): -55.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Jiren
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -47.852 -15.3205 0.282 
+> Rotation (XYZ): 1.712 -90.505 0.0 
+Play Animation 413_STAND_LOOP.canm for Goku (End)
+> Loop property detected
+Play Voice Line 16 for Goku (End)
+> Wait property detected
 Lower Current BG Music
-BG Music:  Crisis
+BG Music:  UNKNOWN (ID: 192)
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Lose 5 Health Bars (Opponent) [AUTO]
-> GSAC ID: 7
+> Scene ID: 7
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
+Condition: Immediate
+> Voice Line ID: 17
+Condition: Immediate
+> Voice Line ID: 18
+Condition: Immediate
+> Voice Line ID: 19
+Condition: Immediate
+> Voice Line ID: 20
+Condition: Immediate
+> Voice Line ID: 21
+Condition: Immediate
+> Voice Line ID: 22
+Condition: Immediate
+> Voice Line ID: 23
+Condition: Immediate
+> Voice Line ID: 24
+Condition: Immediate
+> Voice Line ID: 25
+Condition: Immediate
+> Voice Line ID: 26
+Condition: Immediate
+> Voice Line ID: 27
+Condition: Immediate
+> Voice Line ID: 28
+Condition: Immediate
+> Voice Line ID: 29
 [Changes to Player 1 detected.]
 > Add 100% more Health
 [Changes to Opponent detected.]
@@ -178,14 +331,45 @@ Event:     Assign Transformation
 Character: SSB Goku
 
 [Scene 7]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 41.4 0.0 -40.6 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Jiren
+> Position (XYZ): -45.2 -0.7 101.9 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Jiren
+> Loop property detected
+Disable Aura Charge for Goku (End)
 Lower Current BG Music
-BG Music:  Katharsis
+BG Music:  UNKNOWN (ID: 181)
+[Initial Camera Point]
+> Position (XYZ): 30.841 -0.8 -11.757 
+> Rotation (XYZ): 9.755 160.164 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 32.612 -8.329 -27.453 
+> Rotation (XYZ): 9.419 144.007 0.0 
+Wait 3.5 seconds
+[Initial Camera Point]
+> Position (XYZ): -38.566 -10.324 81.332 
+> Rotation (XYZ): 21.678 -21.074 0.0 
+[Additional Camera Point]
+> Transition Time: 5.5 
+> Position (XYZ): -41.046 -19.146 92.97 
+> Rotation (XYZ): -7.359 -20.578 0.0 
+Play Voice Line 30 for Jiren
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 8
+> Scene ID: 8
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 [Changes to Opponent detected.]
 > Add 100% more Health
 > Z-Item #7: Go To Hell
@@ -193,13 +377,63 @@ Event:     Trigger 1st Blast 2 (Opponent) [AUTO]
 
 [Scene 8]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 41.4 0.0 -40.6 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Jiren
+> Position (XYZ): -45.2 -0.7 101.9 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 413_STAND_LOOP.canm for Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Jiren
+> Loop property detected
+Disable Aura Charge for Goku (End)
+[Initial Camera Point]
+> Position (XYZ): 37.044 -16.679 -30.192 
+> Rotation (XYZ): -9.931 156.692 0.0 
+Enable Ki Charge for Goku (End)
+Play Voice Line 31 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 44.823 -7.907 -56.766 
+> Rotation (XYZ): -6.326 -27.831 0.0 
+[Additional Camera Point]
+> Transition Time: 5.5 
+> Position (XYZ): 43.995 -23.893 -55.199 
+> Rotation (XYZ): -22.214 -27.831 0.0 
+Play Animation 52_CHARGE_IN.canm for Goku (End)
+> Wait property detected
+Play Animation 53_CHARGE_LOOP.canm for Goku (End)
+> Loop property detected
+Play Voice Line 32 for Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 4 Health Bars (Opponent) [AUTO]
-> GSAC ID: 10
+> Scene ID: 10
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
+Condition: Immediate
+> Voice Line ID: 33
+Condition: Immediate
+> Voice Line ID: 34
+Condition: Immediate
+> Voice Line ID: 35
+Condition: Immediate
+> Voice Line ID: 36
+Condition: Immediate
+> Voice Line ID: 37
+Condition: Immediate
+> Voice Line ID: 38
+Condition: Immediate
+> Voice Line ID: 39
+Condition: Immediate
+> Voice Line ID: 40
 [Changes to Player 1 detected.]
 > Add 100% more Health
 [Changes to Opponent detected.]
@@ -208,38 +442,160 @@ Event:     Trigger 2nd Blast 1
 
 [Scene 10]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 10 seconds
-> GSAC ID: 12
+> Scene ID: 12
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 [Changes to Opponent detected.]
 > Z-Item #7: Absolutely Invincible Body
 Event:     Assign Transformation (Opponent) [AUTO]
 
 [Scene 12]
 
+===Cinematic Info===
+Add 1.2 s fade-out
+Change Position/Rotation for Goku (End)
+> Position (XYZ): 41.4 0.0 -40.6 
+> Rotation (XYZ): 0.0 -40.8 0.0 
+Change Position/Rotation for Jiren
+> Position (XYZ): -45.2 -0.7 101.9 
+> Rotation (XYZ): 0.0 154.6 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Jiren
+> Loop property detected
+Disable Aura Charge for Goku (End)
+[Initial Camera Point]
+> Position (XYZ): 11.167 -44.261 -109.357 
+> Rotation (XYZ): -15.989 3.552 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 20.853 -40.108 -65.281 
+> Rotation (XYZ): -33.679 3.86 0.0 
+Play Voice Line 41 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 41.263 -7.985 -31.608 
+> Rotation (XYZ): 40.054 -171.271 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 42.549 -0.86 -23.232 
+> Rotation (XYZ): 40.054 -171.271 0.0 
+Play Voice Line 42 for Goku (End)
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Immediate
-> GSAC ID: 11
+> Scene ID: 11
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Win via K.O.
-> GSAC ID: 39
+> Scene ID: 39
 Event:     Assign Transformation
 Character: Goku (End)
 
 [Scene 11]
+
+===Cinematic Info===
+Change Position/Rotation for Goku (End)
+> Position (XYZ): -56.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+Change Position/Rotation for Jiren
+> Position (XYZ): 89.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Play Animation 1_GROUND_TIRED.canm for Goku (End)
+> Loop property detected
+Play Animation 413_STAND_LOOP.canm for Jiren
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -46.404 -12.6175 -2.8335 
+> Rotation (XYZ): -13.262 -68.351 0.0 
+Play Voice Line 43 for Goku (End)
+> Wait property detected
+Play Voice Line 44 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -69.831 -17.53 18.069 
+> Rotation (XYZ): -3.339 107.81 0.0 
+[Additional Camera Point]
+> Transition Time: 8.5 
+> Position (XYZ): -67.518 -17.53 -15.241 
+> Rotation (XYZ): -3.339 63.37 0.0 
 Lower Current BG Music
-BG Music:  Just a Hero
+BG Music:  UNKNOWN (ID: 187)
+Play Animation 329_SKILL_005_IN.canm for Goku (End)
+> Wait property detected
+Play Animation 330_SKILL_005_CHARGE.canm for Goku (End)
+> Loop property detected
+Play Voice Line 45 for Background Character
+> Wait property detected
+Play Voice Line 46 for Goku (End)
+> Wait property detected
+Play Voice Line 47 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -35.256 -6.842 -2.87 
+> Rotation (XYZ): 5.297 -83.882 0.0 
+[Additional Camera Point]
+> Transition Time: 3.0 
+> Position (XYZ): -48.007 -12.242 -1.503 
+> Rotation (XYZ): 23.314 -83.882 0.0 
+Play Voice Line 48 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 78.71 -10.098 -4.232 
+> Rotation (XYZ): 31.703 61.69 0.0 
+Play Voice Line 49 for Jiren
+> Wait property detected
+Play Voice Line 50 for Jiren
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 74.84 -4.965 -14.283 
+> Rotation (XYZ): -7.155 42.468 0.0 
+[Additional Camera Point]
+> Transition Time: 6.5 
+> Position (XYZ): 77.509 -12.811 -3.381 
+> Rotation (XYZ): 17.799 59.715 0.0 
+Play Voice Line 51 for Jiren
+> Wait property detected
+Play Voice Line 52 for Jiren
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -43.952 -18.318 -1.183 
+> Rotation (XYZ): -5.396 -83.338 0.0 
+[Additional Camera Point]
+> Transition Time: 4.5 
+> Position (XYZ): -44.975 -15.477 -1.063 
+> Rotation (XYZ): -5.396 -83.338 0.0 
+Play Voice Line 53 for Goku (End)
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -82.745 -25.886 -10.236 
+> Rotation (XYZ): -20.41 83.872 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -69.328 -17.528 -7.991 
+> Rotation (XYZ): -1.528 75.82 0.0 
+Play Voice Line 54 for Jiren
+> Wait property detected
+Disable ALL VFX
 
 ===Battle Info===
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
+Condition: Immediate
+> Voice Line ID: 55
+Condition: Immediate
+> Voice Line ID: 56
 [Changes to Player 1 detected.]
 > Z-Item #7: Go To Hell
 [Changes to Opponent detected.]
@@ -248,15 +604,67 @@ Event:     Trigger Ultimate Blast
 
 [Scene 30 (Victory)]
 
-[Scene 10]
+===Cinematic Info===
+Change Position/Rotation for Goku (Early)
+> Position (XYZ): -51.4 -0.4 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Jiren
+> Position (XYZ): 51.4 -1.3 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -26.969 -11.076 33.827 
+> Rotation (XYZ): -3.984 139.954 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): 46.611 -17.268 -54.973 
+> Rotation (XYZ): 20.749 141.475 0.0 
+Play Animation 0_GROUND.canm for Jiren
+> Loop property detected
+Shake Camera for 1.0 seconds
+Wait 3.0 seconds
+[Initial Camera Point]
+> Position (XYZ): -23.57 -52.114 34.701 
+> Rotation (XYZ): 9.731 -45.455 0.0 
+[Additional Camera Point]
+> Transition Time: 2.0 
+> Position (XYZ): -127.176 -160.6 160.568 
+> Rotation (XYZ): 3.397 -60.53 0.0 
+Enable Ki Charge for Goku (End)
+Play Animation 284_SKILL_003_EVENT_1.canm for Goku (End)
+> Loop property detected
+Wait 3.5 seconds
+Enable MPM Explosion for Goku (End)
 Lower Current BG Music
+Add 3.0 s fade-in
+> Wait property detected
+> Change fade-out color to white
+[Initial Camera Point]
+> Position (XYZ): 84.989 -15.264 -78.39 
+> Rotation (XYZ): -10.307 -41.576 0.0 
+[Additional Camera Point]
+> Transition Time: 13.0 
+> Position (XYZ): 122.427 -80.516 -72.053 
+> Rotation (XYZ): -38.08 -66.266 0.0 
+Play Voice Line 57 for Background Character
+> Wait property detected
+Play Voice Line 58 for Background Character
+> Wait property detected
+Play Voice Line 59 for Background Character
+> Wait property detected
+Disable ALL VFX
 
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory)]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 49 (Placeholder Defeat)]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===

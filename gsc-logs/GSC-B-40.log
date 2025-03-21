@@ -20,13 +20,13 @@ null
 null
 null
 > Acquired Scenarios
-Dream Match: Goku Vs. Arale
+Goku vs. Arale
 null
 null
 
 [Battle Settings]
 Map: Desert - Noon
-BGM: Evolution
+BGM: UNKNOWN (ID: 19)
 
 [Player 1 Team]
 > Teammate 1
@@ -66,65 +66,270 @@ Teammate Count (Opponent): 1
 
 [Scene 0]
 
+===Cinematic Info===
+Change Position/Rotation for Kid Goku
+> Position (XYZ): -20.0 0.0 -45.0 
+> Rotation (XYZ): 0.0 53.1 0.0 
+Change Position/Rotation for Yamcha
+> Position (XYZ): 80.0 0.0 30.0 
+> Rotation (XYZ): 0.0 -126.9 0.0 
+[Initial Camera Point]
+> Position (XYZ): 59.683 -0.811 6.389 
+> Rotation (XYZ): 16.288 38.149 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): 72.416 -11.213 21.264 
+> Rotation (XYZ): 20.854 45.739 0.0 
+Play Animation 413_STAND_LOOP.canm for Yamcha
+> Loop property detected
+Play Voice Line 0 for Yamcha
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 2.657 -11.887 -29.437 
+> Rotation (XYZ): -17.796 -127.944 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -10.065 -4.01125 -39.357 
+> Rotation (XYZ): 12.286 -114.178 0.0 
+Play Animation 0_GROUND.canm for Kid Goku
+> Loop property detected
+Play Voice Line 1 for Kid Goku
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 30 seconds
-> GSAC ID: 1
+> Scene ID: 1
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 39
+> Scene ID: 39
+Condition: Immediate
+> Voice Line ID: 2
+Condition: Immediate
+> Voice Line ID: 3
+Condition: Immediate
+> Voice Line ID: 4
+Condition: Immediate
+> Voice Line ID: 5
+Condition: Immediate
+> Voice Line ID: 6
+Condition: Immediate
+> Voice Line ID: 7
 Event:     Battle Finish
 
 [Scene 1]
 
+===Cinematic Info===
+Change Position/Rotation for Kid Goku
+> Position (XYZ): 88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 -90.0 0.0 
+Change Position/Rotation for Yamcha
+> Position (XYZ): -88.0 0.0 0.0 
+> Rotation (XYZ): 0.0 90.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): -40.331 -34.808 2.366 
+> Rotation (XYZ): -23.939 -93.405 0.0 
+[Additional Camera Point]
+> Transition Time: 4.0 
+> Position (XYZ): -76.512 -17.792 0.214 
+> Rotation (XYZ): -11.94 -90.921 0.0 
+Play Animation 413_STAND_LOOP.canm for Yamcha
+> Loop property detected
+Play Voice Line 8 for Yamcha
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 66.181 -2.412 2.81 
+> Rotation (XYZ): 12.336 95.831 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): 79.43 -4.133 2.758375 
+> Rotation (XYZ): 23.906 110.528 0.0 
+Play Animation 384_INTRO_IN.canm for Kid Goku
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Kid Goku
+> Loop property detected
+Play Voice Line 9 for Kid Goku
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Wait 35 seconds
-> GSAC ID: 2
+> Scene ID: 2
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 49
+> Scene ID: 49
+Condition: Immediate
+> Voice Line ID: 10
+Condition: Immediate
+> Voice Line ID: 11
+Condition: Immediate
+> Voice Line ID: 12
+Condition: Immediate
+> Voice Line ID: 13
+Condition: Immediate
+> Voice Line ID: 14
+Condition: Immediate
+> Voice Line ID: 15
+Condition: Immediate
+> Voice Line ID: 16
+Condition: Immediate
+> Voice Line ID: 17
 [Changes to Player 1 detected.]
 > Z-Item #8: Attack +25
 Event:     Battle Finish
 
 [Scene 2]
 
+===Cinematic Info===
+Change Position/Rotation for Kid Goku
+> Position (XYZ): -51.4 -0.4 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Yamcha
+> Position (XYZ): 51.4 -0.325 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+[Initial Camera Point]
+> Position (XYZ): 40.042 -3.239 -34.508 
+> Rotation (XYZ): 21.168 156.84 0.0 
+[Additional Camera Point]
+> Transition Time: 7.3 
+> Position (XYZ): 47.298 -12.154 -50.956 
+> Rotation (XYZ): 6.234 139.446 0.0 
+Play Animation 384_INTRO_IN.canm for Yamcha
+> Wait property detected
+Play Animation 385_INTRO_LOOP.canm for Yamcha
+> Loop property detected
+Play Voice Line 18 for Yamcha
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Perform Rush Attack
-> GSAC ID: 10
+> Scene ID: 10
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 39
+> Scene ID: 39
 Event:     Trigger 2nd Blast 2 (Opponent) [AUTO]
 
 [Scene 10]
 
+===Cinematic Info===
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Lose 5 Health Bars (Opponent) [AUTO]
-> GSAC ID: 3
+> Scene ID: 3
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 39
+> Scene ID: 39
+Condition: Immediate
+> Voice Line ID: 19
+Condition: Immediate
+> Voice Line ID: 20
+Condition: Immediate
+> Voice Line ID: 21
 Event:     Battle Finish
 
 [Scene 3]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Goku (End)
+> Position (XYZ): -51.4 -0.4 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Yamcha
+> Position (XYZ): 51.4 -0.325 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Enable Aura Charge for Yamcha
+Play Animation 385_INTRO_LOOP.canm for Yamcha
+> Loop property detected
+Play Animation 0_GROUND.canm for Goku (End)
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -23.302 -15.669 41.878 
+> Rotation (XYZ): -20.763 -54.716 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): -44.607 -8.047 56.272 
+> Rotation (XYZ): -2.671 -60.126 0.0 
+Play Voice Line 22 for Kid Goku
+> Wait property detected
+Play Voice Line 23 for Kid Goku
+> Wait property detected
+Disable ALL VFX
+
 ===Battle Info===
 Condition: Win via K.O.
-> GSAC ID: 30
+> Scene ID: 30
 Condition: Win via K.O. (Opponent)
-> GSAC ID: 39
+> Scene ID: 39
 [Changes to Player 1 detected.]
 > Z-Item #7: Go To Hell
 Event:     Trigger 2nd Blast 2
 
 [Scene 30 (Victory)]
 
+===Cinematic Info===
+Add 1.0 s fade-out
+Change Position/Rotation for Goku (End)
+> Position (XYZ): -51.4 -0.4 61.3 
+> Rotation (XYZ): 0.0 140.0 0.0 
+Change Position/Rotation for Yamcha
+> Position (XYZ): 51.4 -0.325 -61.3 
+> Rotation (XYZ): 0.0 -40.0 0.0 
+Enable Aura Charge for Yamcha
+Play Animation 413_STAND_LOOP.canm for Yamcha
+> Loop property detected
+Play Animation 1_GROUND_TIRED.canm for Kid Goku
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): -41.198 -13.023 53.583 
+> Rotation (XYZ): -28.241 -54.497 0.0 
+[Additional Camera Point]
+> Transition Time: 6.0 
+> Position (XYZ): -45.094 -10.453 56.362 
+> Rotation (XYZ): -26.8 -54.497 0.0 
+Play Voice Line 24 for Kid Goku
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): 54.889 -23.122 -41.731 
+> Rotation (XYZ): -16.765 -158.472 0.0 
+[Additional Camera Point]
+> Transition Time: 5.0 
+> Position (XYZ): 50.83 -17.516 -49.218 
+> Rotation (XYZ): -3.241 -176.19 0.0 
+Play Voice Line 25 for Yamcha
+> Wait property detected
+[Initial Camera Point]
+> Position (XYZ): -51.116 -1.449 68.24 
+> Rotation (XYZ): -7.539 165.228 0.0 
+[Additional Camera Point]
+> Transition Time: 7.0 
+> Position (XYZ): -50.785 -11.267 66.983 
+> Rotation (XYZ): -13.135 165.228 0.0 
+Play Voice Line 26 for Android #18
+> Wait property detected
+Play Animation 406_SURPRISED.canm for Yamcha
+> Loop property detected
+[Initial Camera Point]
+> Position (XYZ): 45.103 -17.296 -50.796 
+> Rotation (XYZ): -7.462 143.548 0.0 
+[Additional Camera Point]
+> Transition Time: 1.5 
+> Position (XYZ): 45.103 -17.296 -50.796 
+> Rotation (XYZ): -7.462 143.548 0.0 
+Play Voice Line 27 for Yamcha
+> Wait property detected
+Disable ALL VFX
+
 ===No Battle Info===
 
 [Scene 39 (Placeholder Victory)]
+
+===Cinematic Info===
+Disable ALL VFX
 
 ===No Battle Info===
