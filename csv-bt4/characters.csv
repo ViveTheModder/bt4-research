@@ -1,3 +1,4 @@
+id,name
 0,Goku (Early)
 1,Goku (Mid)
 2,SS1 Goku (Mid)
@@ -105,7 +106,7 @@
 104,Kefla
 105,Cell - Imperfect
 106,Cell - Semiperfect
-107,Cell - Perfect
+107,Cell - Super Perfect
 108,Cell Max
 109,Cell Jr.
 110,SS1 Goten (GT)
@@ -218,17 +219,17 @@
 217,Vegeta (GT)
 218,SS1 Vegeta (GT)
 219,SS2 Vegeta (GT)
-220,null
-221,null
-222,null
-223,null
-224,null
-225,null
-226,null
-227,null
-228,null
-229,null
-230,null
+220,UI Goku
+221,PSS Goku (Early)
+222,Appule
+223,Frieza Soldier
+224,Cell - Perfect
+225,Trunks (DBS)
+226,SS1 Trunks (DBS)
+227,Trunks (GT)
+228,SS1 Trunks (GT)
+229,Dyspo
+230,Frost
 231,null
 232,null
 233,null
