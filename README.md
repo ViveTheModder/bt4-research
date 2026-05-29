@@ -4,11 +4,6 @@ What I have gathered from analyzing Budokai Tenkaichi 4, the fanmade BT3 mod.
 * [Inaccessible Songs](https://www.reddit.com/r/BudokaiTenkaichi4/comments/1f3kkdv/dbzbt4_songs_outside_of_bgm_select/)
 * [Unlockable Characters](https://www.reddit.com/r/BudokaiTenkaichi4/comments/1f0iafg/dbzbt4_unlockable_characters/)
 
-# Recent Discoveries
-With the 4th (technically the 3rd, since BETA 13.3 wasn't actually released, but 13.4 was) revision of BETA 13, Ultra Instinct -Sign- Goku has been added.
-
-His character slot is right next to Super Saiyan 2 Vegeta (GT)'s. How convenient.
-
 # AFS Information
 As explained in the [repo about The Legacy of Tenkaichi](https://github.com/ViveTheModder/dbz-tlot-research), TioMedusin implemented an **older means of obfuscation/inaccessibility**.
 
@@ -18,13 +13,14 @@ Before, **no source code changes were required**, but safe to assume, they made 
 
 Not all of its contents are known, but here is some basic background about each AFS:
 
-* ``pzs4us0.afs`` -> 1113313280 bytes (~1.04 GB), 50503 files, 101256 bytes of raw data from ``dbz4.bin``
-* ``pzs4us1.afs`` -> 2028277760 bytes (~1.89 GB), 03400 files, 007050 bytes of raw data from ``dbz4.bin``
-* ``pzs4us2.afs`` -> 2097973248 bytes (~1.95 GB), 36191 files, 072632 bytes of raw data from ``dbz4.bin``
+* ``pzs4us0.afs`` -> 1202627200 bytes (~1.12 GiB), 50503 files, 101256 bytes of raw data from ``dbz4.bin``
+* ``pzs4us1.afs`` -> 2073868288 bytes (~1.93 GiB), 03400 files, 007050 bytes of raw data from ``dbz4.bin``
+* ``pzs4us2.afs`` -> 1693839360 bytes (~1.57 GiB), 32775 files, 065800 bytes of raw data from ``dbz4.bin``
+* ``pzs4us3.afs`` -> 0677789696 bytes (~0.63 GiB), 30000 files, 060260 bytes of raw data from ``dbz4.bin``
 
 ``pzs4us0.afs`` mainly contains **character audio** (**49994 ADX files**, which is 98.99% of what the AFS contains).
 
-``pzs4us2.afs`` mainly contains **menu audio** (**32884 ADX files** total) as well as numerous **character files** (costumes, animations, effects).
+``pzs4us2.afs`` mainly contains **menu audio** as well as numerous **character files** (costumes, animations, effects).
 
 Fortunately, it is [possible to extract ADX files from a VOL](https://github.com/ViveTheModder/bt4-research/blob/main/extract-vol-contents/adx-from-vol.jar) (AFS with no header or metadata). However, the results are **far from perfect**.
 
